@@ -1,0 +1,68 @@
+[
+  {
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-12T12:59:47.405Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1372.614,
+      "largest-contentful-paint": 2843.614,
+      "speed-index": 1372.614,
+      "total-blocking-time": 73,
+      "cumulative-layout-shift": 0.0004307037722285711,
+      "total-byte-weight": 297240
+    },
+    "warnings": []
+  },
+  {
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 2,
+    "fetchTime": "2026-10-12T12:59:55.901Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1371.5197500000002,
+      "largest-contentful-paint": 2057.3465,
+      "speed-index": 1371.5197500000002,
+      "total-blocking-time": 73.5,
+      "cumulative-layout-shift": 0.0004307037722285711,
+      "total-byte-weight": 297238
+    },
+    "warnings": []
+  },
+  {
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 3,
+    "fetchTime": "2026-10-12T13:00:03.840Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1070.00295,
+      "largest-contentful-paint": 2113.3352999999997,
+      "speed-index": 1070.00295,
+      "total-blocking-time": 56.5,
+      "cumulative-layout-shift": 0.0004307037722285711,
+      "total-byte-weight": 297238
+    },
+    "warnings": []
+  }
+]

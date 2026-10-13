@@ -1,0 +1,88 @@
+{
+    "measured_at": "2026-10-12T20:42:24+00:00",
+    "runtime": "8.3.6",
+    "database": "MySQL",
+    "scope": "Local CLI kernel; first request includes framework initialization. Not HTTP throughput or production capacity.",
+    "results": [
+        {
+            "path": "/api/v1/products?locale=fr&per_page=12",
+            "cache": "cold",
+            "queries": 24,
+            "database_ms": 40.53,
+            "in_process_ms": 719.18,
+            "response_bytes": 5677
+        },
+        {
+            "path": "/api/v1/products?locale=fr&per_page=12",
+            "cache": "warm",
+            "queries": 9,
+            "database_ms": 8.43,
+            "in_process_ms": 47.25,
+            "response_bytes": 5677
+        },
+        {
+            "path": "/api/v1/products?locale=fr&per_page=48",
+            "cache": "cold",
+            "queries": 20,
+            "database_ms": 30.01,
+            "in_process_ms": 382.19,
+            "response_bytes": 8302
+        },
+        {
+            "path": "/api/v1/products?locale=fr&per_page=48",
+            "cache": "warm",
+            "queries": 9,
+            "database_ms": 11.65,
+            "in_process_ms": 50.86,
+            "response_bytes": 8302
+        },
+        {
+            "path": "/api/v1/products/sample-1?locale=ar",
+            "cache": "cold",
+            "queries": 29,
+            "database_ms": 45.76,
+            "in_process_ms": 296.04,
+            "response_bytes": 1431
+        },
+        {
+            "path": "/api/v1/products/sample-1?locale=ar",
+            "cache": "warm",
+            "queries": 9,
+            "database_ms": 11.1,
+            "in_process_ms": 73.78,
+            "response_bytes": 1431
+        },
+        {
+            "path": "/api/v1/materials?locale=en",
+            "cache": "cold",
+            "queries": 15,
+            "database_ms": 24.55,
+            "in_process_ms": 90.09,
+            "response_bytes": 308
+        },
+        {
+            "path": "/api/v1/materials?locale=en",
+            "cache": "warm",
+            "queries": 9,
+            "database_ms": 10.17,
+            "in_process_ms": 54.01,
+            "response_bytes": 308
+        },
+        {
+            "path": "/api/v1/pages/about?locale=fr",
+            "cache": "cold",
+            "queries": 15,
+            "database_ms": 22.88,
+            "in_process_ms": 147.36,
+            "response_bytes": 2999
+        },
+        {
+            "path": "/api/v1/pages/about?locale=fr",
+            "cache": "warm",
+            "queries": 9,
+            "database_ms": 10.79,
+            "in_process_ms": 54.28,
+            "response_bytes": 2999
+        }
+    ]
+}

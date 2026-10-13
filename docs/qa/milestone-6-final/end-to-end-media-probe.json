@@ -1,0 +1,94 @@
+{
+  "checks": [
+    "Filament product create/translations/upload/configuration/publish",
+    "real published catalogue/detail, Arabic RTL, admin texture WebGL activation and saved dimensions",
+    "real quote confirmation/reference and empty browser storage",
+    "real submitted quote visible in Filament, status/private note update"
+  ],
+  "errors": [],
+  "productId": 36,
+  "slug": "qa-m6-browser-1791915620371",
+  "beforeConfigurationExport": {
+    "file": "integration-config-before.glb",
+    "transforms": [
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          0.041666666666666664,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          0.041666666666666664,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          0.041666666666666664
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          0.041666666666666664
+        ]
+      },
+      {
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.13,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          1.25
+        ]
+      }
+    ],
+    "dimensions": {
+      "width": 120,
+      "height": 120,
+      "thickness": 4
+    }
+  },
+  "reference": "TS-GMMVR4YD695UQF68",
+  "quoteId": 35,
+  "mediaUpdate": {
+    "textureId": 116,
+    "publicPath": "/media/116/texture",
+    "beforeChecksum": "308cc10118e2f6ad8388a3b6168a6f41584df4d0b7da4c04032c68e635c26db9",
+    "afterChecksum": "3532de456706cad8253e20e1e666d5fea406a9572e24e32e4ec73bc3f4d67436",
+    "referencePreserved": true
+  },
+  "passed": false,
+  "failure": "page.waitForResponse: Timeout 30000ms exceeded while waiting for event \"response\""
+}

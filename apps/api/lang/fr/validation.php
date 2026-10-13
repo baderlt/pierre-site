@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'required' => 'Le champ :attribute est obligatoire.',
+    'email' => 'Le champ :attribute doit être une adresse e-mail valide.',
+    'string' => 'Le champ :attribute doit être une chaîne de caractères.',
+    'numeric' => 'Le champ :attribute doit être un nombre.',
+    'integer' => 'Le champ :attribute doit être un entier.',
+    'boolean' => 'Le champ :attribute doit être vrai ou faux.',
+    'array' => 'Le champ :attribute doit être un tableau.',
+    'array_keys' => 'Le champ :attribute ne peut contenir que les clés suivantes : :values.',
+    'unique' => 'Cette valeur de :attribute est déjà utilisée.',
+    'exists' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'in' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'regex' => 'Le format du champ :attribute est invalide.',
+    'distinct' => 'Le champ :attribute contient un doublon.',
+    'date' => 'Le champ :attribute doit être une date valide.',
+    'url' => 'Le champ :attribute doit être une URL valide.',
+    'file' => 'Le champ :attribute doit être un fichier.',
+    'image' => 'Le champ :attribute doit être une image.',
+    'mimetypes' => 'Le fichier :attribute doit être de type :values.',
+    'mimes' => 'Le fichier :attribute doit être de type :values.',
+    'uploaded' => 'Le téléversement du fichier :attribute a échoué.',
+    'accepted' => 'Le champ :attribute doit être accepté.',
+    'max' => ['string' => 'Le champ :attribute ne doit pas dépasser :max caractères.', 'numeric' => 'Le champ :attribute ne doit pas dépasser :max.', 'array' => 'Le champ :attribute ne doit pas contenir plus de :max éléments.', 'file' => 'Le fichier :attribute ne doit pas dépasser :max kilo-octets.'],
+    'min' => ['string' => 'Le champ :attribute doit contenir au moins :min caractères.', 'numeric' => 'Le champ :attribute doit être au moins :min.', 'array' => 'Le champ :attribute doit contenir au moins :min éléments.', 'file' => 'Le fichier :attribute doit faire au moins :min kilo-octets.'],
+    'between' => ['numeric' => 'Le champ :attribute doit être compris entre :min et :max.'],
+];

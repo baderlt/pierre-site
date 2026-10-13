@@ -1,0 +1,14 @@
+
+Running 7 tests using 1 worker
+
+(node:2808) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [desktop] › tests\catalogue.spec.ts:8:7 › fr: catalogue SSR, accessible controls, navigation and samples (10.6s)
+  ok 2 [desktop] › tests\catalogue.spec.ts:8:7 › en: catalogue SSR, accessible controls, navigation and samples (10.1s)
+  ok 3 [desktop] › tests\catalogue.spec.ts:8:7 › ar: catalogue SSR, accessible controls, navigation and samples (11.7s)
+  ok 4 [desktop] › tests\product.spec.ts:9:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (6.3s)
+  ok 5 [desktop] › tests\product.spec.ts:9:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (6.4s)
+  ok 6 [desktop] › tests\product.spec.ts:9:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (6.2s)
+  ok 7 [desktop] › tests\quotation-throttle.spec.ts:3:139 › ar: quotation throttling explains the server retry duration without claiming success (3.0s)
+
+  7 passed (55.4s)

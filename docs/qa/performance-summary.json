@@ -1,0 +1,86 @@
+[
+  {
+    "locale": "fr",
+    "formFactor": "mobile",
+    "fetchTime": "2026-10-12T01:30:22.902Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 72,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1435.7475,
+      "largest-contentful-paint": 3440.45625,
+      "speed-index": 1931.5349293459299,
+      "total-blocking-time": 775.04375,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 321902
+    },
+    "warnings": []
+  },
+  {
+    "locale": "fr",
+    "formFactor": "desktop",
+    "fetchTime": "2026-10-12T01:30:38.125Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 340.58765,
+      "largest-contentful-paint": 620.7251000000001,
+      "speed-index": 340.58765,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0002944098992480173,
+      "total-byte-weight": 333592
+    },
+    "warnings": []
+  },
+  {
+    "locale": "ar",
+    "formFactor": "mobile",
+    "fetchTime": "2026-10-12T01:30:53.522Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1550.75535,
+      "largest-contentful-paint": 2750.8369,
+      "speed-index": 1550.75535,
+      "total-blocking-time": 111,
+      "cumulative-layout-shift": 0.0007583184360350214,
+      "total-byte-weight": 446270
+    },
+    "warnings": []
+  },
+  {
+    "locale": "ar",
+    "formFactor": "desktop",
+    "fetchTime": "2026-10-12T01:31:08.083Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 517.998,
+      "largest-contentful-paint": 750.3310000000001,
+      "speed-index": 517.998,
+      "total-blocking-time": 7.5,
+      "cumulative-layout-shift": 0.001659087293470899,
+      "total-byte-weight": 457960
+    },
+    "warnings": []
+  }
+]

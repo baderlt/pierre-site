@@ -1,0 +1,14 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('.project-band')
+
+    at C:\Users\DELL 7420\Desktop\time-stone\.tools\corrections\cta-paint.mjs:6:155 {
+  log: [ "  - waiting for locator('.project-band')" ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,20 @@
+[
+  {
+    "locale": "fr",
+    "status": 200,
+    "sharedCtaConfigured": true,
+    "sharedCtaImageAssigned": false
+  },
+  {
+    "locale": "en",
+    "status": 200,
+    "sharedCtaConfigured": true,
+    "sharedCtaImageAssigned": false
+  },
+  {
+    "locale": "ar",
+    "status": 200,
+    "sharedCtaConfigured": true,
+    "sharedCtaImageAssigned": false
+  }
+]

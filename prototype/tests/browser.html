@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><title>TIME STONE browser acceptance checks</title><style>body{font:14px system-ui;max-width:900px;padding:30px;margin:auto;background:#f6f5f1;color:#344638}canvas{max-width:100%;border:1px solid #ccc}li{padding:5px}button{padding:10px;margin:10px 10px 10px 0}pre{white-space:pre-wrap;color:#a42d19}</style></head><body>
+<h1>Browser acceptance checks</h1><p>Runs the real texture and geometry pipeline in WebGL. Fixtures are generated locally.</p><ol id="results"></ol><p id="status">Running…</p><div id="controls"></div><div id="render"></div>
+<script type="module">
+import { WebGLRenderer, Scene, PerspectiveCamera, Mesh, AmbientLight, Box3, Vector3 } from 'three';
+import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { INITIAL, createStoneResources } from '/src/stone.js';
+import { prepareImage, validateUpload } from '/src/images.js';
+const results = document.querySelector('#results');
+function assert(condition, name) { if (!condition) throw new Error(name); const item = document.createElement('li'); item.textContent = 'PASS — ' + name; results.append(item); }
+async function blobFromCanvas(canvas, type) { return new Promise(resolve => canvas.toBlob(resolve, type, 0.92)); }
+function downloadButton(blob, name) { const button = document.createElement('button'); button.textContent = 'Download ' + name; button.onclick = () => { const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1500); }; document.querySelector('#controls').append(button); }
+const nativeCreate = URL.createObjectURL.bind(URL);
+const nativeRevoke = URL.revokeObjectURL.bind(URL);
+const urls = new Set();
+URL.createObjectURL = value => { const url = nativeCreate(value); urls.add(url); return url; };
+URL.revokeObjectURL = url => { urls.delete(url); nativeRevoke(url); };
+try {
+  const fixture = document.createElement('canvas'); fixture.width = 3072; fixture.height = 1536;
+  const ctx = fixture.getContext('2d');
+  ctx.fillStyle = '#bc714d'; ctx.fillRect(0,0,1536,768); ctx.fillStyle = '#dad5b7'; ctx.fillRect(1536,0,1536,768);
+  ctx.fillStyle = '#465e71'; ctx.fillRect(0,768,1536,768); ctx.fillStyle = '#678b62'; ctx.fillRect(1536,768,1536,768);
+  ctx.fillStyle = '#fff'; ctx.font = 'bold 110px sans-serif'; ctx.fillText('TOP LEFT',100,170);
+  const png = await blobFromCanvas(fixture, 'image/png'); const jpg = await blobFromCanvas(fixture, 'image/jpeg');
+  downloadButton(png, 'upload-check.png'); downloadButton(jpg, 'upload-check.jpg');
+  const file = new File([png], 'upload-check.png', {type:'image/png'});
+  await validateUpload(file); const asset = await prepareImage(file);
+  assert(asset.width === 2048 && asset.height === 1024, 'Large PNG resized to 2048 × 1024 with its aspect ratio preserved');
+  assert(asset.bump.width === 1024 && asset.bump.height === 512, 'Image-derived bump map is capped at 1024 pixels');
+  assert(urls.size === 1, 'Decoded input object URL is released, prepared preview URL remains alive');
+  const colorProbe = document.createElement('canvas'); colorProbe.width = colorProbe.height = 1;
+  const probe = colorProbe.getContext('2d'); probe.drawImage(asset.color,200,300,1,1,0,0,1,1);
+  const pixel = probe.getImageData(0,0,1,1).data;
+  assert(pixel[0] > pixel[2], 'Processed image preserves top-left orientation');
+  const renderer = new WebGLRenderer({ antialias:true }); renderer.setSize(480,360); document.querySelector('#render').append(renderer.domElement);
+  const scene = new Scene(); scene.add(new AmbientLight(0xffffff, 2)); const camera = new PerspectiveCamera(40,480/360,0.001,100); camera.position.set(1.7,1,4); camera.lookAt(0,0,0);
+  let lastMemory;
+  for (let index = 0; index < 16; index++) {
+    const upload = new File([index % 2 ? jpg : png], 'stone.' + (index % 2 ? 'jpg' : 'png'), {type:index % 2 ? 'image/jpeg' : 'image/png'});
+    await validateUpload(upload); const image = await prepareImage(upload);
+    const resources = createStoneResources(image, {...INITIAL,width:100+index,height:80,thickness:30});
+    const mesh = new Mesh(resources.geometry, resources.materials); scene.add(mesh); renderer.render(scene,camera);
+    lastMemory = {...renderer.info.memory}; scene.remove(mesh); resources.dispose(); image.dispose(); renderer.render(scene,camera);
+    if (renderer.info.memory.textures !== 0 || renderer.info.memory.geometries !== 0) throw new Error('GPU resources increased after upload ' + index);
+  }
+  assert(lastMemory.textures === 12 && lastMemory.geometries === 1, '16 alternating JPEG/PNG replacements return GPU texture and geometry counts to zero after disposal');
+  assert(urls.size === 1, 'Repeated uploads leave no additional live object URLs');
+  const product = createStoneResources(asset, {...INITIAL,shape:'block',width:140,height:80,thickness:60,rotation:47,scale:1.5});
+  const mesh = new Mesh(product.geometry, product.materials); mesh.name = 'Acceptance test stone'; mesh.position.y = 0.4;
+  const binary = await new GLTFExporter().parseAsync(mesh, {binary:true});
+  const header = new DataView(binary); assert(header.getUint32(0,true) === 0x46546c67 && header.getUint32(4,true) === 2, 'Export is a valid binary glTF 2.0 container');
+  const jsonLength = header.getUint32(12,true); const json = JSON.parse(new TextDecoder().decode(new Uint8Array(binary,20,jsonLength)));
+  assert(json.images.length > 0 && json.images.every(image => image.bufferView !== undefined && !image.uri), 'GLB embeds all color images with no external texture references');
+  const loaded = await new GLTFLoader().parseAsync(binary, '');
+  const box = new Box3().setFromObject(loaded.scene); const dimensions = box.getSize(new Vector3());
+  assert(Math.abs(dimensions.x-1.4)<0.00001 && Math.abs(dimensions.y-.8)<0.00001 && Math.abs(dimensions.z-.6)<0.00001, 'Standard GLTFLoader round-trip preserves meter dimensions');
+  let textured = 0; loaded.scene.traverse(object => { if(object.isMesh && object.material.map) textured++; });
+  assert(textured === 6, 'All six exported faces load with embedded color textures');
+  scene.add(loaded.scene); renderer.render(scene,camera);
+  downloadButton(new Blob([binary],{type:'model/gltf-binary'}), 'roundtrip-check.glb');
+  product.dispose(); asset.dispose(); assert(urls.size === 0, 'All source object URLs released at the end of processing');
+  document.querySelector('#status').textContent = 'All 11 browser acceptance checks passed. Render below is the re-imported GLB.';
+} catch(error) { document.querySelector('#status').textContent = 'FAIL'; const pre = document.createElement('pre'); pre.textContent = error.stack; document.body.append(pre); console.error(error); }
+</script></body></html>

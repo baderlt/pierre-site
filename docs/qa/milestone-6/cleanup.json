@@ -1,0 +1,11 @@
+{
+  "products": 18,
+  "qa_products": 0,
+  "qa_quotes": 0,
+  "qa_admins": 0,
+  "quotation_rate_limit_restored": 5,
+  "normal_development_origin": "http://127.0.0.1:3000",
+  "api_timeout_ms": 8000,
+  "temporary_credential_file_removed": true,
+  "stale_configuration_cache_present": false
+}

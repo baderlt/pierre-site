@@ -1,0 +1,112 @@
+[
+  {
+    "origin": "http://127.0.0.1:8000",
+    "phase": "concurrent",
+    "concurrency": 6,
+    "count": 6,
+    "failures": 0,
+    "meanTotalMs": 368.97,
+    "maxTotalMs": 631.95,
+    "maxAppMs": 108.69,
+    "maxDbMs": 28.29
+  },
+  {
+    "origin": "http://127.0.0.1:8000",
+    "phase": "concurrent",
+    "concurrency": 12,
+    "count": 12,
+    "failures": 0,
+    "meanTotalMs": 723.96,
+    "maxTotalMs": 1328.02,
+    "maxAppMs": 126.59,
+    "maxDbMs": 30.14
+  },
+  {
+    "origin": "http://127.0.0.1:8000",
+    "phase": "concurrent",
+    "concurrency": 48,
+    "count": 48,
+    "failures": 0,
+    "meanTotalMs": 2670.59,
+    "maxTotalMs": 5242.68,
+    "maxAppMs": 146.13,
+    "maxDbMs": 30.76
+  },
+  {
+    "origin": "http://127.0.0.1:8000",
+    "phase": "first",
+    "concurrency": 1,
+    "count": 6,
+    "failures": 0,
+    "meanTotalMs": 170.85,
+    "maxTotalMs": 252.45,
+    "maxAppMs": 205.45,
+    "maxDbMs": 34.1
+  },
+  {
+    "origin": "http://127.0.0.1:8000",
+    "phase": "warm",
+    "concurrency": 1,
+    "count": 6,
+    "failures": 0,
+    "meanTotalMs": 111.49,
+    "maxTotalMs": 117.83,
+    "maxAppMs": 113.42,
+    "maxDbMs": 22.11
+  },
+  {
+    "origin": "http://127.0.0.1:8011",
+    "phase": "concurrent",
+    "concurrency": 6,
+    "count": 6,
+    "failures": 0,
+    "meanTotalMs": 215.32,
+    "maxTotalMs": 248.67,
+    "maxAppMs": 236.27,
+    "maxDbMs": 29.31
+  },
+  {
+    "origin": "http://127.0.0.1:8011",
+    "phase": "concurrent",
+    "concurrency": 12,
+    "count": 12,
+    "failures": 0,
+    "meanTotalMs": 353.95,
+    "maxTotalMs": 445.75,
+    "maxAppMs": 431.18,
+    "maxDbMs": 29.95
+  },
+  {
+    "origin": "http://127.0.0.1:8011",
+    "phase": "concurrent",
+    "concurrency": 48,
+    "count": 48,
+    "failures": 0,
+    "meanTotalMs": 1524.45,
+    "maxTotalMs": 1768.63,
+    "maxAppMs": 1719.86,
+    "maxDbMs": 143.92
+  },
+  {
+    "origin": "http://127.0.0.1:8011",
+    "phase": "first",
+    "concurrency": 1,
+    "count": 6,
+    "failures": 0,
+    "meanTotalMs": 220.19,
+    "maxTotalMs": 680.97,
+    "maxAppMs": 640.03,
+    "maxDbMs": 28.1
+  },
+  {
+    "origin": "http://127.0.0.1:8011",
+    "phase": "warm",
+    "concurrency": 1,
+    "count": 6,
+    "failures": 0,
+    "meanTotalMs": 97.2,
+    "maxTotalMs": 103.01,
+    "maxAppMs": 98.85,
+    "maxDbMs": 25.63
+  }
+]

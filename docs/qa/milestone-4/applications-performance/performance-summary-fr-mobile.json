@@ -1,0 +1,25 @@
+[
+  {
+    "url": "http://127.0.0.1:3000/fr/applications",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-12T16:21:20.527Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1365.576,
+      "largest-contentful-paint": 2824.384,
+      "speed-index": 1365.576,
+      "total-blocking-time": 32,
+      "cumulative-layout-shift": 0.05689423577347012,
+      "total-byte-weight": 305234
+    },
+    "warnings": []
+  }
+]

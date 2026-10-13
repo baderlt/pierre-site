@@ -1,0 +1,25 @@
+[
+  {
+    "url": "http://127.0.0.1:3011/ar",
+    "locale": "ar",
+    "formFactor": "desktop",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:25:07.661Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 90,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 964.224,
+      "largest-contentful-paint": 1882.816,
+      "speed-index": 964.224,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.001405638888374799,
+      "total-byte-weight": 2930686
+    },
+    "warnings": []
+  }
+]

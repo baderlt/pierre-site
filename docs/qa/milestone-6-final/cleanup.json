@@ -1,0 +1,52 @@
+{
+    "removed_audit_records": {
+        "product_ids": [
+            36
+        ],
+        "media_ids": [
+            115,
+            116
+        ],
+        "quotation_ids": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ],
+        "user_ids": [
+            8,
+            9
+        ]
+    },
+    "after": {
+        "products": {
+            "count": 18,
+            "baseline_ids_preserved": true,
+            "new_ids": []
+        },
+        "media": {
+            "count": 50,
+            "baseline_ids_preserved": true,
+            "new_ids": []
+        },
+        "quotation_requests": {
+            "count": 1,
+            "baseline_ids_preserved": true,
+            "new_ids": []
+        },
+        "owner_active": true,
+        "quotation_rate_limit": 5,
+        "qa_accounts_remaining": 0
+    },
+    "original_baseline_preserved": true
+}

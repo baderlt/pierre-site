@@ -1,0 +1,2456 @@
+{
+  "fr": {
+    "home": {
+      "meta": {
+        "title": "TIME STONE — La pierre, intemporelle",
+        "description": "Explorez les matières, les formats et les possibilités architecturales de TIME STONE. Présentation temporaire du futur showroom de pierre naturelle."
+      },
+      "skip": "Aller au contenu",
+      "language": "Choisir la langue",
+      "menu": "Ouvrir le menu",
+      "close": "Fermer",
+      "nav": [
+        "Accueil",
+        "Collection",
+        "Applications",
+        "À propos",
+        "Carrière",
+        "Contact"
+      ],
+      "quote": "Demander un devis",
+      "explore": "Explorer nos pierres",
+      "discover": "Découvrir la matière",
+      "hero": {
+        "eyebrow": "PIERRE NATURELLE · MAROC",
+        "title": "La pierre intemporelle.\nL’architecture de demain.",
+        "description": "Des textures singulières, des nuances naturelles. Imaginez une nouvelle place pour la pierre dans votre projet.",
+        "preview": "Voir les matières",
+        "scroll": "Découvrir",
+        "specimen": "L’expression du calcaire",
+        "specimenCopy": "Une étude de matière aux nuances chaudes et au caractère minéral."
+      },
+      "temporary": "Présentation provisoire : images illustratives et contenu à valider. Aucun projet ni produit présenté n’est une référence commerciale confirmée.",
+      "temporaryShort": "Visuel illustratif · provisoire",
+      "demo": "ÉCHANTILLON DE PRÉSENTATION",
+      "qualities": [
+        {
+          "title": "Pierre naturelle",
+          "description": "La matière à l’origine"
+        },
+        {
+          "title": "Nuances & textures",
+          "description": "Un caractère singulier"
+        },
+        {
+          "title": "Formats à explorer",
+          "description": "Dalles, blocs et carreaux"
+        },
+        {
+          "title": "Idées d’espaces",
+          "description": "Intérieur et extérieur"
+        },
+        {
+          "title": "Votre projet",
+          "description": "Des besoins à préciser"
+        },
+        {
+          "title": "Un échange direct",
+          "description": "Des contacts à confirmer"
+        }
+      ],
+      "collection": {
+        "eyebrow": "NOTRE COLLECTION",
+        "title": "Explorez la pierre naturelle",
+        "description": "Calcaire, marbre et formats architecturaux : une première découverte de la matière.",
+        "action": "Découvrir les sélections",
+        "names": [
+          "Calcaire",
+          "Marbre",
+          "Carreaux",
+          "Blocs",
+          "Créations sur mesure"
+        ],
+        "sample": "Collection illustrative"
+      },
+      "quarry": {
+        "eyebrow": "DE LA CARRIÈRE À LA MATIÈRE",
+        "title": "Une histoire façonnée\npar la pierre",
+        "description": "La matière brute, le geste, la transformation. Un aperçu visuel de l’univers de la pierre, en attendant les images et le récit de TIME STONE.",
+        "action": "Explorer le savoir-faire",
+        "caption": "Illustration de carrière · lieu non vérifié"
+      },
+      "introduction": {
+        "eyebrow": "L’ESPRIT TIME STONE",
+        "title": "Une matière naturelle.\nUne vision architecturale.",
+        "description": "Ce showroom est conçu pour rapprocher la pierre de votre projet : découvrir les textures, comparer les formats et préparer un échange autour de vos besoins.",
+        "action": "Imaginer votre espace"
+      },
+      "featured": {
+        "eyebrow": "ÉTUDES DE MATIÈRE",
+        "title": "Le détail fait la différence",
+        "description": "Trois inspirations visuelles. Les produits, finitions et dimensions réels seront confirmés avec TIME STONE.",
+        "names": [
+          "Nuances de calcaire",
+          "Le caractère du marbre",
+          "La pierre en grand format"
+        ],
+        "captions": [
+          "Texture & lumière",
+          "Veines & contrastes",
+          "Volumes & proportions"
+        ]
+      },
+      "craft": {
+        "eyebrow": "LE SAVOIR-FAIRE",
+        "title": "Du bloc à l’espace",
+        "description": "Une lecture illustrative des étapes de transformation. Le procédé réel et les finitions disponibles restent à documenter.",
+        "steps": [
+          "La sélection de la matière",
+          "La découpe & les proportions",
+          "La finition de surface",
+          "Le détail architectural"
+        ]
+      },
+      "applications": {
+        "eyebrow": "LES APPLICATIONS",
+        "title": "La pierre dans chaque espace",
+        "description": "Des inspirations architecturales pour envisager votre projet.",
+        "names": [
+          "Façades extérieures",
+          "Sols intérieurs",
+          "Revêtements muraux",
+          "Escaliers & marches"
+        ]
+      },
+      "quality": {
+        "eyebrow": "CHOISIR EN CONNAISSANCE",
+        "title": "Chaque projet commence\npar les bonnes questions.",
+        "description": "L’usage, la finition et les dimensions guident le choix. Les caractéristiques techniques seront publiées après validation.",
+        "points": [
+          "Quel usage pour votre pierre ?",
+          "Quelle finition pour votre espace ?",
+          "Quelles dimensions pour votre projet ?"
+        ]
+      },
+      "contact": {
+        "eyebrow": "CONSTRUISONS LA SUITE",
+        "title": "Votre projet commence ici.",
+        "description": "Une idée, une matière, un besoin particulier. Préparez les dimensions, les quantités et le lieu de livraison pour votre future demande.",
+        "status": "Le formulaire de devis et les coordonnées officielles seront disponibles après validation. Aucune demande n’est envoyée depuis cette présentation."
+      },
+      "footer": {
+        "tagline": "La matière. Le temps. L’architecture.",
+        "navigation": "Explorer",
+        "materials": "Les matières",
+        "languages": "Langues",
+        "rights": "TIME STONE · Présentation de développement",
+        "note": "Images temporaires issues des maquettes approuvées. Informations commerciales à confirmer."
+      },
+      "viewer": {
+        "title": "Une première rencontre avec la matière",
+        "description": "Explorez ces photographies de surface illustratives.",
+        "selected": "Matière sélectionnée",
+        "note": "Aperçu photographique 2D. La visualisation 3D interactive sera intégrée à l’étape dédiée. Les faces cachées ne peuvent pas être déduites d’une seule photographie."
+      }
+    },
+    "public": {
+      "illustrative": "Illustration temporaire",
+      "notice": "Images issues des maquettes : inspirations uniquement, sans référence à des réalisations clientes ou à des installations vérifiées de TIME STONE.",
+      "applications": "Applications",
+      "applicationsTitle": "La pierre naturelle,\npour chaque espace",
+      "applicationsIntro": "Façades, intérieurs et espaces extérieurs : explorez les expressions architecturales de la pierre.",
+      "explore": "Explorer les applications",
+      "applicationNames": [
+        "Façades extérieures",
+        "Sols intérieurs",
+        "Revêtement mural",
+        "Escaliers et marches",
+        "Aménagement paysager",
+        "Créations sur mesure"
+      ],
+      "applicationTeasers": [
+        "Une présence architecturale",
+        "La matière au quotidien",
+        "Textures et reliefs",
+        "Des lignes sculptées",
+        "Prolonger les espaces",
+        "Dessiner votre intention"
+      ],
+      "applicationDescriptions": [
+        "Rythme des joints, tonalité et proportions donnent leur caractère aux façades. Ces illustrations explorent différentes lectures de la pierre en architecture.",
+        "La pierre compose une continuité entre lumière, mobilier et volumes. Explorez des inspirations de sols pour les espaces de vie.",
+        "Un mur de pierre peut souligner un volume ou créer un point focal. Comparez les textures et le sens de pose avant de préciser votre projet.",
+        "Marches, contremarches et paliers dessinent un parcours. Les exemples présentés servent à discuter des proportions et des finitions.",
+        "Terrasses, cheminements et jardins prolongent le langage de la pierre à l’extérieur. Les images illustrent des intentions d’aménagement.",
+        "Calepinage, pièces découpées et formats particuliers ouvrent de nouvelles compositions. Décrivez votre idée pour préparer une étude ultérieure."
+      ],
+      "considerations": [
+        "Définir le contexte et les contraintes du projet.",
+        "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+        "Prévoir une validation technique de la pose et de l’entretien."
+      ],
+      "inspirations": "INSPIRATIONS ARCHITECTURALES",
+      "galleryTitle": "Des espaces, des matières",
+      "galleryIntro": "Une galerie d’intentions. Aucun de ces visuels n’est présenté comme un projet client réalisé.",
+      "galleryNames": [
+        "Architecture résidentielle",
+        "Espace de vie",
+        "Parcours et volumes",
+        "Jardin et terrasse"
+      ],
+      "allApplications": "Toutes les applications",
+      "gallery": "Galerie illustrative",
+      "related": "Matières à explorer",
+      "relatedNote": "Associations illustratives : la compatibilité technique avec votre projet reste à valider.",
+      "considerationsTitle": "Préparer votre application",
+      "bandTitle": "Une intention de pierre\npour votre projet",
+      "bandItems": [
+        "Nuances naturelles",
+        "Formats à étudier",
+        "Finitions à comparer",
+        "Dialogue sur mesure"
+      ],
+      "bandAction": "Préparer un devis",
+      "about": "À propos",
+      "aboutTitle": "Une histoire\nde matière",
+      "aboutIntro": "De la roche à l’architecture, découvrez l’univers de TIME STONE et les étapes qui donnent forme à la pierre.",
+      "company": "NOTRE UNIVERS",
+      "companyTitle": "La pierre,\nune vision architecturale",
+      "companyText": "TIME STONE présente ici un univers de matières naturelles, de textures et de formats destinés à nourrir la réflexion architecturale.",
+      "companyDraft": "Cette présentation est provisoire. L’histoire de l’entreprise, ses installations et ses engagements seront complétés à partir d’informations validées.",
+      "products": "Explorer nos pierres",
+      "qualityTitles": [
+        "La matière",
+        "Le travail de la pierre",
+        "Le choix des finitions",
+        "La validation du projet"
+      ],
+      "qualityTexts": [
+        "Observer la nuance et le veinage.",
+        "Étudier les formats et la découpe.",
+        "Comparer l’aspect et le toucher.",
+        "Confirmer les caractéristiques avant commande."
+      ],
+      "process": "LE PARCOURS DE LA PIERRE",
+      "processTitle": "De la carrière\nau projet",
+      "processIntro": "Une présentation illustrative des étapes de transformation. Elle ne décrit pas des installations ou des capacités de production vérifiées de TIME STONE.",
+      "processNames": [
+        "Extraction",
+        "Sélection des blocs",
+        "Découpe et façonnage",
+        "Finition et contrôle"
+      ],
+      "processTexts": [
+        "Comprendre l’origine et la structure de la matière.",
+        "Observer les nuances et les formats des blocs.",
+        "Définir les pièces selon le dessin du projet.",
+        "Vérifier l’aspect et les exigences du projet."
+      ],
+      "qualityNote": "Origine, performances et documents techniques : à confirmer pour chaque référence réelle. Aucune certification annoncée.",
+      "contactEyebrow": "CONSTRUISONS LE DIALOGUE",
+      "contactTitle": "La pierre au cœur\nde votre prochain projet",
+      "contactIntro": "Rassemblez vos idées, vos formats et vos contraintes pour préparer un échange.",
+      "contactAction": "Parlons de votre projet",
+      "contact": "Contact",
+      "contactPageTitle": "Votre projet\ncommence ici",
+      "contactPageIntro": "Une matière, une idée, un espace à imaginer. Préparez les éléments de votre projet dans notre interface de démonstration.",
+      "channels": "Nos coordonnées",
+      "channelNames": [
+        "Téléphone",
+        "WhatsApp",
+        "E-mail",
+        "Adresse"
+      ],
+      "pending": "Coordonnées en attente de confirmation",
+      "contactNote": "Aucun numéro, adresse ou horaire non vérifié n’est publié. Les canaux de contact seront activés après validation.",
+      "enquiry": "Votre demande professionnelle",
+      "enquiryText": "Architecture, prescription, aménagement ou projet sur mesure : précisez votre besoin, la destination et les quantités envisagées.",
+      "enquiryAction": "Préparer ma demande",
+      "demo": "Démonstration — aucun envoi",
+      "demoText": "Le formulaire vous permet de vérifier votre préparation. Aucune demande n’est envoyée ni enregistrée.",
+      "back": "Retour aux applications",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "close": "Fermer la galerie",
+      "open": "Agrandir",
+      "privacy": "Confidentialité de la démonstration"
+    },
+    "about": {
+      "illustrative": "Illustration temporaire",
+      "notice": "Images issues des maquettes : inspirations uniquement, sans référence à des réalisations clientes ou à des installations vérifiées de TIME STONE.",
+      "applications": "Applications",
+      "applicationsTitle": "La pierre naturelle,\npour chaque espace",
+      "applicationsIntro": "Façades, intérieurs et espaces extérieurs : explorez les expressions architecturales de la pierre.",
+      "explore": "Explorer les applications",
+      "applicationNames": [
+        "Façades extérieures",
+        "Sols intérieurs",
+        "Revêtement mural",
+        "Escaliers et marches",
+        "Aménagement paysager",
+        "Créations sur mesure"
+      ],
+      "applicationTeasers": [
+        "Une présence architecturale",
+        "La matière au quotidien",
+        "Textures et reliefs",
+        "Des lignes sculptées",
+        "Prolonger les espaces",
+        "Dessiner votre intention"
+      ],
+      "applicationDescriptions": [
+        "Rythme des joints, tonalité et proportions donnent leur caractère aux façades. Ces illustrations explorent différentes lectures de la pierre en architecture.",
+        "La pierre compose une continuité entre lumière, mobilier et volumes. Explorez des inspirations de sols pour les espaces de vie.",
+        "Un mur de pierre peut souligner un volume ou créer un point focal. Comparez les textures et le sens de pose avant de préciser votre projet.",
+        "Marches, contremarches et paliers dessinent un parcours. Les exemples présentés servent à discuter des proportions et des finitions.",
+        "Terrasses, cheminements et jardins prolongent le langage de la pierre à l’extérieur. Les images illustrent des intentions d’aménagement.",
+        "Calepinage, pièces découpées et formats particuliers ouvrent de nouvelles compositions. Décrivez votre idée pour préparer une étude ultérieure."
+      ],
+      "considerations": [
+        "Définir le contexte et les contraintes du projet.",
+        "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+        "Prévoir une validation technique de la pose et de l’entretien."
+      ],
+      "inspirations": "INSPIRATIONS ARCHITECTURALES",
+      "galleryTitle": "Des espaces, des matières",
+      "galleryIntro": "Une galerie d’intentions. Aucun de ces visuels n’est présenté comme un projet client réalisé.",
+      "galleryNames": [
+        "Architecture résidentielle",
+        "Espace de vie",
+        "Parcours et volumes",
+        "Jardin et terrasse"
+      ],
+      "allApplications": "Toutes les applications",
+      "gallery": "Galerie illustrative",
+      "related": "Matières à explorer",
+      "relatedNote": "Associations illustratives : la compatibilité technique avec votre projet reste à valider.",
+      "considerationsTitle": "Préparer votre application",
+      "bandTitle": "Une intention de pierre\npour votre projet",
+      "bandItems": [
+        "Nuances naturelles",
+        "Formats à étudier",
+        "Finitions à comparer",
+        "Dialogue sur mesure"
+      ],
+      "bandAction": "Préparer un devis",
+      "about": "À propos",
+      "aboutTitle": "Une histoire\nde matière",
+      "aboutIntro": "De la roche à l’architecture, découvrez l’univers de TIME STONE et les étapes qui donnent forme à la pierre.",
+      "company": "NOTRE UNIVERS",
+      "companyTitle": "La pierre,\nune vision architecturale",
+      "companyText": "TIME STONE présente ici un univers de matières naturelles, de textures et de formats destinés à nourrir la réflexion architecturale.",
+      "companyDraft": "Cette présentation est provisoire. L’histoire de l’entreprise, ses installations et ses engagements seront complétés à partir d’informations validées.",
+      "products": "Explorer nos pierres",
+      "qualityTitles": [
+        "La matière",
+        "Le travail de la pierre",
+        "Le choix des finitions",
+        "La validation du projet"
+      ],
+      "qualityTexts": [
+        "Observer la nuance et le veinage.",
+        "Étudier les formats et la découpe.",
+        "Comparer l’aspect et le toucher.",
+        "Confirmer les caractéristiques avant commande."
+      ],
+      "process": "LE PARCOURS DE LA PIERRE",
+      "processTitle": "De la carrière\nau projet",
+      "processIntro": "Une présentation illustrative des étapes de transformation. Elle ne décrit pas des installations ou des capacités de production vérifiées de TIME STONE.",
+      "processNames": [
+        "Extraction",
+        "Sélection des blocs",
+        "Découpe et façonnage",
+        "Finition et contrôle"
+      ],
+      "processTexts": [
+        "Comprendre l’origine et la structure de la matière.",
+        "Observer les nuances et les formats des blocs.",
+        "Définir les pièces selon le dessin du projet.",
+        "Vérifier l’aspect et les exigences du projet."
+      ],
+      "qualityNote": "Origine, performances et documents techniques : à confirmer pour chaque référence réelle. Aucune certification annoncée.",
+      "contactEyebrow": "CONSTRUISONS LE DIALOGUE",
+      "contactTitle": "La pierre au cœur\nde votre prochain projet",
+      "contactIntro": "Rassemblez vos idées, vos formats et vos contraintes pour préparer un échange.",
+      "contactAction": "Parlons de votre projet",
+      "contact": "Contact",
+      "contactPageTitle": "Votre projet\ncommence ici",
+      "contactPageIntro": "Une matière, une idée, un espace à imaginer. Préparez les éléments de votre projet dans notre interface de démonstration.",
+      "channels": "Nos coordonnées",
+      "channelNames": [
+        "Téléphone",
+        "WhatsApp",
+        "E-mail",
+        "Adresse"
+      ],
+      "pending": "Coordonnées en attente de confirmation",
+      "contactNote": "Aucun numéro, adresse ou horaire non vérifié n’est publié. Les canaux de contact seront activés après validation.",
+      "enquiry": "Votre demande professionnelle",
+      "enquiryText": "Architecture, prescription, aménagement ou projet sur mesure : précisez votre besoin, la destination et les quantités envisagées.",
+      "enquiryAction": "Préparer ma demande",
+      "demo": "Démonstration — aucun envoi",
+      "demoText": "Le formulaire vous permet de vérifier votre préparation. Aucune demande n’est envoyée ni enregistrée.",
+      "back": "Retour aux applications",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "close": "Fermer la galerie",
+      "open": "Agrandir",
+      "privacy": "Confidentialité de la démonstration",
+      "material": {
+        "title": "La roche, les nuances, la matière",
+        "text": "Observer la pierre à son origine aide à comprendre ses variations naturelles. Ces images sont des illustrations de carrière, sans affirmation sur leur appartenance à TIME STONE.",
+        "stages": [
+          "Sélection de la pierre",
+          "Découpe et préparation",
+          "Finition",
+          "Revue de qualité"
+        ],
+        "image": "about-hero"
+      },
+      "stages": [
+        {
+          "id": "selection",
+          "image": "process-block",
+          "title": "Sélection de la pierre",
+          "text": "Observer les nuances et les formats des blocs."
+        },
+        {
+          "id": "cutting",
+          "image": "process-cutting",
+          "title": "Découpe et préparation",
+          "text": "Définir les pièces selon le dessin du projet."
+        },
+        {
+          "id": "finishing",
+          "image": "process-finish",
+          "title": "Finition",
+          "text": "Vérifier l’aspect et les exigences du projet."
+        },
+        {
+          "id": "quality",
+          "image": "product-beige-texture",
+          "title": "Revue de qualité",
+          "text": "Comprendre l’origine et la structure de la matière."
+        }
+      ]
+    },
+    "applications": [
+      {
+        "slug": "exterior-facades",
+        "title": "Façades extérieures",
+        "description": "Rythme des joints, tonalité et proportions donnent leur caractère aux façades. Ces illustrations explorent différentes lectures de la pierre en architecture.",
+        "image": "application-facade",
+        "gallery": [
+          "project-facade",
+          "project-landscape"
+        ],
+        "considerations": [
+          "Définir le contexte et les contraintes du projet.",
+          "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+          "Prévoir une validation technique de la pose et de l’entretien."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "exterior",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "interior-flooring",
+        "title": "Sols intérieurs",
+        "description": "La pierre compose une continuité entre lumière, mobilier et volumes. Explorez des inspirations de sols pour les espaces de vie.",
+        "image": "application-interior",
+        "gallery": [
+          "project-interior",
+          "project-facade"
+        ],
+        "considerations": [
+          "Définir le contexte et les contraintes du projet.",
+          "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+          "Prévoir une validation technique de la pose et de l’entretien."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "interior-flooring",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "wall-cladding",
+        "title": "Revêtement mural",
+        "description": "Un mur de pierre peut souligner un volume ou créer un point focal. Comparez les textures et le sens de pose avant de préciser votre projet.",
+        "image": "application-cladding",
+        "gallery": [
+          "project-interior",
+          "project-stairs"
+        ],
+        "considerations": [
+          "Définir le contexte et les contraintes du projet.",
+          "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+          "Prévoir une validation technique de la pose et de l’entretien."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "wall-cladding",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "stairs",
+        "title": "Escaliers et marches",
+        "description": "Marches, contremarches et paliers dessinent un parcours. Les exemples présentés servent à discuter des proportions et des finitions.",
+        "image": "application-stairs",
+        "gallery": [
+          "project-stairs",
+          "project-facade"
+        ],
+        "considerations": [
+          "Définir le contexte et les contraintes du projet.",
+          "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+          "Prévoir une validation technique de la pose et de l’entretien."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "landscaping",
+        "title": "Aménagement paysager",
+        "description": "Terrasses, cheminements et jardins prolongent le langage de la pierre à l’extérieur. Les images illustrent des intentions d’aménagement.",
+        "image": "application-landscape",
+        "gallery": [
+          "project-landscape",
+          "project-stairs"
+        ],
+        "considerations": [
+          "Définir le contexte et les contraintes du projet.",
+          "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+          "Prévoir une validation technique de la pose et de l’entretien."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "exterior",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "custom-designs",
+        "title": "Créations sur mesure",
+        "description": "Calepinage, pièces découpées et formats particuliers ouvrent de nouvelles compositions. Décrivez votre idée pour préparer une étude ultérieure.",
+        "image": "application-custom",
+        "gallery": [
+          "project-landscape",
+          "project-interior"
+        ],
+        "considerations": [
+          "Définir le contexte et les contraintes du projet.",
+          "Faire confirmer l’aptitude de la pierre, les dimensions et la finition.",
+          "Prévoir une validation technique de la pose et de l’entretien."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "custom",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "",
+          "sort": "featured",
+          "page": 1
+        }
+      }
+    ],
+    "products": [
+      {
+        "id": "sample-1",
+        "name": "Calcaire · 01",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-2",
+        "name": "Marbre · 02",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "polished",
+        "color": "grey",
+        "application": "interior-flooring",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-3",
+        "name": "Carreaux · 03",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "white",
+        "application": "interior-flooring",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-4",
+        "name": "Blocs · 04",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-5",
+        "name": "Sur mesure · 05",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-6",
+        "name": "Calcaire · 06",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-7",
+        "name": "Marbre · 07",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "honed",
+        "color": "grey",
+        "application": "exterior",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-8",
+        "name": "Carreaux · 08",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "white",
+        "application": "exterior",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-9",
+        "name": "Blocs · 09",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "exterior",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-10",
+        "name": "Sur mesure · 10",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-11",
+        "name": "Calcaire · 11",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-12",
+        "name": "Marbre · 12",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "brushed",
+        "color": "grey",
+        "application": "interior-flooring",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-13",
+        "name": "Carreaux · 13",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "white",
+        "application": "wall-cladding",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-14",
+        "name": "Blocs · 14",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-15",
+        "name": "Sur mesure · 15",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-16",
+        "name": "Calcaire · 16",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "exterior",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-17",
+        "name": "Marbre · 17",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "polished",
+        "color": "grey",
+        "application": "exterior",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-18",
+        "name": "Carreaux · 18",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "white",
+        "application": "exterior",
+        "image": "catalogue-tiles",
+        "temporary": true
+      }
+    ]
+  },
+  "en": {
+    "home": {
+      "meta": {
+        "title": "TIME STONE — Timeless stone for modern architecture",
+        "description": "Explore materials, formats and architectural possibilities with TIME STONE. A temporary presentation of the future natural stone showroom."
+      },
+      "skip": "Skip to content",
+      "language": "Choose language",
+      "menu": "Open menu",
+      "close": "Close",
+      "nav": [
+        "Home",
+        "Collection",
+        "Applications",
+        "About",
+        "Quarry",
+        "Contact"
+      ],
+      "quote": "Request a quote",
+      "explore": "Explore our stone",
+      "discover": "Discover the material",
+      "hero": {
+        "eyebrow": "NATURAL STONE · MOROCCO",
+        "title": "Timeless Stone\nfor Modern\nArchitecture",
+        "description": "Distinctive textures. Natural tones. Imagine a new place for stone in your next architectural project.",
+        "preview": "Explore the materials",
+        "scroll": "Discover",
+        "specimen": "The character of limestone",
+        "specimenCopy": "A material study in warm tones and natural mineral texture."
+      },
+      "temporary": "Temporary presentation: illustrative images and draft content. No project or product shown is a confirmed commercial reference.",
+      "temporaryShort": "Illustrative image · temporary",
+      "demo": "PRESENTATION SAMPLE",
+      "qualities": [
+        {
+          "title": "Natural stone",
+          "description": "It begins with the material"
+        },
+        {
+          "title": "Tones & textures",
+          "description": "Individual character"
+        },
+        {
+          "title": "Explore the formats",
+          "description": "Slabs, blocks and tiles"
+        },
+        {
+          "title": "Ideas for spaces",
+          "description": "Indoors and outdoors"
+        },
+        {
+          "title": "Your project",
+          "description": "Define your requirements"
+        },
+        {
+          "title": "A direct conversation",
+          "description": "Contacts to be confirmed"
+        }
+      ],
+      "collection": {
+        "eyebrow": "OUR COLLECTION",
+        "title": "Explore Our Natural Stone",
+        "description": "Limestone, marble and architectural formats. A first encounter with the possibilities of stone.",
+        "action": "Discover the selections",
+        "names": [
+          "Limestone",
+          "Marble",
+          "Tiles",
+          "Blocks",
+          "Custom Designs"
+        ],
+        "sample": "Illustrative collection"
+      },
+      "quarry": {
+        "eyebrow": "FROM QUARRY TO MATERIAL",
+        "title": "A story shaped\nby stone",
+        "description": "Raw material, skilled hands, transformation. A visual introduction to the world of stone while TIME STONE’s own images and story are prepared.",
+        "action": "Discover the craft",
+        "caption": "Quarry illustration · location unverified"
+      },
+      "introduction": {
+        "eyebrow": "THE SPIRIT OF TIME STONE",
+        "title": "Natural material.\nArchitectural possibility.",
+        "description": "A showroom designed to bring stone closer to your project: explore textures, compare formats and prepare a conversation around what you need.",
+        "action": "Imagine your space"
+      },
+      "featured": {
+        "eyebrow": "MATERIAL STUDIES",
+        "title": "Beauty is in the detail",
+        "description": "Three visual inspirations. Actual products, finishes and dimensions will be confirmed with TIME STONE.",
+        "names": [
+          "Limestone in warm tones",
+          "The character of marble",
+          "Stone in larger formats"
+        ],
+        "captions": [
+          "Texture & light",
+          "Veins & contrast",
+          "Volume & proportion"
+        ]
+      },
+      "craft": {
+        "eyebrow": "THE CRAFT",
+        "title": "From block to space",
+        "description": "An illustrative look at the stages of transformation. The actual process and available finishes remain to be documented.",
+        "steps": [
+          "Selecting the material",
+          "Cutting & proportion",
+          "Finishing the surface",
+          "The architectural detail"
+        ]
+      },
+      "applications": {
+        "eyebrow": "APPLICATIONS",
+        "title": "Stone for Every Space",
+        "description": "Architectural inspiration to help you imagine your project.",
+        "names": [
+          "Exterior façades",
+          "Interior flooring",
+          "Wall cladding",
+          "Stairs & steps"
+        ]
+      },
+      "quality": {
+        "eyebrow": "AN INFORMED CHOICE",
+        "title": "Every project starts\nwith the right questions.",
+        "description": "Use, finish and dimensions guide the selection. Technical characteristics will be published after verification.",
+        "points": [
+          "How will the stone be used?",
+          "Which finish suits your space?",
+          "What dimensions does your project need?"
+        ]
+      },
+      "contact": {
+        "eyebrow": "LET’S BUILD WHAT’S NEXT",
+        "title": "Your project starts here.",
+        "description": "An idea, a material, a particular requirement. Gather your dimensions, quantities and delivery location for a future quotation request.",
+        "status": "The quotation form and official contact details will be available after confirmation. This presentation does not send any requests."
+      },
+      "footer": {
+        "tagline": "Material. Time. Architecture.",
+        "navigation": "Explore",
+        "materials": "Materials",
+        "languages": "Languages",
+        "rights": "TIME STONE · Development presentation",
+        "note": "Temporary imagery from the approved mockups. Commercial information awaits confirmation."
+      },
+      "viewer": {
+        "title": "A closer look at the material",
+        "description": "Explore these illustrative surface photographs.",
+        "selected": "Selected material",
+        "note": "2D photographic preview. Interactive 3D will be integrated in its dedicated milestone. A single photograph cannot reveal hidden surfaces."
+      }
+    },
+    "public": {
+      "illustrative": "Temporary illustration",
+      "notice": "Images from the design references: inspiration only, with no claim of completed client projects or verified TIME STONE facilities.",
+      "applications": "Applications",
+      "applicationsTitle": "Natural stone\nfor every space",
+      "applicationsIntro": "Facades, interiors and outdoor spaces: explore the architectural expressions of stone.",
+      "explore": "Explore applications",
+      "applicationNames": [
+        "Exterior facades",
+        "Interior flooring",
+        "Wall cladding",
+        "Stairs & steps",
+        "Landscaping",
+        "Custom designs"
+      ],
+      "applicationTeasers": [
+        "Architectural presence",
+        "Material for everyday spaces",
+        "Texture and relief",
+        "Sculpted lines",
+        "Extending the space",
+        "Shape your intention"
+      ],
+      "applicationDescriptions": [
+        "Joint rhythm, tone and proportion give facades their character. These illustrations explore different architectural expressions of stone.",
+        "Stone connects light, furniture and space. Explore flooring ideas for everyday living.",
+        "A stone wall can emphasise a volume or create a focal point. Compare textures and laying patterns before defining your project.",
+        "Treads, risers and landings shape a journey. These examples support a discussion of proportions and finishes.",
+        "Terraces, paths and gardens carry the language of stone outdoors. These images illustrate landscape intentions.",
+        "Patterns, cut pieces and individual formats open up new compositions. Describe your idea to prepare for a future study."
+      ],
+      "considerations": [
+        "Define the project context and constraints.",
+        "Confirm stone suitability, dimensions and finish.",
+        "Arrange technical approval of installation and maintenance."
+      ],
+      "inspirations": "ARCHITECTURAL INSPIRATION",
+      "galleryTitle": "Spaces shaped by stone",
+      "galleryIntro": "A gallery of ideas. None of these images is presented as completed client work.",
+      "galleryNames": [
+        "Residential architecture",
+        "Living space",
+        "Paths and volumes",
+        "Garden and terrace"
+      ],
+      "allApplications": "All applications",
+      "gallery": "Illustrative gallery",
+      "related": "Materials to explore",
+      "relatedNote": "Illustrative associations: technical suitability for your project still requires confirmation.",
+      "considerationsTitle": "Prepare your application",
+      "bandTitle": "A stone intention\nfor your project",
+      "bandItems": [
+        "Natural tones",
+        "Formats to explore",
+        "Finishes to compare",
+        "A tailored conversation"
+      ],
+      "bandAction": "Prepare a quotation",
+      "about": "About",
+      "aboutTitle": "A story\nshaped by stone",
+      "aboutIntro": "From rock to architecture, explore the TIME STONE material world and the stages that give stone its form.",
+      "company": "OUR MATERIAL WORLD",
+      "companyTitle": "Natural stone,\nan architectural vision",
+      "companyText": "TIME STONE presents a world of natural materials, textures and formats to inspire architectural thinking.",
+      "companyDraft": "This presentation is provisional. Company history, facilities and commitments will be completed using approved information.",
+      "products": "Explore our stones",
+      "qualityTitles": [
+        "The material",
+        "Working the stone",
+        "Choosing finishes",
+        "Project approval"
+      ],
+      "qualityTexts": [
+        "Observe tone and veining.",
+        "Explore formats and cutting.",
+        "Compare appearance and feel.",
+        "Confirm specifications before ordering."
+      ],
+      "process": "THE JOURNEY OF STONE",
+      "processTitle": "From quarry\nto project",
+      "processIntro": "An illustrative presentation of transformation stages. It does not describe verified TIME STONE facilities or production capacity.",
+      "processNames": [
+        "Extraction",
+        "Block selection",
+        "Cutting & shaping",
+        "Finishing & inspection"
+      ],
+      "processTexts": [
+        "Understand the origin and structure of the material.",
+        "Observe block tones and formats.",
+        "Define pieces around the project drawing.",
+        "Check appearance against project requirements."
+      ],
+      "qualityNote": "Origin, performance and technical documents require confirmation for each real product. No certification is claimed.",
+      "contactEyebrow": "LET’S START A CONVERSATION",
+      "contactTitle": "Bring stone into\nyour next project",
+      "contactIntro": "Gather your ideas, formats and constraints to prepare your conversation.",
+      "contactAction": "Discuss your project",
+      "contact": "Contact",
+      "contactPageTitle": "Your project\nstarts here",
+      "contactPageIntro": "A material, an idea, a space to imagine. Prepare your project details in our demonstration interface.",
+      "channels": "Contact details",
+      "channelNames": [
+        "Phone",
+        "WhatsApp",
+        "Email",
+        "Address"
+      ],
+      "pending": "Contact details awaiting confirmation",
+      "contactNote": "No unverified number, address or opening hours are published. Contact channels will be enabled after approval.",
+      "enquiry": "Your business enquiry",
+      "enquiryText": "Architecture, specification, landscaping or a custom project: describe your needs, destination and proposed quantities.",
+      "enquiryAction": "Prepare my enquiry",
+      "demo": "Demonstration — no submission",
+      "demoText": "The form lets you check your preparation. No request is sent or saved.",
+      "back": "Back to applications",
+      "next": "Next",
+      "previous": "Previous",
+      "close": "Close gallery",
+      "open": "Enlarge",
+      "privacy": "Demonstration privacy"
+    },
+    "about": {
+      "illustrative": "Temporary illustration",
+      "notice": "Images from the design references: inspiration only, with no claim of completed client projects or verified TIME STONE facilities.",
+      "applications": "Applications",
+      "applicationsTitle": "Natural stone\nfor every space",
+      "applicationsIntro": "Facades, interiors and outdoor spaces: explore the architectural expressions of stone.",
+      "explore": "Explore applications",
+      "applicationNames": [
+        "Exterior facades",
+        "Interior flooring",
+        "Wall cladding",
+        "Stairs & steps",
+        "Landscaping",
+        "Custom designs"
+      ],
+      "applicationTeasers": [
+        "Architectural presence",
+        "Material for everyday spaces",
+        "Texture and relief",
+        "Sculpted lines",
+        "Extending the space",
+        "Shape your intention"
+      ],
+      "applicationDescriptions": [
+        "Joint rhythm, tone and proportion give facades their character. These illustrations explore different architectural expressions of stone.",
+        "Stone connects light, furniture and space. Explore flooring ideas for everyday living.",
+        "A stone wall can emphasise a volume or create a focal point. Compare textures and laying patterns before defining your project.",
+        "Treads, risers and landings shape a journey. These examples support a discussion of proportions and finishes.",
+        "Terraces, paths and gardens carry the language of stone outdoors. These images illustrate landscape intentions.",
+        "Patterns, cut pieces and individual formats open up new compositions. Describe your idea to prepare for a future study."
+      ],
+      "considerations": [
+        "Define the project context and constraints.",
+        "Confirm stone suitability, dimensions and finish.",
+        "Arrange technical approval of installation and maintenance."
+      ],
+      "inspirations": "ARCHITECTURAL INSPIRATION",
+      "galleryTitle": "Spaces shaped by stone",
+      "galleryIntro": "A gallery of ideas. None of these images is presented as completed client work.",
+      "galleryNames": [
+        "Residential architecture",
+        "Living space",
+        "Paths and volumes",
+        "Garden and terrace"
+      ],
+      "allApplications": "All applications",
+      "gallery": "Illustrative gallery",
+      "related": "Materials to explore",
+      "relatedNote": "Illustrative associations: technical suitability for your project still requires confirmation.",
+      "considerationsTitle": "Prepare your application",
+      "bandTitle": "A stone intention\nfor your project",
+      "bandItems": [
+        "Natural tones",
+        "Formats to explore",
+        "Finishes to compare",
+        "A tailored conversation"
+      ],
+      "bandAction": "Prepare a quotation",
+      "about": "About",
+      "aboutTitle": "A story\nshaped by stone",
+      "aboutIntro": "From rock to architecture, explore the TIME STONE material world and the stages that give stone its form.",
+      "company": "OUR MATERIAL WORLD",
+      "companyTitle": "Natural stone,\nan architectural vision",
+      "companyText": "TIME STONE presents a world of natural materials, textures and formats to inspire architectural thinking.",
+      "companyDraft": "This presentation is provisional. Company history, facilities and commitments will be completed using approved information.",
+      "products": "Explore our stones",
+      "qualityTitles": [
+        "The material",
+        "Working the stone",
+        "Choosing finishes",
+        "Project approval"
+      ],
+      "qualityTexts": [
+        "Observe tone and veining.",
+        "Explore formats and cutting.",
+        "Compare appearance and feel.",
+        "Confirm specifications before ordering."
+      ],
+      "process": "THE JOURNEY OF STONE",
+      "processTitle": "From quarry\nto project",
+      "processIntro": "An illustrative presentation of transformation stages. It does not describe verified TIME STONE facilities or production capacity.",
+      "processNames": [
+        "Extraction",
+        "Block selection",
+        "Cutting & shaping",
+        "Finishing & inspection"
+      ],
+      "processTexts": [
+        "Understand the origin and structure of the material.",
+        "Observe block tones and formats.",
+        "Define pieces around the project drawing.",
+        "Check appearance against project requirements."
+      ],
+      "qualityNote": "Origin, performance and technical documents require confirmation for each real product. No certification is claimed.",
+      "contactEyebrow": "LET’S START A CONVERSATION",
+      "contactTitle": "Bring stone into\nyour next project",
+      "contactIntro": "Gather your ideas, formats and constraints to prepare your conversation.",
+      "contactAction": "Discuss your project",
+      "contact": "Contact",
+      "contactPageTitle": "Your project\nstarts here",
+      "contactPageIntro": "A material, an idea, a space to imagine. Prepare your project details in our demonstration interface.",
+      "channels": "Contact details",
+      "channelNames": [
+        "Phone",
+        "WhatsApp",
+        "Email",
+        "Address"
+      ],
+      "pending": "Contact details awaiting confirmation",
+      "contactNote": "No unverified number, address or opening hours are published. Contact channels will be enabled after approval.",
+      "enquiry": "Your business enquiry",
+      "enquiryText": "Architecture, specification, landscaping or a custom project: describe your needs, destination and proposed quantities.",
+      "enquiryAction": "Prepare my enquiry",
+      "demo": "Demonstration — no submission",
+      "demoText": "The form lets you check your preparation. No request is sent or saved.",
+      "back": "Back to applications",
+      "next": "Next",
+      "previous": "Previous",
+      "close": "Close gallery",
+      "open": "Enlarge",
+      "privacy": "Demonstration privacy",
+      "material": {
+        "title": "Rock, tone and material",
+        "text": "Looking at stone at its origin helps explain its natural variations. These quarry images are illustrative and do not claim ownership by TIME STONE.",
+        "stages": [
+          "Stone selection",
+          "Cutting and preparation",
+          "Finishing",
+          "Quality review"
+        ],
+        "image": "about-hero"
+      },
+      "stages": [
+        {
+          "id": "selection",
+          "image": "process-block",
+          "title": "Stone selection",
+          "text": "Observe block tones and formats."
+        },
+        {
+          "id": "cutting",
+          "image": "process-cutting",
+          "title": "Cutting and preparation",
+          "text": "Define pieces around the project drawing."
+        },
+        {
+          "id": "finishing",
+          "image": "process-finish",
+          "title": "Finishing",
+          "text": "Check appearance against project requirements."
+        },
+        {
+          "id": "quality",
+          "image": "product-beige-texture",
+          "title": "Quality review",
+          "text": "Understand the origin and structure of the material."
+        }
+      ]
+    },
+    "applications": [
+      {
+        "slug": "exterior-facades",
+        "title": "Exterior facades",
+        "description": "Joint rhythm, tone and proportion give facades their character. These illustrations explore different architectural expressions of stone.",
+        "image": "application-facade",
+        "gallery": [
+          "project-facade",
+          "project-landscape"
+        ],
+        "considerations": [
+          "Define the project context and constraints.",
+          "Confirm stone suitability, dimensions and finish.",
+          "Arrange technical approval of installation and maintenance."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "exterior",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "interior-flooring",
+        "title": "Interior flooring",
+        "description": "Stone connects light, furniture and space. Explore flooring ideas for everyday living.",
+        "image": "application-interior",
+        "gallery": [
+          "project-interior",
+          "project-facade"
+        ],
+        "considerations": [
+          "Define the project context and constraints.",
+          "Confirm stone suitability, dimensions and finish.",
+          "Arrange technical approval of installation and maintenance."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "interior-flooring",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "wall-cladding",
+        "title": "Wall cladding",
+        "description": "A stone wall can emphasise a volume or create a focal point. Compare textures and laying patterns before defining your project.",
+        "image": "application-cladding",
+        "gallery": [
+          "project-interior",
+          "project-stairs"
+        ],
+        "considerations": [
+          "Define the project context and constraints.",
+          "Confirm stone suitability, dimensions and finish.",
+          "Arrange technical approval of installation and maintenance."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "wall-cladding",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "stairs",
+        "title": "Stairs & steps",
+        "description": "Treads, risers and landings shape a journey. These examples support a discussion of proportions and finishes.",
+        "image": "application-stairs",
+        "gallery": [
+          "project-stairs",
+          "project-facade"
+        ],
+        "considerations": [
+          "Define the project context and constraints.",
+          "Confirm stone suitability, dimensions and finish.",
+          "Arrange technical approval of installation and maintenance."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "landscaping",
+        "title": "Landscaping",
+        "description": "Terraces, paths and gardens carry the language of stone outdoors. These images illustrate landscape intentions.",
+        "image": "application-landscape",
+        "gallery": [
+          "project-landscape",
+          "project-stairs"
+        ],
+        "considerations": [
+          "Define the project context and constraints.",
+          "Confirm stone suitability, dimensions and finish.",
+          "Arrange technical approval of installation and maintenance."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "exterior",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "custom-designs",
+        "title": "Custom designs",
+        "description": "Patterns, cut pieces and individual formats open up new compositions. Describe your idea to prepare for a future study.",
+        "image": "application-custom",
+        "gallery": [
+          "project-landscape",
+          "project-interior"
+        ],
+        "considerations": [
+          "Define the project context and constraints.",
+          "Confirm stone suitability, dimensions and finish.",
+          "Arrange technical approval of installation and maintenance."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "custom",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "",
+          "sort": "featured",
+          "page": 1
+        }
+      }
+    ],
+    "products": [
+      {
+        "id": "sample-1",
+        "name": "Limestone · 01",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-2",
+        "name": "Marble · 02",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "polished",
+        "color": "grey",
+        "application": "interior-flooring",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-3",
+        "name": "Tiles · 03",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "white",
+        "application": "interior-flooring",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-4",
+        "name": "Blocks · 04",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-5",
+        "name": "Custom · 05",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-6",
+        "name": "Limestone · 06",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-7",
+        "name": "Marble · 07",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "honed",
+        "color": "grey",
+        "application": "exterior",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-8",
+        "name": "Tiles · 08",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "white",
+        "application": "exterior",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-9",
+        "name": "Blocks · 09",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "exterior",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-10",
+        "name": "Custom · 10",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-11",
+        "name": "Limestone · 11",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-12",
+        "name": "Marble · 12",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "brushed",
+        "color": "grey",
+        "application": "interior-flooring",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-13",
+        "name": "Tiles · 13",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "white",
+        "application": "wall-cladding",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-14",
+        "name": "Blocks · 14",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-15",
+        "name": "Custom · 15",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-16",
+        "name": "Limestone · 16",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "exterior",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-17",
+        "name": "Marble · 17",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "polished",
+        "color": "grey",
+        "application": "exterior",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-18",
+        "name": "Tiles · 18",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "white",
+        "application": "exterior",
+        "image": "catalogue-tiles",
+        "temporary": true
+      }
+    ]
+  },
+  "ar": {
+    "home": {
+      "meta": {
+        "title": "تايم ستون — حجر خالد لعمارة معاصرة",
+        "description": "اكتشف الخامات والأشكال والإمكانات المعمارية مع تايم ستون. عرض مؤقت لصالة عرض الحجر الطبيعي المرتقبة."
+      },
+      "skip": "انتقل إلى المحتوى",
+      "language": "اختر اللغة",
+      "menu": "افتح القائمة",
+      "close": "إغلاق",
+      "nav": [
+        "الرئيسية",
+        "التشكيلة",
+        "الاستخدامات",
+        "من نحن",
+        "المحجر",
+        "التواصل"
+      ],
+      "quote": "اطلب عرض سعر",
+      "explore": "اكتشف أحجارنا",
+      "discover": "اكتشف الخامة",
+      "hero": {
+        "eyebrow": "حجر طبيعي · المغرب",
+        "title": "حجر يتخطّى الزمن.\nلعمارة معاصرة.",
+        "description": "ملمس فريد وألوان طبيعية. تخيّل مكانًا جديدًا للحجر في مشروعك المعماري القادم.",
+        "preview": "استكشف الخامات",
+        "scroll": "اكتشف المزيد",
+        "specimen": "جمال الحجر الجيري",
+        "specimenCopy": "دراسة بصرية لخامة بألوان دافئة وملمس معدني طبيعي."
+      },
+      "temporary": "عرض مؤقت: صور توضيحية ومحتوى بانتظار الاعتماد. المنتجات والمشاريع المعروضة ليست مراجع تجارية مؤكدة.",
+      "temporaryShort": "صورة توضيحية · مؤقتة",
+      "demo": "نموذج للعرض",
+      "qualities": [
+        {
+          "title": "حجر طبيعي",
+          "description": "البداية من الخامة"
+        },
+        {
+          "title": "ألوان وملمس",
+          "description": "طابع متفرّد"
+        },
+        {
+          "title": "أشكال متنوعة",
+          "description": "ألواح وكتل وبلاط"
+        },
+        {
+          "title": "أفكار للمساحات",
+          "description": "للداخل والخارج"
+        },
+        {
+          "title": "مشروعك",
+          "description": "تحديد الاحتياجات"
+        },
+        {
+          "title": "تواصل مباشر",
+          "description": "بيانات قيد التأكيد"
+        }
+      ],
+      "collection": {
+        "eyebrow": "تشكيلتنا",
+        "title": "اكتشف جمال الحجر الطبيعي",
+        "description": "الحجر الجيري والرخام والأشكال المعمارية. بداية لاكتشاف إمكانات الخامة.",
+        "action": "استكشف المختارات",
+        "names": [
+          "الحجر الجيري",
+          "الرخام",
+          "البلاط",
+          "الكتل الحجرية",
+          "تصاميم حسب الطلب"
+        ],
+        "sample": "تشكيلة توضيحية"
+      },
+      "quarry": {
+        "eyebrow": "من المحجر إلى الخامة",
+        "title": "حكاية صاغها\nالحجر",
+        "description": "خامة أولية، وحرفة، وتحول. لمحة بصرية عن عالم الحجر، ريثما تتوفر صور تايم ستون وقصتها المعتمدة.",
+        "action": "اكتشف الحرفة",
+        "caption": "صورة توضيحية لمحجر · الموقع غير مؤكد"
+      },
+      "introduction": {
+        "eyebrow": "روح تايم ستون",
+        "title": "خامة طبيعية.\nورؤية معمارية.",
+        "description": "صالة عرض تقرّب الحجر من مشروعك: اكتشف الملمس، وقارن الأشكال، واستعد لحوار حول احتياجاتك.",
+        "action": "تخيّل مساحتك"
+      },
+      "featured": {
+        "eyebrow": "دراسات للخامة",
+        "title": "الجمال يكمن في التفاصيل",
+        "description": "ثلاثة تصورات بصرية. سيتم تأكيد المنتجات والتشطيبات والأبعاد الفعلية مع تايم ستون.",
+        "names": [
+          "درجات الحجر الجيري",
+          "طابع الرخام",
+          "الحجر بأبعاد كبيرة"
+        ],
+        "captions": [
+          "الملمس والضوء",
+          "العروق والتباين",
+          "الحجم والتناسب"
+        ]
+      },
+      "craft": {
+        "eyebrow": "الحرفة",
+        "title": "من الكتلة إلى المساحة",
+        "description": "تصور توضيحي لمراحل التحويل. تبقى تفاصيل التصنيع والتشطيبات المتاحة بانتظار التوثيق.",
+        "steps": [
+          "اختيار الخامة",
+          "القطع والتناسب",
+          "تشطيب السطح",
+          "التفصيل المعماري"
+        ]
+      },
+      "applications": {
+        "eyebrow": "الاستخدامات",
+        "title": "حجر لكل مساحة",
+        "description": "أفكار معمارية تساعدك على تصوّر مشروعك.",
+        "names": [
+          "الواجهات الخارجية",
+          "الأرضيات الداخلية",
+          "كسوة الجدران",
+          "السلالم والدرجات"
+        ]
+      },
+      "quality": {
+        "eyebrow": "اختيار على بيّنة",
+        "title": "كل مشروع يبدأ\nبالأسئلة المناسبة.",
+        "description": "الاستخدام والتشطيب والأبعاد هي أساس الاختيار. تُنشر الخصائص التقنية بعد التحقق منها.",
+        "points": [
+          "كيف سيُستخدم الحجر؟",
+          "ما التشطيب المناسب لمساحتك؟",
+          "ما الأبعاد التي يحتاجها مشروعك؟"
+        ]
+      },
+      "contact": {
+        "eyebrow": "لنبنِ الخطوة القادمة",
+        "title": "مشروعك يبدأ هنا.",
+        "description": "فكرة، أو خامة، أو احتياج خاص. جهّز الأبعاد والكميات وموقع التسليم لطلب عرض السعر لاحقًا.",
+        "status": "سيتوفر نموذج عرض السعر وبيانات التواصل الرسمية بعد التأكيد. لا يُرسل هذا العرض أي طلبات."
+      },
+      "footer": {
+        "tagline": "الخامة. الزمن. العمارة.",
+        "navigation": "استكشف",
+        "materials": "الخامات",
+        "languages": "اللغات",
+        "rights": "تايم ستون · عرض قيد التطوير",
+        "note": "صور مؤقتة من التصاميم المعتمدة. المعلومات التجارية بانتظار التأكيد."
+      },
+      "viewer": {
+        "title": "نظرة أقرب إلى الخامة",
+        "description": "استكشف هذه الصور التوضيحية لأسطح الحجر.",
+        "selected": "الخامة المختارة",
+        "note": "معاينة فوتوغرافية ثنائية الأبعاد. يُدمج العرض الثلاثي الأبعاد التفاعلي في مرحلته المخصصة. لا تكشف صورة واحدة عن الأسطح المخفية."
+      }
+    },
+    "public": {
+      "illustrative": "صورة توضيحية مؤقتة",
+      "notice": "الصور مأخوذة من مراجع التصميم للإلهام فقط، ولا تمثل مشاريع عملاء منجزة أو منشآت موثقة لشركة TIME STONE.",
+      "applications": "الاستخدامات",
+      "applicationsTitle": "حجر طبيعي\nلكل مساحة",
+      "applicationsIntro": "واجهات ومساحات داخلية وخارجية: اكتشف التعبيرات المعمارية للحجر.",
+      "explore": "اكتشف الاستخدامات",
+      "applicationNames": [
+        "الواجهات الخارجية",
+        "الأرضيات الداخلية",
+        "كسوة الجدران",
+        "السلالم والدرجات",
+        "تنسيق المساحات الخارجية",
+        "تصاميم حسب الطلب"
+      ],
+      "applicationTeasers": [
+        "حضور معماري",
+        "خامة للمساحات اليومية",
+        "ملمس وتفاصيل",
+        "خطوط منحوتة",
+        "امتداد للمساحة",
+        "صِغ فكرتك"
+      ],
+      "applicationDescriptions": [
+        "يمنح إيقاع الفواصل واللون والتناسب الواجهات طابعها. تستكشف هذه الصور تعبيرات معمارية مختلفة للحجر.",
+        "يربط الحجر بين الضوء والأثاث والفراغ. اكتشف أفكارًا للأرضيات في مساحات الحياة اليومية.",
+        "يمكن لجدار حجري إبراز حجم معماري أو إنشاء نقطة جذب. قارن الملامس وأنماط التركيب قبل تحديد مشروعك.",
+        "ترسم الدرجات والقوائم والبسطات مسار الحركة. تساعد هذه الأمثلة على مناقشة التناسب والتشطيب.",
+        "تمتد لغة الحجر إلى الشرفات والممرات والحدائق. توضح الصور أفكارًا لتنسيق المساحات الخارجية.",
+        "تفتح أنماط التوزيع والقطع الخاصة والمقاسات المتنوعة إمكانات جديدة. صِف فكرتك للتحضير لدراسة لاحقة."
+      ],
+      "considerations": [
+        "حدّد سياق المشروع ومتطلباته.",
+        "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+        "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+      ],
+      "inspirations": "إلهام معماري",
+      "galleryTitle": "مساحات تصوغها الخامة",
+      "galleryIntro": "معرض للأفكار. لا تمثل هذه الصور مشاريع منجزة لعملاء.",
+      "galleryNames": [
+        "عمارة سكنية",
+        "مساحة معيشة",
+        "مسارات وأحجام",
+        "حديقة وشرفة"
+      ],
+      "allApplications": "كل الاستخدامات",
+      "gallery": "معرض توضيحي",
+      "related": "خامات للاكتشاف",
+      "relatedNote": "الروابط توضيحية: الملاءمة التقنية لمشروعك تحتاج إلى تأكيد.",
+      "considerationsTitle": "حضّر استخدامك للحجر",
+      "bandTitle": "فكرة من الحجر\nلمشروعك",
+      "bandItems": [
+        "ألوان طبيعية",
+        "أشكال للدراسة",
+        "تشطيبات للمقارنة",
+        "حوار حسب احتياجك"
+      ],
+      "bandAction": "حضّر عرض السعر",
+      "about": "من نحن",
+      "aboutTitle": "حكاية\nتصوغها الخامة",
+      "aboutIntro": "من الصخر إلى العمارة، اكتشف عالم خامات TIME STONE والمراحل التي تمنح الحجر شكله.",
+      "company": "عالم الخامات",
+      "companyTitle": "حجر طبيعي،\nورؤية معمارية",
+      "companyText": "تقدم TIME STONE هنا عالمًا من الخامات الطبيعية والملامس والأشكال لإلهام التفكير المعماري.",
+      "companyDraft": "هذا التقديم مؤقت. سيتم استكمال تاريخ الشركة ومنشآتها والتزاماتها بناءً على معلومات معتمدة.",
+      "products": "اكتشف أحجارنا",
+      "qualityTitles": [
+        "الخامة",
+        "تشكيل الحجر",
+        "اختيار التشطيب",
+        "اعتماد المشروع"
+      ],
+      "qualityTexts": [
+        "تأمل اللون والعروق.",
+        "ادرس الأشكال والقطع.",
+        "قارن المظهر والملمس.",
+        "أكّد المواصفات قبل الطلب."
+      ],
+      "process": "رحلة الحجر",
+      "processTitle": "من المحجر\nإلى المشروع",
+      "processIntro": "عرض توضيحي لمراحل التحويل. لا يصف منشآت أو قدرة إنتاجية موثقة لشركة TIME STONE.",
+      "processNames": [
+        "الاستخراج",
+        "اختيار الكتل",
+        "القطع والتشكيل",
+        "التشطيب والفحص"
+      ],
+      "processTexts": [
+        "فهم أصل الخامة وبنيتها.",
+        "تأمل ألوان الكتل وأشكالها.",
+        "تحديد القطع وفق رسم المشروع.",
+        "مطابقة المظهر مع متطلبات المشروع."
+      ],
+      "qualityNote": "الأصل والأداء والوثائق التقنية بحاجة إلى تأكيد لكل منتج فعلي. لا ندّعي أي شهادة اعتماد.",
+      "contactEyebrow": "لنبدأ الحوار",
+      "contactTitle": "الحجر في قلب\nمشروعك القادم",
+      "contactIntro": "اجمع أفكارك والأشكال والمتطلبات للتحضير لمناقشة مشروعك.",
+      "contactAction": "لنتحدث عن مشروعك",
+      "contact": "تواصل معنا",
+      "contactPageTitle": "مشروعك\nيبدأ هنا",
+      "contactPageIntro": "خامة وفكرة ومساحة تتخيلها. حضّر تفاصيل مشروعك في واجهة العرض التجريبي.",
+      "channels": "بيانات التواصل",
+      "channelNames": [
+        "الهاتف",
+        "واتساب",
+        "البريد الإلكتروني",
+        "العنوان"
+      ],
+      "pending": "بيانات التواصل بانتظار التأكيد",
+      "contactNote": "لا ننشر رقمًا أو عنوانًا أو أوقات عمل غير موثقة. ستُفعّل قنوات التواصل بعد الاعتماد.",
+      "enquiry": "استفسارك المهني",
+      "enquiryText": "للعمارة أو تحديد المواد أو تنسيق المساحات أو مشروع خاص: صِف احتياجك والوجهة والكميات المقترحة.",
+      "enquiryAction": "حضّر استفساري",
+      "demo": "عرض تجريبي — دون إرسال",
+      "demoText": "يتيح لك النموذج مراجعة التحضير. لا يتم إرسال أو حفظ أي طلب.",
+      "back": "العودة إلى الاستخدامات",
+      "next": "التالي",
+      "previous": "السابق",
+      "close": "إغلاق المعرض",
+      "open": "تكبير",
+      "privacy": "خصوصية العرض التجريبي"
+    },
+    "about": {
+      "illustrative": "صورة توضيحية مؤقتة",
+      "notice": "الصور مأخوذة من مراجع التصميم للإلهام فقط، ولا تمثل مشاريع عملاء منجزة أو منشآت موثقة لشركة TIME STONE.",
+      "applications": "الاستخدامات",
+      "applicationsTitle": "حجر طبيعي\nلكل مساحة",
+      "applicationsIntro": "واجهات ومساحات داخلية وخارجية: اكتشف التعبيرات المعمارية للحجر.",
+      "explore": "اكتشف الاستخدامات",
+      "applicationNames": [
+        "الواجهات الخارجية",
+        "الأرضيات الداخلية",
+        "كسوة الجدران",
+        "السلالم والدرجات",
+        "تنسيق المساحات الخارجية",
+        "تصاميم حسب الطلب"
+      ],
+      "applicationTeasers": [
+        "حضور معماري",
+        "خامة للمساحات اليومية",
+        "ملمس وتفاصيل",
+        "خطوط منحوتة",
+        "امتداد للمساحة",
+        "صِغ فكرتك"
+      ],
+      "applicationDescriptions": [
+        "يمنح إيقاع الفواصل واللون والتناسب الواجهات طابعها. تستكشف هذه الصور تعبيرات معمارية مختلفة للحجر.",
+        "يربط الحجر بين الضوء والأثاث والفراغ. اكتشف أفكارًا للأرضيات في مساحات الحياة اليومية.",
+        "يمكن لجدار حجري إبراز حجم معماري أو إنشاء نقطة جذب. قارن الملامس وأنماط التركيب قبل تحديد مشروعك.",
+        "ترسم الدرجات والقوائم والبسطات مسار الحركة. تساعد هذه الأمثلة على مناقشة التناسب والتشطيب.",
+        "تمتد لغة الحجر إلى الشرفات والممرات والحدائق. توضح الصور أفكارًا لتنسيق المساحات الخارجية.",
+        "تفتح أنماط التوزيع والقطع الخاصة والمقاسات المتنوعة إمكانات جديدة. صِف فكرتك للتحضير لدراسة لاحقة."
+      ],
+      "considerations": [
+        "حدّد سياق المشروع ومتطلباته.",
+        "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+        "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+      ],
+      "inspirations": "إلهام معماري",
+      "galleryTitle": "مساحات تصوغها الخامة",
+      "galleryIntro": "معرض للأفكار. لا تمثل هذه الصور مشاريع منجزة لعملاء.",
+      "galleryNames": [
+        "عمارة سكنية",
+        "مساحة معيشة",
+        "مسارات وأحجام",
+        "حديقة وشرفة"
+      ],
+      "allApplications": "كل الاستخدامات",
+      "gallery": "معرض توضيحي",
+      "related": "خامات للاكتشاف",
+      "relatedNote": "الروابط توضيحية: الملاءمة التقنية لمشروعك تحتاج إلى تأكيد.",
+      "considerationsTitle": "حضّر استخدامك للحجر",
+      "bandTitle": "فكرة من الحجر\nلمشروعك",
+      "bandItems": [
+        "ألوان طبيعية",
+        "أشكال للدراسة",
+        "تشطيبات للمقارنة",
+        "حوار حسب احتياجك"
+      ],
+      "bandAction": "حضّر عرض السعر",
+      "about": "من نحن",
+      "aboutTitle": "حكاية\nتصوغها الخامة",
+      "aboutIntro": "من الصخر إلى العمارة، اكتشف عالم خامات TIME STONE والمراحل التي تمنح الحجر شكله.",
+      "company": "عالم الخامات",
+      "companyTitle": "حجر طبيعي،\nورؤية معمارية",
+      "companyText": "تقدم TIME STONE هنا عالمًا من الخامات الطبيعية والملامس والأشكال لإلهام التفكير المعماري.",
+      "companyDraft": "هذا التقديم مؤقت. سيتم استكمال تاريخ الشركة ومنشآتها والتزاماتها بناءً على معلومات معتمدة.",
+      "products": "اكتشف أحجارنا",
+      "qualityTitles": [
+        "الخامة",
+        "تشكيل الحجر",
+        "اختيار التشطيب",
+        "اعتماد المشروع"
+      ],
+      "qualityTexts": [
+        "تأمل اللون والعروق.",
+        "ادرس الأشكال والقطع.",
+        "قارن المظهر والملمس.",
+        "أكّد المواصفات قبل الطلب."
+      ],
+      "process": "رحلة الحجر",
+      "processTitle": "من المحجر\nإلى المشروع",
+      "processIntro": "عرض توضيحي لمراحل التحويل. لا يصف منشآت أو قدرة إنتاجية موثقة لشركة TIME STONE.",
+      "processNames": [
+        "الاستخراج",
+        "اختيار الكتل",
+        "القطع والتشكيل",
+        "التشطيب والفحص"
+      ],
+      "processTexts": [
+        "فهم أصل الخامة وبنيتها.",
+        "تأمل ألوان الكتل وأشكالها.",
+        "تحديد القطع وفق رسم المشروع.",
+        "مطابقة المظهر مع متطلبات المشروع."
+      ],
+      "qualityNote": "الأصل والأداء والوثائق التقنية بحاجة إلى تأكيد لكل منتج فعلي. لا ندّعي أي شهادة اعتماد.",
+      "contactEyebrow": "لنبدأ الحوار",
+      "contactTitle": "الحجر في قلب\nمشروعك القادم",
+      "contactIntro": "اجمع أفكارك والأشكال والمتطلبات للتحضير لمناقشة مشروعك.",
+      "contactAction": "لنتحدث عن مشروعك",
+      "contact": "تواصل معنا",
+      "contactPageTitle": "مشروعك\nيبدأ هنا",
+      "contactPageIntro": "خامة وفكرة ومساحة تتخيلها. حضّر تفاصيل مشروعك في واجهة العرض التجريبي.",
+      "channels": "بيانات التواصل",
+      "channelNames": [
+        "الهاتف",
+        "واتساب",
+        "البريد الإلكتروني",
+        "العنوان"
+      ],
+      "pending": "بيانات التواصل بانتظار التأكيد",
+      "contactNote": "لا ننشر رقمًا أو عنوانًا أو أوقات عمل غير موثقة. ستُفعّل قنوات التواصل بعد الاعتماد.",
+      "enquiry": "استفسارك المهني",
+      "enquiryText": "للعمارة أو تحديد المواد أو تنسيق المساحات أو مشروع خاص: صِف احتياجك والوجهة والكميات المقترحة.",
+      "enquiryAction": "حضّر استفساري",
+      "demo": "عرض تجريبي — دون إرسال",
+      "demoText": "يتيح لك النموذج مراجعة التحضير. لا يتم إرسال أو حفظ أي طلب.",
+      "back": "العودة إلى الاستخدامات",
+      "next": "التالي",
+      "previous": "السابق",
+      "close": "إغلاق المعرض",
+      "open": "تكبير",
+      "privacy": "خصوصية العرض التجريبي",
+      "material": {
+        "title": "الصخر واللون والخامة",
+        "text": "تساعد ملاحظة الحجر في مصدره على فهم تنوعه الطبيعي. صور المحجر توضيحية ولا ندّعي أنها منشآت تابعة لشركة TIME STONE.",
+        "stages": [
+          "اختيار الحجر",
+          "القطع والتحضير",
+          "التشطيب",
+          "مراجعة الجودة"
+        ],
+        "image": "about-hero"
+      },
+      "stages": [
+        {
+          "id": "selection",
+          "image": "process-block",
+          "title": "اختيار الحجر",
+          "text": "تأمل ألوان الكتل وأشكالها."
+        },
+        {
+          "id": "cutting",
+          "image": "process-cutting",
+          "title": "القطع والتحضير",
+          "text": "تحديد القطع وفق رسم المشروع."
+        },
+        {
+          "id": "finishing",
+          "image": "process-finish",
+          "title": "التشطيب",
+          "text": "مطابقة المظهر مع متطلبات المشروع."
+        },
+        {
+          "id": "quality",
+          "image": "product-beige-texture",
+          "title": "مراجعة الجودة",
+          "text": "فهم أصل الخامة وبنيتها."
+        }
+      ]
+    },
+    "applications": [
+      {
+        "slug": "exterior-facades",
+        "title": "الواجهات الخارجية",
+        "description": "يمنح إيقاع الفواصل واللون والتناسب الواجهات طابعها. تستكشف هذه الصور تعبيرات معمارية مختلفة للحجر.",
+        "image": "application-facade",
+        "gallery": [
+          "project-facade",
+          "project-landscape"
+        ],
+        "considerations": [
+          "حدّد سياق المشروع ومتطلباته.",
+          "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+          "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "exterior",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "interior-flooring",
+        "title": "الأرضيات الداخلية",
+        "description": "يربط الحجر بين الضوء والأثاث والفراغ. اكتشف أفكارًا للأرضيات في مساحات الحياة اليومية.",
+        "image": "application-interior",
+        "gallery": [
+          "project-interior",
+          "project-facade"
+        ],
+        "considerations": [
+          "حدّد سياق المشروع ومتطلباته.",
+          "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+          "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "interior-flooring",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "wall-cladding",
+        "title": "كسوة الجدران",
+        "description": "يمكن لجدار حجري إبراز حجم معماري أو إنشاء نقطة جذب. قارن الملامس وأنماط التركيب قبل تحديد مشروعك.",
+        "image": "application-cladding",
+        "gallery": [
+          "project-interior",
+          "project-stairs"
+        ],
+        "considerations": [
+          "حدّد سياق المشروع ومتطلباته.",
+          "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+          "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "wall-cladding",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "stairs",
+        "title": "السلالم والدرجات",
+        "description": "ترسم الدرجات والقوائم والبسطات مسار الحركة. تساعد هذه الأمثلة على مناقشة التناسب والتشطيب.",
+        "image": "application-stairs",
+        "gallery": [
+          "project-stairs",
+          "project-facade"
+        ],
+        "considerations": [
+          "حدّد سياق المشروع ومتطلباته.",
+          "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+          "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "landscaping",
+        "title": "تنسيق المساحات الخارجية",
+        "description": "تمتد لغة الحجر إلى الشرفات والممرات والحدائق. توضح الصور أفكارًا لتنسيق المساحات الخارجية.",
+        "image": "application-landscape",
+        "gallery": [
+          "project-landscape",
+          "project-stairs"
+        ],
+        "considerations": [
+          "حدّد سياق المشروع ومتطلباته.",
+          "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+          "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "exterior",
+          "sort": "featured",
+          "page": 1
+        }
+      },
+      {
+        "slug": "custom-designs",
+        "title": "تصاميم حسب الطلب",
+        "description": "تفتح أنماط التوزيع والقطع الخاصة والمقاسات المتنوعة إمكانات جديدة. صِف فكرتك للتحضير لدراسة لاحقة.",
+        "image": "application-custom",
+        "gallery": [
+          "project-landscape",
+          "project-interior"
+        ],
+        "considerations": [
+          "حدّد سياق المشروع ومتطلباته.",
+          "تأكد من ملاءمة الحجر والأبعاد والتشطيب.",
+          "اطلب اعتمادًا تقنيًا للتركيب والعناية."
+        ],
+        "temporary": true,
+        "stone_types": [
+          "limestone",
+          "marble"
+        ],
+        "catalogue": {
+          "q": "",
+          "category": "custom",
+          "stone_type": "",
+          "finish": "",
+          "color": "",
+          "application": "",
+          "sort": "featured",
+          "page": 1
+        }
+      }
+    ],
+    "products": [
+      {
+        "id": "sample-1",
+        "name": "الحجر الجيري · 01",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-2",
+        "name": "الرخام · 02",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "polished",
+        "color": "grey",
+        "application": "interior-flooring",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-3",
+        "name": "البلاط · 03",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "white",
+        "application": "interior-flooring",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-4",
+        "name": "الكتل الحجرية · 04",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-5",
+        "name": "حسب الطلب · 05",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-6",
+        "name": "الحجر الجيري · 06",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-7",
+        "name": "الرخام · 07",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "honed",
+        "color": "grey",
+        "application": "exterior",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-8",
+        "name": "البلاط · 08",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "white",
+        "application": "exterior",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-9",
+        "name": "الكتل الحجرية · 09",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "exterior",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-10",
+        "name": "حسب الطلب · 10",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-11",
+        "name": "الحجر الجيري · 11",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "interior-flooring",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-12",
+        "name": "الرخام · 12",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "brushed",
+        "color": "grey",
+        "application": "interior-flooring",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-13",
+        "name": "البلاط · 13",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "white",
+        "application": "wall-cladding",
+        "image": "catalogue-tiles",
+        "temporary": true
+      },
+      {
+        "id": "sample-14",
+        "name": "الكتل الحجرية · 14",
+        "category": "blocks",
+        "stone_type": "limestone",
+        "finish": "polished",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-blocks",
+        "temporary": true
+      },
+      {
+        "id": "sample-15",
+        "name": "حسب الطلب · 15",
+        "category": "custom",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "beige",
+        "application": "wall-cladding",
+        "image": "catalogue-custom",
+        "temporary": true
+      },
+      {
+        "id": "sample-16",
+        "name": "الحجر الجيري · 16",
+        "category": "limestone",
+        "stone_type": "limestone",
+        "finish": "honed",
+        "color": "beige",
+        "application": "exterior",
+        "image": "catalogue-beige",
+        "temporary": true
+      },
+      {
+        "id": "sample-17",
+        "name": "الرخام · 17",
+        "category": "marble",
+        "stone_type": "marble",
+        "finish": "polished",
+        "color": "grey",
+        "application": "exterior",
+        "image": "catalogue-grey",
+        "temporary": true
+      },
+      {
+        "id": "sample-18",
+        "name": "البلاط · 18",
+        "category": "tiles",
+        "stone_type": "limestone",
+        "finish": "brushed",
+        "color": "white",
+        "application": "exterior",
+        "image": "catalogue-tiles",
+        "temporary": true
+      }
+    ]
+  }
+}

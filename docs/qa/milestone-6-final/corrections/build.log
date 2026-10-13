@@ -1,0 +1,75 @@
+
+> build
+> npm run build --workspace @time-stone/web
+
+
+> @time-stone/web@0.1.0 build
+> next build
+
+(node:22524) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\shared\lib\constants.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+▲ Next.js 16.4.0 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 43ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.4s
+  Running TypeScript ...
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next-corrections-m6/types/**/*.ts'
+  	- include was updated to add '.next-corrections-m6/dev/types/**/*.ts'
+
+  Finished TypeScript in 8.6s ...
+  Collecting page data using 7 workers ...
+(node:2776) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27220) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4956) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19956) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27888) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21396) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25396) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\client\lib\console.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+  Generating static pages using 7 workers (0/16) ...
+  Generating static pages using 7 workers (4/16) 
+  Generating static pages using 7 workers (8/16) 
+  Generating static pages using 7 workers (12/16) 
+✓ Generating static pages using 7 workers (16/16) in 353ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/about
+├ ƒ /[locale]/applications
+├ ƒ /[locale]/applications/[slug]
+├ ƒ /[locale]/contact
+├ ƒ /[locale]/products
+├ ƒ /[locale]/products/[id]
+├ ƒ /[locale]/quote
+├ ƒ /api/catalogue
+├ ƒ /api/product-options/[slug]
+├ ƒ /api/quotations
+├ ƒ /media/[id]/[variant]
+└ ○ /robots.txt
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

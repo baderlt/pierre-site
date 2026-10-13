@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml" tests="11" assertions="58" errors="0" failures="0" skipped="0" time="10.000480">
+    <testsuite name="Feature" tests="11" assertions="58" errors="0" failures="0" skipped="0" time="10.000480">
+      <testsuite name="Tests\Feature\IntegrationTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" tests="11" assertions="58" errors="0" failures="0" skipped="0" time="10.000480">
+        <testcase name="test_general_enquiry_is_persisted_and_duplicate_retries_return_same_reference" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="53" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="9" time="5.825419"/>
+        <testcase name="test_product_snapshots_are_authoritative_immutable_and_support_multiple_items" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="65" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="7" time="0.464825"/>
+        <testcase name="test_invalid_privacy_country_email_dimensions_and_unknown_browser_fields_are_rejected" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="81" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="7" time="0.359341"/>
+        <testcase name="test_draft_unsupported_combinations_and_disallowed_custom_dimensions_do_not_persist" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="97" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="4" time="0.408838"/>
+        <testcase name="test_custom_requests_and_brushed_finishes_are_saved_without_fabricated_simulations" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="115" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="4" time="0.373212"/>
+        <testcase name="test_mismatched_viewer_config_and_fractional_pieces_are_rejected" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="133" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="2" time="0.515157"/>
+        <testcase name="test_honeypot_timing_expiry_and_missing_idempotency_are_rejected" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="147" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="5" time="0.433974"/>
+        <testcase name="test_rate_limits_payload_size_origin_and_safe_errors" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="163" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="7" time="0.391234"/>
+        <testcase name="test_published_api_delivers_saved_material_options_and_production_hides_fixtures" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="174" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="5" time="0.408743"/>
+        <testcase name="test_cors_allows_only_the_configured_origin" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="184" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="6" time="0.323748"/>
+        <testcase name="test_different_format_presets_with_the_same_geometry_keep_their_real_ids" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\IntegrationTest.php" line="191" class="Tests\Feature\IntegrationTest" classname="Tests.Feature.IntegrationTest" assertions="2" time="0.495990"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

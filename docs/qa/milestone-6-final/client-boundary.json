@@ -1,0 +1,8 @@
+{
+  "scope": "Generated production client JavaScript only; values never logged",
+  "clientJavaScriptFiles": 22,
+  "secretNotPresent": true,
+  "internalApiOriginNotPresent": true,
+  "siteUrlForAudit": "http://127.0.0.1:3001",
+  "defaultApiTimeoutMs": 8000
+}

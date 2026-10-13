@@ -1,0 +1,25 @@
+[
+  {
+    "url": "http://127.0.0.1:3001/fr/quote",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T18:33:49.541Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1515.5715,
+      "largest-contentful-paint": 3310.381,
+      "speed-index": 2056.752863997316,
+      "total-blocking-time": 70,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 410378
+    },
+    "warnings": []
+  }
+]

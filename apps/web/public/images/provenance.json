@@ -1,0 +1,606 @@
+[
+  {
+    "file": "applications-hero.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      600,
+      82,
+      1536,
+      365
+    ],
+    "width": 2560,
+    "height": 774,
+    "temporary": true,
+    "original_width": 936,
+    "original_height": 283,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "about-hero.webp",
+    "source": "Carved in Stone_ Our Story.png",
+    "crop": [
+      640,
+      80,
+      1536,
+      278
+    ],
+    "width": 2560,
+    "height": 566,
+    "temporary": true,
+    "original_width": 896,
+    "original_height": 198,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "application-facade.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      48,
+      389,
+      284,
+      502
+    ],
+    "width": 1920,
+    "height": 919,
+    "temporary": true,
+    "original_width": 236,
+    "original_height": 113,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "application-interior.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      303,
+      389,
+      525,
+      502
+    ],
+    "width": 1920,
+    "height": 977,
+    "temporary": true,
+    "original_width": 222,
+    "original_height": 113,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "application-cladding.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      541,
+      389,
+      762,
+      502
+    ],
+    "width": 1920,
+    "height": 982,
+    "temporary": true,
+    "original_width": 221,
+    "original_height": 113,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "application-stairs.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      780,
+      389,
+      1000,
+      502
+    ],
+    "width": 1920,
+    "height": 986,
+    "temporary": true,
+    "original_width": 220,
+    "original_height": 113,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "application-landscape.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      1016,
+      389,
+      1252,
+      502
+    ],
+    "width": 1920,
+    "height": 919,
+    "temporary": true,
+    "original_width": 236,
+    "original_height": 113,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "application-custom.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      1269,
+      389,
+      1490,
+      502
+    ],
+    "width": 1920,
+    "height": 982,
+    "temporary": true,
+    "original_width": 221,
+    "original_height": 113,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "project-facade.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      49,
+      648,
+      396,
+      834
+    ],
+    "width": 1920,
+    "height": 1029,
+    "temporary": true,
+    "original_width": 347,
+    "original_height": 186,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "project-interior.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      412,
+      648,
+      762,
+      834
+    ],
+    "width": 1920,
+    "height": 1020,
+    "temporary": true,
+    "original_width": 350,
+    "original_height": 186,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "project-stairs.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      780,
+      648,
+      1128,
+      834
+    ],
+    "width": 1920,
+    "height": 1026,
+    "temporary": true,
+    "original_width": 348,
+    "original_height": 186,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "project-landscape.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      1145,
+      648,
+      1490,
+      834
+    ],
+    "width": 1920,
+    "height": 1035,
+    "temporary": true,
+    "original_width": 345,
+    "original_height": 186,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "process-quarry.webp",
+    "source": "Carved in Stone_ Our Story.png",
+    "crop": [
+      523,
+      696,
+      712,
+      798
+    ],
+    "width": 1920,
+    "height": 1036,
+    "temporary": true,
+    "original_width": 189,
+    "original_height": 102,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "process-block.webp",
+    "source": "Carved in Stone_ Our Story.png",
+    "crop": [
+      770,
+      696,
+      960,
+      798
+    ],
+    "width": 1920,
+    "height": 1031,
+    "temporary": true,
+    "original_width": 190,
+    "original_height": 102,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "process-cutting.webp",
+    "source": "Carved in Stone_ Our Story.png",
+    "crop": [
+      1017,
+      696,
+      1207,
+      798
+    ],
+    "width": 1920,
+    "height": 1031,
+    "temporary": true,
+    "original_width": 190,
+    "original_height": 102,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "process-finish.webp",
+    "source": "Carved in Stone_ Our Story.png",
+    "crop": [
+      1264,
+      696,
+      1454,
+      798
+    ],
+    "width": 1920,
+    "height": 1031,
+    "temporary": true,
+    "original_width": 190,
+    "original_height": 102,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "product-studio.webp",
+    "source": "Taza Beige Limestone Product Showcase.png",
+    "crop": [
+      234,
+      135,
+      721,
+      517
+    ],
+    "width": 2560,
+    "height": 2008,
+    "temporary": true,
+    "original_width": 487,
+    "original_height": 382,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "product-beige-texture.webp",
+    "source": "Taza Beige Limestone Product Showcase.png",
+    "crop": [
+      300,
+      260,
+      560,
+      390
+    ],
+    "width": 1920,
+    "height": 960,
+    "temporary": true,
+    "original_width": 260,
+    "original_height": 130,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-hero.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      405,
+      80,
+      758,
+      328
+    ],
+    "width": 2560,
+    "height": 1799,
+    "temporary": true,
+    "original_width": 353,
+    "original_height": 248,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-beige.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      200,
+      476,
+      332,
+      584
+    ],
+    "width": 1920,
+    "height": 1571,
+    "temporary": true,
+    "original_width": 132,
+    "original_height": 108,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-grey.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      384,
+      476,
+      516,
+      584
+    ],
+    "width": 1920,
+    "height": 1571,
+    "temporary": true,
+    "original_width": 132,
+    "original_height": 108,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-tiles.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      569,
+      476,
+      701,
+      584
+    ],
+    "width": 1920,
+    "height": 1571,
+    "temporary": true,
+    "original_width": 132,
+    "original_height": 108,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-yellow.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      200,
+      717,
+      332,
+      821
+    ],
+    "width": 1920,
+    "height": 1513,
+    "temporary": true,
+    "original_width": 132,
+    "original_height": 104,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-blocks.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      384,
+      960,
+      516,
+      1060
+    ],
+    "width": 1920,
+    "height": 1455,
+    "temporary": true,
+    "original_width": 132,
+    "original_height": 100,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "catalogue-custom.webp",
+    "source": "Time Stone Natural Stone Collection.png",
+    "crop": [
+      569,
+      960,
+      701,
+      1060
+    ],
+    "width": 1920,
+    "height": 1455,
+    "temporary": true,
+    "original_width": 132,
+    "original_height": 100,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "hero-stone.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      542,
+      87,
+      1081,
+      475
+    ],
+    "width": 2560,
+    "height": 1843,
+    "temporary": true,
+    "original_width": 539,
+    "original_height": 388,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "quarry.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      300,
+      829,
+      873,
+      1024
+    ],
+    "width": 2560,
+    "height": 871,
+    "temporary": true,
+    "original_width": 573,
+    "original_height": 195,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "limestone.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      125,
+      670,
+      369,
+      762
+    ],
+    "width": 1920,
+    "height": 724,
+    "temporary": true,
+    "original_width": 244,
+    "original_height": 92,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "marble.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      387,
+      670,
+      629,
+      762
+    ],
+    "width": 1920,
+    "height": 730,
+    "temporary": true,
+    "original_width": 242,
+    "original_height": 92,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "tiles.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      648,
+      670,
+      890,
+      762
+    ],
+    "width": 1920,
+    "height": 730,
+    "temporary": true,
+    "original_width": 242,
+    "original_height": 92,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "blocks.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      908,
+      670,
+      1149,
+      762
+    ],
+    "width": 1920,
+    "height": 733,
+    "temporary": true,
+    "original_width": 241,
+    "original_height": 92,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "custom.webp",
+    "source": "Timeless Stone_ Taza Marble Landing Page.png",
+    "crop": [
+      1168,
+      670,
+      1411,
+      762
+    ],
+    "width": 1920,
+    "height": 727,
+    "temporary": true,
+    "original_width": 243,
+    "original_height": 92,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "facade.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      48,
+      390,
+      284,
+      504
+    ],
+    "width": 1920,
+    "height": 927,
+    "temporary": true,
+    "original_width": 236,
+    "original_height": 114,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "interior.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      303,
+      390,
+      525,
+      504
+    ],
+    "width": 1920,
+    "height": 986,
+    "temporary": true,
+    "original_width": 222,
+    "original_height": 114,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "cladding.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      540,
+      390,
+      762,
+      504
+    ],
+    "width": 1920,
+    "height": 986,
+    "temporary": true,
+    "original_width": 222,
+    "original_height": 114,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "stairs.webp",
+    "source": "TIMES STONE Applications Showcase.png",
+    "crop": [
+      780,
+      390,
+      1000,
+      504
+    ],
+    "width": 1920,
+    "height": 995,
+    "temporary": true,
+    "original_width": 220,
+    "original_height": 114,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "architecture.webp",
+    "source": "Carved in Stone_ Our Story.png",
+    "crop": [
+      668,
+      305,
+      1082,
+      565
+    ],
+    "width": 2560,
+    "height": 1608,
+    "temporary": true,
+    "original_width": 414,
+    "original_height": 260,
+    "enhancement": "AI-assisted illustrative detail restoration"
+  },
+  {
+    "file": "product-marble-texture.webp",
+    "source": "prototype/public/textures/marble_rock_01.jpg",
+    "license": "CC0",
+    "credit": "Poly Haven https://polyhaven.com/a/marble_rock_01",
+    "temporary": true,
+    "width": 2048,
+    "height": 2048,
+    "original_width": 1024,
+    "original_height": 1024,
+    "enhancement": "Original licensed texture preserved; resized and WebP encoded"
+  }
+]

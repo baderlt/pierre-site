@@ -1,0 +1,689 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "locale": "fr",
+      "width": 320,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 430,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 430,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 430,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 1024,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 1024,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 1024,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 1536,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 1536,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "fr",
+      "width": 1536,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1536,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1536,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1536,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1536,
+      "route": "products",
+      "backgroundKind": "PICTURE",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1536,
+      "route": "about",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "locale": "ar",
+      "width": 1536,
+      "route": "applications/stairs",
+      "backgroundKind": "SPAN",
+      "backgroundZ": "-2",
+      "painted": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

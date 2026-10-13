@@ -1,0 +1,25 @@
+[
+  {
+    "url": "http://127.0.0.1:3001/fr",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-12T17:31:55.526Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1362.618,
+      "largest-contentful-paint": 2830.4120000000003,
+      "speed-index": 1362.618,
+      "total-blocking-time": 36,
+      "cumulative-layout-shift": 0.0006375700142680657,
+      "total-byte-weight": 311439
+    },
+    "warnings": []
+  }
+]

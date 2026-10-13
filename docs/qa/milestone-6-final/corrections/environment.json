@@ -1,0 +1,8 @@
+{
+  "platform": "win32",
+  "release": "10.0.26200",
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+  "logicalCpus": 8,
+  "memoryGiB": 15.73,
+  "node": "v24.19.0"
+}

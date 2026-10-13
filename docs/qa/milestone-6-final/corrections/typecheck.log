@@ -1,0 +1,8 @@
+
+> typecheck
+> npm run typecheck --workspace @time-stone/web
+
+
+> @time-stone/web@0.1.0 typecheck
+> tsc --noEmit
+

@@ -1,0 +1,1290 @@
+{
+  "stats": {
+    "startTime": "2026-10-13T17:17:18.432Z",
+    "duration": 3519255.4159999997,
+    "expected": 91,
+    "skipped": 20,
+    "unexpected": 9,
+    "flaky": 0
+  },
+  "failed": [
+    {
+      "project": "desktop",
+      "title": "editable banners use high resolution on desktop and smaller images on mobile",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 0,
+          "parallelIndex": 0,
+          "status": "timedOut",
+          "duration": 184743,
+          "error": {
+            "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+          },
+          "errors": [
+            {
+              "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+            },
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\banners.spec.ts",
+                "column": 36,
+                "line": 57
+              },
+              "message": "Error: locator.evaluate: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.hero-art img')\u001b[22m\n\n\n  55 |       const hero = page.locator(path ? '.page-hero img' : '.hero-art img');\n  56 |       await expect(hero).toBeVisible();\n> 57 |       await expect.poll(() => hero.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);\n     |                                    ^\n  58 |       checks.push({ locale, page: path || '/', loaded: true });\n  59 |     }\n  60 |   }\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\banners.spec.ts:57:36\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\banners.spec.ts:57:7"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:18:44.713Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop\\trace.zip"
+            }
+          ]
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "fr: catalogue SSR, accessible controls, navigation and samples",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 1,
+          "parallelIndex": 0,
+          "status": "failed",
+          "duration": 52648,
+          "error": {
+            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n",
+            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts:26:49",
+            "location": {
+              "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+              "column": 49,
+              "line": 26
+            },
+            "snippet": "  24 |     await expect(page).toHaveURL(/page=2/);\n  25 |     await page.reload();\n> 26 |     await expect(page.locator('.product-card')).toHaveCount(6);\n     |                                                 ^\n  27 |     await page.goBack();\n  28 |     await expect(page.locator('.product-card')).toHaveCount(12);\n  29 |     await page.goForward();"
+          },
+          "errors": [
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "column": 49,
+                "line": 26
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n\n  24 |     await expect(page).toHaveURL(/page=2/);\n  25 |     await page.reload();\n> 26 |     await expect(page.locator('.product-card')).toHaveCount(6);\n     |                                                 ^\n  27 |     await page.goBack();\n  28 |     await expect(page.locator('.product-card')).toHaveCount(12);\n  29 |     await page.goForward();\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts:26:49"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:23:07.534Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\catalogue-fr-catalogue-SSR-695e8-rols-navigation-and-samples-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\catalogue-fr-catalogue-SSR-695e8-rols-navigation-and-samples-desktop\\trace.zip"
+            }
+          ],
+          "errorLocation": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "column": 49,
+            "line": 26
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "en: catalogue SSR, accessible controls, navigation and samples",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 2,
+          "parallelIndex": 0,
+          "status": "failed",
+          "duration": 62845,
+          "error": {
+            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n",
+            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts:28:49",
+            "location": {
+              "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+              "column": 49,
+              "line": 28
+            },
+            "snippet": "  26 |     await expect(page.locator('.product-card')).toHaveCount(6);\n  27 |     await page.goBack();\n> 28 |     await expect(page.locator('.product-card')).toHaveCount(12);\n     |                                                 ^\n  29 |     await page.goForward();\n  30 |     await expect(page.locator('.product-card')).toHaveCount(6);\n  31 |     await page.locator('.product-card a').first().click();"
+          },
+          "errors": [
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "column": 49,
+                "line": 28
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n\n  26 |     await expect(page.locator('.product-card')).toHaveCount(6);\n  27 |     await page.goBack();\n> 28 |     await expect(page.locator('.product-card')).toHaveCount(12);\n     |                                                 ^\n  29 |     await page.goForward();\n  30 |     await expect(page.locator('.product-card')).toHaveCount(6);\n  31 |     await page.locator('.product-card a').first().click();\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts:28:49"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:24:02.507Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\catalogue-en-catalogue-SSR-4891e-rols-navigation-and-samples-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\catalogue-en-catalogue-SSR-4891e-rols-navigation-and-samples-desktop\\trace.zip"
+            }
+          ],
+          "errorLocation": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "column": 49,
+            "line": 28
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "ar: catalogue SSR, accessible controls, navigation and samples",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 3,
+          "parallelIndex": 0,
+          "status": "failed",
+          "duration": 53380,
+          "error": {
+            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n",
+            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts:26:49",
+            "location": {
+              "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+              "column": 49,
+              "line": 26
+            },
+            "snippet": "  24 |     await expect(page).toHaveURL(/page=2/);\n  25 |     await page.reload();\n> 26 |     await expect(page.locator('.product-card')).toHaveCount(6);\n     |                                                 ^\n  27 |     await page.goBack();\n  28 |     await expect(page.locator('.product-card')).toHaveCount(12);\n  29 |     await page.goForward();"
+          },
+          "errors": [
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "column": 49,
+                "line": 26
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31m0\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.product-card') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card')\u001b[22m\n\u001b[2m    43 \u00d7 locator resolved to 0 elements\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n\n  24 |     await expect(page).toHaveURL(/page=2/);\n  25 |     await page.reload();\n> 26 |     await expect(page.locator('.product-card')).toHaveCount(6);\n     |                                                 ^\n  27 |     await page.goBack();\n  28 |     await expect(page.locator('.product-card')).toHaveCount(12);\n  29 |     await page.goForward();\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts:26:49"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:25:07.905Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\catalogue-ar-catalogue-SSR-1cef6-rols-navigation-and-samples-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\catalogue-ar-catalogue-SSR-1cef6-rols-navigation-and-samples-desktop\\trace.zip"
+            }
+          ],
+          "errorLocation": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "column": 49,
+            "line": 26
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "en: material dialog, selection, Escape and focus restoration",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 4,
+          "parallelIndex": 0,
+          "status": "timedOut",
+          "duration": 180213,
+          "error": {
+            "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+          },
+          "errors": [
+            {
+              "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+            },
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                "column": 18,
+                "line": 63
+              },
+              "message": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Explore the materials', exact: true })\u001b[22m\n\n\n  61 |     await page.goto(`/${locale}`);\n  62 |     const opener = page.getByRole('button', { name: homeContent[locale].hero.preview, exact: true });\n> 63 |     await opener.click();\n     |                  ^\n  64 |     const dialog = page.getByRole('dialog');\n  65 |     await expect(dialog).toBeVisible();\n  66 |     const choice=dialog.locator('.material-options button').nth(1);\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts:63:18"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:31:30.358Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\homepage-en-material-dialo-f8236-scape-and-focus-restoration-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\homepage-en-material-dialo-f8236-scape-and-focus-restoration-desktop\\trace.zip"
+            }
+          ]
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "language switching preserves query and section and supports all three languages",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 5,
+          "parallelIndex": 0,
+          "status": "failed",
+          "duration": 69990,
+          "error": {
+            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#applications')\nExpected: in viewport\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#applications') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('#applications')\u001b[22m\n",
+            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#applications')\nExpected: in viewport\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#applications') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('#applications')\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts:89:49",
+            "location": {
+              "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+              "column": 49,
+              "line": 89
+            },
+            "snippet": "  87 |     expect(page.url()).toBe(expectedUrl);\n  88 |     await expect(page.locator('html')).toHaveAttribute('lang', locale);\n> 89 |     await expect(page.locator('#applications')).toBeInViewport();\n     |                                                 ^\n  90 |   }\n  91 | });\n  92 |"
+          },
+          "errors": [
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                "column": 49,
+                "line": 89
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#applications')\nExpected: in viewport\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeInViewport\" locator('#applications') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('#applications')\u001b[22m\n\n\n  87 |     expect(page.url()).toBe(expectedUrl);\n  88 |     await expect(page.locator('html')).toHaveAttribute('lang', locale);\n> 89 |     await expect(page.locator('#applications')).toBeInViewport();\n     |                                                 ^\n  90 |   }\n  91 | });\n  92 |\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts:89:49"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:35:14.467Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\homepage-language-switchin-e1387-upports-all-three-languages-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\homepage-language-switchin-e1387-upports-all-three-languages-desktop\\trace.zip"
+            }
+          ],
+          "errorLocation": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+            "column": 49,
+            "line": 89
+          }
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "requested widths preserve hero space, typography and layout in every language",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 6,
+          "parallelIndex": 0,
+          "status": "timedOut",
+          "duration": 360251,
+          "error": {
+            "message": "\u001b[31mTest timeout of 360000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 360000ms exceeded.\u001b[39m"
+          },
+          "errors": [
+            {
+              "message": "\u001b[31mTest timeout of 360000ms exceeded.\u001b[39m"
+            },
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                "column": 48,
+                "line": 141
+              },
+              "message": "Error: locator.boundingBox: Test timeout of 360000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.hero')\u001b[22m\n\n\n  139 |       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);\n  140 |       await expect(page.locator('h1')).toBeVisible();\n> 141 |       const hero = await page.locator('.hero').boundingBox();\n      |                                                ^\n  142 |       const copy = await page.locator('.hero-copy').boundingBox();\n  143 |       const title = await page.locator('h1').boundingBox();\n  144 |       const swatches = await page.locator('.material-swatches').boundingBox();\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts:141:48"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:36:34.560Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop\\trace.zip"
+            }
+          ]
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "fr: product SSR, gallery, finishes, quotation and accessible navigation",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 7,
+          "parallelIndex": 0,
+          "status": "timedOut",
+          "duration": 181387,
+          "error": {
+            "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+          },
+          "errors": [
+            {
+              "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+            },
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+                "column": 39,
+                "line": 41
+              },
+              "message": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.product-back')\u001b[22m\n\n\n  39 |   await page.locator('.locale-picker select').selectOption(locale === 'ar' ? 'fr' : 'ar');\n  40 |   await expect(page).toHaveURL(/\\/products\\/sample-1\\?color=beige&sort=name_desc&page=2/);\n> 41 |   await page.locator('.product-back').click();\n     |                                       ^\n  42 |   // Ten beige records fit on one server-paginated page: the invalid page 2 returns to page 1.\n  43 |   await expect(page).toHaveURL(/\\/products\\?color=beige&sort=name_desc#results/);\n  44 |   expect(errors).toEqual([]);\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts:41:39"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:42:37.730Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\product-fr-product-SSR-gal-a84e6-n-and-accessible-navigation-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\product-fr-product-SSR-gal-a84e6-n-and-accessible-navigation-desktop\\trace.zip"
+            }
+          ]
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "project": "desktop",
+      "title": "en: product SSR, gallery, finishes, quotation and accessible navigation",
+      "status": "unexpected",
+      "results": [
+        {
+          "workerIndex": 8,
+          "parallelIndex": 0,
+          "status": "timedOut",
+          "duration": 181315,
+          "error": {
+            "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+          },
+          "errors": [
+            {
+              "message": "\u001b[31mTest timeout of 180000ms exceeded.\u001b[39m"
+            },
+            {
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+                "column": 39,
+                "line": 41
+              },
+              "message": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.product-back')\u001b[22m\n\n\n  39 |   await page.locator('.locale-picker select').selectOption(locale === 'ar' ? 'fr' : 'ar');\n  40 |   await expect(page).toHaveURL(/\\/products\\/sample-1\\?color=beige&sort=name_desc&page=2/);\n> 41 |   await page.locator('.product-back').click();\n     |                                       ^\n  42 |   // Ten beige records fit on one server-paginated page: the invalid page 2 returns to page 1.\n  43 |   await expect(page).toHaveURL(/\\/products\\?color=beige&sort=name_desc#results/);\n  44 |   expect(errors).toEqual([]);\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts:41:39"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:45:43.264Z",
+          "annotations": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\product-en-product-SSR-gal-de9e0-n-and-accessible-navigation-desktop\\error-context.md"
+            },
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\product-en-product-SSR-gal-de9e0-n-and-accessible-navigation-desktop\\trace.zip"
+            }
+          ]
+        }
+      ],
+      "annotations": []
+    }
+  ],
+  "skipped": [
+    {
+      "project": "tablet",
+      "title": "catalogue width matrix and screenshots in three languages",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 116,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:04:32.222Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Run the complete matrix once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "line": 91,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Run the complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "line": 91,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "catalogue works without client JavaScript",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 1,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:04:32.354Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Native GET forms covered once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "line": 106,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Native GET forms covered once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "line": 106,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "catalogue width matrix and screenshots in three languages",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 101,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:12:24.742Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Run the complete matrix once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "line": 91,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Run the complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "line": 91,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "catalogue works without client JavaScript",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 1,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:12:24.857Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Native GET forms covered once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+                "line": 106,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Native GET forms covered once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\catalogue.spec.ts",
+            "line": 106,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "desktop",
+      "title": "mobile/tablet menu traps focus, navigates and closes with Escape",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 6,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 156,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T17:36:26.166Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Desktop uses the visible navigation.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                "line": 94,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Desktop uses the visible navigation.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+            "line": 94,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "requested widths preserve hero space, typography and layout in every language",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 110,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:06:05.763Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Additional widths are covered once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                "line": 133,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Additional widths are covered once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+            "line": 133,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "requested widths preserve hero space, typography and layout in every language",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 123,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:13:42.978Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Additional widths are covered once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                "line": 133,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Additional widths are covered once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+            "line": 133,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "product width matrix, screenshots and no initial 3D payload",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 113,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:07:05.623Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Complete matrix once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+                "line": 63,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 63,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "product photos, details and quotation destination work without JavaScript",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 0,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:07:05.748Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "SSR native navigation once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+                "line": 81,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "SSR native navigation once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 81,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "product width matrix, screenshots and no initial 3D payload",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 86,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:14:29.831Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Complete matrix once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+                "line": 63,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 63,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "product photos, details and quotation destination work without JavaScript",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 0,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:14:29.928Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "SSR native navigation once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+                "line": 81,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "SSR native navigation once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 81,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "public page viewport matrix and screenshots",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 95,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:08:15.668Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+                "line": 51,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 51,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "SSR routes, paginated application products, no-script safety and validation bounds",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 11,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 6,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:08:15.778Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+                "line": 65,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 65,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "public page viewport matrix and screenshots",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 103,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:15:33.840Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+                "line": 51,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 51,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "SSR routes, paginated application products, no-script safety and validation bounds",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 13,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 7,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:15:33.959Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+                "line": 65,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 65,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "3D controls, formats, finishes, demand rendering, exports and resource budgets",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 12,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 213,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:08:17.456Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Desktop and mobile cover the same engine.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                "line": 11,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Desktop and mobile cover the same engine.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 11,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "3D responsive and RTL activation matrix",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 12,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 119,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:08:17.872Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Complete matrix once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                "line": 110,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 110,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet",
+      "title": "WebGL initialization failure returns an accessible static preview",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 12,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 122,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:08:18.018Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Failure mode once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                "line": 128,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Failure mode once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 128,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "3D responsive and RTL activation matrix",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 14,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 142,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:15:57.128Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Complete matrix once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                "line": 110,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 110,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "project": "mobile",
+      "title": "WebGL initialization failure returns an accessible static preview",
+      "status": "skipped",
+      "results": [
+        {
+          "workerIndex": 14,
+          "parallelIndex": 0,
+          "status": "skipped",
+          "duration": 169,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "retry": 0,
+          "startTime": "2026-10-13T18:15:57.295Z",
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Failure mode once.",
+              "location": {
+                "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                "line": 128,
+                "column": 8
+              }
+            }
+          ],
+          "attachments": []
+        }
+      ],
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Failure mode once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 128,
+            "column": 8
+          }
+        }
+      ]
+    }
+  ]
+}

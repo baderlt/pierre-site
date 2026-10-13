@@ -1,0 +1,10 @@
+import 'server-only';
+import {apiGet,record,list,str,optional,number,media} from './api';
+import type {Locale} from './locales';
+import type {CatalogueQuery,CatalogueResponse,ProductCardDTO} from './catalogue';
+export type Definition={id:string;slug:string;name:string;image:string};
+export function card(value:unknown):ProductCardDTO {const p=record(value);return {id:str(p.id),slug:str(p.slug),name:str(p.name),description:optional(p.description),category:str(p.category),stone_type:str(p.stone_type),finish:optional(p.finish),color:optional(p.color),application:optional(p.application),image:media(p.image),image_alt:optional(p.image_alt)||str(p.name),temporary:p.temporary===true};}
+export async function getCatalogue(locale:Locale,query:CatalogueQuery,perPage=12):Promise<CatalogueResponse>{const params=new URLSearchParams({locale,per_page:String(perPage)});for(const [key,v]of Object.entries(query))if(v)params.set(key,String(v));const result=record(await apiGet(`products?${params}`));const m=record(result.meta);const counts=record(result.categories);return {data:list(result.data).map(card),meta:{current_page:number(m.current_page,1,100000),last_page:number(m.last_page,1,100000),per_page:number(m.per_page,1,48),total:number(m.total,0,100000000)},categories:Object.fromEntries(Object.entries(counts).map(([k,v])=>[k,number(v)]))};}
+async function definitionList(locale:Locale,key:string):Promise<Definition[]>{const result=record(await apiGet(`${key}?locale=${locale}&per_page=48`));return list(result.data).map(v=>{const d=record(v);return {id:str(d.id),slug:str(d.slug),name:optional(d.name)||optional(d.title),image:media(d.image)};});}
+export function getCategoryDefinitions(locale:Locale){return definitionList(locale,'categories');}
+export async function getDefinitions(locale:Locale){const paths=['categories','materials','finishes','colors','applications'] as const;const entries=await Promise.all(paths.map(async key=>[key,await definitionList(locale,key)] as const));return Object.fromEntries(entries) as Record<typeof paths[number],Definition[]>;}

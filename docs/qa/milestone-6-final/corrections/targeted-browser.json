@@ -1,0 +1,406 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\DELL 7420\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\DELL 7420\\Desktop\\time-stone\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/banner-stacking.spec.ts",
+      "tests/quotation-throttle.spec.ts",
+      "--project=desktop",
+      "--workers=1"
+    ],
+    "configFile": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\playwright.config.ts",
+    "rootDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "snapshotDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3011",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1536,
+            "height": 1024
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/qa/milestone-6-final/corrections/targeted-browser.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "banner-stacking.spec.ts",
+      "file": "banner-stacking.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fr: banner text and controls are actually painted above responsive images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11337,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T19:44:44.350Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acc85987b6921a36c932-357a96a0926d5b6ee68c",
+          "file": "banner-stacking.spec.ts",
+          "line": 4,
+          "column": 42
+        },
+        {
+          "title": "en: banner text and controls are actually painted above responsive images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9461,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T19:44:55.955Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acc85987b6921a36c932-fee95d16aee7568f5ab3",
+          "file": "banner-stacking.spec.ts",
+          "line": 4,
+          "column": 42
+        },
+        {
+          "title": "ar: banner text and controls are actually painted above responsive images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9207,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T19:45:05.435Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acc85987b6921a36c932-b438d18d0bf10e32f9cd",
+          "file": "banner-stacking.spec.ts",
+          "line": 4,
+          "column": 42
+        }
+      ]
+    },
+    {
+      "title": "quotation-throttle.spec.ts",
+      "file": "quotation-throttle.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fr: quotation throttling explains the server retry duration without claiming success",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3047,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T19:45:14.666Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "631f440a63c48d502f1f-28f16ae95fbdb35b357c",
+          "file": "quotation-throttle.spec.ts",
+          "line": 3,
+          "column": 122
+        },
+        {
+          "title": "en: quotation throttling explains the server retry duration without claiming success",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2889,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T19:45:17.726Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "631f440a63c48d502f1f-cbeaa0f5b22af3089a9d",
+          "file": "quotation-throttle.spec.ts",
+          "line": 3,
+          "column": 122
+        },
+        {
+          "title": "ar: quotation throttling explains the server retry duration without claiming success",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 21127,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.quotation-form [role=status]')\nExpected substring: \u001b[32m\"\u001b[7m١٧\u001b[27m ثانية.\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mمحاولات كثيرة. أعد المحاولة بعد 17\u001b[27m ثانية.\"\u001b[39m\nTimeout: 20000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.quotation-form [role=status]') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.quotation-form [role=status]')\u001b[22m\n\u001b[2m    7 × locator resolved to <p role=\"status\">جارٍ الحفظ…</p>\u001b[22m\n\u001b[2m      - unexpected value \"جارٍ الحفظ…\"\u001b[22m\n\u001b[2m    36 × locator resolved to <p role=\"status\">محاولات كثيرة. أعد المحاولة بعد 17 ثانية.</p>\u001b[22m\n\u001b[2m       - unexpected value \"محاولات كثيرة. أعد المحاولة بعد 17 ثانية.\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.quotation-form [role=status]')\nExpected substring: \u001b[32m\"\u001b[7m١٧\u001b[27m ثانية.\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mمحاولات كثيرة. أعد المحاولة بعد 17\u001b[27m ثانية.\"\u001b[39m\nTimeout: 20000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.quotation-form [role=status]') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.quotation-form [role=status]')\u001b[22m\n\u001b[2m    7 × locator resolved to <p role=\"status\">جارٍ الحفظ…</p>\u001b[22m\n\u001b[2m      - unexpected value \"جارٍ الحفظ…\"\u001b[22m\n\u001b[2m    36 × locator resolved to <p role=\"status\">محاولات كثيرة. أعد المحاولة بعد 17 ثانية.</p>\u001b[22m\n\u001b[2m       - unexpected value \"محاولات كثيرة. أعد المحاولة بعد 17 ثانية.\"\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\quotation-throttle.spec.ts:8:107",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\quotation-throttle.spec.ts",
+                      "column": 107,
+                      "line": 8
+                    },
+                    "snippet": "   6 |   await page.locator('#quote-country').selectOption('MA');await page.locator('#quote-location').fill('QA ONLY');await page.locator('#quote-description').fill('Synthetic throttling interface test');await page.locator('#quote-privacy').check();\n   7 |   let posts=0;await page.route('**/api/quotations',async route=>{if(route.request().method()!=='POST'){await route.continue();return;}posts++;await route.fulfill({status:429,contentType:'application/json',headers:{'Retry-After':'17'},body:JSON.stringify({message:'submission_failed'})});});\n>  8 |   await page.locator('.quote-submit').click();await expect(page.locator('.quotation-form [role=status]')).toContainText(message);\n     |                                                                                                           ^\n   9 |   await expect(page.locator('.quote-success')).toHaveCount(0);await expect(page.locator('#quote-name')).toHaveValue('QA ONLY throttle UI');expect(posts).toBe(1);\n  10 | });\n  11 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\quotation-throttle.spec.ts",
+                        "column": 107,
+                        "line": 8
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.quotation-form [role=status]')\nExpected substring: \u001b[32m\"\u001b[7m١٧\u001b[27m ثانية.\"\u001b[39m\nReceived string:    \u001b[31m\"\u001b[7mمحاولات كثيرة. أعد المحاولة بعد 17\u001b[27m ثانية.\"\u001b[39m\nTimeout: 20000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.quotation-form [role=status]') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.quotation-form [role=status]')\u001b[22m\n\u001b[2m    7 × locator resolved to <p role=\"status\">جارٍ الحفظ…</p>\u001b[22m\n\u001b[2m      - unexpected value \"جارٍ الحفظ…\"\u001b[22m\n\u001b[2m    36 × locator resolved to <p role=\"status\">محاولات كثيرة. أعد المحاولة بعد 17 ثانية.</p>\u001b[22m\n\u001b[2m       - unexpected value \"محاولات كثيرة. أعد المحاولة بعد 17 ثانية.\"\u001b[22m\n\n\n   6 |   await page.locator('#quote-country').selectOption('MA');await page.locator('#quote-location').fill('QA ONLY');await page.locator('#quote-description').fill('Synthetic throttling interface test');await page.locator('#quote-privacy').check();\n   7 |   let posts=0;await page.route('**/api/quotations',async route=>{if(route.request().method()!=='POST'){await route.continue();return;}posts++;await route.fulfill({status:429,contentType:'application/json',headers:{'Retry-After':'17'},body:JSON.stringify({message:'submission_failed'})});});\n>  8 |   await page.locator('.quote-submit').click();await expect(page.locator('.quotation-form [role=status]')).toContainText(message);\n     |                                                                                                           ^\n   9 |   await expect(page.locator('.quote-success')).toHaveCount(0);await expect(page.locator('#quote-name')).toHaveValue('QA ONLY throttle UI');expect(posts).toBe(1);\n  10 | });\n  11 |\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\quotation-throttle.spec.ts:8:107"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-13T19:45:20.627Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\quotation-throttle-ar-quot-fd46e-on-without-claiming-success-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\quotation-throttle-ar-quot-fd46e-on-without-claiming-success-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\quotation-throttle.spec.ts",
+                    "column": 107,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "631f440a63c48d502f1f-ad5902a91695d3f0db45",
+          "file": "quotation-throttle.spec.ts",
+          "line": 3,
+          "column": 122
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-13T19:44:43.711Z",
+    "duration": 58382.401,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

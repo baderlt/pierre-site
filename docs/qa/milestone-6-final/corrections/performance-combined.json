@@ -1,0 +1,288 @@
+[
+  {
+    "url": "http://127.0.0.1:3011/ar",
+    "locale": "ar",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:16:29.006Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 78,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 972.5129999999999,
+      "largest-contentful-paint": 5697.513000000001,
+      "speed-index": 2949.2612223707742,
+      "total-blocking-time": 100,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 1695220
+    },
+    "warnings": [],
+    "phase": "process-and-content-cold",
+    "directory": "performance-home-ar-cold",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-ar-cold\\lighthouse-ar-mobile-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/ar",
+    "locale": "ar",
+    "formFactor": "desktop",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:25:07.661Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 90,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 964.224,
+      "largest-contentful-paint": 1882.816,
+      "speed-index": 964.224,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.001405638888374799,
+      "total-byte-weight": 2930686
+    },
+    "warnings": [],
+    "phase": "process-warm-content-cache-uncontrolled",
+    "directory": "performance-home-ar-desktop-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-ar-desktop-warm\\lighthouse-ar-desktop-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/ar",
+    "locale": "ar",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:19:16.976Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 2357.673,
+      "largest-contentful-paint": 5571.782000000001,
+      "speed-index": 2357.673,
+      "total-blocking-time": 119,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 1695222
+    },
+    "warnings": [],
+    "phase": "process-and-content-warm",
+    "directory": "performance-home-ar-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-ar-warm\\lighthouse-ar-mobile-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/ar",
+    "locale": "ar",
+    "formFactor": "mobile",
+    "run": 2,
+    "fetchTime": "2026-10-13T21:19:27.663Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 81,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 904.5301999999999,
+      "largest-contentful-paint": 4954.530199999999,
+      "speed-index": 912.3574599643516,
+      "total-blocking-time": 106,
+      "cumulative-layout-shift": 0.0035640056741581185,
+      "total-byte-weight": 1695222
+    },
+    "warnings": [],
+    "phase": "process-and-content-warm",
+    "directory": "performance-home-ar-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-ar-warm\\lighthouse-ar-mobile-check-2.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/en",
+    "locale": "en",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:20:51.438Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1064.99,
+      "largest-contentful-paint": 4664.99,
+      "speed-index": 1064.99,
+      "total-blocking-time": 99,
+      "cumulative-layout-shift": 0.002023630589052628,
+      "total-byte-weight": 1570402
+    },
+    "warnings": [],
+    "phase": "process-warm-content-cache-uncontrolled",
+    "directory": "performance-home-en-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-en-warm\\lighthouse-en-mobile-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/fr",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:12:07.789Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1124.45,
+      "largest-contentful-paint": 5249.449999999999,
+      "speed-index": 2905.228383454722,
+      "total-blocking-time": 106.5,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 1570886
+    },
+    "warnings": [],
+    "phase": "process-and-content-cold",
+    "directory": "performance-home-fr-cold",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-fr-cold\\lighthouse-fr-mobile-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/fr",
+    "locale": "fr",
+    "formFactor": "desktop",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:22:48.341Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 789.0665,
+      "largest-contentful-paint": 1892.711,
+      "speed-index": 789.0665,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0002996313075224559,
+      "total-byte-weight": 2806325
+    },
+    "warnings": [],
+    "phase": "process-warm-content-cache-uncontrolled",
+    "directory": "performance-home-fr-desktop-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-fr-desktop-warm\\lighthouse-fr-desktop-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/fr",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:12:49.203Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1808.1149999999998,
+      "largest-contentful-paint": 5030.41,
+      "speed-index": 1808.1149999999998,
+      "total-blocking-time": 128,
+      "cumulative-layout-shift": 0.0006375700142680657,
+      "total-byte-weight": 1570879
+    },
+    "warnings": [],
+    "phase": "process-and-content-warm",
+    "directory": "performance-home-fr-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-fr-warm\\lighthouse-fr-mobile-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/fr",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 2,
+    "fetchTime": "2026-10-13T21:12:59.397Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 84,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1059.25,
+      "largest-contentful-paint": 4359.25,
+      "speed-index": 1456.6185307824317,
+      "total-blocking-time": 115,
+      "cumulative-layout-shift": 0.0006375700142680657,
+      "total-byte-weight": 1570886
+    },
+    "warnings": [],
+    "phase": "process-and-content-warm",
+    "directory": "performance-home-fr-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-home-fr-warm\\lighthouse-fr-mobile-check-2.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/fr/products/sample-1",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:27:48.315Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1370.9279999999999,
+      "largest-contentful-paint": 4063.952,
+      "speed-index": 1967.2676159777166,
+      "total-blocking-time": 43,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 1242297
+    },
+    "warnings": [],
+    "phase": "process-warm-content-cache-uncontrolled",
+    "directory": "performance-product-fr-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-product-fr-warm\\lighthouse-fr-mobile-check-1.html"
+  },
+  {
+    "url": "http://127.0.0.1:3011/fr/products",
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-13T21:30:49.975Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69
+    },
+    "metrics": {
+      "first-contentful-paint": 1372.677,
+      "largest-contentful-paint": 6390.118,
+      "speed-index": 1558.2448260879992,
+      "total-blocking-time": 134,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 1525371
+    },
+    "warnings": [],
+    "phase": "process-warm-content-cache-uncontrolled",
+    "directory": "performance-products-fr-warm",
+    "html": "qa\\milestone-6-final\\corrections\\performance-products-fr-warm\\lighthouse-fr-mobile-check-1.html"
+  }
+]

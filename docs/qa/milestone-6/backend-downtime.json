@@ -1,0 +1,10 @@
+{
+  "quotation": {
+    "status": 503,
+    "noFalseSuccess": true,
+    "inputRetained": true
+  },
+  "pageStatus": 500,
+  "noFixtureFallback": true,
+  "passed": true
+}

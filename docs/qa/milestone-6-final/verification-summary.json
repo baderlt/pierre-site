@@ -1,0 +1,24 @@
+{
+  "standalone3D": {
+    "command": "node --test prototype/tests/stone.test.js tests/stone-engine.test.mjs",
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 2296,
+    "evidence": "Executed command output observed during audit. Engine bounds, UVs, PBR, disposal, signatures and prototype equality."
+  },
+  "nextBuild": {
+    "passed": true,
+    "evidence": "build.log",
+    "dist": ".next-audit-m6"
+  },
+  "typecheck": {
+    "passed": true,
+    "evidence": "typecheck.log"
+  },
+  "previewOriginCorrection": {
+    "initial": "http://127.0.0.1:3000",
+    "auditPreview": "http://127.0.0.1:3001",
+    "action": "Stopped initial partial browser run; restarted audit-owned production preview with SITE_URL=http://127.0.0.1:3001. No user environment file changed."
+  }
+}

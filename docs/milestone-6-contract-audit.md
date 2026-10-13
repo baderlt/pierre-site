@@ -1,0 +1,32 @@
+# Milestone 6 contract audit (before implementation)
+
+The M0–M5 reports, API/setup notes, Next adapters/pages/viewer/form, Laravel resources/domain/models/seeders and tests were inspected before integration. The approved apps/web + apps/api boundary remains.
+
+| Concern | Next before M6 | Laravel M5 | Deliberate mapping/change |
+| --- | --- | --- | --- |
+| Identity | sample ID is also route key | string database ID, separate slug | Keep DB ID for relationships; add slug and use it in all public destinations. |
+| Catalogue | 18 locally filtered fixtures; fixed facet enums | bounded SQL filters, pagination, category counts | Replace adapter; validate query syntax/allowlisted sorting then forward; definitions supply localized choices including new admin keys. No fixture fallback. |
+| Cards | image stem, temporary literal true | controlled URL, boolean illustrative | Accept boolean, translated media alt and public-only URL. Label only illustrative entries. |
+| Product | mandatory simulated geometry, three formats | nullable config/texture, explicit supported formats with IDs/defaults/custom flag | Validate runtime numeric/enums; no assumed formats/finishes. Hide unavailable viewer. Keep commercial finish IDs distinct from simulation. |
+| 3D | default finish presets override saved material | saved version 1 config plus PBR/preset | Map saved roughness/metalness/bump and preset; keep engine, lazy activation, exports and cleanup; adjust integration props only where existing engine lacks these parameters. GLB remains disabled. |
+| Images | local fixture WebP | private originals and controlled thumb/preview/texture derivatives | Same-origin bounded media proxy to configured internal Laravel origin; never arbitrary URL proxy. Already optimized derivatives bypass only redundant Next image caching so unpublished/replaced assets cannot leak from optimizer cache; static assets retain Next optimization. |
+| CMS | typed local copy plus hardcoded imagery | published page/ordered visible sections with title/body/CTA/link/image | Map stable section keys to approved composition; hide missing sections; structured child sections for repeated editorial items instead of parsing arbitrary HTML or hardcoding business claims. French fallback stays server authoritative. |
+| Contacts | blank fixture | allowlisted settings behind contacts_visible | Safe normalized tel/mailto/WhatsApp/social destinations; hide absent channels; brand/logo/favicon/footer from CMS. |
+| Quotations | demonstration check only; one selection | private request/items/status events; no POST | Add one POST /api/v1/quotations; zero items = general enquiry, 1–20 authoritative product items; browser fields contain IDs, dimensions, quantity/unit only, no trusted names/media/prices. |
+| Privacy | memory-only demo | private inbox | Memory-only form state; no customer browser storage/analytics; no payload logging; success only confirmed persistence + reference. |
+| Freshness | prerendered fixtures | 5-minute versioned cache invalidated after commit | Dynamic SSR with request-local dedup and no persistent Next content cache. Next request sees committed version immediately, no webhook/revalidation secret or purge endpoint needed. Existing open pages refresh by navigation/reload. |
+
+Locale defaults French; fr/en/ar routes and shared stable slugs, RTL and catalogue return parameters remain. Unknown/draft detail is 404; unavailable upstream is a localized error, never fixture success. API data is untrusted: check structure, scalar bounds, slug syntax, media path/origin, configuration and allowed options before rendering or engine use.
+
+Quotation JSON: locale, customer{name,email,phone}, delivery{country_code,location}, project_details, items[{product_id,format_id,finish_id,dimensions_cm{width,height,thickness},quantity,unit,custom_dimensions_requested,configuration?}], privacy_acknowledged, website honeypot, signed form challenge, Idempotency-Key header. Laravel resolves product/finish/format, enforces publication/allowed associations/custom dimensions, snapshots authoritative data and saves all in one transaction. Client configuration only contributes explicitly validated requested visual settings; never authoritative commercial properties.
+
+Security: server-only LARAVEL_API_URL/timeout/public origin/media origin settings; same-origin Next submission proxy validates Origin and payload bytes and forwards no cookies/admin credentials. Laravel independently validates bytes/challenge/rate limits/payload and atomic idempotency hash. Shared proxy secret permits trusted client-IP rate attribution only; arbitrary forwarded headers are ignored. Errors are sanitized and no-store. Public GET cannot access quotation details or draft/admin resources. Production illustrative product/application exclusion is explicit. No mail, WhatsApp notifications, public accounts, uploaded GLB, deployment or M7 work.
+
+Secure admin live preview is optional per brief: retain truthful saved information preview until a bounded authenticated cross-app workflow is justified; never expose draft configs in public URLs.
+
+
+Final decisions: public format presets retain database IDs and localized names throughout viewer selection and quotations, including multiple presets sharing one geometry. Public SEO images are origin/path validated and mapped to metadata. Contact social links are shown only with the approved contact visibility switch. Missing homepage/About sections and empty featured grids are omitted. All reusable definitions and product/application links are actual published destinations.
+
+Laravel cache fill is protected with a bounded database-cache lock to prevent concurrent cold fills; the publication version remains invalidated after commit. Cache keys include the environment. Already optimized controlled derivatives are delivered no-store with bounded buffering through Next, retaining publication checks after unpublish. The original private upload never becomes a public texture URL. Warm API queries remain independent of catalogue row count; detailed local measurements are in QA artifacts.
+
+The frontend fixture modules remain only for localized UI labels, explicit development seed generation and legacy unit contracts. The server-only catalogue/product/content adapters use no fixture fallback. The demo seeder is never run in production. PHP public-rate settings reside in configuration so config caching preserves them.

@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Filament product create/translations/upload/configuration/publish",
+    "real published catalogue/detail, Arabic RTL, admin texture WebGL activation and saved dimensions",
+    "real quote confirmation/reference and empty browser storage",
+    "real submitted quote visible in Filament, status/private note update",
+    "Filament edit invalidates Laravel cache and next SSR request",
+    "unpublish removes public detail/listing/private texture"
+  ],
+  "errors": [],
+  "productId": 35,
+  "slug": "qa-m6-browser-1791842509687",
+  "reference": "TS-TEC9VSVBWHTTF59S",
+  "quoteId": 7,
+  "accessibilityViolations": 0,
+  "passed": true
+}

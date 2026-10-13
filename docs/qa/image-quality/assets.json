@@ -1,0 +1,653 @@
+{
+  "tool": "built-in image_gen for illustrative detail enhancement; Pillow for requested resizing and WebP encoding",
+  "prompt": "Enhance only the existing photograph; preserve subjects, framing, materials, lighting and colors. Restore natural fine detail; no new design, branding or objects.",
+  "limitation": "AI-enhanced details are illustrative, not recovered original photographic information. Export dimensions can exceed native generated dimensions.",
+  "static_assets": [
+    {
+      "file": "about-hero.webp",
+      "before": [
+        896,
+        198
+      ],
+      "enhanced_native": [
+        2170,
+        478
+      ],
+      "after": [
+        2560,
+        566
+      ],
+      "bytes": 519108,
+      "ai_enhanced": true
+    },
+    {
+      "file": "application-cladding.webp",
+      "before": [
+        221,
+        113
+      ],
+      "enhanced_native": [
+        1754,
+        897
+      ],
+      "after": [
+        1920,
+        982
+      ],
+      "bytes": 813604,
+      "ai_enhanced": true
+    },
+    {
+      "file": "application-custom.webp",
+      "before": [
+        221,
+        113
+      ],
+      "enhanced_native": [
+        1755,
+        896
+      ],
+      "after": [
+        1920,
+        982
+      ],
+      "bytes": 549822,
+      "ai_enhanced": true
+    },
+    {
+      "file": "application-facade.webp",
+      "before": [
+        236,
+        113
+      ],
+      "enhanced_native": [
+        1812,
+        868
+      ],
+      "after": [
+        1920,
+        919
+      ],
+      "bytes": 594304,
+      "ai_enhanced": true
+    },
+    {
+      "file": "application-interior.webp",
+      "before": [
+        222,
+        113
+      ],
+      "enhanced_native": [
+        1758,
+        895
+      ],
+      "after": [
+        1920,
+        977
+      ],
+      "bytes": 444526,
+      "ai_enhanced": true
+    },
+    {
+      "file": "application-landscape.webp",
+      "before": [
+        236,
+        113
+      ],
+      "enhanced_native": [
+        1813,
+        868
+      ],
+      "after": [
+        1920,
+        919
+      ],
+      "bytes": 771210,
+      "ai_enhanced": true
+    },
+    {
+      "file": "application-stairs.webp",
+      "before": [
+        220,
+        113
+      ],
+      "enhanced_native": [
+        1751,
+        898
+      ],
+      "after": [
+        1920,
+        986
+      ],
+      "bytes": 608516,
+      "ai_enhanced": true
+    },
+    {
+      "file": "applications-hero.webp",
+      "before": [
+        936,
+        283
+      ],
+      "enhanced_native": [
+        2170,
+        725
+      ],
+      "after": [
+        2560,
+        774
+      ],
+      "bytes": 739910,
+      "ai_enhanced": true
+    },
+    {
+      "file": "architecture.webp",
+      "before": [
+        414,
+        260
+      ],
+      "enhanced_native": [
+        1582,
+        994
+      ],
+      "after": [
+        2560,
+        1608
+      ],
+      "bytes": 965832,
+      "ai_enhanced": true
+    },
+    {
+      "file": "blocks.webp",
+      "before": [
+        241,
+        92
+      ],
+      "enhanced_native": [
+        2030,
+        775
+      ],
+      "after": [
+        1920,
+        733
+      ],
+      "bytes": 538934,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-beige.webp",
+      "before": [
+        132,
+        108
+      ],
+      "enhanced_native": [
+        1387,
+        1134
+      ],
+      "after": [
+        1920,
+        1571
+      ],
+      "bytes": 945458,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-blocks.webp",
+      "before": [
+        132,
+        100
+      ],
+      "enhanced_native": [
+        1441,
+        1091
+      ],
+      "after": [
+        1920,
+        1455
+      ],
+      "bytes": 777244,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-custom.webp",
+      "before": [
+        132,
+        100
+      ],
+      "enhanced_native": [
+        1441,
+        1091
+      ],
+      "after": [
+        1920,
+        1455
+      ],
+      "bytes": 970760,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-grey.webp",
+      "before": [
+        132,
+        108
+      ],
+      "enhanced_native": [
+        1387,
+        1134
+      ],
+      "after": [
+        1920,
+        1571
+      ],
+      "bytes": 1024288,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-hero.webp",
+      "before": [
+        353,
+        248
+      ],
+      "enhanced_native": [
+        1495,
+        1052
+      ],
+      "after": [
+        2560,
+        1799
+      ],
+      "bytes": 1263498,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-tiles.webp",
+      "before": [
+        132,
+        108
+      ],
+      "enhanced_native": [
+        1387,
+        1134
+      ],
+      "after": [
+        1920,
+        1571
+      ],
+      "bytes": 613100,
+      "ai_enhanced": true
+    },
+    {
+      "file": "catalogue-yellow.webp",
+      "before": [
+        132,
+        104
+      ],
+      "enhanced_native": [
+        1413,
+        1113
+      ],
+      "after": [
+        1920,
+        1513
+      ],
+      "bytes": 1331604,
+      "ai_enhanced": true
+    },
+    {
+      "file": "cladding.webp",
+      "before": [
+        222,
+        114
+      ],
+      "enhanced_native": [
+        1754,
+        897
+      ],
+      "after": [
+        1920,
+        986
+      ],
+      "bytes": 813650,
+      "ai_enhanced": true
+    },
+    {
+      "file": "custom.webp",
+      "before": [
+        243,
+        92
+      ],
+      "enhanced_native": [
+        2038,
+        771
+      ],
+      "after": [
+        1920,
+        727
+      ],
+      "bytes": 550754,
+      "ai_enhanced": true
+    },
+    {
+      "file": "facade.webp",
+      "before": [
+        236,
+        114
+      ],
+      "enhanced_native": [
+        1812,
+        868
+      ],
+      "after": [
+        1920,
+        927
+      ],
+      "bytes": 595706,
+      "ai_enhanced": true
+    },
+    {
+      "file": "hero-stone.webp",
+      "before": [
+        539,
+        388
+      ],
+      "enhanced_native": [
+        1478,
+        1064
+      ],
+      "after": [
+        2560,
+        1843
+      ],
+      "bytes": 1128478,
+      "ai_enhanced": true
+    },
+    {
+      "file": "interior.webp",
+      "before": [
+        222,
+        114
+      ],
+      "enhanced_native": [
+        1758,
+        895
+      ],
+      "after": [
+        1920,
+        986
+      ],
+      "bytes": 456038,
+      "ai_enhanced": true
+    },
+    {
+      "file": "limestone.webp",
+      "before": [
+        244,
+        92
+      ],
+      "enhanced_native": [
+        2041,
+        770
+      ],
+      "after": [
+        1920,
+        724
+      ],
+      "bytes": 750976,
+      "ai_enhanced": true
+    },
+    {
+      "file": "marble.webp",
+      "before": [
+        242,
+        92
+      ],
+      "enhanced_native": [
+        2034,
+        773
+      ],
+      "after": [
+        1920,
+        730
+      ],
+      "bytes": 689142,
+      "ai_enhanced": true
+    },
+    {
+      "file": "process-block.webp",
+      "before": [
+        190,
+        102
+      ],
+      "enhanced_native": [
+        1712,
+        919
+      ],
+      "after": [
+        1920,
+        1031
+      ],
+      "bytes": 446600,
+      "ai_enhanced": true
+    },
+    {
+      "file": "process-cutting.webp",
+      "before": [
+        190,
+        102
+      ],
+      "enhanced_native": [
+        1712,
+        919
+      ],
+      "after": [
+        1920,
+        1031
+      ],
+      "bytes": 476762,
+      "ai_enhanced": true
+    },
+    {
+      "file": "process-finish.webp",
+      "before": [
+        190,
+        102
+      ],
+      "enhanced_native": [
+        1711,
+        919
+      ],
+      "after": [
+        1920,
+        1031
+      ],
+      "bytes": 419574,
+      "ai_enhanced": true
+    },
+    {
+      "file": "process-quarry.webp",
+      "before": [
+        189,
+        102
+      ],
+      "enhanced_native": [
+        1707,
+        921
+      ],
+      "after": [
+        1920,
+        1036
+      ],
+      "bytes": 567482,
+      "ai_enhanced": true
+    },
+    {
+      "file": "product-beige-texture.webp",
+      "before": [
+        260,
+        130
+      ],
+      "enhanced_native": [
+        1774,
+        887
+      ],
+      "after": [
+        1920,
+        960
+      ],
+      "bytes": 688360,
+      "ai_enhanced": true
+    },
+    {
+      "file": "product-marble-texture.webp",
+      "before": [
+        1024,
+        1024
+      ],
+      "enhanced_native": [
+        1024,
+        1024
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "bytes": 1001110,
+      "ai_enhanced": false
+    },
+    {
+      "file": "product-studio.webp",
+      "before": [
+        487,
+        382
+      ],
+      "enhanced_native": [
+        1415,
+        1111
+      ],
+      "after": [
+        2560,
+        2008
+      ],
+      "bytes": 860280,
+      "ai_enhanced": true
+    },
+    {
+      "file": "project-facade.webp",
+      "before": [
+        347,
+        186
+      ],
+      "enhanced_native": [
+        1712,
+        919
+      ],
+      "after": [
+        1920,
+        1029
+      ],
+      "bytes": 690398,
+      "ai_enhanced": true
+    },
+    {
+      "file": "project-interior.webp",
+      "before": [
+        350,
+        186
+      ],
+      "enhanced_native": [
+        1721,
+        914
+      ],
+      "after": [
+        1920,
+        1020
+      ],
+      "bytes": 445090,
+      "ai_enhanced": true
+    },
+    {
+      "file": "project-landscape.webp",
+      "before": [
+        345,
+        186
+      ],
+      "enhanced_native": [
+        1707,
+        921
+      ],
+      "after": [
+        1920,
+        1035
+      ],
+      "bytes": 713848,
+      "ai_enhanced": true
+    },
+    {
+      "file": "project-stairs.webp",
+      "before": [
+        348,
+        186
+      ],
+      "enhanced_native": [
+        1716,
+        917
+      ],
+      "after": [
+        1920,
+        1026
+      ],
+      "bytes": 623334,
+      "ai_enhanced": true
+    },
+    {
+      "file": "quarry.webp",
+      "before": [
+        573,
+        195
+      ],
+      "enhanced_native": [
+        2149,
+        731
+      ],
+      "after": [
+        2560,
+        871
+      ],
+      "bytes": 889244,
+      "ai_enhanced": true
+    },
+    {
+      "file": "stairs.webp",
+      "before": [
+        220,
+        114
+      ],
+      "enhanced_native": [
+        1751,
+        898
+      ],
+      "after": [
+        1920,
+        995
+      ],
+      "bytes": 611718,
+      "ai_enhanced": true
+    },
+    {
+      "file": "tiles.webp",
+      "before": [
+        242,
+        92
+      ],
+      "enhanced_native": [
+        2034,
+        773
+      ],
+      "after": [
+        1920,
+        730
+      ],
+      "bytes": 448536,
+      "ai_enhanced": true
+    }
+  ]
+}

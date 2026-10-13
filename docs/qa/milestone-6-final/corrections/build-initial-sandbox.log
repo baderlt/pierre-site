@@ -1,0 +1,16 @@
+
+> build
+> npm run build --workspace @time-stone/web
+
+
+> @time-stone/web@0.1.0 build
+> next build
+
+(node:19360) ExperimentalWarning: CommonJS module C:\Users\DELL 7420\Desktop\time-stone\node_modules\next\dist\shared\lib\constants.js is loading ES Module C:\Users\DELL 7420\Desktop\time-stone\node_modules\@swc\helpers\esm\_interop_require_default.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+▲ Next.js 16.4.0 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 178ms
+
+  Creating an optimized production build ...

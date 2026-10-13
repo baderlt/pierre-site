@@ -1,0 +1,438 @@
+[
+  {
+    "test": "banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop\\trace.zip",
+    "classification": "whole-test budget exhausted",
+    "errorScreen": false,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: locator.evaluate: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.hero-art img')\u001b[22m\n"
+      },
+      {
+        "method": null,
+        "error": "Error: locator.evaluate: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.hero-art img')\u001b[22m\n"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/fr/contact",
+        "ms": 8134.2,
+        "status": 200
+      },
+      {
+        "path": "/media/7/preview",
+        "ms": 8083.4,
+        "status": 200
+      },
+      {
+        "path": "/en",
+        "ms": 8066.1,
+        "status": 200
+      },
+      {
+        "path": "/en/about",
+        "ms": 7866.3,
+        "status": 200
+      },
+      {
+        "path": "/media/7/preview",
+        "ms": 7780.1,
+        "status": 200
+      },
+      {
+        "path": "/fr/products",
+        "ms": 7662.9,
+        "status": 200
+      },
+      {
+        "path": "/en/contact",
+        "ms": 7636.3,
+        "status": 200
+      },
+      {
+        "path": "/fr/about",
+        "ms": 7589.4,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "test": "catalogue-ar-catalogue-SSR-1cef6-rols-navigation-and-samples-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\catalogue-ar-catalogue-SSR-1cef6-rols-navigation-and-samples-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31"
+      },
+      {
+        "method": null,
+        "error": "Expect failed"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/ar/products",
+        "ms": 9590.7,
+        "status": 500
+      },
+      {
+        "path": "/ar/products",
+        "ms": 6467.5,
+        "status": 200
+      },
+      {
+        "path": "/media/59/banner",
+        "ms": 5207.2,
+        "status": 200
+      },
+      {
+        "path": "/ar/products",
+        "ms": 5048.9,
+        "status": 200
+      },
+      {
+        "path": "/ar/products",
+        "ms": 4615.0,
+        "status": 200
+      },
+      {
+        "path": "/media/13/preview",
+        "ms": 4447.4,
+        "status": 200
+      },
+      {
+        "path": "/media/17/preview",
+        "ms": 3964.9,
+        "status": 200
+      },
+      {
+        "path": "/media/11/preview",
+        "ms": 3862.0,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "test": "catalogue-en-catalogue-SSR-4891e-rols-navigation-and-samples-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\catalogue-en-catalogue-SSR-4891e-rols-navigation-and-samples-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m12\u001b[39m\nReceived: \u001b[3"
+      },
+      {
+        "method": null,
+        "error": "Expect failed"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/en/products",
+        "ms": 8848.5,
+        "status": 500
+      },
+      {
+        "path": "/en/products",
+        "ms": 7956.0,
+        "status": 200
+      },
+      {
+        "path": "/media/59/banner",
+        "ms": 5886.7,
+        "status": 200
+      },
+      {
+        "path": "/en/products",
+        "ms": 5864.6,
+        "status": 200
+      },
+      {
+        "path": "/media/59/banner",
+        "ms": 5382.5,
+        "status": 200
+      },
+      {
+        "path": "/en/products",
+        "ms": 5184.1,
+        "status": 200
+      },
+      {
+        "path": "/en/products",
+        "ms": 4933.7,
+        "status": 200
+      },
+      {
+        "path": "/media/17/preview",
+        "ms": 4402.7,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "test": "catalogue-fr-catalogue-SSR-695e8-rols-navigation-and-samples-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\catalogue-fr-catalogue-SSR-695e8-rols-navigation-and-samples-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.product-card')\nExpected: \u001b[32m6\u001b[39m\nReceived: \u001b[31"
+      },
+      {
+        "method": null,
+        "error": "Expect failed"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/fr/products",
+        "ms": 9291.0,
+        "status": 500
+      },
+      {
+        "path": "/fr/products",
+        "ms": 6579.1,
+        "status": 200
+      },
+      {
+        "path": "/fr/products",
+        "ms": 4996.3,
+        "status": 200
+      },
+      {
+        "path": "/media/59/banner",
+        "ms": 4661.4,
+        "status": 200
+      },
+      {
+        "path": "/fr/products",
+        "ms": 4283.4,
+        "status": 200
+      },
+      {
+        "path": "/media/13/preview",
+        "ms": 3958.8,
+        "status": 200
+      },
+      {
+        "path": "/media/17/preview",
+        "ms": 3739.5,
+        "status": 200
+      },
+      {
+        "path": "/media/11/preview",
+        "ms": 3418.6,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "test": "homepage-en-material-dialo-f8236-scape-and-focus-restoration-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\homepage-en-material-dialo-f8236-scape-and-focus-restoration-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Explore the materials', exact: true })\u001b[22m\n"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/en",
+        "ms": 10821.0,
+        "status": 500
+      }
+    ]
+  },
+  {
+    "test": "homepage-language-switchin-e1387-upports-all-three-languages-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\homepage-language-switchin-e1387-upports-all-three-languages-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeInViewport\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#applications')\nExpected: in viewport\nTimeout: 20000ms\nError: elemen"
+      },
+      {
+        "method": null,
+        "error": "Expect failed"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/fr",
+        "ms": 12977.8,
+        "status": 500
+      },
+      {
+        "path": "/media/15/thumb",
+        "ms": 8082.2,
+        "status": 503
+      },
+      {
+        "path": "/media/13/thumb",
+        "ms": 8081.5,
+        "status": 503
+      },
+      {
+        "path": "/media/35/preview",
+        "ms": 8056.6,
+        "status": 503
+      },
+      {
+        "path": "/media/34/preview",
+        "ms": 8044.9,
+        "status": 503
+      },
+      {
+        "path": "/media/15/thumb",
+        "ms": 7666.4,
+        "status": 200
+      },
+      {
+        "path": "/media/34/preview",
+        "ms": 7606.7,
+        "status": 200
+      },
+      {
+        "path": "/ar",
+        "ms": 7411.9,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "test": "homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: locator.boundingBox: Test timeout of 360000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.hero')\u001b[22m\n"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/fr",
+        "ms": 9611.0,
+        "status": 500
+      }
+    ]
+  },
+  {
+    "test": "product-en-product-SSR-gal-de9e0-n-and-accessible-navigation-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\product-en-product-SSR-gal-de9e0-n-and-accessible-navigation-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.product-back')\u001b[22m\n"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/ar/products/sample-1",
+        "ms": 10780.0,
+        "status": 500
+      },
+      {
+        "path": "/en/products/sample-1",
+        "ms": 6899.6,
+        "status": 200
+      },
+      {
+        "path": "/media/17/preview",
+        "ms": 6706.2,
+        "status": 200
+      },
+      {
+        "path": "/en/products/sample-1",
+        "ms": 6532.6,
+        "status": 200
+      },
+      {
+        "path": "/api/catalogue",
+        "ms": 6130.7,
+        "status": 200
+      },
+      {
+        "path": "/media/16/preview",
+        "ms": 6008.7,
+        "status": 200
+      },
+      {
+        "path": "/media/15/preview",
+        "ms": 5242.8,
+        "status": 200
+      },
+      {
+        "path": "/en/products/sample-1",
+        "ms": 4397.5,
+        "status": 200
+      }
+    ]
+  },
+  {
+    "test": "product-fr-product-SSR-gal-a84e6-n-and-accessible-navigation-desktop",
+    "trace": "docs\\qa\\milestone-6-final\\failures\\product-fr-product-SSR-gal-a84e6-n-and-accessible-navigation-desktop\\trace.zip",
+    "classification": "public error boundary during navigation; transport/environment failure, not a fixture count mismatch",
+    "errorScreen": true,
+    "actions": [
+      {
+        "method": null,
+        "error": "Error: locator.click: Test timeout of 180000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.product-back')\u001b[22m\n"
+      }
+    ],
+    "slowRequests": [
+      {
+        "path": "/ar/products/sample-1",
+        "ms": 10754.5,
+        "status": 500
+      },
+      {
+        "path": "/fr/products/sample-1",
+        "ms": 7596.5,
+        "status": 200
+      },
+      {
+        "path": "/media/17/preview",
+        "ms": 6679.5,
+        "status": 200
+      },
+      {
+        "path": "/fr/products/sample-1",
+        "ms": 6601.7,
+        "status": 200
+      },
+      {
+        "path": "/api/catalogue",
+        "ms": 6001.6,
+        "status": 200
+      },
+      {
+        "path": "/media/16/preview",
+        "ms": 5943.7,
+        "status": 200
+      },
+      {
+        "path": "/fr/products/sample-1",
+        "ms": 5337.8,
+        "status": 200
+      },
+      {
+        "path": "/media/15/preview",
+        "ms": 5036.5,
+        "status": 200
+      }
+    ]
+  }
+]

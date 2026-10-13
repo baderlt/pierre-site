@@ -1,0 +1,20 @@
+{
+  "name": "time-stone",
+  "private": true,
+  "workspaces": ["apps/web"],
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "npm run dev --workspace @time-stone/web",
+    "build": "npm run build --workspace @time-stone/web",
+    "start": "npm run start --workspace @time-stone/web",
+    "typecheck": "npm run typecheck --workspace @time-stone/web",
+    "test": "playwright test",
+    "test:3d": "node --test prototype/tests/stone.test.js tests/stone-engine.test.mjs",
+    "performance": "node scripts/performance.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.56.0",
+    "lighthouse": "13.5.0"
+  }
+}

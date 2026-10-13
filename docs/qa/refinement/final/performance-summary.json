@@ -1,0 +1,90 @@
+[
+  {
+    "locale": "fr",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-12T12:26:30.843Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 1373.4989999999998,
+      "largest-contentful-paint": 2889.666,
+      "speed-index": 1373.4989999999998,
+      "total-blocking-time": 62,
+      "cumulative-layout-shift": 0.0006375700142680657,
+      "total-byte-weight": 310968
+    },
+    "warnings": []
+  },
+  {
+    "locale": "fr",
+    "formFactor": "desktop",
+    "run": 1,
+    "fetchTime": "2026-10-12T12:26:39.234Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 342.6956,
+      "largest-contentful-paint": 674.826,
+      "speed-index": 342.6956,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0002996313075224559,
+      "total-byte-weight": 321222
+    },
+    "warnings": []
+  },
+  {
+    "locale": "ar",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-12T12:26:47.901Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 89,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 2121.3471,
+      "largest-contentful-paint": 3420.7892500000003,
+      "speed-index": 2121.3471,
+      "total-blocking-time": 78,
+      "cumulative-layout-shift": 0.0035640056741581185,
+      "total-byte-weight": 435117
+    },
+    "warnings": []
+  },
+  {
+    "locale": "ar",
+    "formFactor": "desktop",
+    "run": 1,
+    "fetchTime": "2026-10-12T12:26:56.082Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 502.03065,
+      "largest-contentful-paint": 729.3741999999999,
+      "speed-index": 502.03065,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0016079764011212522,
+      "total-byte-weight": 445371
+    },
+    "warnings": []
+  }
+]

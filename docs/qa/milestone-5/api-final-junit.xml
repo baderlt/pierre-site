@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml" tests="4" assertions="46" errors="0" failures="0" skipped="0" time="21.046063">
+    <testsuite name="Feature" tests="4" assertions="46" errors="0" failures="0" skipped="0" time="21.046063">
+      <testsuite name="Tests\Feature\BackendTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BackendTest.php" tests="3" assertions="31" errors="0" failures="0" skipped="0" time="8.853157">
+        <testcase name="test_product_create_edit_publish_unpublish_and_delete" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BackendTest.php" line="140" class="Tests\Feature\BackendTest" classname="Tests.Feature.BackendTest" assertions="10" time="7.237698"/>
+        <testcase name="test_published_api_filters_pagination_sorting_and_french_fallback" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BackendTest.php" line="243" class="Tests\Feature\BackendTest" classname="Tests.Feature.BackendTest" assertions="13" time="0.769746"/>
+        <testcase name="test_sensitive_fields_are_not_serialized_and_query_count_is_bounded" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BackendTest.php" line="275" class="Tests\Feature\BackendTest" classname="Tests.Feature.BackendTest" assertions="8" time="0.845713"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\PublishingTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\PublishingTest.php" tests="1" assertions="15" errors="0" failures="0" skipped="0" time="12.192906">
+        <testcase name="test_structured_content_application_and_contact_management" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\PublishingTest.php" line="39" class="Tests\Feature\PublishingTest" classname="Tests.Feature.PublishingTest" assertions="15" time="12.192906"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

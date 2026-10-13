@@ -1,0 +1,32 @@
+
+Running 120 tests using 1 worker
+
+(node:25168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   1 [desktop] › tests\admin-languages.spec.ts:5:5 › admin languages, relationship edit pages and mobile RTL (1.5m)
+  x    2 [desktop] › tests\banners.spec.ts:4:5 › editable banners use high resolution on desktop and smaller images on mobile (3.1m)
+(node:22644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   3 [desktop] › tests\banners.spec.ts:65:5 › Application banners preserve the first gallery image at desktop and mobile sizes (44.6s)
+  x    4 [desktop] › tests\catalogue.spec.ts:8:7 › fr: catalogue SSR, accessible controls, navigation and samples (2.0m)
+(node:6208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x    5 [desktop] › tests\catalogue.spec.ts:8:7 › en: catalogue SSR, accessible controls, navigation and samples (1.5m)
+(node:12676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x    6 [desktop] › tests\catalogue.spec.ts:8:7 › ar: catalogue SSR, accessible controls, navigation and samples (55.1s)
+(node:5028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   7 [desktop] › tests\catalogue.spec.ts:79:5 › catalogue fixture adapter validates inputs, combines filters and sorts (128ms)
+  ok   8 [desktop] › tests\catalogue.spec.ts:90:5 › catalogue width matrix and screenshots in three languages (3.2m)
+  ok   9 [desktop] › tests\catalogue.spec.ts:105:5 › catalogue works without client JavaScript (21.1s)
+  ok  10 [desktop] › tests\gallery-identity.spec.ts:5:7 › fr: shared gallery images keep distinct cards and dialog selection (14.4s)
+  ok  11 [desktop] › tests\gallery-identity.spec.ts:5:7 › en: shared gallery images keep distinct cards and dialog selection (17.7s)
+  ok  12 [desktop] › tests\gallery-identity.spec.ts:5:7 › ar: shared gallery images keep distinct cards and dialog selection (19.9s)
+  ok  13 [desktop] › tests\homepage.spec.ts:20:7 › fr: responsive homepage, semantics, local assets and screenshot (22.3s)
+  ok  14 [desktop] › tests\homepage.spec.ts:54:7 › fr: WCAG A/AA automated scan (10.4s)
+  x   15 [desktop] › tests\homepage.spec.ts:60:7 › fr: material dialog, selection, Escape and focus restoration (3.0m)
+(node:4404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  16 [desktop] › tests\homepage.spec.ts:20:7 › en: responsive homepage, semantics, local assets and screenshot (11.1s)
+  ok  17 [desktop] › tests\homepage.spec.ts:54:7 › en: WCAG A/AA automated scan (10.1s)

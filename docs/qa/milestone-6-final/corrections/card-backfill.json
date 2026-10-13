@@ -1,0 +1,357 @@
+{
+    "quality": 90,
+    "maxDimension": 640,
+    "existing_variants_and_originals_preserved": true,
+    "records": [
+        {
+            "id": 1,
+            "width": 640,
+            "height": 306,
+            "bytes": 66770,
+            "original_unchanged": true
+        },
+        {
+            "id": 2,
+            "width": 640,
+            "height": 343,
+            "bytes": 78648,
+            "original_unchanged": true
+        },
+        {
+            "id": 3,
+            "width": 640,
+            "height": 345,
+            "bytes": 86744,
+            "original_unchanged": true
+        },
+        {
+            "id": 4,
+            "width": 640,
+            "height": 326,
+            "bytes": 54374,
+            "original_unchanged": true
+        },
+        {
+            "id": 5,
+            "width": 640,
+            "height": 340,
+            "bytes": 52310,
+            "original_unchanged": true
+        },
+        {
+            "id": 6,
+            "width": 640,
+            "height": 327,
+            "bytes": 80666,
+            "original_unchanged": true
+        },
+        {
+            "id": 7,
+            "width": 640,
+            "height": 342,
+            "bytes": 68974,
+            "original_unchanged": true
+        },
+        {
+            "id": 8,
+            "width": 640,
+            "height": 329,
+            "bytes": 71874,
+            "original_unchanged": true
+        },
+        {
+            "id": 9,
+            "width": 640,
+            "height": 306,
+            "bytes": 86778,
+            "original_unchanged": true
+        },
+        {
+            "id": 10,
+            "width": 640,
+            "height": 327,
+            "bytes": 71806,
+            "original_unchanged": true
+        },
+        {
+            "id": 11,
+            "width": 640,
+            "height": 524,
+            "bytes": 144316,
+            "original_unchanged": true
+        },
+        {
+            "id": 12,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 13,
+            "width": 640,
+            "height": 524,
+            "bytes": 142196,
+            "original_unchanged": true
+        },
+        {
+            "id": 14,
+            "width": 640,
+            "height": 640,
+            "bytes": 153342,
+            "original_unchanged": true
+        },
+        {
+            "id": 15,
+            "width": 640,
+            "height": 524,
+            "bytes": 83228,
+            "original_unchanged": true
+        },
+        {
+            "id": 16,
+            "width": 640,
+            "height": 485,
+            "bytes": 107196,
+            "original_unchanged": true
+        },
+        {
+            "id": 17,
+            "width": 640,
+            "height": 485,
+            "bytes": 120738,
+            "original_unchanged": true
+        },
+        {
+            "id": 18,
+            "width": 640,
+            "height": 142,
+            "bytes": 38534,
+            "original_unchanged": true
+        },
+        {
+            "id": 31,
+            "width": 640,
+            "height": 461,
+            "bytes": 120300,
+            "original_unchanged": true
+        },
+        {
+            "id": 32,
+            "width": 640,
+            "height": 402,
+            "bytes": 85886,
+            "original_unchanged": true
+        },
+        {
+            "id": 33,
+            "width": 640,
+            "height": 194,
+            "bytes": 47556,
+            "original_unchanged": true
+        },
+        {
+            "id": 34,
+            "width": 640,
+            "height": 241,
+            "bytes": 79986,
+            "original_unchanged": true
+        },
+        {
+            "id": 35,
+            "width": 640,
+            "height": 243,
+            "bytes": 71400,
+            "original_unchanged": true
+        },
+        {
+            "id": 36,
+            "width": 640,
+            "height": 243,
+            "bytes": 51130,
+            "original_unchanged": true
+        },
+        {
+            "id": 37,
+            "width": 640,
+            "height": 244,
+            "bytes": 58396,
+            "original_unchanged": true
+        },
+        {
+            "id": 38,
+            "width": 640,
+            "height": 242,
+            "bytes": 53764,
+            "original_unchanged": true
+        },
+        {
+            "id": 39,
+            "width": 640,
+            "height": 344,
+            "bytes": 57574,
+            "original_unchanged": true
+        },
+        {
+            "id": 40,
+            "width": 640,
+            "height": 344,
+            "bytes": 66490,
+            "original_unchanged": true
+        },
+        {
+            "id": 41,
+            "width": 640,
+            "height": 344,
+            "bytes": 49014,
+            "original_unchanged": true
+        },
+        {
+            "id": 42,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 43,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 44,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 45,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 46,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 47,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 48,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 49,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 50,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 51,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 52,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 53,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 54,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 55,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 56,
+            "width": 640,
+            "height": 502,
+            "bytes": 82602,
+            "original_unchanged": true
+        },
+        {
+            "id": 57,
+            "width": 640,
+            "height": 320,
+            "bytes": 78186,
+            "original_unchanged": true
+        },
+        {
+            "id": 58,
+            "width": 640,
+            "height": 450,
+            "bytes": 114462,
+            "original_unchanged": true
+        },
+        {
+            "id": 59,
+            "width": 640,
+            "height": 461,
+            "bytes": 120300,
+            "original_unchanged": true
+        },
+        {
+            "id": 61,
+            "width": 640,
+            "height": 640,
+            "bytes": 158186,
+            "original_unchanged": true
+        },
+        {
+            "id": 63,
+            "width": 640,
+            "height": 214,
+            "bytes": 58242,
+            "original_unchanged": true
+        },
+        {
+            "id": 64,
+            "width": 640,
+            "height": 214,
+            "bytes": 58242,
+            "original_unchanged": true
+        }
+    ]
+}

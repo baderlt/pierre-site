@@ -1,0 +1,36 @@
+{
+  "status": "All 11 browser acceptance checks passed. Render below is the re-imported GLB.",
+  "checks": [
+    "PASS — Large PNG resized to 2048 × 1024 with its aspect ratio preserved",
+    "PASS — Image-derived bump map is capped at 1024 pixels",
+    "PASS — Decoded input object URL is released, prepared preview URL remains alive",
+    "PASS — Processed image preserves top-left orientation",
+    "PASS — 16 alternating JPEG/PNG replacements return GPU texture and geometry counts to zero after disposal",
+    "PASS — Repeated uploads leave no additional live object URLs",
+    "PASS — Export is a valid binary glTF 2.0 container",
+    "PASS — GLB embeds all color images with no external texture references",
+    "PASS — Standard GLTFLoader round-trip preserves meter dimensions",
+    "PASS — All six exported faces load with embedded color textures",
+    "PASS — All source object URLs released at the end of processing"
+  ],
+  "integratedExportRoundTrips": [
+    {
+      "device": "desktop",
+      "dimensionsMeters": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.014999999664723873
+      ],
+      "texturedFaces": 6
+    },
+    {
+      "device": "mobile",
+      "dimensionsMeters": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.014999999664723873
+      ],
+      "texturedFaces": 6
+    }
+  ]
+}

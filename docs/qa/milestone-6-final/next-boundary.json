@@ -1,0 +1,54 @@
+{
+  "scope": "Real HTTP to production Next proxy; rejected before upstream submission; no quotation records created",
+  "passed": true,
+  "results": [
+    {
+      "name": "missing Origin",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "cacheControl": "private, no-store",
+      "nosniff": "nosniff"
+    },
+    {
+      "name": "foreign Origin",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "cacheControl": "private, no-store",
+      "nosniff": "nosniff"
+    },
+    {
+      "name": "non-JSON",
+      "status": 415,
+      "expected": 415,
+      "passed": true,
+      "cacheControl": "private, no-store",
+      "nosniff": "nosniff"
+    },
+    {
+      "name": "missing idempotency",
+      "status": 422,
+      "expected": 422,
+      "passed": true,
+      "cacheControl": "private, no-store",
+      "nosniff": "nosniff"
+    },
+    {
+      "name": "invalid JSON",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "cacheControl": "private, no-store",
+      "nosniff": "nosniff"
+    },
+    {
+      "name": "oversized streamed body",
+      "status": 413,
+      "expected": 413,
+      "passed": true,
+      "cacheControl": "private, no-store",
+      "nosniff": "nosniff"
+    }
+  ]
+}

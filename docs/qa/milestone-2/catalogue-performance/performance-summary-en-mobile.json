@@ -1,0 +1,24 @@
+[
+  {
+    "locale": "en",
+    "formFactor": "mobile",
+    "run": 1,
+    "fetchTime": "2026-10-12T13:00:16.697Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 916.077,
+      "largest-contentful-paint": 1695.5962499999998,
+      "speed-index": 916.077,
+      "total-blocking-time": 62,
+      "cumulative-layout-shift": 0.0003784138573893197,
+      "total-byte-weight": 296936
+    },
+    "warnings": []
+  }
+]

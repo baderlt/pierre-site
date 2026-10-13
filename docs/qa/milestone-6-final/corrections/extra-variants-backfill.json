@@ -1,0 +1,406 @@
+{
+    "quality": 90,
+    "existing_variants_and_originals_preserved": true,
+    "records": [
+        {
+            "variant": "swatch",
+            "id": 1,
+            "width": 192,
+            "height": 92,
+            "bytes": 8024,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 2,
+            "width": 192,
+            "height": 103,
+            "bytes": 8774,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 3,
+            "width": 192,
+            "height": 104,
+            "bytes": 9868,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 4,
+            "width": 192,
+            "height": 98,
+            "bytes": 7488,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 5,
+            "width": 192,
+            "height": 102,
+            "bytes": 7568,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 6,
+            "width": 192,
+            "height": 98,
+            "bytes": 6990,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 7,
+            "width": 192,
+            "height": 103,
+            "bytes": 7902,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 8,
+            "width": 192,
+            "height": 99,
+            "bytes": 7428,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 9,
+            "width": 192,
+            "height": 92,
+            "bytes": 8754,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 10,
+            "width": 192,
+            "height": 98,
+            "bytes": 7648,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 11,
+            "width": 192,
+            "height": 157,
+            "bytes": 15108,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 12,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 13,
+            "width": 192,
+            "height": 157,
+            "bytes": 13916,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 14,
+            "width": 192,
+            "height": 192,
+            "bytes": 16514,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 15,
+            "width": 192,
+            "height": 157,
+            "bytes": 8810,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 16,
+            "width": 192,
+            "height": 146,
+            "bytes": 11010,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 17,
+            "width": 192,
+            "height": 146,
+            "bytes": 10494,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 18,
+            "width": 192,
+            "height": 42,
+            "bytes": 4302,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 31,
+            "width": 192,
+            "height": 138,
+            "bytes": 12572,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 32,
+            "width": 192,
+            "height": 121,
+            "bytes": 9932,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 33,
+            "width": 192,
+            "height": 58,
+            "bytes": 5308,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 34,
+            "width": 192,
+            "height": 72,
+            "bytes": 7588,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 35,
+            "width": 192,
+            "height": 73,
+            "bytes": 6426,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 36,
+            "width": 192,
+            "height": 73,
+            "bytes": 5454,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 37,
+            "width": 192,
+            "height": 73,
+            "bytes": 6014,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 38,
+            "width": 192,
+            "height": 73,
+            "bytes": 5370,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 39,
+            "width": 192,
+            "height": 103,
+            "bytes": 7374,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 40,
+            "width": 192,
+            "height": 103,
+            "bytes": 7680,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 41,
+            "width": 192,
+            "height": 103,
+            "bytes": 5860,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 42,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 43,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 44,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 45,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 46,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 47,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 48,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 49,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 50,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 51,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 52,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 53,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 54,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 55,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 56,
+            "width": 192,
+            "height": 151,
+            "bytes": 8656,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 57,
+            "width": 192,
+            "height": 96,
+            "bytes": 7782,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 58,
+            "width": 192,
+            "height": 135,
+            "bytes": 11612,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 59,
+            "width": 192,
+            "height": 138,
+            "bytes": 12572,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 61,
+            "width": 192,
+            "height": 192,
+            "bytes": 14174,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 63,
+            "width": 192,
+            "height": 64,
+            "bytes": 5912,
+            "original_unchanged": true
+        },
+        {
+            "variant": "swatch",
+            "id": 64,
+            "width": 192,
+            "height": 64,
+            "bytes": 5912,
+            "original_unchanged": true
+        }
+    ]
+}

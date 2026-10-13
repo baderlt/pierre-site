@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'required' => 'حقل :attribute مطلوب.',
+    'email' => 'يجب أن يكون :attribute بريدًا إلكترونيًا صالحًا.',
+    'string' => 'يجب أن يكون :attribute نصًا.',
+    'numeric' => 'يجب أن يكون :attribute رقمًا.',
+    'integer' => 'يجب أن يكون :attribute عددًا صحيحًا.',
+    'boolean' => 'يجب أن تكون قيمة :attribute صحيحة أو خاطئة.',
+    'array' => 'يجب أن يكون :attribute قائمة.',
+    'array_keys' => 'يجب أن يحتوي :attribute على المفاتيح التالية فقط: :values.',
+    'unique' => 'قيمة :attribute مستخدمة بالفعل.',
+    'exists' => 'القيمة المحددة لـ :attribute غير صالحة.',
+    'in' => 'القيمة المحددة لـ :attribute غير صالحة.',
+    'regex' => 'صيغة :attribute غير صالحة.',
+    'distinct' => 'يحتوي :attribute على قيمة مكررة.',
+    'date' => 'يجب أن يكون :attribute تاريخًا صالحًا.',
+    'url' => 'يجب أن يكون :attribute رابطًا صالحًا.',
+    'file' => 'يجب أن يكون :attribute ملفًا.',
+    'image' => 'يجب أن يكون :attribute صورة.',
+    'mimetypes' => 'يجب أن يكون ملف :attribute من نوع: :values.',
+    'mimes' => 'يجب أن يكون ملف :attribute من نوع: :values.',
+    'uploaded' => 'فشل رفع ملف :attribute.',
+    'accepted' => 'يجب الموافقة على :attribute.',
+    'max' => ['string' => 'يجب ألا يتجاوز :attribute عدد :max حرفًا.', 'numeric' => 'يجب ألا يتجاوز :attribute القيمة :max.', 'array' => 'يجب ألا يحتوي :attribute على أكثر من :max عناصر.', 'file' => 'يجب ألا يتجاوز حجم :attribute عدد :max كيلوبايت.'],
+    'min' => ['string' => 'يجب أن يحتوي :attribute على :min حرفًا على الأقل.', 'numeric' => 'يجب ألا تقل قيمة :attribute عن :min.', 'array' => 'يجب أن يحتوي :attribute على :min عناصر على الأقل.', 'file' => 'يجب ألا يقل حجم :attribute عن :min كيلوبايت.'],
+    'between' => ['numeric' => 'يجب أن تكون قيمة :attribute بين :min و:max.'],
+];

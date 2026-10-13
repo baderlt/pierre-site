@@ -1,0 +1,2411 @@
+{
+  "passed": true,
+  "checks": 28,
+  "browserErrors": [],
+  "results": [
+    {
+      "locale": "fr",
+      "route": "/",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/31/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 864,
+          "displayWidth": 374
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/34/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 453,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/35/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/36/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/37/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 458,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/61/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 1200,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/18/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 265,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 754,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 169
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/products",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/58/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 843,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/59/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 864,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-blocks.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 88,
+          "displayWidth": 109
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-tiles.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 95,
+          "displayWidth": 109
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Farchitecture.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 73,
+          "displayWidth": 109
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/about",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/64/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 401,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1608,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/12/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 960,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/39/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1031,
+          "displayWidth": 166
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/40/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1031,
+          "displayWidth": 166
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/41/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1031,
+          "displayWidth": 166
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/12/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 960,
+          "displayWidth": 166
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/applications",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 363,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/9/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/10/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/contact",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 363,
+          "displayWidth": 390
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/quote",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/18/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 265,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+          "naturalWidth": 350,
+          "naturalHeight": 275,
+          "displayWidth": 90
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/products/sample-1",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fquarry.webp&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 132,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 356
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 63
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/12/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 160,
+          "displayWidth": 63
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 147
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 228
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 228
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 228
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/applications/exterior-facades",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 320
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 320
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 320
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 320
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 320
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 320
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/31/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1843,
+          "displayWidth": 998
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/34/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 453,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/35/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/36/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/37/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 458,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/61/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 1200,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/18/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 566,
+          "displayWidth": 845
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1608,
+          "displayWidth": 608
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 311
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/products",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/58/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1799,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/59/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1843,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-blocks.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 384,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-tiles.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 415,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Farchitecture.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 318,
+          "displayWidth": 411
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/about",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/64/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 855,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1608,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/12/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 960,
+          "displayWidth": 624
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/39/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1031,
+          "displayWidth": 216
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/40/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1031,
+          "displayWidth": 216
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/41/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1031,
+          "displayWidth": 216
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/12/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 960,
+          "displayWidth": 216
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/applications",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 774,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/9/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/10/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/contact",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 774,
+          "displayWidth": 1536
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/quote",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/18/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 566,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=640&q=75",
+          "naturalWidth": 491,
+          "naturalHeight": 385,
+          "displayWidth": 484
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/products/sample-1",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fquarry.webp&w=1920&q=75",
+          "naturalWidth": 1536,
+          "naturalHeight": 522,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 598
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 63
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/12/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 160,
+          "displayWidth": 63
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 161
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 464
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 464
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 464
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "route": "/applications/exterior-facades",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 638
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 638
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 386
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 386
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 386
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 386
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 386
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 386
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "/",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/31/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 864,
+          "displayWidth": 374
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/34/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 453,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/35/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/36/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/37/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 458,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/61/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 1200,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/18/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 265,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 754,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 169
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "/products",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/58/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 843,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/59/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 864,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-blocks.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 88,
+          "displayWidth": 109
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-tiles.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 95,
+          "displayWidth": 109
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Farchitecture.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 73,
+          "displayWidth": 109
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "/applications",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 363,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/9/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/10/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "/",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/31/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1843,
+          "displayWidth": 998
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/34/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 453,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/35/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/36/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/37/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 458,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/61/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 1200,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/18/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 566,
+          "displayWidth": 845
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1608,
+          "displayWidth": 608
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 311
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "/products",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/58/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1799,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/59/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1843,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-blocks.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 384,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-tiles.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 415,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Farchitecture.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 318,
+          "displayWidth": 411
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "/applications",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 774,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/9/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/10/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "route": "/",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/31/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 864,
+          "displayWidth": 374
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 31
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/34/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 453,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/35/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/36/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/37/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 458,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/61/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 1200,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/18/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 265,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 754,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 350
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 169
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "route": "/products",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/58/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 843,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 167
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/59/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 864,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-blocks.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 88,
+          "displayWidth": 109
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-tiles.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 95,
+          "displayWidth": 109
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Farchitecture.webp&w=256&q=75",
+          "naturalWidth": 116,
+          "naturalHeight": 73,
+          "displayWidth": 109
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "route": "/applications",
+      "width": 390,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 363,
+          "displayWidth": 390
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/9/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/10/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 169
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 348
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "route": "/",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/31/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1843,
+          "displayWidth": 998
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/thumb",
+          "naturalWidth": 320,
+          "naturalHeight": 262,
+          "displayWidth": 44
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 0
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/34/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 453,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/35/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/36/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 456,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/37/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 458,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/61/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 1200,
+          "displayWidth": 244
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/18/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 566,
+          "displayWidth": 845
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/32/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1608,
+          "displayWidth": 608
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 415
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 311
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 311
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "route": "/products",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/58/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1799,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/15/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/16/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/17/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 909,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/11/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/13/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 982,
+          "displayWidth": 322
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/59/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 1843,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-blocks.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 384,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fcatalogue-tiles.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 415,
+          "displayWidth": 411
+        },
+        {
+          "source": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Farchitecture.webp&w=640&q=75",
+          "naturalWidth": 506,
+          "naturalHeight": 318,
+          "displayWidth": 411
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "route": "/applications",
+      "width": 1536,
+      "images": [
+        {
+          "source": "http://127.0.0.1:3000/media/33/banner",
+          "naturalWidth": 2560,
+          "naturalHeight": 774,
+          "displayWidth": 1536
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/1/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/4/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 611,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/6/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/8/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 616,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/9/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 574,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/10/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 614,
+          "displayWidth": 227
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/3/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 647,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 643,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/5/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1020,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/7/preview",
+          "naturalWidth": 1200,
+          "naturalHeight": 641,
+          "displayWidth": 346
+        },
+        {
+          "source": "http://127.0.0.1:3000/media/2/banner",
+          "naturalWidth": 1920,
+          "naturalHeight": 1029,
+          "displayWidth": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+
+Running 138 tests using 1 worker
+
+(node:27256) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   1 [desktop] › tests\admin-languages.spec.ts:6:5 › admin languages, relationship edit pages and mobile RTL (25.0s)
+  ok   2 [desktop] › tests\banner-stacking.spec.ts:4:42 › fr: banner text and controls are actually painted above responsive images (16.1s)
+  ok   3 [desktop] › tests\banner-stacking.spec.ts:4:42 › en: banner text and controls are actually painted above responsive images (13.8s)
+  ok   4 [desktop] › tests\banner-stacking.spec.ts:4:42 › ar: banner text and controls are actually painted above responsive images (14.1s)
+  x    5 [desktop] › tests\banners.spec.ts:5:5 › editable banners use high resolution on desktop and smaller images on mobile (38.3s)
+(node:17728) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   6 [desktop] › tests\banners.spec.ts:66:5 › Application banners preserve the first gallery image at desktop and mobile sizes (7.6s)
+  ok   7 [desktop] › tests\catalogue.spec.ts:8:7 › fr: catalogue SSR, accessible controls, navigation and samples (17.4s)
+  ok   8 [desktop] › tests\catalogue.spec.ts:8:7 › en: catalogue SSR, accessible controls, navigation and samples (16.2s)
+  ok   9 [desktop] › tests\catalogue.spec.ts:8:7 › ar: catalogue SSR, accessible controls, navigation and samples (17.6s)
+  ok  10 [desktop] › tests\catalogue.spec.ts:88:5 › catalogue fixture adapter validates inputs, combines filters and sorts (38ms)
+  ok  11 [desktop] › tests\catalogue.spec.ts:99:5 › catalogue width matrix and screenshots in three languages (32.7s)
+  ok  12 [desktop] › tests\catalogue.spec.ts:114:5 › catalogue works without client JavaScript (3.3s)
+  ok  13 [desktop] › tests\gallery-identity.spec.ts:5:7 › fr: shared gallery images keep distinct cards and dialog selection (5.4s)
+  ok  14 [desktop] › tests\gallery-identity.spec.ts:5:7 › en: shared gallery images keep distinct cards and dialog selection (5.5s)
+  ok  15 [desktop] › tests\gallery-identity.spec.ts:5:7 › ar: shared gallery images keep distinct cards and dialog selection (6.0s)
+  ok  16 [desktop] › tests\homepage.spec.ts:20:7 › fr: responsive homepage, semantics, local assets and screenshot (3.8s)
+  ok  17 [desktop] › tests\homepage.spec.ts:54:7 › fr: WCAG A/AA automated scan (2.3s)
+  ok  18 [desktop] › tests\homepage.spec.ts:60:7 › fr: material dialog, selection, Escape and focus restoration (1.2s)
+  ok  19 [desktop] › tests\homepage.spec.ts:20:7 › en: responsive homepage, semantics, local assets and screenshot (3.6s)
+  ok  20 [desktop] › tests\homepage.spec.ts:54:7 › en: WCAG A/AA automated scan (2.3s)
+  ok  21 [desktop] › tests\homepage.spec.ts:60:7 › en: material dialog, selection, Escape and focus restoration (1.8s)
+  ok  22 [desktop] › tests\homepage.spec.ts:20:7 › ar: responsive homepage, semantics, local assets and screenshot (4.2s)
+  ok  23 [desktop] › tests\homepage.spec.ts:54:7 › ar: WCAG A/AA automated scan (2.6s)
+  ok  24 [desktop] › tests\homepage.spec.ts:60:7 › ar: material dialog, selection, Escape and focus restoration (1.7s)
+  ok  25 [desktop] › tests\homepage.spec.ts:81:5 › language switching preserves query and section and supports all three languages (6.4s)
+  -   26 [desktop] › tests\homepage.spec.ts:93:5 › mobile/tablet menu traps focus, navigates and closes with Escape
+  ok  27 [desktop] › tests\homepage.spec.ts:111:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (1.5s)
+  ok  28 [desktop] › tests\homepage.spec.ts:126:5 › locale path helper retains nested pages for later milestones (3ms)
+  ok  29 [desktop] › tests\homepage.spec.ts:131:5 › requested widths preserve hero space, typography and layout in every language (56.9s)
+  ok  30 [desktop] › tests\product.spec.ts:9:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (10.9s)
+  ok  31 [desktop] › tests\product.spec.ts:9:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (8.5s)
+  ok  32 [desktop] › tests\product.spec.ts:9:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (9.0s)
+  ok  33 [desktop] › tests\product.spec.ts:47:5 › product data contracts reject unsafe configuration and unknown products (1.1s)
+  ok  34 [desktop] › tests\product.spec.ts:62:5 › product width matrix, screenshots and no initial 3D payload (29.1s)
+  ok  35 [desktop] › tests\product.spec.ts:80:5 › product photos, details and quotation destination work without JavaScript (2.2s)
+  x   36 [desktop] › tests\public-pages.spec.ts:9:35 › fr: public pages, gallery focus and demo quotation (34.4s)
+(node:23440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  37 [desktop] › tests\public-pages.spec.ts:9:35 › en: public pages, gallery focus and demo quotation (18.6s)
+  ok  38 [desktop] › tests\public-pages.spec.ts:9:35 › ar: public pages, gallery focus and demo quotation (16.5s)
+  ok  39 [desktop] › tests\public-pages.spec.ts:50:5 › public page viewport matrix and screenshots (1.9m)
+  ok  40 [desktop] › tests\public-pages.spec.ts:64:5 › SSR routes, paginated application products, no-script safety and validation bounds (9.9s)
+  ok  41 [desktop] › tests\quotation-throttle.spec.ts:3:139 › fr: quotation throttling explains the server retry duration without claiming success (3.1s)
+  ok  42 [desktop] › tests\quotation-throttle.spec.ts:3:139 › en: quotation throttling explains the server retry duration without claiming success (3.0s)
+  ok  43 [desktop] › tests\quotation-throttle.spec.ts:3:139 › ar: quotation throttling explains the server retry duration without claiming success (2.9s)
+(node:26136) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  44 [desktop] › tests\viewer.spec.ts:10:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets (33.4s)
+  ok  45 [desktop] › tests\viewer.spec.ts:109:5 › 3D responsive and RTL activation matrix (1.3m)
+  ok  46 [desktop] › tests\viewer.spec.ts:127:5 › WebGL initialization failure returns an accessible static preview (2.0s)
+(node:6484) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  47 [tablet] › tests\admin-languages.spec.ts:6:5 › admin languages, relationship edit pages and mobile RTL (30.9s)
+  ok  48 [tablet] › tests\banner-stacking.spec.ts:4:42 › fr: banner text and controls are actually painted above responsive images (7.2s)
+  ok  49 [tablet] › tests\banner-stacking.spec.ts:4:42 › en: banner text and controls are actually painted above responsive images (6.6s)
+  ok  50 [tablet] › tests\banner-stacking.spec.ts:4:42 › ar: banner text and controls are actually painted above responsive images (6.1s)
+  ok  51 [tablet] › tests\banners.spec.ts:5:5 › editable banners use high resolution on desktop and smaller images on mobile (47.4s)
+  ok  52 [tablet] › tests\banners.spec.ts:66:5 › Application banners preserve the first gallery image at desktop and mobile sizes (7.4s)
+  ok  53 [tablet] › tests\catalogue.spec.ts:8:7 › fr: catalogue SSR, accessible controls, navigation and samples (22.4s)
+  ok  54 [tablet] › tests\catalogue.spec.ts:8:7 › en: catalogue SSR, accessible controls, navigation and samples (23.2s)
+  ok  55 [tablet] › tests\catalogue.spec.ts:8:7 › ar: catalogue SSR, accessible controls, navigation and samples (24.0s)
+  ok  56 [tablet] › tests\catalogue.spec.ts:88:5 › catalogue fixture adapter validates inputs, combines filters and sorts (30ms)
+  -   57 [tablet] › tests\catalogue.spec.ts:99:5 › catalogue width matrix and screenshots in three languages
+  -   58 [tablet] › tests\catalogue.spec.ts:114:5 › catalogue works without client JavaScript
+  ok  59 [tablet] › tests\gallery-identity.spec.ts:5:7 › fr: shared gallery images keep distinct cards and dialog selection (5.5s)
+  ok  60 [tablet] › tests\gallery-identity.spec.ts:5:7 › en: shared gallery images keep distinct cards and dialog selection (5.7s)
+  ok  61 [tablet] › tests\gallery-identity.spec.ts:5:7 › ar: shared gallery images keep distinct cards and dialog selection (5.9s)
+  ok  62 [tablet] › tests\homepage.spec.ts:20:7 › fr: responsive homepage, semantics, local assets and screenshot (3.7s)
+  ok  63 [tablet] › tests\homepage.spec.ts:54:7 › fr: WCAG A/AA automated scan (2.9s)
+  ok  64 [tablet] › tests\homepage.spec.ts:60:7 › fr: material dialog, selection, Escape and focus restoration (1.3s)
+  ok  65 [tablet] › tests\homepage.spec.ts:20:7 › en: responsive homepage, semantics, local assets and screenshot (3.7s)
+  ok  66 [tablet] › tests\homepage.spec.ts:54:7 › en: WCAG A/AA automated scan (2.3s)
+  ok  67 [tablet] › tests\homepage.spec.ts:60:7 › en: material dialog, selection, Escape and focus restoration (1.4s)
+  ok  68 [tablet] › tests\homepage.spec.ts:20:7 › ar: responsive homepage, semantics, local assets and screenshot (3.5s)
+  ok  69 [tablet] › tests\homepage.spec.ts:54:7 › ar: WCAG A/AA automated scan (2.8s)
+  ok  70 [tablet] › tests\homepage.spec.ts:60:7 › ar: material dialog, selection, Escape and focus restoration (1.4s)
+  ok  71 [tablet] › tests\homepage.spec.ts:81:5 › language switching preserves query and section and supports all three languages (6.5s)
+  ok  72 [tablet] › tests\homepage.spec.ts:93:5 › mobile/tablet menu traps focus, navigates and closes with Escape (3.1s)
+  ok  73 [tablet] › tests\homepage.spec.ts:111:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (1.4s)
+  ok  74 [tablet] › tests\homepage.spec.ts:126:5 › locale path helper retains nested pages for later milestones (2ms)
+  -   75 [tablet] › tests\homepage.spec.ts:131:5 › requested widths preserve hero space, typography and layout in every language
+  ok  76 [tablet] › tests\product.spec.ts:9:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (8.1s)
+  ok  77 [tablet] › tests\product.spec.ts:9:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (8.8s)
+  ok  78 [tablet] › tests\product.spec.ts:9:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (9.0s)
+  ok  79 [tablet] › tests\product.spec.ts:47:5 › product data contracts reject unsafe configuration and unknown products (1.3s)
+  -   80 [tablet] › tests\product.spec.ts:62:5 › product width matrix, screenshots and no initial 3D payload
+  -   81 [tablet] › tests\product.spec.ts:80:5 › product photos, details and quotation destination work without JavaScript
+  ok  82 [tablet] › tests\public-pages.spec.ts:9:35 › fr: public pages, gallery focus and demo quotation (16.4s)
+  ok  83 [tablet] › tests\public-pages.spec.ts:9:35 › en: public pages, gallery focus and demo quotation (16.2s)
+  ok  84 [tablet] › tests\public-pages.spec.ts:9:35 › ar: public pages, gallery focus and demo quotation (16.5s)
+  -   85 [tablet] › tests\public-pages.spec.ts:50:5 › public page viewport matrix and screenshots
+  -   86 [tablet] › tests\public-pages.spec.ts:64:5 › SSR routes, paginated application products, no-script safety and validation bounds
+  ok  87 [tablet] › tests\quotation-throttle.spec.ts:3:139 › fr: quotation throttling explains the server retry duration without claiming success (4.0s)
+  ok  88 [tablet] › tests\quotation-throttle.spec.ts:3:139 › en: quotation throttling explains the server retry duration without claiming success (3.3s)
+  ok  89 [tablet] › tests\quotation-throttle.spec.ts:3:139 › ar: quotation throttling explains the server retry duration without claiming success (3.3s)
+(node:18000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -   90 [tablet] › tests\viewer.spec.ts:10:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets
+  -   91 [tablet] › tests\viewer.spec.ts:109:5 › 3D responsive and RTL activation matrix
+  -   92 [tablet] › tests\viewer.spec.ts:127:5 › WebGL initialization failure returns an accessible static preview
+(node:17224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  93 [mobile] › tests\admin-languages.spec.ts:6:5 › admin languages, relationship edit pages and mobile RTL (31.5s)
+  ok  94 [mobile] › tests\banner-stacking.spec.ts:4:42 › fr: banner text and controls are actually painted above responsive images (22.5s)
+  ok  95 [mobile] › tests\banner-stacking.spec.ts:4:42 › en: banner text and controls are actually painted above responsive images (20.1s)

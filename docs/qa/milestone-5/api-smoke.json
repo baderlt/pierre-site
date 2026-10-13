@@ -1,0 +1,237 @@
+{
+  "passed": true,
+  "checks": 33,
+  "results": [
+    {
+      "route": "products",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 5485,
+      "http_ms": 1414.95
+    },
+    {
+      "route": "products/sample-1",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 1333,
+      "http_ms": 704.06
+    },
+    {
+      "route": "categories",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 373,
+      "http_ms": 507.97
+    },
+    {
+      "route": "materials",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 307,
+      "http_ms": 688.64
+    },
+    {
+      "route": "finishes",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 383,
+      "http_ms": 510.31
+    },
+    {
+      "route": "formats",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 290,
+      "http_ms": 476.62
+    },
+    {
+      "route": "applications",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 3790,
+      "http_ms": 546.01
+    },
+    {
+      "route": "applications/exterior-facades",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 3368,
+      "http_ms": 681.63
+    },
+    {
+      "route": "pages/home",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 2946,
+      "http_ms": 538.05
+    },
+    {
+      "route": "pages/about",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 2657,
+      "http_ms": 627.6
+    },
+    {
+      "route": "site",
+      "locale": "fr",
+      "status": 200,
+      "bytes": 171,
+      "http_ms": 484.08
+    },
+    {
+      "route": "products",
+      "locale": "en",
+      "status": 200,
+      "bytes": 5380,
+      "http_ms": 768.26
+    },
+    {
+      "route": "products/sample-1",
+      "locale": "en",
+      "status": 200,
+      "bytes": 1326,
+      "http_ms": 715.79
+    },
+    {
+      "route": "categories",
+      "locale": "en",
+      "status": 200,
+      "bytes": 368,
+      "http_ms": 693.33
+    },
+    {
+      "route": "materials",
+      "locale": "en",
+      "status": 200,
+      "bytes": 308,
+      "http_ms": 443.71
+    },
+    {
+      "route": "finishes",
+      "locale": "en",
+      "status": 200,
+      "bytes": 388,
+      "http_ms": 491.06
+    },
+    {
+      "route": "formats",
+      "locale": "en",
+      "status": 200,
+      "bytes": 285,
+      "http_ms": 492.94
+    },
+    {
+      "route": "applications",
+      "locale": "en",
+      "status": 200,
+      "bytes": 3434,
+      "http_ms": 582.04
+    },
+    {
+      "route": "applications/exterior-facades",
+      "locale": "en",
+      "status": 200,
+      "bytes": 3262,
+      "http_ms": 718.87
+    },
+    {
+      "route": "pages/home",
+      "locale": "en",
+      "status": 200,
+      "bytes": 2861,
+      "http_ms": 733.92
+    },
+    {
+      "route": "pages/about",
+      "locale": "en",
+      "status": 200,
+      "bytes": 2467,
+      "http_ms": 536.47
+    },
+    {
+      "route": "site",
+      "locale": "en",
+      "status": 200,
+      "bytes": 171,
+      "http_ms": 488.06
+    },
+    {
+      "route": "products",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 5315,
+      "http_ms": 776.21
+    },
+    {
+      "route": "products/sample-1",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 1301,
+      "http_ms": 611.2
+    },
+    {
+      "route": "categories",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 374,
+      "http_ms": 514.31
+    },
+    {
+      "route": "materials",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 311,
+      "http_ms": 526.11
+    },
+    {
+      "route": "finishes",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 396,
+      "http_ms": 481.85
+    },
+    {
+      "route": "formats",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 284,
+      "http_ms": 491.38
+    },
+    {
+      "route": "applications",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 3044,
+      "http_ms": 542.78
+    },
+    {
+      "route": "applications/exterior-facades",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 3142,
+      "http_ms": 846.45
+    },
+    {
+      "route": "pages/home",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 2377,
+      "http_ms": 556.18
+    },
+    {
+      "route": "pages/about",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 2048,
+      "http_ms": 560.32
+    },
+    {
+      "route": "site",
+      "locale": "ar",
+      "status": 200,
+      "bytes": 171,
+      "http_ms": 469.67
+    }
+  ]
+}
