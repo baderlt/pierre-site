@@ -374,5 +374,7 @@
     "Invalid or excessive meshes.": "Collection meshes invalide ou excessive.",
     "Invalid or excessive nodes.": "Collection nodes invalide ou excessive.",
     "Invalid or excessive scenes.": "Collection scenes invalide ou excessive.",
-    "Validated GLB derivative exceeds 8 MiB.": "Le dérivé GLB validé dépasse 8 Mio."
+    "Validated GLB derivative exceeds 8 MiB.": "Le dérivé GLB validé dépasse 8 Mio.",
+    "Choose an existing image or use + to upload without leaving this form.": "Choisissez une image existante ou utilisez + pour importer sans quitter ce formulaire.",
+    "Upload and select image": "Importer et sélectionner une image"
 }

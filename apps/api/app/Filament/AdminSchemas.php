@@ -2,6 +2,7 @@
 
 namespace App\Filament;
 
+use App\Domain\ContentWriter;
 use App\Models\Application;
 use App\Models\Category;
 use App\Models\Color;
@@ -15,6 +16,7 @@ use App\Models\QuotationRequest;
 use App\Models\SiteSetting;
 use App\Models\StoneType;
 use App\Models\User;
+use Filament\Actions\Action;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
@@ -27,6 +29,9 @@ use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Tabs;
 use Filament\Schemas\Components\Tabs\Tab;
 use Filament\Schemas\Components\Utilities\Get;
+use Filament\Schemas\Schema;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Validation\ValidationException;
 
 class AdminSchemas
 {
@@ -42,9 +47,22 @@ class AdminSchemas
         })->values()->all())->columnSpanFull();
     }
 
-    public static function media(string $field, string $label, bool $multiple = false): Select
+    public static function media(string $field, string $label, bool $multiple = false, bool $allowUpload = false): Select
     {
         $select = Select::make($field)->label($label)->searchable()->getSearchResultsUsing(fn (string $search) => Media::where('asset_type', 'image')->where('processing_status', 'ready')->where('original_filename', 'like', '%'.$search.'%')->latest()->limit(50)->pluck('original_filename', 'id')->all());
+        if ($allowUpload) {
+            $select->helperText(__('Choose an existing image or use + to upload without leaving this form.'))
+                ->createOptionForm([self::upload('upload', 'Upload / replace image')->required(), self::translations(true)])
+                ->createOptionModalHeading(__('Upload and select image'))
+                ->createOptionAction(fn (Action $action) => $action->label(__('Upload and select image'))->modalSubmitActionLabel(__('Upload and select image'))->authorize(fn () => Gate::allows('create', Media::class)))
+                ->createOptionUsing(function (array $data, Schema $schema): int {
+                    try {
+                        return app(ContentWriter::class)->save(Media::class, [...$data, 'purpose' => 'image'])->id;
+                    } catch (ValidationException $e) {
+                        throw ValidationException::withMessages(collect($e->errors())->mapWithKeys(fn ($messages, $key) => [$schema->getStatePath().'.'.($key === 'file' ? 'upload' : $key) => array_map(fn ($message) => __($message), $messages)])->all());
+                    }
+                });
+        }
 
         return $multiple ? $select->multiple()->getOptionLabelsUsing(fn (array $values) => Media::where('asset_type', 'image')->whereIn('id', $values)->pluck('original_filename', 'id')->all()) : $select->getOptionLabelUsing(fn ($value) => Media::where('asset_type', 'image')->find($value)?->original_filename);
     }
@@ -93,14 +111,14 @@ class AdminSchemas
             $identity[] = Toggle::make('illustrative')->label('Illustrative / temporary content')->default(true)->helperText(__('Disable only after the content has been verified.'));
         }
         if (in_array('image_id', $model->getFillable())) {
-            $identity[] = self::media('image_id', 'Image from library');
+            $identity[] = self::media('image_id', 'Image from library', allowUpload: $class === Category::class);
             if ($class === PageSection::class) {
                 $identity[] = self::upload('image_upload', 'Upload banner image')->helperText(__('Banner uploads keep the private original and generate WebP up to 2560 px without upscaling. JPEG, PNG or WebP; 10 MB and 20 MP maximum.'));
                 $identity[] = TextEntry::make('banner_preview')->label('Current image')->state(fn (?PageSection $record) => $record?->image?->bannerUrl())->url(fn (?PageSection $record) => $record?->image?->bannerUrl());
             }
         }
         if (in_array('og_image_id', $model->getFillable())) {
-            $identity[] = self::media('og_image_id', 'Open Graph image');
+            $identity[] = self::media('og_image_id', 'Open Graph image', allowUpload: true);
         }
         if ($class === Finish::class) {
             $identity[] = Select::make('simulation')->options(['honed' => __('Honed'), 'polished' => __('Polished'), 'rough' => __('Rough')])->placeholder(__('No supported simulation'))->helperText(__('Commercial brushed finish has no matching simulation.'));

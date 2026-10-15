@@ -374,5 +374,7 @@
     "Invalid or excessive meshes.": "مجموعة meshes غير صالحة أو تتجاوز الحد.",
     "Invalid or excessive nodes.": "مجموعة nodes غير صالحة أو تتجاوز الحد.",
     "Invalid or excessive scenes.": "مجموعة scenes غير صالحة أو تتجاوز الحد.",
-    "Validated GLB derivative exceeds 8 MiB.": "يتجاوز ملف GLB المتحقق منه 8 MiB."
+    "Validated GLB derivative exceeds 8 MiB.": "يتجاوز ملف GLB المتحقق منه 8 MiB.",
+    "Choose an existing image or use + to upload without leaving this form.": "اختر صورة موجودة أو استخدم + لرفع صورة دون مغادرة النموذج.",
+    "Upload and select image": "رفع صورة واختيارها"
 }
