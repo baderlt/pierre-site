@@ -1,6 +1,0 @@
-{
-  "passed": true,
-  "failures": [],
-  "workload_requests": 356,
-  "scope": "Bounded local workloads; reserved identities, isolated DB/media. No policy limits or deadlines changed."
-}

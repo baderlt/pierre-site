@@ -10,6 +10,8 @@ import type { CatalogueQuery } from '@/lib/catalogue';
 import type { Locale } from '@/lib/locales';
 import {geometryCopy,selectionFor,validSelection} from '@/lib/geometry';
 import {GeometryControls} from './geometry-controls';
+import {ViewerDimensions} from './viewer-dimensions';
+import type {MeasurementFrame} from '@/lib/viewer-measurements';
 
 // This import is requested only when an activated studio mounts. No Three.js in the initial page.
 const Viewer = lazy(() => import('./stone-viewer-client'));
@@ -40,6 +42,14 @@ export function ProductStudio({ product, c, locale, query, initialConfig, initia
   const [visible, setVisible] = useState(true);
   const [message, setMessage] = useState('');
   const [exporting, setExporting] = useState(false);
+  const [measurement,setMeasurement]=useState<MeasurementFrame|null>(null);
+  const [moving,setMoving]=useState(false);
+  const [showCue,setShowCue]=useState(true);
+  const idleTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
+  const interaction=useCallback((started:boolean)=>{if(idleTimer.current)clearTimeout(idleTimer.current);setShowCue(false);if(started)setMoving(true);else idleTimer.current=setTimeout(()=>setMoving(false),450);},[]);
+  useEffect(()=>()=>{if(idleTimer.current)clearTimeout(idleTimer.current);},[]);
+  useEffect(()=>{if(!active||!ready||!showCue)return;const timer=setTimeout(()=>setShowCue(false),6000);return()=>clearTimeout(timer);},[active,ready,showCue]);
+  const dimensionsVerified=viewer?.source==='procedural'&&product.formats.some(f=>f.id===formatId&&f.verified&&(['width','height','thickness'] as const).every(k=>Math.abs(f.dimensions_cm[k]-config[k])<.001));
   const region = useRef<HTMLDivElement>(null);
   const activateButton = useRef<HTMLButtonElement>(null);
   const api = useRef<ViewerApi>(null);
@@ -73,24 +83,20 @@ export function ProductStudio({ product, c, locale, query, initialConfig, initia
     finally { setExporting(false); }
   }
   function changeShape(shape: GeometryType,id?:string) { setFormatId(id); setConfig(previous => {const dimensions=product.formats.find(f=>id?f.id===id:f.geometry===shape)?.dimensions_cm||geometryDefaults[shape];return {...previous,shape,...(legacyShape?dimensions:{}),geometry:legacyShape?(shape===viewer?.shape?{...selectionFor(viewer),parameters:dimensions}:undefined):previous.geometry};}); setMessage(''); }
-  function stop() { setActive(false); setReady(false); setMessage(''); }
+  function stop() { setActive(false); setReady(false); setMeasurement(null); setMoving(false); if(idleTimer.current)clearTimeout(idleTimer.current);setMessage(''); }
   return <>
     <section className="product-gallery" aria-label={c.gallery}>
-      <div className="gallery-stage" ref={region} tabIndex={active ? -1 : undefined} data-viewer-state={failed ? 'failed' : active ? ready ? 'ready' : 'loading' : 'static'}>
+      <div className="gallery-stage" ref={region} tabIndex={active ? 0 : undefined} role={active?'group':undefined} aria-label={active?c.gallery:undefined} aria-describedby={active?`studio-keyboard-${product.id}`:undefined} data-moving={moving} data-viewer-state={failed ? 'failed' : active ? ready ? 'ready' : 'loading' : 'static'} onKeyDown={event=>{if(!active||!ready||(event.target!==event.currentTarget&&event.target!==region.current?.querySelector('canvas')))return;const actions:Record<string,()=>void>={ArrowLeft:()=>api.current?.rotate(-Math.PI/8),ArrowRight:()=>api.current?.rotate(Math.PI/8),ArrowUp:()=>api.current?.zoom(.8),ArrowDown:()=>api.current?.zoom(1.25),'+':()=>api.current?.zoom(.8),'-':()=>api.current?.zoom(1.25),Home:()=>api.current?.resetCamera(),e:()=>api.current?.inspectEdge()};const action=actions[event.key];if(action){event.preventDefault();interaction(true);action();interaction(false);}}}>
         <Image src={product.images[image]?.src||product.image} alt={product.images[image]?.alt||product.name} fill sizes="(max-width: 767px) 100vw, (max-width: 1099px) 60vw, 48vw" preload fetchPriority="high" className={ready && canView ? 'studio-underlay' : ''} />
-        {active && canView && <div className="webgl-stage" style={{ opacity: ready ? 1 : 0 }} role="img" aria-label={`${c.gallery}. ${c.instruction}. ${viewer?.source==='glb'?gc.model:c.approximation}`}><ViewerBoundary onFailure={failure}><Suspense fallback={null}><Viewer key={`${viewer?.source}-${viewer?.revision}-${product.texture.src}`} ref={api} texture={product.texture.src} viewer={viewer} referenceWidth={product.saved_3d_configuration.width} referenceHeight={product.saved_3d_configuration.height} settings={config} material={config.finish===product.saved_3d_configuration.finish?product.material_parameters:undefined} visible={visible} onReady={loaded} onFailure={failure} /></Suspense></ViewerBoundary></div>}
+        {active && canView && <div className="webgl-stage" style={{ opacity: ready ? 1 : 0 }} role="img" aria-label={`${c.gallery}. ${c.instruction}. ${viewer?.source==='glb'?gc.model:c.approximation}`}><ViewerBoundary onFailure={failure}><Suspense fallback={null}><Viewer key={`${viewer?.source}-${viewer?.revision}-${product.texture.src}`} ref={api} texture={product.texture.src} viewer={viewer} referenceWidth={product.saved_3d_configuration.width} referenceHeight={product.saved_3d_configuration.height} settings={config} material={config.finish===product.saved_3d_configuration.finish?product.material_parameters:undefined} visible={visible} onReady={loaded} onFailure={failure} onMeasure={setMeasurement} measuring={ready&&!moving} onInteraction={interaction}/></Suspense></ViewerBoundary></div>}
         {product.temporary&&<span className="studio-label">{c.sample}</span>}
+        {active && canView && ready && measurement && <ViewerDimensions frame={measurement} locale={locale} c={c} moving={moving||showCue} verified={dimensionsVerified}/>}
+        {active && canView && ready && <p className="studio-drag-cue" data-visible={showCue} aria-hidden={!showCue}><span className="studio-drag-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 28V14a3 3 0 0 1 6 0v10-3a3 3 0 0 1 6 0v4-1a3 3 0 0 1 6 0v8c0 7-4 11-11 11-5 0-8-3-11-8l-5-7a3 3 0 0 1 4-4l5 4Z"/><path d="M5 9h9M8 6 5 9l3 3M34 9h9M40 6l3 3-3 3"/></svg></span><span>{c.dragCue}</span></p>}
+        {active&&<p id={`studio-keyboard-${product.id}`} className="sr-only">{c.keyboardHelp}</p>}
         {active && canView && !ready && <p className="studio-loading" role="status">{c.loading}</p>}
         {!active && canView && <button ref={activateButton} className="button button-gold studio-activate" onClick={() => { setFailed(false); setMessage(''); setVisible(true); setActive(true); }}>{failed ? c.retry : c.activate}<span aria-hidden="true">◇</span></button>}
       </div>
       <div className="gallery-thumbnails" aria-label={c.gallery}>{product.images.map((item, index) => <button key={`${item.role}-${index}`} aria-label={item.alt||c.views[index]||product.name} aria-pressed={!active && image === index} onClick={() => { stop(); setImage(index); }}><Image src={thumbnailSource(item.src)} alt="" fill sizes="72px" /></button>)}{active && <button className="studio-photo-button" onClick={stop}>{c.static}</button>}</div>
-      {active && canView && <div className="studio-controls" aria-label={c.gallery}>
-        <p>{c.instruction}</p><div className="camera-buttons">
-          <button disabled={!ready} onClick={() => api.current?.rotate(-Math.PI / 8)} aria-label={c.rotateLeft}>↶</button><button disabled={!ready} onClick={() => api.current?.rotate(Math.PI / 8)} aria-label={c.rotateRight}>↷</button>
-          <button disabled={!ready} onClick={() => api.current?.zoom(0.8)} aria-label={c.zoomIn}>+</button><button disabled={!ready} onClick={() => api.current?.zoom(1.25)} aria-label={c.zoomOut}>−</button>
-          <button disabled={!ready} onClick={() => api.current?.resetCamera()}>{c.reset}</button><button disabled={!ready} onClick={() => api.current?.inspectEdge()}>{c.edge}</button>
-        </div><div className="studio-exports"><button disabled={!ready || exporting} onClick={() => download('png')}>{c.png} ↓</button><button disabled={!ready || exporting} onClick={() => download('glb')}>{c.glb} ↓</button></div>
-      </div>}
       {canView&&<><p role="status" className="studio-status">{failed ? c.failure : message || (active && ready ? c.ready : '')}</p><p className="product-note">{viewer?.source==='glb'?gc.model:c.approximation}</p></>}
     </section>
     {information}
@@ -104,6 +110,7 @@ export function ProductStudio({ product, c, locale, query, initialConfig, initia
           if(viewer&&next.shape===viewer.shape){const selection={...selectionFor(viewer),parameters:{width:next.width,height:next.height,thickness:next.thickness}};if(!validSelection(selection,viewer)){setMessage(c.invalid);return;}next.geometry=selection;}
           setConfig(next); setMessage('');
         }}><fieldset><legend>{c.dimensions}</legend><div className="dimension-fields">{(['width', 'height', 'thickness'] as const).map((key, index) => <label key={key}>{c.dimensionNames[index]}<input dir="ltr" type="number" name={key} min={viewer?.limits[key]?.min??config[key]} max={viewer?.limits[key]?.max??config[key]} step={viewer?.limits[key]?.step??.1} readOnly={!viewer?.limits[key]} required defaultValue={config[key]} /></label>)}</div><p className="product-note">{c.dimensionNote}</p><button className="button button-border" type="submit">{c.update}</button></fieldset></form>:viewer&&<GeometryControls viewer={viewer} config={config} locale={locale} editable={!!editable} onChange={next=>{setConfig(next);setMessage('');}} onError={()=>setMessage(c.invalid)} updateLabel={c.update}/>}
+        {active&&<fieldset className="studio-actions"><legend>{c.tools}</legend><p className="product-note">{c.keyboardHelp}</p><div className="studio-camera-actions"><button type="button" disabled={!ready} onClick={()=>api.current?.rotate(-Math.PI/8)}>{c.rotateLeft}</button><button type="button" disabled={!ready} onClick={()=>api.current?.rotate(Math.PI/8)}>{c.rotateRight}</button><button type="button" disabled={!ready} onClick={()=>api.current?.zoom(.8)}>{c.zoomIn}</button><button type="button" disabled={!ready} onClick={()=>api.current?.zoom(1.25)}>{c.zoomOut}</button><button type="button" disabled={!ready} onClick={()=>api.current?.resetCamera()}>{c.reset}</button><button type="button" disabled={!ready} onClick={()=>api.current?.inspectEdge()}>{c.edge}</button></div><div className="studio-exports"><button type="button" disabled={!ready||exporting} onClick={()=>download('png')}>{c.png} ↓</button><button type="button" disabled={!ready||exporting} onClick={()=>download('glb')}>{c.glb} ↓</button></div></fieldset>}
       </details>}<a className="button button-gold product-config-quote" href={quotationHref()}>{c.quote}<span aria-hidden="true">{locale === 'ar' ? '←' : '→'}</span></a>
     </section>
     {applications}

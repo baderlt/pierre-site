@@ -1,4 +1,0 @@
-PHP Warning:  Invalid "post_max_size" setting. Invalid quantity "M": no valid leading digits, interpreting as "0" for backwards compatibility in Unknown on line 0
-
-Warning: Invalid "post_max_size" setting. Invalid quantity "M": no valid leading digits, interpreting as "0" for backwards compatibility in Unknown on line 0
-{"tool":"pint","result":"fail","files":[{"path":"app\\Providers\\AppServiceProvider.php","fixers":["fully_qualified_strict_types","ordered_imports"]}]}

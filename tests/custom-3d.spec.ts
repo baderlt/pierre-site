@@ -68,6 +68,7 @@ test('procedural examples, GLB materials, exports, repeated disposal and measure
   await page.waitForTimeout(700);const frames=Number(await page.locator('canvas').getAttribute('data-render-count'));await page.waitForTimeout(500);expect(Number(await page.locator('canvas').getAttribute('data-render-count'))-frames).toBeLessThanOrEqual(1);
   await page.getByRole('button',{name:c.edge,exact:true}).click();await page.getByRole('button',{name:c.reset,exact:true}).click();
   await page.screenshot({path:path(`screenshots/geometry-${shape}-${info.project.name}.png`)});
+  if(['circle','glb'].includes(shape))await page.locator('.product-configuration > summary').click();
   if(['circle','glb'].includes(shape))for(const kind of ['png','glb']){
    const waiting=page.waitForEvent('download');await page.getByRole('button',{name:kind==='png'?c.png+' ↓':c.glb+' ↓',exact:true}).click();const download=await waiting;
    const output=path(`${shape}-${info.project.name}.${kind}`);await download.saveAs(output);const bytes=await readFile(output);

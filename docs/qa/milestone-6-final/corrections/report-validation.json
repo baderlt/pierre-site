@@ -1,9 +1,0 @@
-{
-  "reportLocalLinksChecked": 177,
-  "missingLinks": [],
-  "evidenceTextFilesScanned": 129,
-  "configuredSecretExposureFiles": [],
-  "clientBoundaryPassed": true,
-  "scope": "Configured nonempty secrets only; no values emitted; no OCR or full trace-archive forensic review",
-  "passed": true
-}

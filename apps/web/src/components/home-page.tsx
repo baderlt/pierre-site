@@ -10,6 +10,9 @@ import { SectionHeading } from './section-heading';
 import { SiteHeader } from './site-header';
 import { navigationTargets, type HomeContent } from '@/lib/home-content';
 import { languageNames, locales, type Locale } from '@/lib/locales';
+import { thumbnailSource } from '@/lib/media';
+
+const allCollections: Record<Locale, string> = { fr: 'Voir toutes les collections', en: 'View all collections', ar: 'عرض جميع التشكيلات' };
 
 function ArrowLink({ href, children, className = '' }: { href: string; children: React.ReactNode; className?: string }) {
   return <a className={`button ${className}`} href={href}>{children}<Icon name="arrow" className="direction-arrow" /></a>;
@@ -52,7 +55,8 @@ export function HomePage({ locale, content: c,sections,categories,products,appli
 
       {c.featured.title && products.length>0 && <section id="materials" className="materials-section section-space"><div className="container">
         <SectionHeading {...c.featured} />
-        <div className="material-card-grid">{products.map((product, index) => <article className="material-card" key={product.id}><div className="material-card-image"><Image src={product.image} alt={product.image_alt||product.name} fill sizes="(max-width: 767px) 90vw, 33vw" />{product.temporary&&<span className="sample-label">{c.demo}</span>}</div><div className="material-card-copy"><p className="eyebrow">{product.category}</p><h3><a href={`/${locale}/products/${product.slug}`}>{product.name}</a></h3></div></article>)}</div>
+        <div className="material-card-grid">{products.map(product => <article className="material-card" key={product.id}><a href={`/${locale}/products/${product.slug}`} className="material-card-link" aria-labelledby={`featured-product-${product.id}`}><div className="material-card-image"><Image src={product.image} alt={product.image_alt||product.name} fill sizes="(max-width: 767px) 90vw, 33vw" />{product.temporary&&<span className="sample-label">{c.demo}</span>}</div><div className="material-card-copy"><p className="eyebrow">{product.category}</p><h3 id={`featured-product-${product.id}`}>{product.name}</h3></div></a></article>)}</div>
+        <div className="featured-collection-action"><a href={`/${locale}/products`} className="featured-collection-link"><span className="featured-collection-texture" aria-hidden="true"><Image defer src={thumbnailSource(products[0].image)} alt="" fill sizes="320px" /></span><span>{allCollections[locale]}</span><Icon name="arrow" className="direction-arrow" /></a></div>
       </div></section>}
 
       {c.craft.title && <section id="craft" className="craft-section home-craft section-space container" aria-labelledby="craft-title"><figure className="home-craft-images"><div className="home-craft-main"><Image defer src={picture('craft')||picture('quarry')} alt="" fill sizes="(max-width: 767px) 90vw, 50vw" /></div>{products[0]?.image&&<div className="home-craft-detail"><Image defer src={products[0].image} alt="" fill sizes="(max-width: 767px) 40vw, 22vw"/></div>}<figcaption>{c.temporaryShort}</figcaption></figure><div className="home-craft-story"><div className="craft-copy"><p className="eyebrow">{c.craft.eyebrow}</p><h2 id="craft-title">{c.craft.title}</h2><p className="section-description">{c.craft.description}</p></div><ol className="process-steps">{c.craft.steps.map((step, index) => <li key={step}><span className="process-number" dir="ltr">0{index + 1}</span><h3>{step}</h3><Icon name="arrow" className="direction-arrow" /></li>)}</ol></div></section>}

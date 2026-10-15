@@ -2,6 +2,8 @@ import type { Locale } from './locales';
 
 export const productCopy = {
   fr: {
+    tools: 'Plus d’actions',
+    dragCue: 'Faites glisser pour explorer en 3D', dimensionUnit: 'cm', modelDimensions: 'Dimensions du modèle · indicatives', catalogueDimensions: 'Dimensions du catalogue', keyboardHelp: 'Clavier : flèches gauche/droite pour tourner, haut/bas ou +/− pour zoomer, Début pour réinitialiser, E pour l’épaisseur. Exports dans les formats illustratifs.',
     back: 'Retour aux résultats', sample: 'Échantillon provisoire', intro: 'Une matière minérale, des nuances subtiles. Explorez cette étude visuelle et imaginez la pierre dans votre projet.',
     gallery: 'Galerie de la matière', views: ['Vue de présentation', 'Détail de la texture', 'Inspiration architecturale'], activate: 'Explorer en 3D', static: 'Revenir aux photos', loading: 'Préparation du studio 3D…', ready: 'Studio 3D prêt', failure: 'La 3D est indisponible sur ce navigateur. Les photos restent accessibles.', retry: 'Réessayer',
     instruction: 'Glissez pour tourner · pincez ou utilisez les boutons pour zoomer', approximation: 'Simulation illustrative : côtés et dos approximés à partir d’une image. Relief, couleur et finitions non mesurés.',
@@ -15,6 +17,8 @@ export const productCopy = {
     quoteTitle: 'Préparation de votre projet', quoteStatus: 'Interface de devis à venir', quoteBody: 'Préparez votre demande et conservez la référence retournée après enregistrement.', selection: 'Votre sélection illustrative', returnProduct: 'Retour à la matière', noScript: 'Les photos et les informations sont disponibles. Activez JavaScript pour utiliser le studio 3D.'
   },
   en: {
+    tools: 'More actions',
+    dragCue: 'Drag to explore in 3D', dimensionUnit: 'cm', modelDimensions: 'Model dimensions · illustrative', catalogueDimensions: 'Catalogue dimensions', keyboardHelp: 'Keyboard: left/right arrows rotate, up/down or +/− zoom, Home resets, E inspects thickness. Exports are in the illustrative formats section.',
     back: 'Back to results', sample: 'Temporary sample', intro: 'Mineral character, subtle tones. Explore this visual study and imagine stone in your project.',
     gallery: 'Material gallery', views: ['Presentation view', 'Texture detail', 'Architectural inspiration'], activate: 'Explore in 3D', static: 'Return to photos', loading: 'Preparing the 3D studio…', ready: '3D studio ready', failure: '3D is unavailable in this browser. Product photos remain accessible.', retry: 'Try again',
     instruction: 'Drag to rotate · pinch or use the buttons to zoom', approximation: 'Illustrative simulation: sides and back approximated from one image. Relief, color and finishes are not measured.',
@@ -28,6 +32,8 @@ export const productCopy = {
     quoteTitle: 'Prepare your project', quoteStatus: 'Quotation interface coming later', quoteBody: 'Prepare your enquiry and keep the reference returned after it is saved.', selection: 'Your illustrative selection', returnProduct: 'Back to the material', noScript: 'Photos and information are available. Enable JavaScript to use the 3D studio.'
   },
   ar: {
+    tools: 'المزيد من الإجراءات',
+    dragCue: 'اسحب لاستكشاف النموذج ثلاثي الأبعاد', dimensionUnit: 'سم', modelDimensions: 'أبعاد النموذج · توضيحية', catalogueDimensions: 'أبعاد الكتالوج', keyboardHelp: 'لوحة المفاتيح: سهم اليمين واليسار للتدوير، الأعلى والأسفل أو +/− للتقريب، Home لإعادة الضبط، E لفحص السُمك. التصدير ضمن قسم الأشكال التوضيحية.',
     back: 'العودة إلى النتائج', sample: 'عينة مؤقتة', intro: 'طابع معدني وألوان هادئة. اكتشف هذه الدراسة البصرية وتخيّل الحجر في مشروعك.',
     gallery: 'معرض الخامة', views: ['صورة العرض', 'تفاصيل النسيج', 'إلهام معماري'], activate: 'استكشف بالأبعاد الثلاثية', static: 'العودة إلى الصور', loading: 'جارٍ تجهيز الاستوديو ثلاثي الأبعاد…', ready: 'الاستوديو ثلاثي الأبعاد جاهز', failure: 'العرض ثلاثي الأبعاد غير متاح في هذا المتصفح. تبقى صور المنتج متاحة.', retry: 'حاول مجددًا',
     instruction: 'اسحب للتدوير · استخدم إصبعين أو الأزرار للتقريب', approximation: 'محاكاة توضيحية: الجوانب والخلف تقديرية انطلاقًا من صورة واحدة. التضاريس والألوان والتشطيبات غير مقاسة.',

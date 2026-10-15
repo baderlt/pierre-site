@@ -20,3 +20,14 @@ apps/api/bootstrap/cache/*.php
 .next-m6/
 .next-*/
 apps/api/storage.zip
+
+# Local documentation, QA evidence and design mockups (keep local copies).
+/docs/
+/design-references/
+/apps/api/README-MILESTONE-5.md
+
+# Generated Python caches and operating-system metadata.
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

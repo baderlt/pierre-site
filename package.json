@@ -9,7 +9,7 @@
     "start": "npm run start --workspace @time-stone/web",
     "typecheck": "npm run typecheck --workspace @time-stone/web",
     "test": "playwright test",
-    "test:3d": "node --test prototype/tests/stone.test.js tests/stone-engine.test.mjs tests/product-geometry.test.mjs",
+    "test:3d": "node --test prototype/tests/stone.test.js tests/stone-engine.test.mjs tests/product-geometry.test.mjs tests/viewer-measurements.test.mjs",
     "test:security": "node --test tests/server-security.test.mjs",
     "performance": "node scripts/performance.mjs"
   },

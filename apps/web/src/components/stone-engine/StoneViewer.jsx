@@ -108,6 +108,30 @@ function CustomModel({model,meshRef,onReady}){
   return <group ref={meshRef} position={position} dispose={null}><primitive object={model.scene} dispose={null}/></group>;
 }
 
+function DimensionProjection({meshRef,onMeasure,measuring}) {
+  const {camera,size}=useThree();
+  const last=useRef('');
+  const box=useMemo(()=>new Box3(),[]);
+  useFrame(()=>{
+    if(!measuring||!onMeasure||!meshRef.current)return;
+    meshRef.current.updateWorldMatrix(true,true);box.setFromObject(meshRef.current);
+    if(box.isEmpty())return;
+    const {min,max}=box;
+    const project=(x,y,z)=>{const p=new Vector3(x,y,z).project(camera);return p.z>=-1&&p.z<=1?[(p.x+1)*size.width/2,(1-p.y)*size.height/2]:[NaN,NaN];};
+    const front=camera.position.z>=(min.z+max.z)/2?max.z:min.z;
+    const left=project(min.x,min.y,front)[0]<=project(max.x,min.y,front)[0]?min.x:max.x,right=left===min.x?max.x:min.x;
+    const top=camera.position.y>=(min.y+max.y)/2?max.y:min.y;
+    const frame={width:size.width,height:size.height,center:project((min.x+max.x)/2,(min.y+max.y)/2,(min.z+max.z)/2),dimensions:{width:(max.x-min.x)*100,height:(max.y-min.y)*100,thickness:(max.z-min.z)*100},edges:[
+      {axis:'width',start:project(min.x,min.y,front),end:project(max.x,min.y,front)},
+      {axis:'height',start:project(left,min.y,front),end:project(left,max.y,front)},
+      {axis:'thickness',start:project(right,top,min.z),end:project(right,top,max.z)}
+    ]};
+    const signature=JSON.stringify(frame);
+    if(signature!==last.current){last.current=signature;queueMicrotask(()=>onMeasure(frame));}
+  });
+  return null;
+}
+
 class WebGLErrorBoundary extends Component {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
@@ -134,7 +158,7 @@ function RenderBudget({ visible }) {
   return null;
 }
 
-const StoneViewer = forwardRef(function StoneViewer({ asset, model, settings, visible, onReady, onFailure }, ref) {
+const StoneViewer = forwardRef(function StoneViewer({ asset, model, settings, visible, onReady, onFailure, onMeasure, measuring, onInteraction }, ref) {
   const meshRef = useRef();
   const controlsRef = useRef();
   const cameraApi = useRef();
@@ -200,8 +224,9 @@ const StoneViewer = forwardRef(function StoneViewer({ asset, model, settings, vi
         <planeGeometry args={[200, 200]} />
         <shadowMaterial transparent opacity={0.12} />
       </mesh>
-      <OrbitControls ref={controlsRef} makeDefault enabled={visible} enablePan={false} enableDamping={false} minPolarAngle={0.08} maxPolarAngle={Math.PI * 0.91} />
+      <OrbitControls ref={controlsRef} makeDefault enabled={visible} enablePan={false} enableDamping={false} minPolarAngle={0.08} maxPolarAngle={Math.PI * 0.91} onStart={()=>onInteraction?.(true)} onEnd={()=>onInteraction?.(false)} />
       <CameraRig settings={settings} controlsRef={controlsRef} cameraApi={cameraApi} />
+      <DimensionProjection meshRef={meshRef} onMeasure={onMeasure} measuring={visible&&measuring}/>
     </Canvas>
   </WebGLErrorBoundary>;
 });

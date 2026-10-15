@@ -1,9 +1,0 @@
-{
-  "isolated_database": "time_stone_m8",
-  "synthetic_admin_deactivated": true,
-  "synthetic_admin_password_invalidated": true,
-  "own_sessions_removed": 15,
-  "QA_database_and_media_retained": true,
-  "original_accounts_modified": false,
-  "own_QA_credentials_file_removed": true
-}

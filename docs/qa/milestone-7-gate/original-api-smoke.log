@@ -1,8 +1,0 @@
-
-Running 1 test using 1 worker
-
-(node:29200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
-(Use `node --trace-warnings ...` to show where the warning was created)
-  ok 1 [tablet] › tests\banners.spec.ts:6:5 › editable banners use high resolution on desktop and smaller images on mobile (38.5s)
-
-  1 passed (39.2s)

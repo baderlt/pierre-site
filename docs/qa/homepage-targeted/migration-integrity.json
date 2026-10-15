@@ -1,7 +1,0 @@
-{
-    "migration": "2026_10_14_000100_add_magasin_directions_url",
-    "exit_code": 0,
-    "business_tables_checked": 36,
-    "original_columns_and_rows_unchanged": true,
-    "location_not_populated": true
-}

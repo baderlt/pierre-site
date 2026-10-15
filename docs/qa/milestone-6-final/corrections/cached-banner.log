@@ -1,9 +1,0 @@
-
-Running 2 tests using 1 worker
-
-(node:18364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
-(Use `node --trace-warnings ...` to show where the warning was created)
-  ok 1 [desktop] › tests\banners.spec.ts:5:5 › editable banners use high resolution on desktop and smaller images on mobile (38.6s)
-  ok 2 [desktop] › tests\banners.spec.ts:66:5 › Application banners preserve the first gallery image at desktop and mobile sizes (6.9s)
-
-  2 passed (46.5s)

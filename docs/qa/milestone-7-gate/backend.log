@@ -1,8 +1,0 @@
-PHPUnit 12.5.39 by Sebastian Bergmann and contributors.
-
-Runtime:       PHP 8.3.6
-Configuration: C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml
-
-.....................................................
-Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate 7864320 bytes) in C:\Users\DELL 7420\Desktop\time-stone\apps\api\app\Domain\MediaLibrary.php on line 59
-Fatal error: Premature end of PHP process when running Tests\Feature\BannerTest::test_high_resolution_banner_is_bounded_and_private_until_published.

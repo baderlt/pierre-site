@@ -5,6 +5,7 @@ import StoneViewer, { type ViewerApi } from './stone-engine/StoneViewer';
 import { prepareImage, type PreparedImage } from './stone-engine/images';
 import type { StoneConfiguration } from '@/lib/product';
 import type { ViewerConfiguration } from '@/lib/geometry';
+import type {MeasurementFrame} from '@/lib/viewer-measurements';
 import {GLTFLoader,type GLTF} from 'three/addons/loaders/GLTFLoader.js';
 import {LoadingManager,type Material,type Texture,type Mesh} from 'three';
 
@@ -20,7 +21,7 @@ async function loadModel(v:ViewerConfiguration,signal:AbortSignal){
  const manager=new LoadingManager();manager.setURLModifier(url=>{if(!url.startsWith('blob:'))throw Error('External model resource forbidden');return url;});
  return new GLTFLoader(manager).parseAsync(bytes.buffer,'');
 }
-export default forwardRef<ViewerApi, { texture: string; settings: StoneConfiguration;viewer?:ViewerConfiguration|null;referenceWidth?:number;referenceHeight?:number; material?:{roughness:number;metalness:number;bump_strength:number;preset:string}|null; visible: boolean; onReady(): void; onFailure(): void }>(function StoneViewerClient({ texture, settings, viewer,referenceWidth,referenceHeight, material, visible, onReady, onFailure }, ref) {
+export default forwardRef<ViewerApi, { texture: string; settings: StoneConfiguration;viewer?:ViewerConfiguration|null;referenceWidth?:number;referenceHeight?:number; material?:{roughness:number;metalness:number;bump_strength:number;preset:string}|null; visible: boolean; onReady(): void; onFailure(): void;onMeasure?(frame:MeasurementFrame):void;measuring?:boolean;onInteraction?(active:boolean):void }>(function StoneViewerClient({ texture, settings, viewer,referenceWidth,referenceHeight, material, visible, onReady, onFailure,onMeasure,measuring,onInteraction }, ref) {
   const [asset, setAsset] = useState<{top:PreparedImage;bottom:PreparedImage;side:PreparedImage}|null>(null);
   const [model,setModel]=useState<GLTF|null>(null);
   useEffect(() => {
@@ -39,5 +40,5 @@ export default forwardRef<ViewerApi, { texture: string; settings: StoneConfigura
     else {const urls={top:viewer?.materials.top||texture,bottom:viewer?.materials.bottom||texture,side:viewer?.materials.side||texture},cache=new Map<string,Promise<PreparedImage>>();for(const url of Object.values(urls))if(!cache.has(url))cache.set(url,prepareImage(url).then(result=>{if(cancelled)result.dispose();else prepared.push(result);return result;}));Promise.all([...cache].map(async([url,promise])=>[url,await promise] as const)).then(entries=>{const assets=new Map(entries);if(!cancelled)setAsset({top:assets.get(urls.top)!,bottom:assets.get(urls.bottom)!,side:assets.get(urls.side)!});}).catch(()=>{if(!cancelled)onFailure();}).finally(()=>clearTimeout(timer));}
     return () => { cancelled = true;clearTimeout(timer);controller.abort();prepared.forEach(p=>p.dispose());if(loaded)disposeModel(loaded); };
   }, [texture, viewer, onFailure]);
-  return (asset||model) && <StoneViewer ref={ref} asset={asset} model={model} settings={{ ...settings,referenceWidth,referenceHeight,edgeFinish:viewer?.edge_finish, ...presets[settings.finish],...(material?{roughness:material.roughness,metalness:material.metalness,bump:material.bump_strength,preset:material.preset}:{metalness:0,preset:'studio'}) }} visible={visible} onReady={onReady} onFailure={onFailure} />;
+  return (asset||model) && <StoneViewer ref={ref} asset={asset} model={model} settings={{ ...settings,referenceWidth,referenceHeight,edgeFinish:viewer?.edge_finish, ...presets[settings.finish],...(material?{roughness:material.roughness,metalness:material.metalness,bump:material.bump_strength,preset:material.preset}:{metalness:0,preset:'studio'}) }} visible={visible} onReady={onReady} onFailure={onFailure} onMeasure={onMeasure} measuring={measuring} onInteraction={onInteraction} />;
 });

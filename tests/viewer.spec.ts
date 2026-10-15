@@ -39,9 +39,11 @@ test('3D controls, formats, finishes, demand rendering, exports and resource bud
   const count = Number(baseline.renderCount);
   await page.waitForTimeout(600);
   expect(Number(await canvas.getAttribute('data-render-count')) - count).toBeLessThanOrEqual(1);
+  await expect(page.locator('.studio-controls,.camera-buttons')).toHaveCount(0);
+  await expect(page.locator('.studio-drag-cue')).toHaveCount(1);
+  await page.locator('.product-configuration > summary').click();
   for (const label of [c.rotateLeft, c.rotateRight, c.zoomIn, c.zoomOut, c.edge, c.reset]) await page.getByRole('button', { name: label, exact: true }).click();
   await page.getByRole('button', { name: c.finishNames[1], exact: true }).click();
-  await page.locator('.product-configuration summary').click();
   for (let i = 0; i < 9; i++) {
     await expect(page.locator('.shape-options button')).toHaveCount(1);
     await page.locator('.shape-options button').first().click();
@@ -68,7 +70,11 @@ test('3D controls, formats, finishes, demand rendering, exports and resource bud
   await page.mouse.move(bounds.x + bounds.width / 2, bounds.y + bounds.height / 2);
   await page.mouse.down();
   await page.mouse.move(bounds.x + bounds.width * .8, bounds.y + bounds.height * .55, { steps: 30 });
+  await expect(page.locator('.gallery-stage')).toHaveAttribute('data-moving','true');
   await page.mouse.up();
+  await expect(page.locator('.gallery-stage')).toHaveAttribute('data-moving','false');
+  await expect(page.locator('.studio-dimensions')).toHaveAttribute('data-moving','false');
+  await expect(page.locator('.studio-dimensions text')).not.toHaveCount(0);
   const dragDurationMs = Date.now() - dragStart;
   const dragRenderCount = Number(await canvas.getAttribute('data-render-count')) - frameBeforeDrag;
   await page.getByRole('button', { name: c.reset, exact: true }).click();
@@ -90,6 +96,7 @@ test('3D controls, formats, finishes, demand rendering, exports and resource bud
       expect(json.materials.some((material: { pbrMetallicRoughness: { metallicFactor: number } }) => material.pbrMetallicRoughness.metallicFactor === 0)).toBe(true);
     }
   }
+  await page.locator('.gallery-stage').scrollIntoViewIfNeeded();
   await page.screenshot({ path: qaOutput(`docs/qa/milestone-3/viewer-${info.project.name}.png`), scale: 'css' });
   const activatedScripts = await page.evaluate(() => performance.getEntriesByType('resource').filter(r => (r as PerformanceResourceTiming).initiatorType === 'script').map(r => ({ url: r.name, bytes: (r as PerformanceResourceTiming).encodedBodySize })));
   expect(activatedScripts.some(r => !initialScripts.includes(r.url))).toBe(true);

@@ -1,9 +1,0 @@
-{
-  "missing_report_links": [],
-  "client_js_files_checked": 24,
-  "configured_secret_matches_in_client": 0,
-  "configured_secret_matches_in_evidence": 0,
-  "baseline_public_assets_and_fonts_checked": 46,
-  "public_assets_and_fonts_unchanged": true,
-  "scope": "Currently configured secret values only; not an exhaustive historical or penetration audit"
-}
