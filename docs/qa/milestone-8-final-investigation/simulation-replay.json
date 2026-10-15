@@ -1,0 +1,2214 @@
+[
+  {
+    "name": "home-fr",
+    "originalLcp": 4289.873,
+    "replayedLcp": 4289.873,
+    "optimisticEstimate": {
+      "timeInMs": 4289.873,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/31/hero_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 294020,
+          "startTime": 794.9365,
+          "endTime": 4289.873,
+          "duration": 3494.9365
+        },
+        {
+          "type": "cpu",
+          "startTime": 3148.8729999999996,
+          "endTime": 3271.8729999999996,
+          "duration": 123
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 853.9365,
+          "endTime": 3148.8729999999996,
+          "duration": 2294.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 1198.873,
+          "endTime": 2743.8095,
+          "duration": 1544.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1eclxs-xp11r0.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 11668,
+          "startTime": 2384.8095,
+          "endTime": 2729.7459999999996,
+          "duration": 344.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0wm3_vc0tm750.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1111,
+          "startTime": 2383.6825,
+          "endTime": 2578.6189999999997,
+          "duration": 194.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_serif_latin-s.1vymnop9okmin.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 37606,
+          "startTime": 1139.873,
+          "endTime": 2534.8095,
+          "duration": 1394.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 989.873,
+          "endTime": 2384.8095,
+          "duration": 1394.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 2188.746,
+          "endTime": 2383.6825,
+          "duration": 194.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 1843.8095,
+          "endTime": 2188.746,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 1498.873,
+          "endTime": 1843.8095,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 853.9365,
+          "endTime": 1498.873,
+          "duration": 644.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 853.9365,
+          "endTime": 1198.873,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/139026ghbc3xk.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2930,
+          "startTime": 794.9365,
+          "endTime": 1139.873,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 794.9365,
+          "endTime": 989.873,
+          "duration": 194.93650000000002
+        },
+        {
+          "type": "cpu",
+          "startTime": 853.9365,
+          "endTime": 854.9365,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 805.9365,
+          "endTime": 853.9365,
+          "duration": 48
+        },
+        {
+          "type": "cpu",
+          "startTime": 794.9365,
+          "endTime": 805.9365,
+          "duration": 11
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 21239,
+          "startTime": 0,
+          "endTime": 794.9365,
+          "duration": 794.9365
+        }
+      ]
+    },
+    "pessimisticEstimate": {
+      "timeInMs": 4289.873,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/31/hero_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 294020,
+          "startTime": 794.9365,
+          "endTime": 4289.873,
+          "duration": 3494.9365
+        },
+        {
+          "type": "cpu",
+          "startTime": 3148.8729999999996,
+          "endTime": 3271.8729999999996,
+          "duration": 123
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 853.9365,
+          "endTime": 3148.8729999999996,
+          "duration": 2294.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1eclxs-xp11r0.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 11668,
+          "startTime": 2534.8095,
+          "endTime": 2879.7459999999996,
+          "duration": 344.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 1198.873,
+          "endTime": 2743.8095,
+          "duration": 1544.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0wm3_vc0tm750.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1111,
+          "startTime": 2383.6825,
+          "endTime": 2578.6189999999997,
+          "duration": 194.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 1139.873,
+          "endTime": 2534.8095,
+          "duration": 1394.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_serif_latin-s.1vymnop9okmin.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 37606,
+          "startTime": 1139.873,
+          "endTime": 2534.8095,
+          "duration": 1394.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 2188.746,
+          "endTime": 2383.6825,
+          "duration": 194.9364999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 1843.8095,
+          "endTime": 2188.746,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 1498.873,
+          "endTime": 1843.8095,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 853.9365,
+          "endTime": 1498.873,
+          "duration": 644.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 853.9365,
+          "endTime": 1198.873,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 794.9365,
+          "endTime": 1139.873,
+          "duration": 344.9365
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/139026ghbc3xk.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2930,
+          "startTime": 794.9365,
+          "endTime": 1139.873,
+          "duration": 344.9365
+        },
+        {
+          "type": "cpu",
+          "startTime": 1007.9365,
+          "endTime": 1043.9365,
+          "duration": 36
+        },
+        {
+          "type": "cpu",
+          "startTime": 854.9365,
+          "endTime": 1007.9365,
+          "duration": 153
+        },
+        {
+          "type": "cpu",
+          "startTime": 853.9365,
+          "endTime": 854.9365,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 805.9365,
+          "endTime": 853.9365,
+          "duration": 48
+        },
+        {
+          "type": "cpu",
+          "startTime": 794.9365,
+          "endTime": 805.9365,
+          "duration": 11
+        },
+        {
+          "type": "network",
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "resourceType": "Image",
+          "priority": "Low",
+          "transferSize": 0,
+          "startTime": 794.9365,
+          "endTime": 796.9369005432129,
+          "duration": 2.0004005432128906
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 21239,
+          "startTime": 0,
+          "endTime": 794.9365,
+          "duration": 794.9365
+        }
+      ]
+    }
+  },
+  {
+    "name": "home-ar",
+    "originalLcp": 4963.6595,
+    "replayedLcp": 4963.6595,
+    "optimisticEstimate": {
+      "timeInMs": 4963.6595,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/31/hero_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 294020,
+          "startTime": 756.82975,
+          "endTime": 4963.6595,
+          "duration": 4206.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_naskh_arabic-s.12r0n0cv1atcw.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 94883,
+          "startTime": 1063.6595,
+          "endTime": 3920.4892499999996,
+          "duration": 2856.82975
+        },
+        {
+          "type": "cpu",
+          "startTime": 3596.6594999999998,
+          "endTime": 3639.6594999999998,
+          "duration": 43
+        },
+        {
+          "type": "cpu",
+          "startTime": 3463.6594999999998,
+          "endTime": 3596.6594999999998,
+          "duration": 133
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1eclxs-xp11r0.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 11668,
+          "startTime": 3177.3189999999995,
+          "endTime": 3484.14875,
+          "duration": 306.82975000000033
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 756.82975,
+          "endTime": 3463.6594999999998,
+          "duration": 2706.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0wm3_vc0tm750.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1111,
+          "startTime": 3177.3189999999995,
+          "endTime": 3334.1487499999994,
+          "duration": 156.82974999999988
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 3020.4892499999996,
+          "endTime": 3327.3189999999995,
+          "duration": 306.8297499999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 2870.4892499999996,
+          "endTime": 3177.3189999999995,
+          "duration": 306.8297499999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 3020.4892499999996,
+          "endTime": 3177.3189999999995,
+          "duration": 156.82974999999988
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_600-s.0w1jm_52sol9y.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 54110,
+          "startTime": 1063.6595,
+          "endTime": 3020.4892499999996,
+          "duration": 1956.8297499999996
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 1363.6595,
+          "endTime": 3020.4892499999996,
+          "duration": 1656.8297499999996
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_400-s.3lnpfdatzd3y2.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 49690,
+          "startTime": 1063.6595,
+          "endTime": 2870.4892499999996,
+          "duration": 1806.8297499999996
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 756.82975,
+          "endTime": 1363.6595,
+          "duration": 606.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 756.82975,
+          "endTime": 1063.6595,
+          "duration": 306.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/139026ghbc3xk.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2930,
+          "startTime": 756.82975,
+          "endTime": 1063.6595,
+          "duration": 306.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 756.82975,
+          "endTime": 1063.6595,
+          "duration": 306.82975
+        },
+        {
+          "type": "cpu",
+          "startTime": 758.82975,
+          "endTime": 759.82975,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 756.82975,
+          "endTime": 758.82975,
+          "duration": 2
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/ar",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 21820,
+          "startTime": 0,
+          "endTime": 756.82975,
+          "duration": 756.82975
+        }
+      ]
+    },
+    "pessimisticEstimate": {
+      "timeInMs": 4963.6595,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/31/hero_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 294020,
+          "startTime": 756.82975,
+          "endTime": 4963.6595,
+          "duration": 4206.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_naskh_arabic-s.12r0n0cv1atcw.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 94883,
+          "startTime": 1063.6595,
+          "endTime": 3920.4892499999996,
+          "duration": 2856.82975
+        },
+        {
+          "type": "cpu",
+          "startTime": 3596.6594999999998,
+          "endTime": 3639.6594999999998,
+          "duration": 43
+        },
+        {
+          "type": "cpu",
+          "startTime": 3463.6594999999998,
+          "endTime": 3596.6594999999998,
+          "duration": 133
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1eclxs-xp11r0.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 11668,
+          "startTime": 3177.3189999999995,
+          "endTime": 3484.14875,
+          "duration": 306.82975000000033
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 756.82975,
+          "endTime": 3463.6594999999998,
+          "duration": 2706.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0wm3_vc0tm750.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1111,
+          "startTime": 3177.3189999999995,
+          "endTime": 3334.1487499999994,
+          "duration": 156.82974999999988
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 3020.4892499999996,
+          "endTime": 3327.3189999999995,
+          "duration": 306.8297499999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 2870.4892499999996,
+          "endTime": 3177.3189999999995,
+          "duration": 306.8297499999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 3020.4892499999996,
+          "endTime": 3177.3189999999995,
+          "duration": 156.82974999999988
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_600-s.0w1jm_52sol9y.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 54110,
+          "startTime": 1063.6595,
+          "endTime": 3020.4892499999996,
+          "duration": 1956.8297499999996
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 1363.6595,
+          "endTime": 3020.4892499999996,
+          "duration": 1656.8297499999996
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_400-s.3lnpfdatzd3y2.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 49690,
+          "startTime": 1063.6595,
+          "endTime": 2870.4892499999996,
+          "duration": 1806.8297499999996
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 756.82975,
+          "endTime": 1363.6595,
+          "duration": 606.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 756.82975,
+          "endTime": 1063.6595,
+          "duration": 306.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/139026ghbc3xk.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2930,
+          "startTime": 756.82975,
+          "endTime": 1063.6595,
+          "duration": 306.82975
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 756.82975,
+          "endTime": 1063.6595,
+          "duration": 306.82975
+        },
+        {
+          "type": "cpu",
+          "startTime": 759.82975,
+          "endTime": 912.82975,
+          "duration": 153
+        },
+        {
+          "type": "cpu",
+          "startTime": 758.82975,
+          "endTime": 759.82975,
+          "duration": 1
+        },
+        {
+          "type": "network",
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "resourceType": "Image",
+          "priority": "Low",
+          "transferSize": 0,
+          "startTime": 756.82975,
+          "endTime": 758.8301505432129,
+          "duration": 2.0004005432128906
+        },
+        {
+          "type": "cpu",
+          "startTime": 756.82975,
+          "endTime": 758.82975,
+          "duration": 2
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/ar",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 21820,
+          "startTime": 0,
+          "endTime": 756.82975,
+          "duration": 756.82975
+        }
+      ]
+    }
+  },
+  {
+    "name": "catalogue-fr",
+    "originalLcp": 3763.247,
+    "replayedLcp": 3763.247,
+    "optimisticEstimate": {
+      "timeInMs": 3763.247,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/58/banner_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 244934,
+          "startTime": 606.6235,
+          "endTime": 3763.247,
+          "duration": 3156.6234999999997
+        },
+        {
+          "type": "cpu",
+          "startTime": 2863.247,
+          "endTime": 2970.247,
+          "duration": 107
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 606.6235,
+          "endTime": 2863.247,
+          "duration": 2256.6234999999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2odtuh-erq6rq.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9689,
+          "startTime": 1983.1175,
+          "endTime": 2439.741,
+          "duration": 456.6234999999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 913.2470000000001,
+          "endTime": 2419.8705,
+          "duration": 1506.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 913.2470000000001,
+          "endTime": 2269.8705,
+          "duration": 1356.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_serif_latin-s.1vymnop9okmin.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 37606,
+          "startTime": 913.2470000000001,
+          "endTime": 2269.8705,
+          "duration": 1356.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 1826.4940000000001,
+          "endTime": 1983.1175,
+          "duration": 156.62349999999992
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 1519.8705,
+          "endTime": 1826.4940000000001,
+          "duration": 306.62350000000015
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 1213.247,
+          "endTime": 1519.8705,
+          "duration": 306.6234999999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 606.6235,
+          "endTime": 1213.247,
+          "duration": 606.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 606.6235,
+          "endTime": 913.2470000000001,
+          "duration": 306.62350000000004
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/41gxm4limnb3o.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2797,
+          "startTime": 606.6235,
+          "endTime": 913.2470000000001,
+          "duration": 306.62350000000004
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 606.6235,
+          "endTime": 913.2470000000001,
+          "duration": 306.62350000000004
+        },
+        {
+          "type": "cpu",
+          "startTime": 607.6235,
+          "endTime": 608.6235,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 606.6235,
+          "endTime": 607.6235,
+          "duration": 1
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr/products",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 11543,
+          "startTime": 0,
+          "endTime": 606.6235,
+          "duration": 606.6235
+        }
+      ]
+    },
+    "pessimisticEstimate": {
+      "timeInMs": 3763.247,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/58/banner_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 244934,
+          "startTime": 606.6235,
+          "endTime": 3763.247,
+          "duration": 3156.6234999999997
+        },
+        {
+          "type": "cpu",
+          "startTime": 2863.247,
+          "endTime": 2970.247,
+          "duration": 107
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 606.6235,
+          "endTime": 2863.247,
+          "duration": 2256.6234999999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2odtuh-erq6rq.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9689,
+          "startTime": 1983.1175,
+          "endTime": 2439.741,
+          "duration": 456.6234999999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 913.2470000000001,
+          "endTime": 2419.8705,
+          "duration": 1506.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 913.2470000000001,
+          "endTime": 2269.8705,
+          "duration": 1356.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_serif_latin-s.1vymnop9okmin.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 37606,
+          "startTime": 913.2470000000001,
+          "endTime": 2269.8705,
+          "duration": 1356.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 1826.4940000000001,
+          "endTime": 1983.1175,
+          "duration": 156.62349999999992
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 1519.8705,
+          "endTime": 1826.4940000000001,
+          "duration": 306.62350000000015
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 1213.247,
+          "endTime": 1519.8705,
+          "duration": 306.6234999999999
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 606.6235,
+          "endTime": 1213.247,
+          "duration": 606.6235
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 606.6235,
+          "endTime": 913.2470000000001,
+          "duration": 306.62350000000004
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/41gxm4limnb3o.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2797,
+          "startTime": 606.6235,
+          "endTime": 913.2470000000001,
+          "duration": 306.62350000000004
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 606.6235,
+          "endTime": 913.2470000000001,
+          "duration": 306.62350000000004
+        },
+        {
+          "type": "cpu",
+          "startTime": 740.6235,
+          "endTime": 764.6235,
+          "duration": 24
+        },
+        {
+          "type": "cpu",
+          "startTime": 608.6235,
+          "endTime": 740.6235,
+          "duration": 132
+        },
+        {
+          "type": "network",
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "resourceType": "Image",
+          "priority": "Low",
+          "transferSize": 0,
+          "startTime": 606.6235,
+          "endTime": 608.6239005432129,
+          "duration": 2.0004005432128906
+        },
+        {
+          "type": "cpu",
+          "startTime": 607.6235,
+          "endTime": 608.6235,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 606.6235,
+          "endTime": 607.6235,
+          "duration": 1
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr/products",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 11543,
+          "startTime": 0,
+          "endTime": 606.6235,
+          "duration": 606.6235
+        }
+      ]
+    }
+  },
+  {
+    "name": "catalogue-ar",
+    "originalLcp": 4512.9165,
+    "replayedLcp": 4512.9165,
+    "optimisticEstimate": {
+      "timeInMs": 4512.9165,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/58/banner_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 244934,
+          "startTime": 606.45825,
+          "endTime": 4512.9165,
+          "duration": 3906.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_naskh_arabic-s.12r0n0cv1atcw.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 94883,
+          "startTime": 912.9165,
+          "endTime": 3619.37475,
+          "duration": 2706.4582499999997
+        },
+        {
+          "type": "cpu",
+          "startTime": 3312.9165,
+          "endTime": 3438.9165,
+          "duration": 126
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2odtuh-erq6rq.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9689,
+          "startTime": 3025.833,
+          "endTime": 3332.2912499999998,
+          "duration": 306.4582499999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 606.45825,
+          "endTime": 3312.9165,
+          "duration": 2706.4582499999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 2869.37475,
+          "endTime": 3175.8329999999996,
+          "duration": 306.4582499999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 2719.37475,
+          "endTime": 3025.833,
+          "duration": 306.45825000000013
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 2869.37475,
+          "endTime": 3025.833,
+          "duration": 156.45825000000013
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_600-s.0w1jm_52sol9y.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 54110,
+          "startTime": 912.9165,
+          "endTime": 2869.37475,
+          "duration": 1956.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 1212.9165,
+          "endTime": 2869.37475,
+          "duration": 1656.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_400-s.3lnpfdatzd3y2.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 49690,
+          "startTime": 912.9165,
+          "endTime": 2719.37475,
+          "duration": 1806.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 606.45825,
+          "endTime": 1212.9165,
+          "duration": 606.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 606.45825,
+          "endTime": 912.9165,
+          "duration": 306.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/41gxm4limnb3o.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2797,
+          "startTime": 606.45825,
+          "endTime": 912.9165,
+          "duration": 306.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 606.45825,
+          "endTime": 912.9165,
+          "duration": 306.45825
+        },
+        {
+          "type": "cpu",
+          "startTime": 608.45825,
+          "endTime": 609.45825,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 606.45825,
+          "endTime": 608.45825,
+          "duration": 2
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/ar/products",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 12093,
+          "startTime": 0,
+          "endTime": 606.45825,
+          "duration": 606.45825
+        }
+      ]
+    },
+    "pessimisticEstimate": {
+      "timeInMs": 4512.9165,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/58/banner_mobile",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 244934,
+          "startTime": 606.45825,
+          "endTime": 4512.9165,
+          "duration": 3906.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_naskh_arabic-s.12r0n0cv1atcw.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 94883,
+          "startTime": 912.9165,
+          "endTime": 3619.37475,
+          "duration": 2706.4582499999997
+        },
+        {
+          "type": "cpu",
+          "startTime": 3312.9165,
+          "endTime": 3438.9165,
+          "duration": 126
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2odtuh-erq6rq.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9689,
+          "startTime": 3025.8329999999996,
+          "endTime": 3332.2912499999998,
+          "duration": 306.45825000000013
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 606.45825,
+          "endTime": 3312.9165,
+          "duration": 2706.4582499999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 2869.37475,
+          "endTime": 3175.8329999999996,
+          "duration": 306.4582499999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 2719.37475,
+          "endTime": 3025.8329999999996,
+          "duration": 306.4582499999997
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 2869.37475,
+          "endTime": 3025.8329999999996,
+          "duration": 156.45824999999968
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_600-s.0w1jm_52sol9y.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 54110,
+          "startTime": 912.9165,
+          "endTime": 2869.37475,
+          "duration": 1956.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 1212.9165,
+          "endTime": 2869.37475,
+          "duration": 1656.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_arabic_400-s.3lnpfdatzd3y2.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 49690,
+          "startTime": 912.9165,
+          "endTime": 2719.37475,
+          "duration": 1806.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 606.45825,
+          "endTime": 1212.9165,
+          "duration": 606.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 606.45825,
+          "endTime": 912.9165,
+          "duration": 306.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/41gxm4limnb3o.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2797,
+          "startTime": 606.45825,
+          "endTime": 912.9165,
+          "duration": 306.45825
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 606.45825,
+          "endTime": 912.9165,
+          "duration": 306.45825
+        },
+        {
+          "type": "cpu",
+          "startTime": 743.45825,
+          "endTime": 774.45825,
+          "duration": 31
+        },
+        {
+          "type": "cpu",
+          "startTime": 609.45825,
+          "endTime": 743.45825,
+          "duration": 134
+        },
+        {
+          "type": "cpu",
+          "startTime": 608.45825,
+          "endTime": 609.45825,
+          "duration": 1
+        },
+        {
+          "type": "network",
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "resourceType": "Image",
+          "priority": "Low",
+          "transferSize": 0,
+          "startTime": 606.45825,
+          "endTime": 608.4586505432129,
+          "duration": 2.0004005432128906
+        },
+        {
+          "type": "cpu",
+          "startTime": 606.45825,
+          "endTime": 608.45825,
+          "duration": 2
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/ar/products",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 12093,
+          "startTime": 0,
+          "endTime": 606.45825,
+          "duration": 606.45825
+        }
+      ]
+    }
+  },
+  {
+    "name": "product-fr",
+    "originalLcp": 4142.4249,
+    "replayedLcp": 4142.4249,
+    "optimisticEstimate": {
+      "timeInMs": 4067.4249,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/11/large",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 286604,
+          "startTime": 608.71245,
+          "endTime": 4067.4249,
+          "duration": 3458.71245
+        },
+        {
+          "type": "cpu",
+          "startTime": 2867.4249,
+          "endTime": 3024.4249,
+          "duration": 157
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 608.71245,
+          "endTime": 2867.4249,
+          "duration": 2258.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 917.4249,
+          "endTime": 2576.13735,
+          "duration": 1658.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/4503nh_kdevhs.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 10033,
+          "startTime": 2152.2747,
+          "endTime": 2460.98715,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 917.4249,
+          "endTime": 2276.13735,
+          "duration": 1358.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_serif_latin-s.1vymnop9okmin.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 37606,
+          "startTime": 917.4249,
+          "endTime": 2276.13735,
+          "duration": 1358.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0rd2fnyn34qpr.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4181,
+          "startTime": 1993.56225,
+          "endTime": 2152.2747,
+          "duration": 158.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 1834.8498,
+          "endTime": 1993.56225,
+          "duration": 158.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 1526.13735,
+          "endTime": 1834.8498,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 1217.4249,
+          "endTime": 1526.13735,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 608.71245,
+          "endTime": 1217.4249,
+          "duration": 608.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 608.71245,
+          "endTime": 917.4249,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/36-5-h-b5dmwl.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 3199,
+          "startTime": 608.71245,
+          "endTime": 917.4249,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 608.71245,
+          "endTime": 917.4249,
+          "duration": 308.71245
+        },
+        {
+          "type": "cpu",
+          "startTime": 609.71245,
+          "endTime": 610.71245,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 608.71245,
+          "endTime": 609.71245,
+          "duration": 1
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr/products/sample-1",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 12736,
+          "startTime": 0,
+          "endTime": 608.71245,
+          "duration": 608.71245
+        }
+      ]
+    },
+    "pessimisticEstimate": {
+      "timeInMs": 4217.4249,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/11/large",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 286604,
+          "startTime": 608.71245,
+          "endTime": 4217.4249,
+          "duration": 3608.71245
+        },
+        {
+          "type": "cpu",
+          "startTime": 3017.4249,
+          "endTime": 3174.4249,
+          "duration": 157
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 608.71245,
+          "endTime": 3017.4249,
+          "duration": 2408.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/image?url=%2Fimages%2Fquarry.webp&w=750&q=75",
+          "resourceType": "Image",
+          "priority": "Low",
+          "transferSize": 23349,
+          "startTime": 2276.13735,
+          "endTime": 2884.8498,
+          "duration": 608.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 917.4249,
+          "endTime": 2576.13735,
+          "duration": 1658.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/4503nh_kdevhs.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 10033,
+          "startTime": 2152.2747,
+          "endTime": 2460.98715,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 917.4249,
+          "endTime": 2276.13735,
+          "duration": 1358.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_serif_latin-s.1vymnop9okmin.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 37606,
+          "startTime": 917.4249,
+          "endTime": 2276.13735,
+          "duration": 1358.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0rd2fnyn34qpr.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4181,
+          "startTime": 1993.56225,
+          "endTime": 2152.2747,
+          "duration": 158.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 1834.8498,
+          "endTime": 1993.56225,
+          "duration": 158.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 1526.13735,
+          "endTime": 1834.8498,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 1217.4249,
+          "endTime": 1526.13735,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 608.71245,
+          "endTime": 1217.4249,
+          "duration": 608.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 608.71245,
+          "endTime": 917.4249,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/36-5-h-b5dmwl.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 3199,
+          "startTime": 608.71245,
+          "endTime": 917.4249,
+          "duration": 308.71245
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 608.71245,
+          "endTime": 917.4249,
+          "duration": 308.71245
+        },
+        {
+          "type": "cpu",
+          "startTime": 742.71245,
+          "endTime": 775.71245,
+          "duration": 33
+        },
+        {
+          "type": "cpu",
+          "startTime": 610.71245,
+          "endTime": 742.71245,
+          "duration": 132
+        },
+        {
+          "type": "cpu",
+          "startTime": 609.71245,
+          "endTime": 610.71245,
+          "duration": 1
+        },
+        {
+          "type": "cpu",
+          "startTime": 608.71245,
+          "endTime": 609.71245,
+          "duration": 1
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr/products/sample-1",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 12736,
+          "startTime": 0,
+          "endTime": 608.71245,
+          "duration": 608.71245
+        }
+      ]
+    }
+  },
+  {
+    "name": "desktop-fr",
+    "originalLcp": 1740.0285999999999,
+    "replayedLcp": 1740.0285999999999,
+    "optimisticEstimate": {
+      "timeInMs": 1740.0285999999999,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/31/banner",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 879712,
+          "startTime": 350.0143,
+          "endTime": 1740.0285999999999,
+          "duration": 1390.0142999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1eclxs-xp11r0.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 11668,
+          "startTime": 940.0285999999999,
+          "endTime": 1170.0429,
+          "duration": 230.01430000000005
+        },
+        {
+          "type": "cpu",
+          "startTime": 1010.0428999999999,
+          "endTime": 1049.0429,
+          "duration": 39
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 580.0286,
+          "endTime": 1010.0428999999999,
+          "duration": 430.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0wm3_vc0tm750.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1111,
+          "startTime": 810.0428999999999,
+          "endTime": 1000.0572,
+          "duration": 190.01430000000005
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 580.0286,
+          "endTime": 970.0428999999999,
+          "duration": 390.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 770.0428999999999,
+          "endTime": 960.0571999999999,
+          "duration": 190.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 350.0143,
+          "endTime": 940.0285999999999,
+          "duration": 590.0142999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 620.0286,
+          "endTime": 810.0428999999999,
+          "duration": 190.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 580.0286,
+          "endTime": 770.0428999999999,
+          "duration": 190.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 350.0143,
+          "endTime": 620.0286,
+          "duration": 270.0143
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 350.0143,
+          "endTime": 580.0286,
+          "duration": 230.0143
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/139026ghbc3xk.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2930,
+          "startTime": 350.0143,
+          "endTime": 580.0286,
+          "duration": 230.0143
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 350.0143,
+          "endTime": 580.0286,
+          "duration": 230.0143
+        },
+        {
+          "type": "cpu",
+          "startTime": 350.0143,
+          "endTime": 389.0143,
+          "duration": 39
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 21239,
+          "startTime": 0,
+          "endTime": 350.0143,
+          "duration": 350.0143
+        }
+      ]
+    },
+    "pessimisticEstimate": {
+      "timeInMs": 1740.0285999999999,
+      "nodes": [
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/media/31/banner",
+          "resourceType": "Image",
+          "priority": "High",
+          "transferSize": 879712,
+          "startTime": 350.0143,
+          "endTime": 1740.0285999999999,
+          "duration": 1390.0142999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1eclxs-xp11r0.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 11668,
+          "startTime": 940.0285999999999,
+          "endTime": 1170.0429,
+          "duration": 230.01430000000005
+        },
+        {
+          "type": "cpu",
+          "startTime": 1010.0428999999999,
+          "endTime": 1049.0429,
+          "duration": 39
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/02qraml2o5i23.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 46462,
+          "startTime": 580.0286,
+          "endTime": 1010.0428999999999,
+          "duration": 430.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0wm3_vc0tm750.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1111,
+          "startTime": 810.0428999999999,
+          "endTime": 1000.0572,
+          "duration": 190.01430000000005
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/media/noto_sans_latin-s.05o5-i1cea2yx.woff2",
+          "resourceType": "Font",
+          "priority": "VeryHigh",
+          "transferSize": 36670,
+          "startTime": 580.0286,
+          "endTime": 970.0428999999999,
+          "duration": 390.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3qqaoxb3h4scc.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 1659,
+          "startTime": 770.0428999999999,
+          "endTime": 960.0571999999999,
+          "duration": 190.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0s7mvllxht1mo.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 72895,
+          "startTime": 350.0143,
+          "endTime": 940.0285999999999,
+          "duration": 590.0142999999998
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/0umf92h1sb77c.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4460,
+          "startTime": 620.0286,
+          "endTime": 810.0428999999999,
+          "duration": 190.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 4886,
+          "startTime": 580.0286,
+          "endTime": 770.0428999999999,
+          "duration": 190.01429999999993
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/2rq17bbyxsfng.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 9406,
+          "startTime": 350.0143,
+          "endTime": 620.0286,
+          "duration": 270.0143
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/3mp5emwfz667b.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 8248,
+          "startTime": 350.0143,
+          "endTime": 580.0286,
+          "duration": 230.0143
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/139026ghbc3xk.css",
+          "resourceType": "Stylesheet",
+          "priority": "VeryHigh",
+          "transferSize": 2930,
+          "startTime": 350.0143,
+          "endTime": 580.0286,
+          "duration": 230.0143
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/_next/static/chunks/1ckvzn7sfprko.js",
+          "resourceType": "Script",
+          "priority": "Low",
+          "transferSize": 2981,
+          "startTime": 350.0143,
+          "endTime": 580.0286,
+          "duration": 230.0143
+        },
+        {
+          "type": "cpu",
+          "startTime": 350.0143,
+          "endTime": 389.0143,
+          "duration": 39
+        },
+        {
+          "type": "network",
+          "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          "resourceType": "Image",
+          "priority": "Low",
+          "transferSize": 0,
+          "startTime": 350.0143,
+          "endTime": 352.0147005432129,
+          "duration": 2.0004005432128906
+        },
+        {
+          "type": "network",
+          "url": "http://127.0.0.1:3031/fr",
+          "resourceType": "Document",
+          "priority": "VeryHigh",
+          "transferSize": 21239,
+          "startTime": 0,
+          "endTime": 350.0143,
+          "duration": 350.0143
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "phase": "before",
+    "name": "home-fr",
+    "lcpSamples": [
+      4380.831,
+      4211.019,
+      4211.2459
+    ],
+    "cpuCalibration": [
+      1755,
+      2866.5,
+      2975.5
+    ],
+    "medianLcp": 4211.2459,
+    "ttfb": 235.25900012207032,
+    "loadDelay": 44.486,
+    "loadDuration": 175.337,
+    "renderDelay": 21.634,
+    "clsSamples": [
+      0,
+      0.0006375700142680657,
+      0.0006375700142680657
+    ],
+    "tbtSamples": [
+      342,
+      126,
+      130
+    ],
+    "bytes": 596617,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "home-ar",
+    "lcpSamples": [
+      4961.5817,
+      5040.144,
+      4820.062
+    ],
+    "cpuCalibration": [
+      2793.5,
+      1496.5,
+      1535
+    ],
+    "medianLcp": 4961.5817,
+    "ttfb": 466.3239998779297,
+    "loadDelay": 29.746,
+    "loadDuration": 381.032,
+    "renderDelay": 38.649,
+    "clsSamples": [
+      0.0035640056741581185,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      140,
+      192,
+      195
+    ],
+    "bytes": 721626,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "home-en",
+    "lcpSamples": [
+      4064.9970000000003,
+      4211.835,
+      4220.602000000001
+    ],
+    "cpuCalibration": [
+      1765.5,
+      1897.5,
+      1791
+    ],
+    "medianLcp": 4211.835,
+    "ttfb": 715.513,
+    "loadDelay": 23.018,
+    "loadDuration": 394.742,
+    "renderDelay": 14.91,
+    "clsSamples": [
+      0,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      180,
+      177,
+      227
+    ],
+    "bytes": 595763,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "catalogue-fr",
+    "lcpSamples": [
+      3778.075,
+      3693.5611,
+      3912.9080000000004
+    ],
+    "cpuCalibration": [
+      1857.5,
+      1152,
+      1930.5
+    ],
+    "medianLcp": 3778.075,
+    "ttfb": 864.583,
+    "loadDelay": 45.687,
+    "loadDuration": 433.736,
+    "renderDelay": 15.162,
+    "clsSamples": [
+      0,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      419.92499999999995,
+      185,
+      310.54600000000005
+    ],
+    "bytes": 625025,
+    "element": "main#main > section.catalogue-hero > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "catalogue-ar",
+    "lcpSamples": [
+      4538.685600000001,
+      4454.4532,
+      4556.7828
+    ],
+    "cpuCalibration": [
+      1918,
+      1921,
+      1914.5
+    ],
+    "medianLcp": 4538.685600000001,
+    "ttfb": 891.757,
+    "loadDelay": 30.862,
+    "loadDuration": 550.831,
+    "renderDelay": 18.221,
+    "clsSamples": [
+      0,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      272,
+      485.27340000000004,
+      282
+    ],
+    "bytes": 749980,
+    "element": "main#main > section.catalogue-hero > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "catalogue-en",
+    "lcpSamples": [
+      3700.8199000000004,
+      3821.5559999999996,
+      4126.77388
+    ],
+    "cpuCalibration": [
+      1729.5,
+      1982,
+      1964.5
+    ],
+    "medianLcp": 3821.5559999999996,
+    "ttfb": 896.567,
+    "loadDelay": 43.722,
+    "loadDuration": 540.015,
+    "renderDelay": 96.11,
+    "clsSamples": [
+      0,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      409.09005,
+      245.22199999999998,
+      297
+    ],
+    "bytes": 624708,
+    "element": "main#main > section.catalogue-hero > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "product-fr",
+    "lcpSamples": [
+      4095.954,
+      4763.975,
+      4076.981
+    ],
+    "cpuCalibration": [
+      1632,
+      1802.5,
+      1702.5
+    ],
+    "medianLcp": 4095.954,
+    "ttfb": 1055.993,
+    "loadDelay": 32.38700012207031,
+    "loadDuration": 576.506,
+    "renderDelay": 57.595,
+    "clsSamples": [
+      0,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      280.5,
+      502.51250000000005,
+      228.0094999999999
+    ],
+    "bytes": 736516,
+    "element": "section.product-gallery > div.gallery-stage > picture > img"
+  },
+  {
+    "phase": "before",
+    "name": "desktop-fr",
+    "lcpSamples": [
+      2244.386,
+      2399.268,
+      3584.7880000000005
+    ],
+    "cpuCalibration": [
+      2046.5,
+      2077,
+      1951.5
+    ],
+    "medianLcp": 2399.268,
+    "ttfb": 743.846,
+    "loadDelay": 79.664,
+    "loadDuration": 502.091,
+    "renderDelay": 79.28,
+    "clsSamples": [
+      0.0002944098992480173,
+      0.0002944098992480173,
+      0.0002996313075224559
+    ],
+    "tbtSamples": [
+      18,
+      19,
+      179.606
+    ],
+    "bytes": 2054552,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "home-fr",
+    "lcpSamples": [
+      4072.389,
+      4211.482,
+      4360.5092
+    ],
+    "cpuCalibration": [
+      3196,
+      3377,
+      2755
+    ],
+    "medianLcp": 4211.482,
+    "ttfb": 243.806,
+    "loadDelay": 27.99100012207031,
+    "loadDuration": 196.151,
+    "renderDelay": 54.176,
+    "clsSamples": [
+      0,
+      0.0006375700142680657,
+      0.0006375700142680657
+    ],
+    "tbtSamples": [
+      120,
+      122,
+      92
+    ],
+    "bytes": 596650,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "home-ar",
+    "lcpSamples": [
+      5114.152,
+      4971.066,
+      4959.726
+    ],
+    "cpuCalibration": [
+      3125.5,
+      3131.5,
+      3225.5
+    ],
+    "medianLcp": 4971.066,
+    "ttfb": 266.949,
+    "loadDelay": 34.39,
+    "loadDuration": 206.071,
+    "renderDelay": 56.201,
+    "clsSamples": [
+      0.0035640056741581185,
+      0.0035640056741581185,
+      0.0007583184360350214
+    ],
+    "tbtSamples": [
+      78,
+      113,
+      118
+    ],
+    "bytes": 721640,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "home-en",
+    "lcpSamples": [
+      4209.832,
+      4363.184,
+      4063.876
+    ],
+    "cpuCalibration": [
+      3157,
+      3194,
+      3194.5
+    ],
+    "medianLcp": 4209.832,
+    "ttfb": 230.65,
+    "loadDelay": 13.356,
+    "loadDuration": 191.994,
+    "renderDelay": 55.799,
+    "clsSamples": [
+      0.004070506216830825,
+      0.004070506216830825,
+      0.004070506216830825
+    ],
+    "tbtSamples": [
+      96,
+      90,
+      93
+    ],
+    "bytes": 595766,
+    "element": "section#home > div.hero-art > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "catalogue-fr",
+    "lcpSamples": [
+      3687.385,
+      3773.0342,
+      3700.1117000000004
+    ],
+    "cpuCalibration": [
+      3345,
+      2973.5,
+      2031.5
+    ],
+    "medianLcp": 3700.1117000000004,
+    "ttfb": 341.058,
+    "loadDelay": 15.410999877929687,
+    "loadDuration": 261.141,
+    "renderDelay": 14.836,
+    "clsSamples": [
+      0.0004285086762198869,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      55,
+      205,
+      119
+    ],
+    "bytes": 625023,
+    "element": "main#main > section.catalogue-hero > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "catalogue-ar",
+    "lcpSamples": [
+      4513.159,
+      4508.2649,
+      4510.0590999999995
+    ],
+    "cpuCalibration": [
+      2838.5,
+      3318,
+      3094.5
+    ],
+    "medianLcp": 4510.0590999999995,
+    "ttfb": 287.215,
+    "loadDelay": 53.55,
+    "loadDuration": 223.468,
+    "renderDelay": 42.189,
+    "clsSamples": [
+      0,
+      0.035516546980413656,
+      0.035516546980413656
+    ],
+    "tbtSamples": [
+      227.42049999999995,
+      84,
+      82
+    ],
+    "bytes": 749980,
+    "element": "main#main > section.catalogue-hero > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "catalogue-en",
+    "lcpSamples": [
+      3766.0945999999994,
+      3761.0848000000005,
+      3761.7608
+    ],
+    "cpuCalibration": [
+      3359.5,
+      3326,
+      3223
+    ],
+    "medianLcp": 3761.7608,
+    "ttfb": 247.568,
+    "loadDelay": 20.828,
+    "loadDuration": 198.788,
+    "renderDelay": 8.445,
+    "clsSamples": [
+      0.0003784138573893197,
+      0.0003784138573893197,
+      0
+    ],
+    "tbtSamples": [
+      58,
+      85,
+      77
+    ],
+    "bytes": 624708,
+    "element": "main#main > section.catalogue-hero > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "product-fr",
+    "lcpSamples": [
+      3840.1665,
+      4137.23,
+      4137.303
+    ],
+    "cpuCalibration": [
+      2827,
+      3076,
+      3026.5
+    ],
+    "medianLcp": 4137.23,
+    "ttfb": 420.9240001220703,
+    "loadDelay": 44.86899987792969,
+    "loadDuration": 178.988,
+    "renderDelay": 8.565,
+    "clsSamples": [
+      0,
+      0,
+      0
+    ],
+    "tbtSamples": [
+      125,
+      102,
+      127
+    ],
+    "bytes": 736515,
+    "element": "section.product-gallery > div.gallery-stage > picture > img"
+  },
+  {
+    "phase": "after",
+    "name": "desktop-fr",
+    "lcpSamples": [
+      1843.2557000000002,
+      2142.25,
+      2725.6967000000004
+    ],
+    "cpuCalibration": [
+      3349,
+      3084.5,
+      2993.5
+    ],
+    "medianLcp": 2142.25,
+    "ttfb": 258.3930001220703,
+    "loadDelay": 62.27999987792969,
+    "loadDuration": 199.747,
+    "renderDelay": 235.36,
+    "clsSamples": [
+      0.0002944098992480173,
+      0.0002944098992480173,
+      0.0002944098992480173
+    ],
+    "tbtSamples": [
+      0,
+      0,
+      0
+    ],
+    "bytes": 2054566,
+    "element": "section#home > div.hero-art > picture > img"
+  }
+]

@@ -1,0 +1,44 @@
+▲ Next.js 16.4.0 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 1482ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 38.7s
+  Running TypeScript ...
+
+  We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+  	- include was updated to add '.next-m8-final-investigation/types/**/*.ts'
+  	- include was updated to add '.next-m8-final-investigation/dev/types/**/*.ts'
+
+  Finished TypeScript in 48s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/16) ...
+  Generating static pages using 7 workers (4/16) 
+  Generating static pages using 7 workers (8/16) 
+  Generating static pages using 7 workers (12/16) 
+✓ Generating static pages using 7 workers (16/16) in 552ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/about
+├ ƒ /[locale]/applications
+├ ƒ /[locale]/applications/[slug]
+├ ƒ /[locale]/contact
+├ ƒ /[locale]/products
+├ ƒ /[locale]/products/[id]
+├ ƒ /[locale]/quote
+├ ƒ /api/catalogue
+├ ƒ /api/product-options/[slug]
+├ ƒ /api/quotations
+├ ƒ /media/[id]/[variant]
+├ ○ /robots.txt
+└ ƒ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,72 @@
+
+Running 50 tests using 2 workers
+
+(node:5776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 [desktop] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (36.0s)
+  ok  1 [desktop] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (37.3s)
+  ok  4 [desktop] › tests\homepage-targeted.spec.ts:46:5 › lazy quotation loading preserves the placeholder space (8.9s)
+  ok  5 [desktop] › tests\homepage-targeted.spec.ts:67:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (15.0s)
+  -   6 [desktop] › tests\homepage-targeted.spec.ts:93:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion
+  ok  3 [desktop] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (27.7s)
+  ok  8 [desktop] › tests\homepage-targeted.spec.ts:116:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (5.1s)
+  ok  7 [desktop] › tests\homepage-targeted.spec.ts:110:5 › without JavaScript the homepage keeps the dedicated quotation destination (12.5s)
+  ok  9 [desktop] › tests\homepage.spec.ts:22:7 › fr: responsive homepage, semantics, local assets and screenshot (13.1s)
+  ok 10 [desktop] › tests\homepage.spec.ts:57:7 › fr: WCAG A/AA automated scan (8.6s)
+  ok 11 [desktop] › tests\homepage.spec.ts:63:7 › fr: material dialog, selection, Escape and focus restoration (3.8s)
+  ok 13 [desktop] › tests\homepage.spec.ts:57:7 › en: WCAG A/AA automated scan (10.1s)
+  ok 12 [desktop] › tests\homepage.spec.ts:22:7 › en: responsive homepage, semantics, local assets and screenshot (13.9s)
+  ok 14 [desktop] › tests\homepage.spec.ts:63:7 › en: material dialog, selection, Escape and focus restoration (6.1s)
+  ok 16 [desktop] › tests\homepage.spec.ts:57:7 › ar: WCAG A/AA automated scan (8.7s)
+  ok 15 [desktop] › tests\homepage.spec.ts:22:7 › ar: responsive homepage, semantics, local assets and screenshot (16.3s)
+  ok 17 [desktop] › tests\homepage.spec.ts:63:7 › ar: material dialog, selection, Escape and focus restoration (6.7s)
+  -  19 [desktop] › tests\homepage.spec.ts:96:5 › mobile/tablet menu traps focus, navigates and closes with Escape
+  ok 20 [desktop] › tests\homepage.spec.ts:114:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (9.6s)
+  ok 21 [desktop] › tests\homepage.spec.ts:129:5 › locale path helper retains nested pages for later milestones (53ms)
+  ok 18 [desktop] › tests\homepage.spec.ts:84:5 › language switching preserves query and section and supports all three languages (21.1s)
+(node:14752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 23 [desktop] › tests\viewer.spec.ts:11:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets (54.8s)
+  ok 22 [desktop] › tests\homepage.spec.ts:134:5 › requested widths preserve hero space, typography and layout in every language (3.5m)
+(node:20744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 25 [desktop] › tests\viewer.spec.ts:129:5 › WebGL initialization failure returns an accessible static preview (5.2s)
+(node:15872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 24 [desktop] › tests\viewer.spec.ts:111:5 › 3D responsive and RTL activation matrix (2.5m)
+(node:26952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 26 [mobile] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (34.0s)
+  ok 27 [mobile] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (33.3s)
+  ok 29 [mobile] › tests\homepage-targeted.spec.ts:46:5 › lazy quotation loading preserves the placeholder space (5.1s)
+  ok 30 [mobile] › tests\homepage-targeted.spec.ts:67:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (8.6s)
+  -  31 [mobile] › tests\homepage-targeted.spec.ts:93:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion
+  ok 32 [mobile] › tests\homepage-targeted.spec.ts:110:5 › without JavaScript the homepage keeps the dedicated quotation destination (5.9s)
+  ok 33 [mobile] › tests\homepage-targeted.spec.ts:116:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (5.0s)
+  ok 28 [mobile] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (34.9s)
+  ok 34 [mobile] › tests\homepage.spec.ts:22:7 › fr: responsive homepage, semantics, local assets and screenshot (7.1s)
+  ok 36 [mobile] › tests\homepage.spec.ts:63:7 › fr: material dialog, selection, Escape and focus restoration (2.2s)
+  ok 35 [mobile] › tests\homepage.spec.ts:57:7 › fr: WCAG A/AA automated scan (7.2s)
+  ok 37 [mobile] › tests\homepage.spec.ts:22:7 › en: responsive homepage, semantics, local assets and screenshot (5.3s)
+  ok 39 [mobile] › tests\homepage.spec.ts:63:7 › en: material dialog, selection, Escape and focus restoration (1.6s)
+  ok 38 [mobile] › tests\homepage.spec.ts:57:7 › en: WCAG A/AA automated scan (6.5s)
+  ok 40 [mobile] › tests\homepage.spec.ts:22:7 › ar: responsive homepage, semantics, local assets and screenshot (5.4s)
+  ok 42 [mobile] › tests\homepage.spec.ts:63:7 › ar: material dialog, selection, Escape and focus restoration (1.7s)
+  ok 41 [mobile] › tests\homepage.spec.ts:57:7 › ar: WCAG A/AA automated scan (5.6s)
+  ok 44 [mobile] › tests\homepage.spec.ts:96:5 › mobile/tablet menu traps focus, navigates and closes with Escape (5.0s)
+  ok 45 [mobile] › tests\homepage.spec.ts:114:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (4.6s)
+  ok 46 [mobile] › tests\homepage.spec.ts:129:5 › locale path helper retains nested pages for later milestones (3ms)
+  -  47 [mobile] › tests\homepage.spec.ts:134:5 › requested widths preserve hero space, typography and layout in every language
+  ok 43 [mobile] › tests\homepage.spec.ts:84:5 › language switching preserves query and section and supports all three languages (12.5s)
+(node:3808) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9252) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  48 [mobile] › tests\viewer.spec.ts:111:5 › 3D responsive and RTL activation matrix
+  -  50 [mobile] › tests\viewer.spec.ts:129:5 › WebGL initialization failure returns an accessible static preview
+  ok 49 [mobile] › tests\viewer.spec.ts:11:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets (32.9s)
+
+  6 skipped
+  44 passed (8.3m)

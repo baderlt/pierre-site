@@ -1,0 +1,2035 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\DELL 7420\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\DELL 7420\\Desktop\\time-stone\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/homepage.spec.ts",
+      "tests/homepage-targeted.spec.ts",
+      "tests/viewer.spec.ts",
+      "--project=desktop",
+      "--project=mobile",
+      "--workers=2",
+      "--retries=0",
+      "--output=.tools/m8-final-investigation/browser-failures"
+    ],
+    "configFile": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\playwright.config.ts",
+    "rootDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/m8-final-investigation/browser-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/m8-final-investigation/browser-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/m8-final-investigation/browser-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\m8-final-investigation\\browser-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "snapshotDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3037",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1536,
+            "height": 1024
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\m8-final-investigation\\browser-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "mobile",
+        "testDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "snapshotDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3037",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 390,
+            "height": 664
+          },
+          "screen": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/qa/milestone-8-final-investigation/playwright.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "homepage-targeted.spec.ts",
+      "file": "homepage-targeted.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fr: targeted sections at six widths, lazy form, RTL and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 37255,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:28:59.745Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-fb15addfa4b53f58ceed",
+          "file": "homepage-targeted.spec.ts",
+          "line": 9,
+          "column": 42
+        },
+        {
+          "title": "en: targeted sections at six widths, lazy form, RTL and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 35977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:28:59.768Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-19f6a89a282a61650454",
+          "file": "homepage-targeted.spec.ts",
+          "line": 9,
+          "column": 42
+        },
+        {
+          "title": "ar: targeted sections at six widths, lazy form, RTL and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 27680,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:29:36.206Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-cb320c379e0cecb6013e",
+          "file": "homepage-targeted.spec.ts",
+          "line": 9,
+          "column": 42
+        },
+        {
+          "title": "lazy quotation loading preserves the placeholder space",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:29:37.448Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-9b1e435655253909d330",
+          "file": "homepage-targeted.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "same quotation validation, product selection and duplicate-safe uncertain recovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15007,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:29:46.466Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-c58dc90a95c48149b0d4",
+          "file": "homepage-targeted.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "location fixture: directions safety, translated layouts, keyboard and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+                  "location": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+                    "line": 95,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 413,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:01.634Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+                        "line": 95,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-13ddfb4d2e9815fc5c81",
+          "file": "homepage-targeted.spec.ts",
+          "line": 93,
+          "column": 5
+        },
+        {
+          "title": "without JavaScript the homepage keeps the dedicated quotation destination",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12472,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:02.136Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-8806adfb5ac18c302487",
+          "file": "homepage-targeted.spec.ts",
+          "line": 110,
+          "column": 5
+        },
+        {
+          "title": "manual keyboard activation when automatic mounting is suppressed focuses the existing form",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5087,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:04.086Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-076f206f314764a59767",
+          "file": "homepage-targeted.spec.ts",
+          "line": 116,
+          "column": 5
+        },
+        {
+          "title": "fr: targeted sections at six widths, lazy form, RTL and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 33970,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:34:50.319Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-e43037f9e4ea1c57c2d2",
+          "file": "homepage-targeted.spec.ts",
+          "line": 9,
+          "column": 42
+        },
+        {
+          "title": "en: targeted sections at six widths, lazy form, RTL and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 33265,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:34:56.521Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-df46b7954bb64e0302fb",
+          "file": "homepage-targeted.spec.ts",
+          "line": 9,
+          "column": 42
+        },
+        {
+          "title": "ar: targeted sections at six widths, lazy form, RTL and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 34854,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:24.637Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-f4fa4e76321feaf82c3f",
+          "file": "homepage-targeted.spec.ts",
+          "line": 9,
+          "column": 42
+        },
+        {
+          "title": "lazy quotation loading preserves the placeholder space",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5073,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:30.389Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-a21a7a0884d2070d7907",
+          "file": "homepage-targeted.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "same quotation validation, product selection and duplicate-safe uncertain recovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8645,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:35.544Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-eff45607eb6e4e601736",
+          "file": "homepage-targeted.spec.ts",
+          "line": 67,
+          "column": 5
+        },
+        {
+          "title": "location fixture: directions safety, translated layouts, keyboard and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+                  "location": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+                    "line": 95,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 323,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:44.283Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+                        "line": 95,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-2a269eff5970491a8ef4",
+          "file": "homepage-targeted.spec.ts",
+          "line": 93,
+          "column": 5
+        },
+        {
+          "title": "without JavaScript the homepage keeps the dedicated quotation destination",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5937,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:44.660Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-e66c57521efa455559ac",
+          "file": "homepage-targeted.spec.ts",
+          "line": 110,
+          "column": 5
+        },
+        {
+          "title": "manual keyboard activation when automatic mounting is suppressed focuses the existing form",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:50.648Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fad7d7b7488a5e8ddf7-d345c0bc502351f08c6f",
+          "file": "homepage-targeted.spec.ts",
+          "line": 116,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "homepage.spec.ts",
+      "file": "homepage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fr: responsive homepage, semantics, local assets and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13093,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:09.392Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-42eca872e93908d5089e",
+          "file": "homepage.spec.ts",
+          "line": 22,
+          "column": 7
+        },
+        {
+          "title": "fr: WCAG A/AA automated scan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8621,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:14.782Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-db980e2434dd9238aad5",
+          "file": "homepage.spec.ts",
+          "line": 57,
+          "column": 7
+        },
+        {
+          "title": "fr: material dialog, selection, Escape and focus restoration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3757,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:22.542Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-b0550e90ec8056694182",
+          "file": "homepage.spec.ts",
+          "line": 63,
+          "column": 7
+        },
+        {
+          "title": "en: responsive homepage, semantics, local assets and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13923,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:23.548Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-01fe2c958d8f6d471dd1",
+          "file": "homepage.spec.ts",
+          "line": 22,
+          "column": 7
+        },
+        {
+          "title": "en: WCAG A/AA automated scan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10076,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:26.406Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-3094ad4381235c3b27c7",
+          "file": "homepage.spec.ts",
+          "line": 57,
+          "column": 7
+        },
+        {
+          "title": "en: material dialog, selection, Escape and focus restoration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6127,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:36.692Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-97c63ee4e464252f557e",
+          "file": "homepage.spec.ts",
+          "line": 63,
+          "column": 7
+        },
+        {
+          "title": "ar: responsive homepage, semantics, local assets and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16276,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:37.573Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-9ea8b8b130317cf521ec",
+          "file": "homepage.spec.ts",
+          "line": 22,
+          "column": 7
+        },
+        {
+          "title": "ar: WCAG A/AA automated scan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8684,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:42.870Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-ad19b3414f70c3c2eb05",
+          "file": "homepage.spec.ts",
+          "line": 57,
+          "column": 7
+        },
+        {
+          "title": "ar: material dialog, selection, Escape and focus restoration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6722,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:51.602Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-d7cde7c2e304295a72e1",
+          "file": "homepage.spec.ts",
+          "line": 63,
+          "column": 7
+        },
+        {
+          "title": "language switching preserves query and section and supports all three languages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:53.938Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-66203eed3c3cea02516a",
+          "file": "homepage.spec.ts",
+          "line": 84,
+          "column": 5
+        },
+        {
+          "title": "mobile/tablet menu traps focus, navigates and closes with Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Desktop uses the visible navigation.",
+                  "location": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                    "line": 97,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 610,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:58.524Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Desktop uses the visible navigation.",
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                        "line": 97,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-b78e39d3d3914dd7f1a1",
+          "file": "homepage.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "French redirect, unsupported locale, keyboard skip link and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 9624,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:30:59.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-7d7ebd64eadefaceae04",
+          "file": "homepage.spec.ts",
+          "line": 114,
+          "column": 5
+        },
+        {
+          "title": "locale path helper retains nested pages for later milestones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 53,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:31:09.032Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-b9ec451d7cb697681ca1",
+          "file": "homepage.spec.ts",
+          "line": 129,
+          "column": 5
+        },
+        {
+          "title": "requested widths preserve hero space, typography and layout in every language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 208474,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:31:09.271Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-383e579ec5e32d19974c",
+          "file": "homepage.spec.ts",
+          "line": 134,
+          "column": 5
+        },
+        {
+          "title": "fr: responsive homepage, semantics, local assets and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7120,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:55.732Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-7d74128f6b2f654cd3bf",
+          "file": "homepage.spec.ts",
+          "line": 22,
+          "column": 7
+        },
+        {
+          "title": "fr: WCAG A/AA automated scan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:35:59.758Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-358a5ed3c928d79b9d85",
+          "file": "homepage.spec.ts",
+          "line": 57,
+          "column": 7
+        },
+        {
+          "title": "fr: material dialog, selection, Escape and focus restoration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2153,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:02.887Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-f1ab78b596120dd5bb64",
+          "file": "homepage.spec.ts",
+          "line": 63,
+          "column": 7
+        },
+        {
+          "title": "en: responsive homepage, semantics, local assets and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:05.098Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-1f0feb8cec1c55ae5a63",
+          "file": "homepage.spec.ts",
+          "line": 22,
+          "column": 7
+        },
+        {
+          "title": "en: WCAG A/AA automated scan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6538,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:07.082Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-f4d107ecc12688e0684f",
+          "file": "homepage.spec.ts",
+          "line": 57,
+          "column": 7
+        },
+        {
+          "title": "en: material dialog, selection, Escape and focus restoration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1611,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:10.444Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-27f138c58c0d43d3b403",
+          "file": "homepage.spec.ts",
+          "line": 63,
+          "column": 7
+        },
+        {
+          "title": "ar: responsive homepage, semantics, local assets and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:12.083Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-7554e8fd07a2a61b78b4",
+          "file": "homepage.spec.ts",
+          "line": 22,
+          "column": 7
+        },
+        {
+          "title": "ar: WCAG A/AA automated scan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5642,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:13.669Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-bae4fbbe8dced1388ee9",
+          "file": "homepage.spec.ts",
+          "line": 57,
+          "column": 7
+        },
+        {
+          "title": "ar: material dialog, selection, Escape and focus restoration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1679,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:17.548Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-8ca0f28f4aecacf9f399",
+          "file": "homepage.spec.ts",
+          "line": 63,
+          "column": 7
+        },
+        {
+          "title": "language switching preserves query and section and supports all three languages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12464,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:19.252Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-61b009b85e7446726d5e",
+          "file": "homepage.spec.ts",
+          "line": 84,
+          "column": 5
+        },
+        {
+          "title": "mobile/tablet menu traps focus, navigates and closes with Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4954,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:19.342Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-eb719c514651722f5fe1",
+          "file": "homepage.spec.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "French redirect, unsupported locale, keyboard skip link and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:24.329Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-28385e55fad83237a271",
+          "file": "homepage.spec.ts",
+          "line": 114,
+          "column": 5
+        },
+        {
+          "title": "locale path helper retains nested pages for later milestones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:28.966Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-d29e04130d727542d4fc",
+          "file": "homepage.spec.ts",
+          "line": 129,
+          "column": 5
+        },
+        {
+          "title": "requested widths preserve hero space, typography and layout in every language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Additional widths are covered once.",
+                  "location": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                    "line": 136,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 1350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:29.008Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Additional widths are covered once.",
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage.spec.ts",
+                        "line": 136,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "84e7eb052e8cbae1c9f0-4fc15abffd0d03f9d204",
+          "file": "homepage.spec.ts",
+          "line": 134,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "viewer.spec.ts",
+      "file": "viewer.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "3D controls, formats, finishes, demand rendering, exports and resource budgets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 54803,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:31:29.206Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "21fabc857d2aace6b217-40ee573267775072fffb",
+          "file": "viewer.spec.ts",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "3D responsive and RTL activation matrix",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 149437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:32:24.790Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "21fabc857d2aace6b217-7b4d0b22e938cffe17a2",
+          "file": "viewer.spec.ts",
+          "line": 111,
+          "column": 5
+        },
+        {
+          "title": "WebGL initialization failure returns an accessible static preview",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5207,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:34:42.364Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "21fabc857d2aace6b217-3516d7e11c347cb80316",
+          "file": "viewer.spec.ts",
+          "line": 129,
+          "column": 5
+        },
+        {
+          "title": "3D controls, formats, finishes, demand rendering, exports and resource budgets",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 32944,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:39.613Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "21fabc857d2aace6b217-6afa2ef584dc88702bc7",
+          "file": "viewer.spec.ts",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "3D responsive and RTL activation matrix",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Complete matrix once.",
+                  "location": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                    "line": 112,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 515,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:39.482Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Complete matrix once.",
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                        "line": 112,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "21fabc857d2aace6b217-918fe395e8e2698edc23",
+          "file": "viewer.spec.ts",
+          "line": 111,
+          "column": 5
+        },
+        {
+          "title": "WebGL initialization failure returns an accessible static preview",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Failure mode once.",
+                  "location": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                    "line": 130,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 230,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T13:36:40.382Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Failure mode once.",
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+                        "line": 130,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "21fabc857d2aace6b217-9b129949916303a7f09c",
+          "file": "viewer.spec.ts",
+          "line": 129,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T13:28:57.350Z",
+    "duration": 496127.25299999997,
+    "expected": 44,
+    "skipped": 6,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

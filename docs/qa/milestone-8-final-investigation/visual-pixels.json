@@ -1,0 +1,69 @@
+[
+  {
+    "locale": "fr",
+    "width": 390,
+    "changed_pixels": 16,
+    "fraction": 4.860857941426662e-05,
+    "bounds": [
+      185,
+      394,
+      390,
+      636
+    ]
+  },
+  {
+    "locale": "fr",
+    "width": 1536,
+    "changed_pixels": 54,
+    "fraction": 3.4332275390625e-05,
+    "bounds": [
+      121,
+      316,
+      1415,
+      866
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "changed_pixels": 0,
+    "fraction": 0.0,
+    "bounds": null
+  },
+  {
+    "locale": "en",
+    "width": 1536,
+    "changed_pixels": 54,
+    "fraction": 3.4332275390625e-05,
+    "bounds": [
+      122,
+      316,
+      1415,
+      814
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "changed_pixels": 251,
+    "fraction": 0.0007625470895613076,
+    "bounds": [
+      24,
+      154,
+      55,
+      244
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1536,
+    "changed_pixels": 44,
+    "fraction": 2.7974446614583332e-05,
+    "bounds": [
+      120,
+      29,
+      387,
+      811
+    ]
+  }
+]

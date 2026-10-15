@@ -1,0 +1,511 @@
+{
+  "scope": "Headless Chromium SwiftShader; forced GC JS heap, interaction render-count proxy, not physical GPU VRAM/frame-rate/thermal measurement",
+  "rows": [
+    {
+      "width": 390,
+      "initial": {
+        "ScriptDuration": 0.045346,
+        "TaskDuration": 0.234744,
+        "JSHeapUsedSize": 2606792
+      },
+      "cycles": [
+        {
+          "cycle": 0,
+          "activation_ms": 3497.6202000000003,
+          "active": {
+            "ScriptDuration": 0.97667,
+            "TaskDuration": 2.868472,
+            "JSHeapUsedSize": 8632112
+          },
+          "disposed": {
+            "ScriptDuration": 1.271046,
+            "TaskDuration": 4.761423,
+            "JSHeapUsedSize": 9086144
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 1.291212,
+            "TaskDuration": 4.807147,
+            "JSHeapUsedSize": 9026032
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 1454.9728000000014,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 1,
+          "activation_ms": 2846.9215000000004,
+          "active": {
+            "ScriptDuration": 1.886378,
+            "TaskDuration": 6.198324,
+            "JSHeapUsedSize": 9525844
+          },
+          "disposed": {
+            "ScriptDuration": 1.921639,
+            "TaskDuration": 6.622537,
+            "JSHeapUsedSize": 9417408
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 1.9642,
+            "TaskDuration": 6.719891,
+            "JSHeapUsedSize": 9351620
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "paused": "false",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8"
+          },
+          "interaction_ms": 2606.0398999999998,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 2,
+          "activation_ms": 3000.6756000000023,
+          "active": {
+            "ScriptDuration": 2.632536,
+            "TaskDuration": 8.23463,
+            "JSHeapUsedSize": 9805692
+          },
+          "disposed": {
+            "ScriptDuration": 2.687648,
+            "TaskDuration": 8.624966,
+            "JSHeapUsedSize": 9620272
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 4.565832,
+            "TaskDuration": 10.537458,
+            "JSHeapUsedSize": 9549156
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "paused": "false",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8"
+          },
+          "interaction_ms": 914.5069999999978,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 3,
+          "activation_ms": 2143.7860999999975,
+          "active": {
+            "ScriptDuration": 5.000726,
+            "TaskDuration": 11.537386,
+            "JSHeapUsedSize": 9912132
+          },
+          "disposed": {
+            "ScriptDuration": 5.127834,
+            "TaskDuration": 11.818115,
+            "JSHeapUsedSize": 9724584
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 6.561551,
+            "TaskDuration": 13.279031,
+            "JSHeapUsedSize": 9654480
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 616.2130000000034,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 4,
+          "activation_ms": 2562.8717000000033,
+          "active": {
+            "ScriptDuration": 7.119542,
+            "TaskDuration": 14.321353,
+            "JSHeapUsedSize": 10054620
+          },
+          "disposed": {
+            "ScriptDuration": 7.163608,
+            "TaskDuration": 14.655498,
+            "JSHeapUsedSize": 9857716
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 9.174546,
+            "TaskDuration": 16.698404,
+            "JSHeapUsedSize": 9790028
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 724.8677000000025,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 5,
+          "activation_ms": 2597.7753999999986,
+          "active": {
+            "ScriptDuration": 9.607062,
+            "TaskDuration": 17.668383,
+            "JSHeapUsedSize": 10173796
+          },
+          "disposed": {
+            "ScriptDuration": 9.654668,
+            "TaskDuration": 17.838322,
+            "JSHeapUsedSize": 9940784
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 9.93051,
+            "TaskDuration": 18.136942,
+            "JSHeapUsedSize": 9870036
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "paused": "false",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8"
+          },
+          "interaction_ms": 642.9590000000026,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 6,
+          "activation_ms": 2025.4442999999956,
+          "active": {
+            "ScriptDuration": 10.311245,
+            "TaskDuration": 19.125291,
+            "JSHeapUsedSize": 10212148
+          },
+          "disposed": {
+            "ScriptDuration": 10.460848,
+            "TaskDuration": 19.79914,
+            "JSHeapUsedSize": 9987496
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 11.843007,
+            "TaskDuration": 21.204556,
+            "JSHeapUsedSize": 9917252
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 887.7578999999969,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 7,
+          "activation_ms": 2454.9259000000093,
+          "active": {
+            "ScriptDuration": 12.197509,
+            "TaskDuration": 22.035446,
+            "JSHeapUsedSize": 10246020
+          },
+          "disposed": {
+            "ScriptDuration": 12.248462,
+            "TaskDuration": 22.325805,
+            "JSHeapUsedSize": 10026256
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 12.551297,
+            "TaskDuration": 22.647159,
+            "JSHeapUsedSize": 9958932
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "paused": "false",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8"
+          },
+          "interaction_ms": 704.8035999999993,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 8,
+          "activation_ms": 2000.9040999999997,
+          "active": {
+            "ScriptDuration": 12.891565,
+            "TaskDuration": 23.402049,
+            "JSHeapUsedSize": 10666520
+          },
+          "disposed": {
+            "ScriptDuration": 13.060856,
+            "TaskDuration": 23.656575,
+            "JSHeapUsedSize": 10442864
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 13.215503,
+            "TaskDuration": 23.834861,
+            "JSHeapUsedSize": 10371632
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 607.6543999999994,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 9,
+          "activation_ms": 2036.6437999999907,
+          "active": {
+            "ScriptDuration": 13.619752,
+            "TaskDuration": 24.636684,
+            "JSHeapUsedSize": 10719068
+          },
+          "disposed": {
+            "ScriptDuration": 13.659631,
+            "TaskDuration": 24.862824,
+            "JSHeapUsedSize": 10481144
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 14.148133,
+            "TaskDuration": 25.376584,
+            "JSHeapUsedSize": 10411880
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 628.177199999991,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 10,
+          "activation_ms": 2058.9377999999997,
+          "active": {
+            "ScriptDuration": 14.523811,
+            "TaskDuration": 26.191633,
+            "JSHeapUsedSize": 10741092
+          },
+          "disposed": {
+            "ScriptDuration": 14.553554,
+            "TaskDuration": 26.336527,
+            "JSHeapUsedSize": 10523428
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 14.85017,
+            "TaskDuration": 26.655982,
+            "JSHeapUsedSize": 10455316
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 670.3285000000033,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 11,
+          "activation_ms": 1935.5237000000052,
+          "active": {
+            "ScriptDuration": 15.258174,
+            "TaskDuration": 27.52237,
+            "JSHeapUsedSize": 10766640
+          },
+          "disposed": {
+            "ScriptDuration": 15.344524,
+            "TaskDuration": 27.752467,
+            "JSHeapUsedSize": 10533804
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 15.752936,
+            "TaskDuration": 28.18607,
+            "JSHeapUsedSize": 10463400
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 716.3606,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 12,
+          "activation_ms": 2027.1240000000107,
+          "active": {
+            "ScriptDuration": 16.08874,
+            "TaskDuration": 29.001985,
+            "JSHeapUsedSize": 10785156
+          },
+          "disposed": {
+            "ScriptDuration": 16.120777,
+            "TaskDuration": 29.140547,
+            "JSHeapUsedSize": 10556396
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 16.491775,
+            "TaskDuration": 29.526902,
+            "JSHeapUsedSize": 10488380
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 649.3585999999923,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 13,
+          "activation_ms": 1976.4796999999962,
+          "active": {
+            "ScriptDuration": 16.905877,
+            "TaskDuration": 30.366986,
+            "JSHeapUsedSize": 10816656
+          },
+          "disposed": {
+            "ScriptDuration": 16.992948,
+            "TaskDuration": 30.624992,
+            "JSHeapUsedSize": 10578116
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 18.988907,
+            "TaskDuration": 32.683128,
+            "JSHeapUsedSize": 10509540
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 532.1814000000013,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 14,
+          "activation_ms": 2936.587200000009,
+          "active": {
+            "ScriptDuration": 19.63895,
+            "TaskDuration": 34.1826,
+            "JSHeapUsedSize": 10845100
+          },
+          "disposed": {
+            "ScriptDuration": 19.724529,
+            "TaskDuration": 34.513677,
+            "JSHeapUsedSize": 10611828
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 20.939122,
+            "TaskDuration": 35.762835,
+            "JSHeapUsedSize": 10543280
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "paused": "false",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8"
+          },
+          "interaction_ms": 799.6543000000092,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        },
+        {
+          "cycle": 15,
+          "activation_ms": 2781.490300000005,
+          "active": {
+            "ScriptDuration": 21.630324,
+            "TaskDuration": 37.042097,
+            "JSHeapUsedSize": 10893260
+          },
+          "disposed": {
+            "ScriptDuration": 21.716626,
+            "TaskDuration": 37.405852,
+            "JSHeapUsedSize": 10650612
+          },
+          "settled_1500ms_after_removal": {
+            "ScriptDuration": 23.624389,
+            "TaskDuration": 39.361083,
+            "JSHeapUsedSize": 10580852
+          },
+          "counters": {
+            "engine": "three.js r180",
+            "renderCount": "27",
+            "dpr": "1.5",
+            "textures": "8",
+            "geometries": "17",
+            "drawCalls": "8",
+            "paused": "false"
+          },
+          "interaction_ms": 1087.6615999999922,
+          "interaction_rendered_frames": 24,
+          "hidden_rendered_frames": 0
+        }
+      ]
+    }
+  ]
+}

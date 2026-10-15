@@ -18,6 +18,8 @@
 .home-quote-heading h2 { font-size: clamp(32px, 3.4vw, 48px); }
 .home-quote-heading .contact-description { margin: 18px 0 0; color: #d8dddc; }
 .home-quote-placeholder { min-height: 900px; padding: 36px; border: 1px solid #e5bc7850; }
+/* Keep the placeholder's space while the lazy form chunk is loading. */
+.home-quote-active { min-height: 900px; }
 .home-quote-placeholder .button { margin-top: 20px; }
 .home-quote-page-link { display: inline-block; color: #f0cc8a; text-decoration: underline; padding-block: 16px; font-size: 13px; }
 .home-quotation .quotation-layout { display: grid; grid-template-columns: minmax(240px,.72fr) minmax(0,1.28fr); gap: 36px; align-items: start; }
@@ -88,6 +90,7 @@
   .home-quotation .quotation-form { padding: 22px 18px; }
   .home-quotation .quotation-form legend { font-size: 23px; }
   .home-quote-placeholder { min-height: 1450px; padding: 24px; }
+  .home-quote-active { min-height: 1450px; }
   .home-location { grid-template-columns: 1fr; gap: 26px; }
   .magasin-map iframe { height: 320px; }
   .magasin-card { padding-inline-start: 20px; }

@@ -1,0 +1,254 @@
+[
+  {
+    "locale": "fr",
+    "width": 390,
+    "phase": "before",
+    "heroHash": "6a53a9975edb039fcb76a1b4e2ed9379a81830bdc0091f9195cefa2bd213ecc8",
+    "formHash": "e99374174d5aae9af66d2786c13c0917d1812142c6e1b467fcfe3f19cd5f366f",
+    "hero": {
+      "x": 0,
+      "y": -5067,
+      "width": 390,
+      "height": 635
+    },
+    "form": {
+      "x": 20,
+      "y": 639.984375,
+      "width": 350,
+      "height": 1716.09375
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "fr",
+    "width": 390,
+    "phase": "after",
+    "heroHash": "b5081c6e2bdd3b8448948502689da53da4f42249a795831a5878d5596d00b74d",
+    "formHash": "e99374174d5aae9af66d2786c13c0917d1812142c6e1b467fcfe3f19cd5f366f",
+    "hero": {
+      "x": 0,
+      "y": -5067,
+      "width": 390,
+      "height": 635
+    },
+    "form": {
+      "x": 20,
+      "y": 639.984375,
+      "width": 350,
+      "height": 1716.09375
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "fr",
+    "width": 1536,
+    "phase": "before",
+    "heroHash": "fd63ecee66d0e31dea129dd79cce57e9a3c9facb52949c8ed52ce0d484d8de0f",
+    "formHash": "8c4763dc05ec00e0fe1783afd060d526c992b2433b008bac0ade7c60273f2786",
+    "hero": {
+      "x": 0,
+      "y": -3955,
+      "width": 1536,
+      "height": 611.28125
+    },
+    "form": {
+      "x": 609.59375,
+      "y": 357.390625,
+      "width": 806.40625,
+      "height": 1444.265625
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "fr",
+    "width": 1536,
+    "phase": "after",
+    "heroHash": "562a147d27546edfba734aa7e79e957dd8b5b167ce4bffe3755d27bdbac26f0f",
+    "formHash": "8c4763dc05ec00e0fe1783afd060d526c992b2433b008bac0ade7c60273f2786",
+    "hero": {
+      "x": 0,
+      "y": -3955,
+      "width": 1536,
+      "height": 611.28125
+    },
+    "form": {
+      "x": 609.59375,
+      "y": 357.390625,
+      "width": 806.40625,
+      "height": 1444.265625
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "phase": "before",
+    "heroHash": "b6bf81ce24d0993afec461556abc9268e184f759e19a01a92fbf9238bf419f9e",
+    "formHash": "162b44df4895cc223be4e38d3bb0beb52556a8a30e877e20108a1716b3e36f37",
+    "hero": {
+      "x": 0,
+      "y": -4950,
+      "width": 390,
+      "height": 635
+    },
+    "form": {
+      "x": 20,
+      "y": 639.71875,
+      "width": 350,
+      "height": 1676.5
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "phase": "after",
+    "heroHash": "b6bf81ce24d0993afec461556abc9268e184f759e19a01a92fbf9238bf419f9e",
+    "formHash": "162b44df4895cc223be4e38d3bb0beb52556a8a30e877e20108a1716b3e36f37",
+    "hero": {
+      "x": 0,
+      "y": -4950,
+      "width": 390,
+      "height": 635
+    },
+    "form": {
+      "x": 20,
+      "y": 639.71875,
+      "width": 350,
+      "height": 1676.5
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1536,
+    "phase": "before",
+    "heroHash": "c8a59514c2e0db84dcd8d0a10504145c21e53b65cf9fdeff76078686b1b3901b",
+    "formHash": "9f794ecc82e7b2eaa79a9803cf1e230460632e2f28c655808af0ad19c9806ecc",
+    "hero": {
+      "x": 0,
+      "y": -3904,
+      "width": 1536,
+      "height": 560
+    },
+    "form": {
+      "x": 609.59375,
+      "y": 357.109375,
+      "width": 806.40625,
+      "height": 1424.46875
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1536,
+    "phase": "after",
+    "heroHash": "0182f6afa60f08eca4446d329eceffa73abdf9880a02a29c0981e3aa112260f3",
+    "formHash": "9f794ecc82e7b2eaa79a9803cf1e230460632e2f28c655808af0ad19c9806ecc",
+    "hero": {
+      "x": 0,
+      "y": -3904,
+      "width": 1536,
+      "height": 560
+    },
+    "form": {
+      "x": 609.59375,
+      "y": 357.109375,
+      "width": 806.40625,
+      "height": 1424.46875
+    },
+    "rtl": "ltr",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "phase": "before",
+    "heroHash": "4d6975ce78edb5ae69856e92220d7e504e1535dd666401261ae78e662323a3af",
+    "formHash": "e50858dc7d18d6064d1a4f33004721ffdc039e74114cfc70e9190570258a1fbc",
+    "hero": {
+      "x": 0,
+      "y": -4786,
+      "width": 390,
+      "height": 635
+    },
+    "form": {
+      "x": 20,
+      "y": 518.34375,
+      "width": 350,
+      "height": 1651.03125
+    },
+    "rtl": "rtl",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "phase": "after",
+    "heroHash": "892fa6b0dad7680ca659c5f0c4faf218e8d29420836b01bdd848baa9f5facc1a",
+    "formHash": "e50858dc7d18d6064d1a4f33004721ffdc039e74114cfc70e9190570258a1fbc",
+    "hero": {
+      "x": 0,
+      "y": -4786,
+      "width": 390,
+      "height": 635
+    },
+    "form": {
+      "x": 20,
+      "y": 518.34375,
+      "width": 350,
+      "height": 1651.03125
+    },
+    "rtl": "rtl",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1536,
+    "phase": "before",
+    "heroHash": "a835609964b1d4fb16ad5093fc21532a6fc6f5b584c43b6a0de49705c523be01",
+    "formHash": "a14eb37a086deb335871409faaddbb9d562dcc49c868eaac4210970af0fcc9f3",
+    "hero": {
+      "x": 0,
+      "y": -3879,
+      "width": 1536,
+      "height": 560
+    },
+    "form": {
+      "x": 120,
+      "y": 332.609375,
+      "width": 806.40625,
+      "height": 1447.078125
+    },
+    "rtl": "rtl",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1536,
+    "phase": "after",
+    "heroHash": "6f92f9fff01460fcdca0bf64ef835bd8c32ebb325e0b36ddd3b5710099f16cb3",
+    "formHash": "a14eb37a086deb335871409faaddbb9d562dcc49c868eaac4210970af0fcc9f3",
+    "hero": {
+      "x": 0,
+      "y": -3879,
+      "width": 1536,
+      "height": 560
+    },
+    "form": {
+      "x": 120,
+      "y": 332.609375,
+      "width": 806.40625,
+      "height": 1447.078125
+    },
+    "rtl": "rtl",
+    "overflow": false
+  }
+]

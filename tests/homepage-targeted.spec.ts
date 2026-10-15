@@ -43,6 +43,27 @@ for(const locale of ['fr','en','ar'])test(`${locale}: targeted sections at six w
   expect(errors).toEqual([]);
 });
 
+test('lazy quotation loading preserves the placeholder space',async({page})=>{
+  let release!:()=>void;
+  const waiting=new Promise<void>(resolve=>{release=resolve;});
+  let blocked=false;
+  await page.route('**/_next/static/chunks/*.js',async route=>{
+    const response=await route.fetch();
+    const body=await response.text();
+    if(body.includes('quote-product-search')&&body.includes('Idempotency-Key')){
+      blocked=true;await waiting;
+    }
+    await route.fulfill({response,body});
+  });
+  try{
+    await page.goto('/fr');await page.locator('#contact').scrollIntoViewIfNeeded();
+    await expect.poll(()=>blocked).toBe(true);
+    const width=page.viewportSize()!.width;
+    expect((await page.locator('.home-quote-active').boundingBox())!.height).toBeGreaterThanOrEqual(width<=767?1450:900);
+  }finally{release();}
+  await expect(page.locator('#quote-name')).toBeVisible();
+});
+
 test('same quotation validation, product selection and duplicate-safe uncertain recovery',async({page})=>{
   await page.goto('/fr#contact');await expect(page.locator('#quote-name')).toBeVisible();
   await page.locator('.quote-submit').click();await expect(page.locator('.quote-errors')).toBeFocused();
