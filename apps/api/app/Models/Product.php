@@ -6,11 +6,11 @@ class Product extends ContentModel
 {
     protected $table = 'products';
 
-    protected $fillable = ['slug', 'sku', 'category_id', 'stone_type_id', 'status', 'featured', 'sort_order', 'illustrative', 'main_image_id', 'texture_id', 'og_image_id', 'published_at'];
+    protected $fillable = ['slug', 'sku', 'category_id', 'stone_type_id', 'status', 'featured', 'sort_order', 'illustrative', 'main_image_id', 'texture_id', 'og_image_id', 'published_at', 'viewer_enabled'];
 
     protected function casts(): array
     {
-        return ['featured' => 'boolean', 'illustrative' => 'boolean', 'published_at' => 'datetime'];
+        return ['featured' => 'boolean', 'illustrative' => 'boolean', 'published_at' => 'datetime', 'viewer_enabled' => 'boolean'];
     }
 
     public function translations()

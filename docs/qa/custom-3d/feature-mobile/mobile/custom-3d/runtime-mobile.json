@@ -1,0 +1,137 @@
+{
+  "environment": "Headless Chromium, SwiftShader, reduced motion; emulated viewport, not physical mobile GPU",
+  "metrics": [
+    {
+      "shape": "circle",
+      "activationMs": 7033,
+      "initial": {
+        "ScriptDuration": 0.175102,
+        "TaskDuration": 0.92489,
+        "JSHeapUsedSize": 3795176,
+        "JSHeapTotalSize": 5767168
+      },
+      "activated": {
+        "ScriptDuration": 1.580564,
+        "TaskDuration": 4.552542,
+        "JSHeapUsedSize": 12445124,
+        "JSHeapTotalSize": 15691776
+      },
+      "disposed": {
+        "ScriptDuration": 2.278147,
+        "TaskDuration": 6.864461,
+        "JSHeapUsedSize": 9279452,
+        "JSHeapTotalSize": 9994240
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "2",
+        "dpr": "1.5",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 288106,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "annular",
+      "activationMs": 8456,
+      "initial": {
+        "ScriptDuration": 0.053083,
+        "TaskDuration": 0.509632,
+        "JSHeapUsedSize": 13997608,
+        "JSHeapTotalSize": 17072128
+      },
+      "activated": {
+        "ScriptDuration": 1.019466,
+        "TaskDuration": 2.608731,
+        "JSHeapUsedSize": 9691020,
+        "JSHeapTotalSize": 16023552
+      },
+      "disposed": {
+        "ScriptDuration": 1.096915,
+        "TaskDuration": 3.102889,
+        "JSHeapUsedSize": 8827084,
+        "JSHeapTotalSize": 9469952
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "2",
+        "dpr": "1.5",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "polygon",
+      "activationMs": 5558,
+      "initial": {
+        "ScriptDuration": 0.094207,
+        "TaskDuration": 0.389145,
+        "JSHeapUsedSize": 11638164,
+        "JSHeapTotalSize": 13664256
+      },
+      "activated": {
+        "ScriptDuration": 1.261803,
+        "TaskDuration": 2.584096,
+        "JSHeapUsedSize": 10009012,
+        "JSHeapTotalSize": 20672512
+      },
+      "disposed": {
+        "ScriptDuration": 1.320156,
+        "TaskDuration": 3.143228,
+        "JSHeapUsedSize": 8664620,
+        "JSHeapTotalSize": 9469952
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1.5",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "glb",
+      "activationMs": 3052,
+      "initial": {
+        "ScriptDuration": 0.050124,
+        "TaskDuration": 0.292441,
+        "JSHeapUsedSize": 11442556,
+        "JSHeapTotalSize": 14450688
+      },
+      "activated": {
+        "ScriptDuration": 0.69492,
+        "TaskDuration": 1.419287,
+        "JSHeapUsedSize": 10100044,
+        "JSHeapTotalSize": 20410368
+      },
+      "disposed": {
+        "ScriptDuration": 1.125423,
+        "TaskDuration": 2.649281,
+        "JSHeapUsedSize": 9122896,
+        "JSHeapTotalSize": 9994240
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "2",
+        "dpr": "1.5",
+        "textures": "6",
+        "geometries": "18",
+        "drawCalls": "4",
+        "paused": "false"
+      },
+      "activationScriptBytes": 288106,
+      "modelTextureBytes": 1072
+    }
+  ]
+}

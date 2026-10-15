@@ -1,0 +1,46 @@
+{
+  "environment": "Headless Chromium / SwiftShader; emulated viewport, not physical mobile",
+  "activationMs": 2677,
+  "initialMetrics": {
+    "ScriptDuration": 0.111234,
+    "TaskDuration": 1.3188,
+    "JSHeapUsedSize": 3663436,
+    "JSHeapTotalSize": 6553600
+  },
+  "activatedMetrics": {
+    "ScriptDuration": 0.794451,
+    "TaskDuration": 2.912054,
+    "JSHeapUsedSize": 11683592,
+    "JSHeapTotalSize": 16740352
+  },
+  "disposedMetrics": {
+    "ScriptDuration": 2.717549,
+    "TaskDuration": 12.029555,
+    "JSHeapUsedSize": 14001268,
+    "JSHeapTotalSize": 15233024
+  },
+  "baseline": {
+    "engine": "three.js r180",
+    "renderCount": "3",
+    "dpr": "1",
+    "textures": "8",
+    "geometries": "17",
+    "drawCalls": "9",
+    "paused": "false"
+  },
+  "replaced": {
+    "engine": "three.js r180",
+    "renderCount": "52",
+    "dpr": "1",
+    "textures": "8",
+    "geometries": "17",
+    "drawCalls": "8",
+    "paused": "false"
+  },
+  "dragDurationMs": 1610,
+  "dragRenderCount": 31,
+  "initialScriptCount": 8,
+  "activatedScriptCount": 11,
+  "activatedOnlyScriptBytes": 276153,
+  "exportOnlyScriptBytes": 9918
+}

@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -10,7 +11,7 @@ test.use({ launchOptions: { args: ['--use-angle=swiftshader', '--enable-unsafe-s
 test('3D controls, formats, finishes, demand rendering, exports and resource budgets', async ({ page }, info) => {
   test.skip(info.project.name === 'tablet', 'Desktop and mobile cover the same engine.');
   test.setTimeout(180000);
-  await mkdir('docs/qa/milestone-3', { recursive: true });
+  await mkdir(qaOutput('docs/qa/milestone-3'), { recursive: true });
   const c = productCopy.fr;
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -34,6 +35,7 @@ test('3D controls, formats, finishes, demand rendering, exports and resource bud
   const activationScripts = await page.evaluate(() => performance.getEntriesByType('resource').filter(r => (r as PerformanceResourceTiming).initiatorType === 'script').map(r => ({ url: r.name, bytes: (r as PerformanceResourceTiming).encodedBodySize })));
   const baseline = await canvas.evaluate(node => ({ ...node.dataset }));
   expect(Number(baseline.dpr)).toBeLessThanOrEqual(1.5);
+  expect(Number(baseline.textures)).toBeLessThanOrEqual(10);
   const count = Number(baseline.renderCount);
   await page.waitForTimeout(600);
   expect(Number(await canvas.getAttribute('data-render-count')) - count).toBeLessThanOrEqual(1);
@@ -74,7 +76,7 @@ test('3D controls, formats, finishes, demand rendering, exports and resource bud
     const downloadPromise = page.waitForEvent('download');
     await page.getByRole('button', { name: new RegExp(kind.toUpperCase()) }).click();
     const download = await downloadPromise;
-    const path = `docs/qa/milestone-3/demo-${info.project.name}.${kind}`;
+    const path = qaOutput(`docs/qa/milestone-3/demo-${info.project.name}.${kind}`);
     await download.saveAs(path);
     const bytes = await readFile(path);
     if (kind === 'png') expect([...bytes.subarray(0, 8)]).toEqual([137, 80, 78, 71, 13, 10, 26, 10]);
@@ -88,14 +90,14 @@ test('3D controls, formats, finishes, demand rendering, exports and resource bud
       expect(json.materials.some((material: { pbrMetallicRoughness: { metallicFactor: number } }) => material.pbrMetallicRoughness.metallicFactor === 0)).toBe(true);
     }
   }
-  await page.screenshot({ path: `docs/qa/milestone-3/viewer-${info.project.name}.png`, scale: 'css' });
+  await page.screenshot({ path: qaOutput(`docs/qa/milestone-3/viewer-${info.project.name}.png`), scale: 'css' });
   const activatedScripts = await page.evaluate(() => performance.getEntriesByType('resource').filter(r => (r as PerformanceResourceTiming).initiatorType === 'script').map(r => ({ url: r.name, bytes: (r as PerformanceResourceTiming).encodedBodySize })));
   expect(activatedScripts.some(r => !initialScripts.includes(r.url))).toBe(true);
   await page.getByRole('button', { name: c.static, exact: true }).click();
   await expect(canvas).toHaveCount(0);
   await client.send('HeapProfiler.collectGarbage');
   const disposedMetrics = await heap();
-  await writeFile(`docs/qa/milestone-3/viewer-metrics-${info.project.name}.json`, JSON.stringify({ environment: 'Headless Chromium / SwiftShader; emulated viewport, not physical mobile', activationMs, initialMetrics, activatedMetrics, disposedMetrics, baseline, replaced, dragDurationMs, dragRenderCount, initialScriptCount: initialScripts.length, activatedScriptCount: activationScripts.length, activatedOnlyScriptBytes: activationScripts.filter(r => !initialScripts.includes(r.url)).reduce((sum, r) => sum + r.bytes, 0), exportOnlyScriptBytes: activatedScripts.filter(r => !activationScripts.some(a => a.url === r.url)).reduce((sum, r) => sum + r.bytes, 0) }, null, 2));
+  await writeFile(qaOutput(`docs/qa/milestone-3/viewer-metrics-${info.project.name}.json`), JSON.stringify({ environment: 'Headless Chromium / SwiftShader; emulated viewport, not physical mobile', activationMs, initialMetrics, activatedMetrics, disposedMetrics, baseline, replaced, dragDurationMs, dragRenderCount, initialScriptCount: initialScripts.length, activatedScriptCount: activationScripts.length, activatedOnlyScriptBytes: activationScripts.filter(r => !initialScripts.includes(r.url)).reduce((sum, r) => sum + r.bytes, 0), exportOnlyScriptBytes: activatedScripts.filter(r => !activationScripts.some(a => a.url === r.url)).reduce((sum, r) => sum + r.bytes, 0) }, null, 2));
   await page.getByRole('button', { name: c.activate, exact: true }).click();
   await expect(page.locator('.gallery-stage')).toHaveAttribute('data-viewer-state', 'ready', { timeout: 30000 });
   await expect(canvas).toHaveCount(1);
@@ -118,7 +120,7 @@ test('3D responsive and RTL activation matrix', async ({ page }, info) => {
     await expect(page.locator('canvas')).toHaveAttribute('data-render-count', /\d+/);
     await page.getByRole('button', { name: productCopy[locale].edge, exact: true }).click();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-    if ([390, 1536].includes(width)) await page.screenshot({ path: `docs/qa/milestone-3/viewer-${locale}-${width}.png`, scale: 'css' });
+    if ([390, 1536].includes(width)) await page.screenshot({ path: qaOutput(`docs/qa/milestone-3/viewer-${locale}-${width}.png`), scale: 'css' });
     await page.getByRole('button', { name: productCopy[locale].static, exact: true }).click();
     await expect(page.locator('canvas')).toHaveCount(0);
   }

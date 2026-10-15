@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { mkdir } from 'node:fs/promises';
@@ -49,15 +50,15 @@ for (const locale of locales) test(`${locale}: public pages, gallery focus and d
 
 test('public page viewport matrix and screenshots', async ({ page }, info) => {
   test.skip(info.project.name !== 'desktop'); test.setTimeout(900000);
-  await mkdir('docs/qa/milestone-4', { recursive: true });
+  await mkdir(qaOutput('docs/qa/milestone-4'), { recursive: true });
   for (const locale of locales) for (const width of [320, 390, 430, 768, 1024, 1536]) for (const route of routes) {
     await page.setViewportSize({ width, height: 900 }); await page.goto(`/${locale}/${route}`);
     await page.evaluate(async () => { await document.fonts.ready; for (const img of document.images) img.loading = 'eager'; await Promise.all([...document.images].map(img => img.decode().catch(() => {}))); });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${locale}/${route}/${width}`).toBe(true);
     expect(await page.locator('img').evaluateAll(images => images.every(image => (image as HTMLImageElement).naturalWidth > 0))).toBe(true);
     await expect(page.locator('canvas')).toHaveCount(0);
-    await page.screenshot({ path: `docs/qa/milestone-4/${route.replace('/', '-')}-${locale}-${width}.png`, scale: 'css' });
-    if ([390, 1536].includes(width)) await page.screenshot({ path: `docs/qa/milestone-4/${route.replace('/', '-')}-${locale}-${width}-full.png`, fullPage: true, scale: 'css' });
+    await page.screenshot({ path: qaOutput(`docs/qa/milestone-4/${route.replace('/', '-')}-${locale}-${width}.png`), scale: 'css' });
+    if ([390, 1536].includes(width)) await page.screenshot({ path: qaOutput(`docs/qa/milestone-4/${route.replace('/', '-')}-${locale}-${width}-full.png`), fullPage: true, scale: 'css' });
   }
 });
 
@@ -85,5 +86,28 @@ test('SSR routes, paginated application products, no-script safety and validatio
   expect(draft.delivery.country_code).toBe('MA'); expect(draft.items[0].format_id).toBe('slab'); expect(draft.website).toBe('');
   expect(buildQuotationDraft('en', fields, [], quotationCopy.en).items).toEqual([]);
   for (const [key, value] of Object.entries({ product: 'unknown', shape: 'unsafe', finish: 'unknown', width: '501', thickness: '0', quantity: 'Infinity', email: 'invalid', phone: 'abc', unit: 'unknown', privacy: false })) expect(validateQuotation({ ...fields,product:option.id, [key]: value }, [option], quotationCopy.en)).toHaveProperty(key);
+});
+
+test('localized keyboard retry refetches public content after an API outage', async ({ page, request }, info) => {
+  test.skip(info.project.name !== 'desktop', 'Controlled desktop/mobile recovery matrix runs once against the shared local outage fixture.');
+  test.skip(!process.env.QA_FAILURE_BASE_URL, 'Requires the isolated API failure/recovery fixture.');
+  const origin = process.env.QA_FAILURE_BASE_URL!;
+  expect(new URL(origin).hostname).toBe('127.0.0.1');
+  const headings = { fr: 'Contenu indisponible', en: 'Content unavailable', ar: 'المحتوى غير متاح' };
+  for (const width of [390, 1536]) for (const locale of ['fr', 'en', 'ar'] as const) {
+    await page.setViewportSize({ width, height: 844 });
+    await request.post('http://127.0.0.1:8041/qa/fail');
+    const response = await page.goto(`${origin}/${locale}`);
+    expect(response?.status()).toBe(500);
+    await expect(page.locator('h1')).toHaveText(headings[locale]);
+    await expect(page.locator('main[role="alert"]')).toBeVisible();
+    await expect(page.locator('html')).toHaveAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr');
+    await expect(page.locator('.quote-success')).toHaveCount(0);
+    await request.post('http://127.0.0.1:8041/qa/recover');
+    await page.getByRole('button').focus();
+    await page.keyboard.press('Enter');
+    await expect(page.locator('.hero')).toBeVisible();
+    await expect(page.locator('main[role="alert"]')).toHaveCount(0);
+  }
 });
 

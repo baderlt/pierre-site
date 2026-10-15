@@ -1,0 +1,488 @@
+[
+  {
+    "name": "home-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "before/home-fr-1.json",
+    "html": "before/home-fr-1.html",
+    "trace": "before/home-fr-1-trace.json.gz",
+    "network": "before/home-fr-1-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "before/home-fr-2.json",
+    "html": "before/home-fr-2.html",
+    "trace": "before/home-fr-2-trace.json.gz",
+    "network": "before/home-fr-2-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "before/home-fr-3.json",
+    "html": "before/home-fr-3.html",
+    "trace": "before/home-fr-3-trace.json.gz",
+    "network": "before/home-fr-3-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "before/home-ar-1.json",
+    "html": "before/home-ar-1.html",
+    "trace": "before/home-ar-1-trace.json.gz",
+    "network": "before/home-ar-1-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "before/home-ar-2.json",
+    "html": "before/home-ar-2.html",
+    "trace": "before/home-ar-2-trace.json.gz",
+    "network": "before/home-ar-2-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "before/home-ar-3.json",
+    "html": "before/home-ar-3.html",
+    "trace": "before/home-ar-3-trace.json.gz",
+    "network": "before/home-ar-3-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "before/catalogue-fr-1.json",
+    "html": "before/catalogue-fr-1.html",
+    "trace": "before/catalogue-fr-1-trace.json.gz",
+    "network": "before/catalogue-fr-1-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "before/catalogue-fr-2.json",
+    "html": "before/catalogue-fr-2.html",
+    "trace": "before/catalogue-fr-2-trace.json.gz",
+    "network": "before/catalogue-fr-2-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "before/catalogue-fr-3.json",
+    "html": "before/catalogue-fr-3.html",
+    "trace": "before/catalogue-fr-3-trace.json.gz",
+    "network": "before/catalogue-fr-3-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "before/catalogue-ar-1.json",
+    "html": "before/catalogue-ar-1.html",
+    "trace": "before/catalogue-ar-1-trace.json.gz",
+    "network": "before/catalogue-ar-1-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "before/catalogue-ar-2.json",
+    "html": "before/catalogue-ar-2.html",
+    "trace": "before/catalogue-ar-2-trace.json.gz",
+    "network": "before/catalogue-ar-2-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "before/catalogue-ar-3.json",
+    "html": "before/catalogue-ar-3.html",
+    "trace": "before/catalogue-ar-3-trace.json.gz",
+    "network": "before/catalogue-ar-3-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "before/product-fr-1.json",
+    "html": "before/product-fr-1.html",
+    "trace": "before/product-fr-1-trace.json.gz",
+    "network": "before/product-fr-1-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "before/product-fr-2.json",
+    "html": "before/product-fr-2.html",
+    "trace": "before/product-fr-2-trace.json.gz",
+    "network": "before/product-fr-2-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "before/product-fr-3.json",
+    "html": "before/product-fr-3.html",
+    "trace": "before/product-fr-3-trace.json.gz",
+    "network": "before/product-fr-3-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "before/desktop-fr-1.json",
+    "html": "before/desktop-fr-1.html",
+    "trace": "before/desktop-fr-1-trace.json.gz",
+    "network": "before/desktop-fr-1-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "before/desktop-fr-2.json",
+    "html": "before/desktop-fr-2.html",
+    "trace": "before/desktop-fr-2-trace.json.gz",
+    "network": "before/desktop-fr-2-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "before/desktop-fr-3.json",
+    "html": "before/desktop-fr-3.html",
+    "trace": "before/desktop-fr-3-trace.json.gz",
+    "network": "before/desktop-fr-3-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after/home-fr-1.json",
+    "html": "after/home-fr-1.html",
+    "trace": "after/home-fr-1-trace.json.gz",
+    "network": "after/home-fr-1-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after/home-fr-2.json",
+    "html": "after/home-fr-2.html",
+    "trace": "after/home-fr-2-trace.json.gz",
+    "network": "after/home-fr-2-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after/home-fr-3.json",
+    "html": "after/home-fr-3.html",
+    "trace": "after/home-fr-3-trace.json.gz",
+    "network": "after/home-fr-3-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after/home-ar-1.json",
+    "html": "after/home-ar-1.html",
+    "trace": "after/home-ar-1-trace.json.gz",
+    "network": "after/home-ar-1-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after/home-ar-2.json",
+    "html": "after/home-ar-2.html",
+    "trace": "after/home-ar-2-trace.json.gz",
+    "network": "after/home-ar-2-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after/home-ar-3.json",
+    "html": "after/home-ar-3.html",
+    "trace": "after/home-ar-3-trace.json.gz",
+    "network": "after/home-ar-3-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after/catalogue-fr-1.json",
+    "html": "after/catalogue-fr-1.html",
+    "trace": "after/catalogue-fr-1-trace.json.gz",
+    "network": "after/catalogue-fr-1-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after/catalogue-fr-2.json",
+    "html": "after/catalogue-fr-2.html",
+    "trace": "after/catalogue-fr-2-trace.json.gz",
+    "network": "after/catalogue-fr-2-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after/catalogue-fr-3.json",
+    "html": "after/catalogue-fr-3.html",
+    "trace": "after/catalogue-fr-3-trace.json.gz",
+    "network": "after/catalogue-fr-3-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after/catalogue-ar-1.json",
+    "html": "after/catalogue-ar-1.html",
+    "trace": "after/catalogue-ar-1-trace.json.gz",
+    "network": "after/catalogue-ar-1-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after/catalogue-ar-2.json",
+    "html": "after/catalogue-ar-2.html",
+    "trace": "after/catalogue-ar-2-trace.json.gz",
+    "network": "after/catalogue-ar-2-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after/catalogue-ar-3.json",
+    "html": "after/catalogue-ar-3.html",
+    "trace": "after/catalogue-ar-3-trace.json.gz",
+    "network": "after/catalogue-ar-3-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after/product-fr-1.json",
+    "html": "after/product-fr-1.html",
+    "trace": "after/product-fr-1-trace.json.gz",
+    "network": "after/product-fr-1-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after/product-fr-2.json",
+    "html": "after/product-fr-2.html",
+    "trace": "after/product-fr-2-trace.json.gz",
+    "network": "after/product-fr-2-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after/product-fr-3.json",
+    "html": "after/product-fr-3.html",
+    "trace": "after/product-fr-3-trace.json.gz",
+    "network": "after/product-fr-3-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after/desktop-fr-1.json",
+    "html": "after/desktop-fr-1.html",
+    "trace": "after/desktop-fr-1-trace.json.gz",
+    "network": "after/desktop-fr-1-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after/desktop-fr-2.json",
+    "html": "after/desktop-fr-2.html",
+    "trace": "after/desktop-fr-2-trace.json.gz",
+    "network": "after/desktop-fr-2-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "warm-server-and-content/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after/desktop-fr-3.json",
+    "html": "after/desktop-fr-3.html",
+    "trace": "after/desktop-fr-3-trace.json.gz",
+    "network": "after/desktop-fr-3-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after-cold/home-fr-1.json",
+    "html": "after-cold/home-fr-1.html",
+    "trace": "after-cold/home-fr-1-trace.json.gz",
+    "network": "after-cold/home-fr-1-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after-cold/home-fr-2.json",
+    "html": "after-cold/home-fr-2.html",
+    "trace": "after-cold/home-fr-2-trace.json.gz",
+    "network": "after-cold/home-fr-2-network.json.gz"
+  },
+  {
+    "name": "home-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after-cold/home-fr-3.json",
+    "html": "after-cold/home-fr-3.html",
+    "trace": "after-cold/home-fr-3-trace.json.gz",
+    "network": "after-cold/home-fr-3-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after-cold/home-ar-1.json",
+    "html": "after-cold/home-ar-1.html",
+    "trace": "after-cold/home-ar-1-trace.json.gz",
+    "network": "after-cold/home-ar-1-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after-cold/home-ar-2.json",
+    "html": "after-cold/home-ar-2.html",
+    "trace": "after-cold/home-ar-2-trace.json.gz",
+    "network": "after-cold/home-ar-2-network.json.gz"
+  },
+  {
+    "name": "home-ar",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after-cold/home-ar-3.json",
+    "html": "after-cold/home-ar-3.html",
+    "trace": "after-cold/home-ar-3-trace.json.gz",
+    "network": "after-cold/home-ar-3-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after-cold/catalogue-fr-1.json",
+    "html": "after-cold/catalogue-fr-1.html",
+    "trace": "after-cold/catalogue-fr-1-trace.json.gz",
+    "network": "after-cold/catalogue-fr-1-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after-cold/catalogue-fr-2.json",
+    "html": "after-cold/catalogue-fr-2.html",
+    "trace": "after-cold/catalogue-fr-2-trace.json.gz",
+    "network": "after-cold/catalogue-fr-2-network.json.gz"
+  },
+  {
+    "name": "catalogue-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after-cold/catalogue-fr-3.json",
+    "html": "after-cold/catalogue-fr-3.html",
+    "trace": "after-cold/catalogue-fr-3-trace.json.gz",
+    "network": "after-cold/catalogue-fr-3-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after-cold/catalogue-ar-1.json",
+    "html": "after-cold/catalogue-ar-1.html",
+    "trace": "after-cold/catalogue-ar-1-trace.json.gz",
+    "network": "after-cold/catalogue-ar-1-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after-cold/catalogue-ar-2.json",
+    "html": "after-cold/catalogue-ar-2.html",
+    "trace": "after-cold/catalogue-ar-2-trace.json.gz",
+    "network": "after-cold/catalogue-ar-2-network.json.gz"
+  },
+  {
+    "name": "catalogue-ar",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after-cold/catalogue-ar-3.json",
+    "html": "after-cold/catalogue-ar-3.html",
+    "trace": "after-cold/catalogue-ar-3-trace.json.gz",
+    "network": "after-cold/catalogue-ar-3-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after-cold/product-fr-1.json",
+    "html": "after-cold/product-fr-1.html",
+    "trace": "after-cold/product-fr-1-trace.json.gz",
+    "network": "after-cold/product-fr-1-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after-cold/product-fr-2.json",
+    "html": "after-cold/product-fr-2.html",
+    "trace": "after-cold/product-fr-2-trace.json.gz",
+    "network": "after-cold/product-fr-2-network.json.gz"
+  },
+  {
+    "name": "product-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after-cold/product-fr-3.json",
+    "html": "after-cold/product-fr-3.html",
+    "trace": "after-cold/product-fr-3-trace.json.gz",
+    "network": "after-cold/product-fr-3-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 1,
+    "lhr": "after-cold/desktop-fr-1.json",
+    "html": "after-cold/desktop-fr-1.html",
+    "trace": "after-cold/desktop-fr-1-trace.json.gz",
+    "network": "after-cold/desktop-fr-1-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 2,
+    "lhr": "after-cold/desktop-fr-2.json",
+    "html": "after-cold/desktop-fr-2.html",
+    "trace": "after-cold/desktop-fr-2-trace.json.gz",
+    "network": "after-cold/desktop-fr-2-network.json.gz"
+  },
+  {
+    "name": "desktop-fr",
+    "phase": "cold-content/warm-process/fresh-browser-cache",
+    "run": 3,
+    "lhr": "after-cold/desktop-fr-3.json",
+    "html": "after-cold/desktop-fr-3.html",
+    "trace": "after-cold/desktop-fr-3-trace.json.gz",
+    "network": "after-cold/desktop-fr-3-network.json.gz"
+  }
+]

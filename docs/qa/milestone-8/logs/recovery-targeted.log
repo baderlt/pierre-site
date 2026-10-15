@@ -1,0 +1,45 @@
+
+Running 1 test using 1 worker
+
+(node:30612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [desktop] › tests\public-pages.spec.ts:91:5 › localized keyboard retry refetches public content after an API outage (25.9s)
+
+
+  1) [desktop] › tests\public-pages.spec.ts:91:5 › localized keyboard retry refetches public content after an API outage 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('[role="alert"]')
+    Expected: 0
+    Received: 1
+    Timeout:  20000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('[role="alert"]') with timeout 20000ms
+      - waiting for locator('[role="alert"]')
+        43 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      107 |     await page.keyboard.press('Enter');
+      108 |     await expect(page.locator('.hero')).toBeVisible();
+    > 109 |     await expect(page.locator('[role="alert"]')).toHaveCount(0);
+          |                                                  ^
+      110 |   }
+      111 | });
+      112 |
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\public-pages.spec.ts:109:50
+
+    Error Context: .tools\m8\recovery-targeted-failures\public-pages-localized-key-f8dd6-content-after-an-API-outage-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m8\recovery-targeted-failures\public-pages-localized-key-f8dd6-content-after-an-API-outage-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m8\recovery-targeted-failures\public-pages-localized-key-f8dd6-content-after-an-API-outage-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [desktop] › tests\public-pages.spec.ts:91:5 › localized keyboard retry refetches public content after an API outage 

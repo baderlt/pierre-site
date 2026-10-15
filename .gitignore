@@ -18,3 +18,5 @@ apps/api/storage/**
 apps/api/bootstrap/cache/*.php
 
 .next-m6/
+.next-*/
+apps/api/storage.zip

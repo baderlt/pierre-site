@@ -1,0 +1,506 @@
+[
+  {
+    "lang": "fr",
+    "width": 390,
+    "captures": {
+      ".site-header": {
+        "hash": "fe3aa247bc4a0822a758061cb4d5107dd7883c601e8a58d5566fdbbe0859accb",
+        "file": "docs/qa/homepage-targeted/before/fr-390-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nChoisir la langue\nFrançais\nEnglish\nالعربية"
+      },
+      "#home": {
+        "hash": "e16a4c0fd7c35cf7fd70528ff74c83e50eb252e6cf69d94ea61602a312f8cfb2",
+        "file": "docs/qa/homepage-targeted/before/fr-390-1.png",
+        "text": "PIERRE NATURELLE · MAROC\n\nLa pierre intemporelle.\nL’architecture de demain.\n\nDes textures singulières, des nuances naturelles. Imaginez une nouvelle place pour la pierre dans votre projet.\n\nDemander un devis\nVoir les matières\nDécouvrir\nVisuel illustratif · provisoire"
+      },
+      ".qualities": {
+        "hash": "6c8dc33327ed4b3f4e6d8f342f50f2f748f3b1b7f4e49594ccd393c6b30b323d",
+        "file": "docs/qa/homepage-targeted/before/fr-390-2.png",
+        "text": "Pierre naturelle\n\nLa matière à l’origine\n\nNuances & textures\n\nUn caractère singulier\n\nFormats à explorer\n\nDalles, blocs et carreaux\n\nIdées d’espaces\n\nIntérieur et extérieur\n\nVotre projet\n\nDes besoins à préciser\n\nUn échange direct\n\nDes contacts à confirmer"
+      },
+      "#collection": {
+        "hash": "3ab8adcabb840e5c07c73093913afbf529674b09b4fce3271aa9c86bacc19545",
+        "file": "docs/qa/homepage-targeted/before/fr-390-3.png",
+        "text": "NOTRE COLLECTION\n\nExplorez la pierre naturelle\n\nCalcaire, marbre et formats architecturaux : une première découverte de la matière.\n\nDécouvrir les sélections\nCalcaire\n\nCollection illustrative\n\nMarbre\n\nCollection illustrative\n\nCarreaux\n\nCollection illustrative\n\nBlocs\n\nCollection illustrative\n\nSur mesure\n\nCollection illustrative"
+      },
+      "#quarry": {
+        "hash": "3f060f84a5facb502a7044ee0b200e38841f48528030da645f7f432498eb9d75",
+        "file": "docs/qa/homepage-targeted/before/fr-390-4.png",
+        "text": "Illustration de carrière · lieu non vérifié\n\nDE LA CARRIÈRE À LA MATIÈRE\n\nUne histoire façonnée par la pierre\n\nLa matière brute, le geste, la transformation. Un aperçu visuel de l’univers de la pierre, en attendant les images et le récit de TIME STONE.\n\nExplorer le savoir-faire\nLa sélection de la matière\nLa découpe & les proportions\nLa finition de surface"
+      },
+      "#about": {
+        "hash": "52d794cd8580af70200fd013a69ef06291d16426d65d1b48dc4e31ecbf67bc50",
+        "file": "docs/qa/homepage-targeted/before/fr-390-5.png",
+        "text": "L’ESPRIT TIME STONE\n\nUne matière naturelle. Une vision architecturale.\n\nCe showroom est conçu pour rapprocher la pierre de votre projet : découvrir les textures, comparer les formats et préparer un échange autour de vos besoins.\n\nImaginer votre espace\nVisuel illustratif · provisoire"
+      },
+      "#materials": {
+        "hash": "36ca8a90f173ef506fd7cf340f5d80e3354c4f69d568135516858702bf73eebf",
+        "file": "docs/qa/homepage-targeted/before/fr-390-6.png",
+        "text": "ÉTUDES DE MATIÈRE\n\nLe détail fait la différence\n\nTrois inspirations visuelles. Les produits, finitions et dimensions réels seront confirmés avec TIME STONE.\n\nÉCHANTILLON DE PRÉSENTATION\n\nlimestone\n\nCalcaire · 01\nÉCHANTILLON DE PRÉSENTATION\n\nmarble\n\nMarbre · 02\nÉCHANTILLON DE PRÉSENTATION\n\ntiles\n\nCarreaux · 03"
+      },
+      "#applications": {
+        "hash": "ab9e7d89714eb23e0820cd54d0dbdaee2ba2e338915b7ec29dfe5b901c9245c6",
+        "file": "docs/qa/homepage-targeted/before/fr-390-7.png",
+        "text": "LES APPLICATIONS\n\nLa pierre dans chaque espace\n\nDes inspirations architecturales pour envisager votre projet.\n\nFaçades extérieures\nSols intérieurs\nRevêtement mural\nEscaliers et marches\n\nVisuel illustratif · provisoire"
+      },
+      ".quality-section": {
+        "hash": "651fd53d80c0f76f8a06f2fa80217a6abd3812272a944a4b7bcc5b10ecc3c071",
+        "file": "docs/qa/homepage-targeted/before/fr-390-8.png",
+        "text": "CHOISIR EN CONNAISSANCE\n\nChaque projet commence par les bonnes questions.\n\nL’usage, la finition et les dimensions guident le choix. Les caractéristiques techniques seront publiées après validation.\n\n01\nQuel usage pour votre pierre ?\n02\nQuelle finition pour votre espace ?\n03\nQuelles dimensions pour votre projet ?"
+      },
+      ".site-footer": {
+        "hash": "c541bc16be3f326ed0869e00df3afa1442fdd2222f34049dc4d535cea2fa392f",
+        "file": "docs/qa/homepage-targeted/before/fr-390-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nLa matière. Le temps. L’architecture.\n\nExplorer\nAccueil\nCollection\nApplications\nÀ propos\nCarrière\nContact\nLes matières\nCalcaire\nMarbre\nCarreaux\nBlocs\nSur mesure\nLangues\nFrançais\nEnglish\nالعربية\n\nTIME STONE · Présentation de développement\n\nImages temporaires issues des maquettes approuvées. Informations commerciales à confirmer."
+      }
+    }
+  },
+  {
+    "lang": "fr",
+    "width": 768,
+    "captures": {
+      ".site-header": {
+        "hash": "26d08977d4a8ee20952ab78dd0c7f84e6494135af1acf81daaac30af72d89872",
+        "file": "docs/qa/homepage-targeted/before/fr-768-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nChoisir la langue\nFrançais\nEnglish\nالعربية"
+      },
+      "#home": {
+        "hash": "dead0371c6b8eae48e2c55827325979b6718ff5642f0a9c3f607825049258118",
+        "file": "docs/qa/homepage-targeted/before/fr-768-1.png",
+        "text": "PIERRE NATURELLE · MAROC\n\nLa pierre intemporelle.\nL’architecture de demain.\n\nDes textures singulières, des nuances naturelles. Imaginez une nouvelle place pour la pierre dans votre projet.\n\nDemander un devis\nVoir les matières\nDécouvrir\nVisuel illustratif · provisoire"
+      },
+      ".qualities": {
+        "hash": "14043a6820745055abb131078e8f5ebe4ce3ee7cdfe9dca87d1db9fd6fffd6e6",
+        "file": "docs/qa/homepage-targeted/before/fr-768-2.png",
+        "text": "Pierre naturelle\n\nLa matière à l’origine\n\nNuances & textures\n\nUn caractère singulier\n\nFormats à explorer\n\nDalles, blocs et carreaux\n\nIdées d’espaces\n\nIntérieur et extérieur\n\nVotre projet\n\nDes besoins à préciser\n\nUn échange direct\n\nDes contacts à confirmer"
+      },
+      "#collection": {
+        "hash": "70fe032f9b31931853fef73910e1f73a01dfc57a1eb7ccf842de9e8cc5101aca",
+        "file": "docs/qa/homepage-targeted/before/fr-768-3.png",
+        "text": "NOTRE COLLECTION\n\nExplorez la pierre naturelle\n\nCalcaire, marbre et formats architecturaux : une première découverte de la matière.\n\nDécouvrir les sélections\nCalcaire\n\nCollection illustrative\n\nMarbre\n\nCollection illustrative\n\nCarreaux\n\nCollection illustrative\n\nBlocs\n\nCollection illustrative\n\nSur mesure\n\nCollection illustrative"
+      },
+      "#quarry": {
+        "hash": "43d1b754b21cb6eae86665378fde758f39819d841f6e84799482c26f60f8d6c0",
+        "file": "docs/qa/homepage-targeted/before/fr-768-4.png",
+        "text": "Illustration de carrière · lieu non vérifié\n\nDE LA CARRIÈRE À LA MATIÈRE\n\nUne histoire façonnée par la pierre\n\nLa matière brute, le geste, la transformation. Un aperçu visuel de l’univers de la pierre, en attendant les images et le récit de TIME STONE.\n\nExplorer le savoir-faire\nLa sélection de la matière\nLa découpe & les proportions\nLa finition de surface"
+      },
+      "#about": {
+        "hash": "22e0ba588c6513f6ea0081cd32d8cefe7a43a70cde385fd97ea7c76d771c4a24",
+        "file": "docs/qa/homepage-targeted/before/fr-768-5.png",
+        "text": "L’ESPRIT TIME STONE\n\nUne matière naturelle. Une vision architecturale.\n\nCe showroom est conçu pour rapprocher la pierre de votre projet : découvrir les textures, comparer les formats et préparer un échange autour de vos besoins.\n\nImaginer votre espace\nVisuel illustratif · provisoire"
+      },
+      "#materials": {
+        "hash": "e4f5514f00fa55ff0787f81acc2017c60ea17f9278d0ff28d89efbd01cba6f22",
+        "file": "docs/qa/homepage-targeted/before/fr-768-6.png",
+        "text": "ÉTUDES DE MATIÈRE\n\nLe détail fait la différence\n\nTrois inspirations visuelles. Les produits, finitions et dimensions réels seront confirmés avec TIME STONE.\n\nÉCHANTILLON DE PRÉSENTATION\n\nlimestone\n\nCalcaire · 01\nÉCHANTILLON DE PRÉSENTATION\n\nmarble\n\nMarbre · 02\nÉCHANTILLON DE PRÉSENTATION\n\ntiles\n\nCarreaux · 03"
+      },
+      "#applications": {
+        "hash": "f184808672efcde6b02b223cb62eb6bfe523db5e5f41190681f900db565eaa61",
+        "file": "docs/qa/homepage-targeted/before/fr-768-7.png",
+        "text": "LES APPLICATIONS\n\nLa pierre dans chaque espace\n\nDes inspirations architecturales pour envisager votre projet.\n\nFaçades extérieures\nSols intérieurs\nRevêtement mural\nEscaliers et marches\n\nVisuel illustratif · provisoire"
+      },
+      ".quality-section": {
+        "hash": "b9c6d9867c5228e3778085d5c8e726049cab9e446477578e7ee22b8919a4e96b",
+        "file": "docs/qa/homepage-targeted/before/fr-768-8.png",
+        "text": "CHOISIR EN CONNAISSANCE\n\nChaque projet commence par les bonnes questions.\n\nL’usage, la finition et les dimensions guident le choix. Les caractéristiques techniques seront publiées après validation.\n\n01\nQuel usage pour votre pierre ?\n02\nQuelle finition pour votre espace ?\n03\nQuelles dimensions pour votre projet ?"
+      },
+      ".site-footer": {
+        "hash": "f74e6d0b91e775c762934de3a6377d0d2d43b7c63750be764dd2be2201132b46",
+        "file": "docs/qa/homepage-targeted/before/fr-768-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nLa matière. Le temps. L’architecture.\n\nExplorer\nAccueil\nCollection\nApplications\nÀ propos\nCarrière\nContact\nLes matières\nCalcaire\nMarbre\nCarreaux\nBlocs\nSur mesure\nLangues\nFrançais\nEnglish\nالعربية\n\nTIME STONE · Présentation de développement\n\nImages temporaires issues des maquettes approuvées. Informations commerciales à confirmer."
+      }
+    }
+  },
+  {
+    "lang": "fr",
+    "width": 1536,
+    "captures": {
+      ".site-header": {
+        "hash": "147df5dc81f7224bef82fd3c65184559ce713cacbde2f5ebd7bea59b4a44f664",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nAccueil\nCollection\nApplications\nÀ propos\nCarrière\nContact\nChoisir la langue\nFrançais\nEnglish\nالعربية\nDemander un devis"
+      },
+      "#home": {
+        "hash": "ef425109f3aa6add1247ec3782c48087fc2bf4d08d844c5453588704239692aa",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-1.png",
+        "text": "01\nAccueil\n02\nCollection\n03\nApplications\n04\nCarrière\n05\nÀ propos\n\nPIERRE NATURELLE · MAROC\n\nLa pierre intemporelle.\nL’architecture de demain.\n\nDes textures singulières, des nuances naturelles. Imaginez une nouvelle place pour la pierre dans votre projet.\n\nDemander un devis\nL’expression du calcaire\n\nUne étude de matière aux nuances chaudes et au caractère minéral.\n\nDécouvrir la matière\nVoir les matières\nDécouvrir\nVisuel illustratif · provisoire"
+      },
+      ".qualities": {
+        "hash": "62a364b87d8c2a7243d80d3be9e5338f5eefa095704ef7ac4a74b276494b6483",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-2.png",
+        "text": "Pierre naturelle\n\nLa matière à l’origine\n\nNuances & textures\n\nUn caractère singulier\n\nFormats à explorer\n\nDalles, blocs et carreaux\n\nIdées d’espaces\n\nIntérieur et extérieur\n\nVotre projet\n\nDes besoins à préciser\n\nUn échange direct\n\nDes contacts à confirmer"
+      },
+      "#collection": {
+        "hash": "a82ce71b1cb7b5a6be252f06db6cd2eb72b7455d524b4c23e49e1256b8fbdd32",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-3.png",
+        "text": "NOTRE COLLECTION\n\nExplorez la pierre naturelle\n\nCalcaire, marbre et formats architecturaux : une première découverte de la matière.\n\nDécouvrir les sélections\nCalcaire\n\nCollection illustrative\n\nMarbre\n\nCollection illustrative\n\nCarreaux\n\nCollection illustrative\n\nBlocs\n\nCollection illustrative\n\nSur mesure\n\nCollection illustrative"
+      },
+      "#quarry": {
+        "hash": "3f3fbaee90bca18531eb789d1aa1198f0bdf565cbc4a255429545f18d654b7f2",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-4.png",
+        "text": "Illustration de carrière · lieu non vérifié\n\nDE LA CARRIÈRE À LA MATIÈRE\n\nUne histoire façonnée par la pierre\n\nLa matière brute, le geste, la transformation. Un aperçu visuel de l’univers de la pierre, en attendant les images et le récit de TIME STONE.\n\nExplorer le savoir-faire\nLa sélection de la matière\nLa découpe & les proportions\nLa finition de surface"
+      },
+      "#about": {
+        "hash": "1b170054d72c954ef7b7e8bbe69b58c088d52833bfe31e7f802d0ccd679a3602",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-5.png",
+        "text": "L’ESPRIT TIME STONE\n\nUne matière naturelle. Une vision architecturale.\n\nCe showroom est conçu pour rapprocher la pierre de votre projet : découvrir les textures, comparer les formats et préparer un échange autour de vos besoins.\n\nImaginer votre espace\nVisuel illustratif · provisoire"
+      },
+      "#materials": {
+        "hash": "8cb40e76c900368f69a3b0e837181faca05ee0b27b199021cf7c8627b320dc75",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-6.png",
+        "text": "ÉTUDES DE MATIÈRE\n\nLe détail fait la différence\n\nTrois inspirations visuelles. Les produits, finitions et dimensions réels seront confirmés avec TIME STONE.\n\nÉCHANTILLON DE PRÉSENTATION\n\nlimestone\n\nCalcaire · 01\nÉCHANTILLON DE PRÉSENTATION\n\nmarble\n\nMarbre · 02\nÉCHANTILLON DE PRÉSENTATION\n\ntiles\n\nCarreaux · 03"
+      },
+      "#applications": {
+        "hash": "d83b977a3fb8bbc52e6b949eb7ef7bee9ba77cd29c94b4a21d0f7fe7ab0ac3ef",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-7.png",
+        "text": "LES APPLICATIONS\n\nLa pierre dans chaque espace\n\nDes inspirations architecturales pour envisager votre projet.\n\nFaçades extérieures\nSols intérieurs\nRevêtement mural\nEscaliers et marches\n\nVisuel illustratif · provisoire"
+      },
+      ".quality-section": {
+        "hash": "9e93c2a3e6413393dafc6983b34cf3c2d898ddeb96f3ff7396f9a56a285f9fdb",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-8.png",
+        "text": "CHOISIR EN CONNAISSANCE\n\nChaque projet commence par les bonnes questions.\n\nL’usage, la finition et les dimensions guident le choix. Les caractéristiques techniques seront publiées après validation.\n\n01\nQuel usage pour votre pierre ?\n02\nQuelle finition pour votre espace ?\n03\nQuelles dimensions pour votre projet ?"
+      },
+      ".site-footer": {
+        "hash": "91b6a34023dbf1b41279eed0ef332b412a2f74e320629a99bc57a8852682774c",
+        "file": "docs/qa/homepage-targeted/before/fr-1536-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nLa matière. Le temps. L’architecture.\n\nExplorer\nAccueil\nCollection\nApplications\nÀ propos\nCarrière\nContact\nLes matières\nCalcaire\nMarbre\nCarreaux\nBlocs\nSur mesure\nLangues\nFrançais\nEnglish\nالعربية\n\nTIME STONE · Présentation de développement\n\nImages temporaires issues des maquettes approuvées. Informations commerciales à confirmer."
+      }
+    }
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "captures": {
+      ".site-header": {
+        "hash": "e6a264af2451d29f6d7280d0acd731ccf573a15e506cc09b6015e66e4dd0c361",
+        "file": "docs/qa/homepage-targeted/before/en-390-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nChoose language\nFrançais\nEnglish\nالعربية"
+      },
+      "#home": {
+        "hash": "c48c9827b899fde0dbe670069cfe9c43052aa20a0ec531ac0c2f1e694c110457",
+        "file": "docs/qa/homepage-targeted/before/en-390-1.png",
+        "text": "NATURAL STONE · MOROCCO\n\nTimeless Stone\nfor Modern\nArchitecture\n\nDistinctive textures. Natural tones. Imagine a new place for stone in your next architectural project.\n\nDemander un devis\nExplore the materials\nDiscover\nIllustrative image · temporary"
+      },
+      ".qualities": {
+        "hash": "4cb7879dadec3e7f3579eb2a07eed157e3b0c29abcf61c2187b7b5513a5bf8cc",
+        "file": "docs/qa/homepage-targeted/before/en-390-2.png",
+        "text": "Natural stone\n\nIt begins with the material\n\nTones & textures\n\nIndividual character\n\nExplore the formats\n\nSlabs, blocks and tiles\n\nIdeas for spaces\n\nIndoors and outdoors\n\nYour project\n\nDefine your requirements\n\nA direct conversation\n\nContacts to be confirmed"
+      },
+      "#collection": {
+        "hash": "07805e43dc7bac2dd9df6b1ef7d321cb69f212c57e235b121acde64671e55427",
+        "file": "docs/qa/homepage-targeted/before/en-390-3.png",
+        "text": "OUR COLLECTION\n\nExplore Our Natural Stone\n\nLimestone, marble and architectural formats. A first encounter with the possibilities of stone.\n\nDiscover the selections\nLimestone\n\nIllustrative collection\n\nMarble\n\nIllustrative collection\n\nTiles\n\nIllustrative collection\n\nBlocks\n\nIllustrative collection\n\nCustom\n\nIllustrative collection"
+      },
+      "#quarry": {
+        "hash": "a9bf2ce48d239f174244d2f019ffe1fc4055f7e9d674c9e026767702d9a75285",
+        "file": "docs/qa/homepage-targeted/before/en-390-4.png",
+        "text": "Quarry illustration · location unverified\n\nFROM QUARRY TO MATERIAL\n\nA story shaped by stone\n\nRaw material, skilled hands, transformation. A visual introduction to the world of stone while TIME STONE’s own images and story are prepared.\n\nDiscover the craft\nSelecting the material\nCutting & proportion\nFinishing the surface"
+      },
+      "#about": {
+        "hash": "1bf34e581dc14459557a38640b0c55eee2da683da2c8c93bfa1a35acfa73e201",
+        "file": "docs/qa/homepage-targeted/before/en-390-5.png",
+        "text": "THE SPIRIT OF TIME STONE\n\nNatural material. Architectural possibility.\n\nA showroom designed to bring stone closer to your project: explore textures, compare formats and prepare a conversation around what you need.\n\nImagine your space\nIllustrative image · temporary"
+      },
+      "#materials": {
+        "hash": "a1c9b5c17d6895af50ec007b92f2041975d6b459239a3f708f5f3ebedcaf5ff0",
+        "file": "docs/qa/homepage-targeted/before/en-390-6.png",
+        "text": "MATERIAL STUDIES\n\nBeauty is in the detail\n\nThree visual inspirations. Actual products, finishes and dimensions will be confirmed with TIME STONE.\n\nPRESENTATION SAMPLE\n\nlimestone\n\nLimestone · 01\nPRESENTATION SAMPLE\n\nmarble\n\nMarble · 02\nPRESENTATION SAMPLE\n\ntiles\n\nTiles · 03"
+      },
+      "#applications": {
+        "hash": "c74e883f43796327437e3b900865c5bfb72f1c0d9a3e67ac9feaf144c6c1d331",
+        "file": "docs/qa/homepage-targeted/before/en-390-7.png",
+        "text": "APPLICATIONS\n\nStone for Every Space\n\nArchitectural inspiration to help you imagine your project.\n\nExterior facades\nInterior flooring\nWall cladding\nStairs & steps\n\nIllustrative image · temporary"
+      },
+      ".quality-section": {
+        "hash": "7f280f6a2beeec2b420dadc629e6110085203761194e55143595342d74234aa4",
+        "file": "docs/qa/homepage-targeted/before/en-390-8.png",
+        "text": "AN INFORMED CHOICE\n\nEvery project starts with the right questions.\n\nUse, finish and dimensions guide the selection. Technical characteristics will be published after verification.\n\n01\nHow will the stone be used?\n02\nWhich finish suits your space?\n03\nWhat dimensions does your project need?"
+      },
+      ".site-footer": {
+        "hash": "9ba634df8a5df0d8899aaa651af84a43d8200c72bd5312a1196e98c1c0c172f7",
+        "file": "docs/qa/homepage-targeted/before/en-390-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nMaterial. Time. Architecture.\n\nExplore\nHome\nCollection\nApplications\nAbout\nQuarry\nContact\nMaterials\nLimestone\nMarble\nTiles\nBlocks\nCustom\nLanguages\nFrançais\nEnglish\nالعربية\n\nTIME STONE · Development presentation\n\nTemporary imagery from the approved mockups. Commercial information awaits confirmation."
+      }
+    }
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "captures": {
+      ".site-header": {
+        "hash": "3d12e9b3299cb1943ce434b9ca4c5a057bcd25ed01f9f499bf3b955faa43a337",
+        "file": "docs/qa/homepage-targeted/before/en-768-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nChoose language\nFrançais\nEnglish\nالعربية"
+      },
+      "#home": {
+        "hash": "cdd966b550c0a44a860ecf324f56dcfbd943f301be7659e4f59dfbb2fad91391",
+        "file": "docs/qa/homepage-targeted/before/en-768-1.png",
+        "text": "NATURAL STONE · MOROCCO\n\nTimeless Stone\nfor Modern\nArchitecture\n\nDistinctive textures. Natural tones. Imagine a new place for stone in your next architectural project.\n\nDemander un devis\nExplore the materials\nDiscover\nIllustrative image · temporary"
+      },
+      ".qualities": {
+        "hash": "3a8e4e6ff34cb44eb20cfa034510a866786751c58b58c6e32261060574b5b2bf",
+        "file": "docs/qa/homepage-targeted/before/en-768-2.png",
+        "text": "Natural stone\n\nIt begins with the material\n\nTones & textures\n\nIndividual character\n\nExplore the formats\n\nSlabs, blocks and tiles\n\nIdeas for spaces\n\nIndoors and outdoors\n\nYour project\n\nDefine your requirements\n\nA direct conversation\n\nContacts to be confirmed"
+      },
+      "#collection": {
+        "hash": "d70c772ee55460056a06eae14b83a18e7ee42bd04139a85bef034aaad2a3eb33",
+        "file": "docs/qa/homepage-targeted/before/en-768-3.png",
+        "text": "OUR COLLECTION\n\nExplore Our Natural Stone\n\nLimestone, marble and architectural formats. A first encounter with the possibilities of stone.\n\nDiscover the selections\nLimestone\n\nIllustrative collection\n\nMarble\n\nIllustrative collection\n\nTiles\n\nIllustrative collection\n\nBlocks\n\nIllustrative collection\n\nCustom\n\nIllustrative collection"
+      },
+      "#quarry": {
+        "hash": "d529f1f1eeef12846545b5f0e2cd6634777797f65bbf426f787f3f41747896a7",
+        "file": "docs/qa/homepage-targeted/before/en-768-4.png",
+        "text": "Quarry illustration · location unverified\n\nFROM QUARRY TO MATERIAL\n\nA story shaped by stone\n\nRaw material, skilled hands, transformation. A visual introduction to the world of stone while TIME STONE’s own images and story are prepared.\n\nDiscover the craft\nSelecting the material\nCutting & proportion\nFinishing the surface"
+      },
+      "#about": {
+        "hash": "65e52fb2bc7b4e525ecbfb349a3bb8a230d018164559bd4477a7cfcfaecf440c",
+        "file": "docs/qa/homepage-targeted/before/en-768-5.png",
+        "text": "THE SPIRIT OF TIME STONE\n\nNatural material. Architectural possibility.\n\nA showroom designed to bring stone closer to your project: explore textures, compare formats and prepare a conversation around what you need.\n\nImagine your space\nIllustrative image · temporary"
+      },
+      "#materials": {
+        "hash": "3025eff8650beef08a8fd03e9053a3c95cfc6fee7ef4e49af08b18a311f4675e",
+        "file": "docs/qa/homepage-targeted/before/en-768-6.png",
+        "text": "MATERIAL STUDIES\n\nBeauty is in the detail\n\nThree visual inspirations. Actual products, finishes and dimensions will be confirmed with TIME STONE.\n\nPRESENTATION SAMPLE\n\nlimestone\n\nLimestone · 01\nPRESENTATION SAMPLE\n\nmarble\n\nMarble · 02\nPRESENTATION SAMPLE\n\ntiles\n\nTiles · 03"
+      },
+      "#applications": {
+        "hash": "6838f4c38db04d1c75b6da8bac865c58513fda24c71de6c50c50a9a48e82cdd2",
+        "file": "docs/qa/homepage-targeted/before/en-768-7.png",
+        "text": "APPLICATIONS\n\nStone for Every Space\n\nArchitectural inspiration to help you imagine your project.\n\nExterior facades\nInterior flooring\nWall cladding\nStairs & steps\n\nIllustrative image · temporary"
+      },
+      ".quality-section": {
+        "hash": "2a7e14d7730e6aaac5749ff6e46abb6ce2ee72bd6172a5e0515ec0116ef9cbef",
+        "file": "docs/qa/homepage-targeted/before/en-768-8.png",
+        "text": "AN INFORMED CHOICE\n\nEvery project starts with the right questions.\n\nUse, finish and dimensions guide the selection. Technical characteristics will be published after verification.\n\n01\nHow will the stone be used?\n02\nWhich finish suits your space?\n03\nWhat dimensions does your project need?"
+      },
+      ".site-footer": {
+        "hash": "cc43af0a3754b1c3fc3618156bc527dc41f7f344ce63cca557b8be7efc1ed193",
+        "file": "docs/qa/homepage-targeted/before/en-768-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nMaterial. Time. Architecture.\n\nExplore\nHome\nCollection\nApplications\nAbout\nQuarry\nContact\nMaterials\nLimestone\nMarble\nTiles\nBlocks\nCustom\nLanguages\nFrançais\nEnglish\nالعربية\n\nTIME STONE · Development presentation\n\nTemporary imagery from the approved mockups. Commercial information awaits confirmation."
+      }
+    }
+  },
+  {
+    "lang": "en",
+    "width": 1536,
+    "captures": {
+      ".site-header": {
+        "hash": "7115a4bdd942a9392a73e86fdb977d7a578aec51b0535a98ca1d28cd96bc5957",
+        "file": "docs/qa/homepage-targeted/before/en-1536-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nHome\nCollection\nApplications\nAbout\nQuarry\nContact\nChoose language\nFrançais\nEnglish\nالعربية\nRequest a quote"
+      },
+      "#home": {
+        "hash": "aacae1462de6d9ce71fcf9b558a6f665c072ae0bf3936b5a3405cc56847feefc",
+        "file": "docs/qa/homepage-targeted/before/en-1536-1.png",
+        "text": "01\nHome\n02\nCollection\n03\nApplications\n04\nQuarry\n05\nAbout\n\nNATURAL STONE · MOROCCO\n\nTimeless Stone\nfor Modern\nArchitecture\n\nDistinctive textures. Natural tones. Imagine a new place for stone in your next architectural project.\n\nDemander un devis\nThe character of limestone\n\nA material study in warm tones and natural mineral texture.\n\nDiscover the material\nExplore the materials\nDiscover\nIllustrative image · temporary"
+      },
+      ".qualities": {
+        "hash": "cdc59d5ded5330b023cf795bbc115695c5703819c06351e60fbf3a55c5970539",
+        "file": "docs/qa/homepage-targeted/before/en-1536-2.png",
+        "text": "Natural stone\n\nIt begins with the material\n\nTones & textures\n\nIndividual character\n\nExplore the formats\n\nSlabs, blocks and tiles\n\nIdeas for spaces\n\nIndoors and outdoors\n\nYour project\n\nDefine your requirements\n\nA direct conversation\n\nContacts to be confirmed"
+      },
+      "#collection": {
+        "hash": "777c82328cbc131e2b109d63a94822b23138e3cbb899dfd5314735f083dc4dfd",
+        "file": "docs/qa/homepage-targeted/before/en-1536-3.png",
+        "text": "OUR COLLECTION\n\nExplore Our Natural Stone\n\nLimestone, marble and architectural formats. A first encounter with the possibilities of stone.\n\nDiscover the selections\nLimestone\n\nIllustrative collection\n\nMarble\n\nIllustrative collection\n\nTiles\n\nIllustrative collection\n\nBlocks\n\nIllustrative collection\n\nCustom\n\nIllustrative collection"
+      },
+      "#quarry": {
+        "hash": "76033b5a61b52bce2f22a592864b46fb23dfeabea50b66c80d4b175de0dac2ee",
+        "file": "docs/qa/homepage-targeted/before/en-1536-4.png",
+        "text": "Quarry illustration · location unverified\n\nFROM QUARRY TO MATERIAL\n\nA story shaped by stone\n\nRaw material, skilled hands, transformation. A visual introduction to the world of stone while TIME STONE’s own images and story are prepared.\n\nDiscover the craft\nSelecting the material\nCutting & proportion\nFinishing the surface"
+      },
+      "#about": {
+        "hash": "75bc38ebfa5d4de97f15532f66bcce734aa84e6f8304fef44b4b779ae5839a16",
+        "file": "docs/qa/homepage-targeted/before/en-1536-5.png",
+        "text": "THE SPIRIT OF TIME STONE\n\nNatural material. Architectural possibility.\n\nA showroom designed to bring stone closer to your project: explore textures, compare formats and prepare a conversation around what you need.\n\nImagine your space\nIllustrative image · temporary"
+      },
+      "#materials": {
+        "hash": "a9903195a22efb85704d6f72d7e69e3008b073ea2c33c59dcbe7fa0a97daab5a",
+        "file": "docs/qa/homepage-targeted/before/en-1536-6.png",
+        "text": "MATERIAL STUDIES\n\nBeauty is in the detail\n\nThree visual inspirations. Actual products, finishes and dimensions will be confirmed with TIME STONE.\n\nPRESENTATION SAMPLE\n\nlimestone\n\nLimestone · 01\nPRESENTATION SAMPLE\n\nmarble\n\nMarble · 02\nPRESENTATION SAMPLE\n\ntiles\n\nTiles · 03"
+      },
+      "#applications": {
+        "hash": "90b8bb0e685a173dd98fb0c513e6ab40f71a542e72dbeff618375b3662330a40",
+        "file": "docs/qa/homepage-targeted/before/en-1536-7.png",
+        "text": "APPLICATIONS\n\nStone for Every Space\n\nArchitectural inspiration to help you imagine your project.\n\nExterior facades\nInterior flooring\nWall cladding\nStairs & steps\n\nIllustrative image · temporary"
+      },
+      ".quality-section": {
+        "hash": "356d2d217b0aba4e705068514f98fcf8c35718b9915e817501c06e193ac84523",
+        "file": "docs/qa/homepage-targeted/before/en-1536-8.png",
+        "text": "AN INFORMED CHOICE\n\nEvery project starts with the right questions.\n\nUse, finish and dimensions guide the selection. Technical characteristics will be published after verification.\n\n01\nHow will the stone be used?\n02\nWhich finish suits your space?\n03\nWhat dimensions does your project need?"
+      },
+      ".site-footer": {
+        "hash": "1b08bce0b92084a01d886b610d028645c619a7682632179aa910fc20a344a1ad",
+        "file": "docs/qa/homepage-targeted/before/en-1536-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nMaterial. Time. Architecture.\n\nExplore\nHome\nCollection\nApplications\nAbout\nQuarry\nContact\nMaterials\nLimestone\nMarble\nTiles\nBlocks\nCustom\nLanguages\nFrançais\nEnglish\nالعربية\n\nTIME STONE · Development presentation\n\nTemporary imagery from the approved mockups. Commercial information awaits confirmation."
+      }
+    }
+  },
+  {
+    "lang": "ar",
+    "width": 390,
+    "captures": {
+      ".site-header": {
+        "hash": "af4edca0aed8823b2c9497a7007acfdf708bc7105ab411a7765a26a5d2a7e020",
+        "file": "docs/qa/homepage-targeted/before/ar-390-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nاختر اللغة\nFrançais\nEnglish\nالعربية"
+      },
+      "#home": {
+        "hash": "10d11e72a5dbd4adb2f9acc4efc84e558404e69aaee323ccbdfeb1f6ca1ce22d",
+        "file": "docs/qa/homepage-targeted/before/ar-390-1.png",
+        "text": "حجر طبيعي · المغرب\n\nحجر يتخطّى الزمن.\nلعمارة معاصرة.\n\nملمس فريد وألوان طبيعية. تخيّل مكانًا جديدًا للحجر في مشروعك المعماري القادم.\n\nاطلب عرض سعر\nاستكشف الخامات\nاكتشف المزيد\nصورة توضيحية · مؤقتة"
+      },
+      ".qualities": {
+        "hash": "2a7f00513277d3991d9851b75c4a48fff34f3187643b879b9deea5f382f082aa",
+        "file": "docs/qa/homepage-targeted/before/ar-390-2.png",
+        "text": "حجر طبيعي\n\nالبداية من الخامة\n\nألوان وملمس\n\nطابع متفرّد\n\nأشكال متنوعة\n\nألواح وكتل وبلاط\n\nأفكار للمساحات\n\nللداخل والخارج\n\nمشروعك\n\nتحديد الاحتياجات\n\nتواصل مباشر\n\nبيانات قيد التأكيد"
+      },
+      "#collection": {
+        "hash": "5e34b21314be2f9401cd5ccd83f230ba77a3fdd80a7a4cf92d6af8dbeffc64d4",
+        "file": "docs/qa/homepage-targeted/before/ar-390-3.png",
+        "text": "تشكيلتنا\n\nاكتشف جمال الحجر الطبيعي\n\nالحجر الجيري والرخام والأشكال المعمارية. بداية لاكتشاف إمكانات الخامة.\n\nاستكشف المختارات\nالحجر الجيري\n\nتشكيلة توضيحية\n\nالرخام\n\nتشكيلة توضيحية\n\nالبلاط\n\nتشكيلة توضيحية\n\nالكتل\n\nتشكيلة توضيحية\n\nحسب الطلب\n\nتشكيلة توضيحية"
+      },
+      "#quarry": {
+        "hash": "616c3be08dea3ee2942011ec1c981faa1ddef3e1a14d45f7af4062350a02a527",
+        "file": "docs/qa/homepage-targeted/before/ar-390-4.png",
+        "text": "صورة توضيحية لمحجر · الموقع غير مؤكد\n\nمن المحجر إلى الخامة\n\nحكاية صاغها الحجر\n\nخامة أولية، وحرفة، وتحول. لمحة بصرية عن عالم الحجر، ريثما تتوفر صور تايم ستون وقصتها المعتمدة.\n\nاكتشف الحرفة\nاختيار الخامة\nالقطع والتناسب\nتشطيب السطح"
+      },
+      "#about": {
+        "hash": "64c0ffa856de11312d8c7790e1af28562a239b1e27dab3ef8fb77f2becc61ffd",
+        "file": "docs/qa/homepage-targeted/before/ar-390-5.png",
+        "text": "روح تايم ستون\n\nخامة طبيعية. ورؤية معمارية.\n\nصالة عرض تقرّب الحجر من مشروعك: اكتشف الملمس، وقارن الأشكال، واستعد لحوار حول احتياجاتك.\n\nتخيّل مساحتك\nصورة توضيحية · مؤقتة"
+      },
+      "#materials": {
+        "hash": "85c6f45c4657d383dc2233bd38563922aa58404b23e55b43d82a14478c13fcb3",
+        "file": "docs/qa/homepage-targeted/before/ar-390-6.png",
+        "text": "دراسات للخامة\n\nالجمال يكمن في التفاصيل\n\nثلاثة تصورات بصرية. سيتم تأكيد المنتجات والتشطيبات والأبعاد الفعلية مع تايم ستون.\n\nنموذج للعرض\n\nlimestone\n\nالحجر الجيري · 01\nنموذج للعرض\n\nmarble\n\nالرخام · 02\nنموذج للعرض\n\ntiles\n\nالبلاط · 03"
+      },
+      "#applications": {
+        "hash": "927928fb50cf7d4caa5d3e7c77450829b969fcd68ee902e3e5e805ae14f13aa8",
+        "file": "docs/qa/homepage-targeted/before/ar-390-7.png",
+        "text": "الاستخدامات\n\nحجر لكل مساحة\n\nأفكار معمارية تساعدك على تصوّر مشروعك.\n\nالواجهات الخارجية\nالأرضيات الداخلية\nكسوة الجدران\nالسلالم والدرجات\n\nصورة توضيحية · مؤقتة"
+      },
+      ".quality-section": {
+        "hash": "48b6e7469e4ffe8f664726036c487b31b609232a5842f28b9cc751f4c7821c6e",
+        "file": "docs/qa/homepage-targeted/before/ar-390-8.png",
+        "text": "اختيار على بيّنة\n\nكل مشروع يبدأ بالأسئلة المناسبة.\n\nالاستخدام والتشطيب والأبعاد هي أساس الاختيار. تُنشر الخصائص التقنية بعد التحقق منها.\n\n01\nكيف سيُستخدم الحجر؟\n02\nما التشطيب المناسب لمساحتك؟\n03\nما الأبعاد التي يحتاجها مشروعك؟"
+      },
+      ".site-footer": {
+        "hash": "53adb05f7875ab8c11e19c91950fab0c458c5d98360ffd1b80d38681838ee399",
+        "file": "docs/qa/homepage-targeted/before/ar-390-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nالخامة. الزمن. العمارة.\n\nاستكشف\nالرئيسية\nالتشكيلة\nالاستخدامات\nمن نحن\nالمحجر\nالتواصل\nالخامات\nالحجر الجيري\nالرخام\nالبلاط\nالكتل\nحسب الطلب\nاللغات\nFrançais\nEnglish\nالعربية\n\nتايم ستون · عرض قيد التطوير\n\nصور مؤقتة من التصاميم المعتمدة. المعلومات التجارية بانتظار التأكيد."
+      }
+    }
+  },
+  {
+    "lang": "ar",
+    "width": 768,
+    "captures": {
+      ".site-header": {
+        "hash": "c4ad37d7afa6d116a137d35778bb3dd59bfd6477dbb8a54139c38902fb6c9766",
+        "file": "docs/qa/homepage-targeted/before/ar-768-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nاختر اللغة\nFrançais\nEnglish\nالعربية"
+      },
+      "#home": {
+        "hash": "990d8bd967ffc4fab9e1ee5e496679e6ade57a6f7013fa34f3c673c93e9fc8b2",
+        "file": "docs/qa/homepage-targeted/before/ar-768-1.png",
+        "text": "حجر طبيعي · المغرب\n\nحجر يتخطّى الزمن.\nلعمارة معاصرة.\n\nملمس فريد وألوان طبيعية. تخيّل مكانًا جديدًا للحجر في مشروعك المعماري القادم.\n\nاطلب عرض سعر\nاستكشف الخامات\nاكتشف المزيد\nصورة توضيحية · مؤقتة"
+      },
+      ".qualities": {
+        "hash": "c6466392c11e4f55d20a081bbd0ad4b32d248f46a3b0d9f414820392f0fdbec7",
+        "file": "docs/qa/homepage-targeted/before/ar-768-2.png",
+        "text": "حجر طبيعي\n\nالبداية من الخامة\n\nألوان وملمس\n\nطابع متفرّد\n\nأشكال متنوعة\n\nألواح وكتل وبلاط\n\nأفكار للمساحات\n\nللداخل والخارج\n\nمشروعك\n\nتحديد الاحتياجات\n\nتواصل مباشر\n\nبيانات قيد التأكيد"
+      },
+      "#collection": {
+        "hash": "2e7b288e69c8a43a4bf4599735f5b2312fcbfef684f5072e397cecc441f24a68",
+        "file": "docs/qa/homepage-targeted/before/ar-768-3.png",
+        "text": "تشكيلتنا\n\nاكتشف جمال الحجر الطبيعي\n\nالحجر الجيري والرخام والأشكال المعمارية. بداية لاكتشاف إمكانات الخامة.\n\nاستكشف المختارات\nالحجر الجيري\n\nتشكيلة توضيحية\n\nالرخام\n\nتشكيلة توضيحية\n\nالبلاط\n\nتشكيلة توضيحية\n\nالكتل\n\nتشكيلة توضيحية\n\nحسب الطلب\n\nتشكيلة توضيحية"
+      },
+      "#quarry": {
+        "hash": "acf4a8bf76a75bb03c2afd9fec71bf020279f77ab3fc53ab6b8c7c4964c67cf3",
+        "file": "docs/qa/homepage-targeted/before/ar-768-4.png",
+        "text": "صورة توضيحية لمحجر · الموقع غير مؤكد\n\nمن المحجر إلى الخامة\n\nحكاية صاغها الحجر\n\nخامة أولية، وحرفة، وتحول. لمحة بصرية عن عالم الحجر، ريثما تتوفر صور تايم ستون وقصتها المعتمدة.\n\nاكتشف الحرفة\nاختيار الخامة\nالقطع والتناسب\nتشطيب السطح"
+      },
+      "#about": {
+        "hash": "24e42de5d4ab4e2c05fdcb1e8c87d0a31ad09977454aba56fa83296272393801",
+        "file": "docs/qa/homepage-targeted/before/ar-768-5.png",
+        "text": "روح تايم ستون\n\nخامة طبيعية. ورؤية معمارية.\n\nصالة عرض تقرّب الحجر من مشروعك: اكتشف الملمس، وقارن الأشكال، واستعد لحوار حول احتياجاتك.\n\nتخيّل مساحتك\nصورة توضيحية · مؤقتة"
+      },
+      "#materials": {
+        "hash": "8e26558616878e776476583afe72d65189955fedb3199e8a058957bfe376ce29",
+        "file": "docs/qa/homepage-targeted/before/ar-768-6.png",
+        "text": "دراسات للخامة\n\nالجمال يكمن في التفاصيل\n\nثلاثة تصورات بصرية. سيتم تأكيد المنتجات والتشطيبات والأبعاد الفعلية مع تايم ستون.\n\nنموذج للعرض\n\nlimestone\n\nالحجر الجيري · 01\nنموذج للعرض\n\nmarble\n\nالرخام · 02\nنموذج للعرض\n\ntiles\n\nالبلاط · 03"
+      },
+      "#applications": {
+        "hash": "0c1ba0d64623fe7684edb8393f9c9aaf38709bd8ff3ad4deeaf3b1f6f941b6f0",
+        "file": "docs/qa/homepage-targeted/before/ar-768-7.png",
+        "text": "الاستخدامات\n\nحجر لكل مساحة\n\nأفكار معمارية تساعدك على تصوّر مشروعك.\n\nالواجهات الخارجية\nالأرضيات الداخلية\nكسوة الجدران\nالسلالم والدرجات\n\nصورة توضيحية · مؤقتة"
+      },
+      ".quality-section": {
+        "hash": "018e7a2935483030fa400ee51e32828fd5a66ebae979dab9478f0ce04fd8f356",
+        "file": "docs/qa/homepage-targeted/before/ar-768-8.png",
+        "text": "اختيار على بيّنة\n\nكل مشروع يبدأ بالأسئلة المناسبة.\n\nالاستخدام والتشطيب والأبعاد هي أساس الاختيار. تُنشر الخصائص التقنية بعد التحقق منها.\n\n01\nكيف سيُستخدم الحجر؟\n02\nما التشطيب المناسب لمساحتك؟\n03\nما الأبعاد التي يحتاجها مشروعك؟"
+      },
+      ".site-footer": {
+        "hash": "65f55b782b8b5c062ba702a5072c1506419502f74e0d085e7a6384f406885fbd",
+        "file": "docs/qa/homepage-targeted/before/ar-768-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nالخامة. الزمن. العمارة.\n\nاستكشف\nالرئيسية\nالتشكيلة\nالاستخدامات\nمن نحن\nالمحجر\nالتواصل\nالخامات\nالحجر الجيري\nالرخام\nالبلاط\nالكتل\nحسب الطلب\nاللغات\nFrançais\nEnglish\nالعربية\n\nتايم ستون · عرض قيد التطوير\n\nصور مؤقتة من التصاميم المعتمدة. المعلومات التجارية بانتظار التأكيد."
+      }
+    }
+  },
+  {
+    "lang": "ar",
+    "width": 1536,
+    "captures": {
+      ".site-header": {
+        "hash": "55177f8457eea8d582b3f218b1c1930b5ca48e9428721d018f7363a6cdb762bb",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-0.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\nالرئيسية\nالتشكيلة\nالاستخدامات\nمن نحن\nالمحجر\nالتواصل\nاختر اللغة\nFrançais\nEnglish\nالعربية\nاطلب عرض سعر"
+      },
+      "#home": {
+        "hash": "32ea77f9df6d333a0957da6ce472811adcaf7aabcfc9cc7c4a3503d5af9a5f72",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-1.png",
+        "text": "01\nالرئيسية\n02\nالتشكيلة\n03\nالاستخدامات\n04\nالمحجر\n05\nمن نحن\n\nحجر طبيعي · المغرب\n\nحجر يتخطّى الزمن.\nلعمارة معاصرة.\n\nملمس فريد وألوان طبيعية. تخيّل مكانًا جديدًا للحجر في مشروعك المعماري القادم.\n\nاطلب عرض سعر\nجمال الحجر الجيري\n\nدراسة بصرية لخامة بألوان دافئة وملمس معدني طبيعي.\n\nاكتشف الخامة\nاستكشف الخامات\nاكتشف المزيد\nصورة توضيحية · مؤقتة"
+      },
+      ".qualities": {
+        "hash": "21a9bff0560643820c664d1f339d32a6b67bf767bc6ab7990fda06b304dda468",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-2.png",
+        "text": "حجر طبيعي\n\nالبداية من الخامة\n\nألوان وملمس\n\nطابع متفرّد\n\nأشكال متنوعة\n\nألواح وكتل وبلاط\n\nأفكار للمساحات\n\nللداخل والخارج\n\nمشروعك\n\nتحديد الاحتياجات\n\nتواصل مباشر\n\nبيانات قيد التأكيد"
+      },
+      "#collection": {
+        "hash": "d6cb42eec6780d112e662f4d11a90186db8e471c69b99cc43ed8fbd43dbc3b19",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-3.png",
+        "text": "تشكيلتنا\n\nاكتشف جمال الحجر الطبيعي\n\nالحجر الجيري والرخام والأشكال المعمارية. بداية لاكتشاف إمكانات الخامة.\n\nاستكشف المختارات\nالحجر الجيري\n\nتشكيلة توضيحية\n\nالرخام\n\nتشكيلة توضيحية\n\nالبلاط\n\nتشكيلة توضيحية\n\nالكتل\n\nتشكيلة توضيحية\n\nحسب الطلب\n\nتشكيلة توضيحية"
+      },
+      "#quarry": {
+        "hash": "fe8923588d8c100a711f4ab7e648352f9e23048af2791c5891aa0fbb9403c1aa",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-4.png",
+        "text": "صورة توضيحية لمحجر · الموقع غير مؤكد\n\nمن المحجر إلى الخامة\n\nحكاية صاغها الحجر\n\nخامة أولية، وحرفة، وتحول. لمحة بصرية عن عالم الحجر، ريثما تتوفر صور تايم ستون وقصتها المعتمدة.\n\nاكتشف الحرفة\nاختيار الخامة\nالقطع والتناسب\nتشطيب السطح"
+      },
+      "#about": {
+        "hash": "3b9ad40a9d22079f13f13790fd7d8fe02a57ebf31cb7dc9b16cd5175354ad0f9",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-5.png",
+        "text": "روح تايم ستون\n\nخامة طبيعية. ورؤية معمارية.\n\nصالة عرض تقرّب الحجر من مشروعك: اكتشف الملمس، وقارن الأشكال، واستعد لحوار حول احتياجاتك.\n\nتخيّل مساحتك\nصورة توضيحية · مؤقتة"
+      },
+      "#materials": {
+        "hash": "5bfd9c220353951df9edc11c48f390ee418a91498a8988cafae159e6373d3d04",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-6.png",
+        "text": "دراسات للخامة\n\nالجمال يكمن في التفاصيل\n\nثلاثة تصورات بصرية. سيتم تأكيد المنتجات والتشطيبات والأبعاد الفعلية مع تايم ستون.\n\nنموذج للعرض\n\nlimestone\n\nالحجر الجيري · 01\nنموذج للعرض\n\nmarble\n\nالرخام · 02\nنموذج للعرض\n\ntiles\n\nالبلاط · 03"
+      },
+      "#applications": {
+        "hash": "d243151c9701b3dbd1f6174702caf507112ba288127c041088b35e4b4917e8ec",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-7.png",
+        "text": "الاستخدامات\n\nحجر لكل مساحة\n\nأفكار معمارية تساعدك على تصوّر مشروعك.\n\nالواجهات الخارجية\nالأرضيات الداخلية\nكسوة الجدران\nالسلالم والدرجات\n\nصورة توضيحية · مؤقتة"
+      },
+      ".quality-section": {
+        "hash": "9d26c6f030f06167d108632b3b89eddd3cfd7e7a04ce531cc2ad5323494f2fa2",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-8.png",
+        "text": "اختيار على بيّنة\n\nكل مشروع يبدأ بالأسئلة المناسبة.\n\nالاستخدام والتشطيب والأبعاد هي أساس الاختيار. تُنشر الخصائص التقنية بعد التحقق منها.\n\n01\nكيف سيُستخدم الحجر؟\n02\nما التشطيب المناسب لمساحتك؟\n03\nما الأبعاد التي يحتاجها مشروعك؟"
+      },
+      ".site-footer": {
+        "hash": "7d1f31b8d3550e82afc1223e05cd521100f4edea051b865646ac0fc7c913906d",
+        "file": "docs/qa/homepage-targeted/before/ar-1536-9.png",
+        "text": "TIME STONE\nMARBRE & PIERRE\n\nالخامة. الزمن. العمارة.\n\nاستكشف\nالرئيسية\nالتشكيلة\nالاستخدامات\nمن نحن\nالمحجر\nالتواصل\nالخامات\nالحجر الجيري\nالرخام\nالبلاط\nالكتل\nحسب الطلب\nاللغات\nFrançais\nEnglish\nالعربية\n\nتايم ستون · عرض قيد التطوير\n\nصور مؤقتة من التصاميم المعتمدة. المعلومات التجارية بانتظار التأكيد."
+      }
+    }
+  }
+]

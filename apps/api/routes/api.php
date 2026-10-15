@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('v1')->middleware('throttle:public-api')->group(function () {
     Route::get('site', [Api::class, 'site']);
+    Route::get('seo', [Api::class, 'seo']);
     Route::get('pages/{key}', [Api::class, 'page']);
     foreach (['categories', 'materials', 'finishes', 'formats', 'colors'] as $type) {
         Route::get($type, [Api::class, 'definitions'])->defaults('type', $type);

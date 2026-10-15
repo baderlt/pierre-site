@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml" tests="1" assertions="20" errors="0" failures="0" skipped="0" time="5.788267">
+    <testsuite name="Feature" tests="1" assertions="20" errors="0" failures="0" skipped="0" time="5.788267">
+      <testsuite name="Tests\Feature\MagasinLocationTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\MagasinLocationTest.php" tests="1" assertions="20" errors="0" failures="0" skipped="0" time="5.788267">
+        <testcase name="test_maps_links_reject_open_redirects_credentials_and_unapproved_hosts" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\MagasinLocationTest.php" line="60" class="Tests\Feature\MagasinLocationTest" classname="Tests.Feature.MagasinLocationTest" assertions="20" time="5.788267"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

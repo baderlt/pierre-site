@@ -38,6 +38,7 @@ abstract class EditContent extends EditRecord
         }
         if ($record instanceof Product) {
             $data['configuration'] = $record->configuration?->only($record->configuration->getFillable()) ?? [];
+            $data['configuration']['dimension_limits'] = collect($record->configuration?->parameter_limits ?? [])->map(fn ($limits, $parameter) => ['parameter' => $parameter, ...$limits])->values()->all();
             $data['format_options'] = $record->formats->map(fn ($format) => ['format_id' => $format->id, ...$format->pivot->only(['width', 'height', 'thickness', 'verified', 'allow_custom'])])->all();
         }
         if ($record instanceof User) {

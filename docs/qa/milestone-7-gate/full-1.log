@@ -1,0 +1,519 @@
+
+Running 186 tests using 1 worker
+
+(node:4248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   1 [desktop] › tests\admin-languages.spec.ts:7:5 › admin languages, relationship edit pages and mobile RTL (31.7s)
+  ok   2 [desktop] › tests\banner-stacking.spec.ts:5:42 › fr: banner text and controls are actually painted above responsive images (16.8s)
+  ok   3 [desktop] › tests\banner-stacking.spec.ts:5:42 › en: banner text and controls are actually painted above responsive images (14.5s)
+  ok   4 [desktop] › tests\banner-stacking.spec.ts:5:42 › ar: banner text and controls are actually painted above responsive images (16.4s)
+  x    5 [desktop] › tests\banners.spec.ts:6:5 › editable banners use high resolution on desktop and smaller images on mobile (1.0m)
+(node:17740) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   6 [desktop] › tests\banners.spec.ts:67:5 › Application banners preserve the first gallery image at desktop and mobile sizes (5.4s)
+  ok   7 [desktop] › tests\catalogue.spec.ts:9:7 › fr: catalogue SSR, accessible controls, navigation and samples (18.3s)
+  ok   8 [desktop] › tests\catalogue.spec.ts:9:7 › en: catalogue SSR, accessible controls, navigation and samples (17.6s)
+  ok   9 [desktop] › tests\catalogue.spec.ts:9:7 › ar: catalogue SSR, accessible controls, navigation and samples (19.4s)
+  ok  10 [desktop] › tests\catalogue.spec.ts:89:5 › catalogue fixture adapter validates inputs, combines filters and sorts (41ms)
+  ok  11 [desktop] › tests\catalogue.spec.ts:100:5 › catalogue width matrix and screenshots in three languages (40.4s)
+  ok  12 [desktop] › tests\catalogue.spec.ts:115:5 › catalogue works without client JavaScript (3.8s)
+  ok  13 [desktop] › tests\gallery-identity.spec.ts:5:7 › fr: shared gallery images keep distinct cards and dialog selection (6.3s)
+  ok  14 [desktop] › tests\gallery-identity.spec.ts:5:7 › en: shared gallery images keep distinct cards and dialog selection (6.0s)
+  ok  15 [desktop] › tests\gallery-identity.spec.ts:5:7 › ar: shared gallery images keep distinct cards and dialog selection (6.6s)
+  ok  16 [desktop] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (11.1s)
+  ok  17 [desktop] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (10.7s)
+  ok  18 [desktop] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (10.0s)
+  ok  19 [desktop] › tests\homepage-targeted.spec.ts:45:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (7.3s)
+  ok  20 [desktop] › tests\homepage-targeted.spec.ts:71:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion (15.1s)
+  ok  21 [desktop] › tests\homepage-targeted.spec.ts:88:5 › without JavaScript the homepage keeps the dedicated quotation destination (2.9s)
+  ok  22 [desktop] › tests\homepage-targeted.spec.ts:94:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (2.9s)
+  ok  23 [desktop] › tests\homepage.spec.ts:21:7 › fr: responsive homepage, semantics, local assets and screenshot (5.7s)
+  ok  24 [desktop] › tests\homepage.spec.ts:55:7 › fr: WCAG A/AA automated scan (4.5s)
+  ok  25 [desktop] › tests\homepage.spec.ts:61:7 › fr: material dialog, selection, Escape and focus restoration (2.0s)
+  x   26 [desktop] › tests\homepage.spec.ts:21:7 › en: responsive homepage, semantics, local assets and screenshot (3.5s)
+(node:3848) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  27 [desktop] › tests\homepage.spec.ts:55:7 › en: WCAG A/AA automated scan (4.7s)
+  ok  28 [desktop] › tests\homepage.spec.ts:61:7 › en: material dialog, selection, Escape and focus restoration (2.6s)
+  x   29 [desktop] › tests\homepage.spec.ts:21:7 › ar: responsive homepage, semantics, local assets and screenshot (3.3s)
+(node:13704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  30 [desktop] › tests\homepage.spec.ts:55:7 › ar: WCAG A/AA automated scan (3.9s)
+  ok  31 [desktop] › tests\homepage.spec.ts:61:7 › ar: material dialog, selection, Escape and focus restoration (2.0s)
+  x   32 [desktop] › tests\homepage.spec.ts:82:5 › language switching preserves query and section and supports all three languages (3.3s)
+(node:25988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -   33 [desktop] › tests\homepage.spec.ts:94:5 › mobile/tablet menu traps focus, navigates and closes with Escape
+  ok  34 [desktop] › tests\homepage.spec.ts:112:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (1.4s)
+  ok  35 [desktop] › tests\homepage.spec.ts:127:5 › locale path helper retains nested pages for later milestones (4ms)
+  x   36 [desktop] › tests\homepage.spec.ts:132:5 › requested widths preserve hero space, typography and layout in every language (4.0s)
+(node:26816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  37 [desktop] › tests\performance-images.spec.ts:3:5 › mobile hero crops preserve responsive selection without downloading desktop banners (38.2s)
+  ok  38 [desktop] › tests\performance-images.spec.ts:20:5 › deferred homepage imagery loads on approach and works without JavaScript (7.3s)
+  ok  39 [desktop] › tests\performance-images.spec.ts:36:5 › static product finishes use thumbnails before activation (2.7s)
+  ok  40 [desktop] › tests\product.spec.ts:10:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (13.3s)
+  ok  41 [desktop] › tests\product.spec.ts:10:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (11.9s)
+  ok  42 [desktop] › tests\product.spec.ts:10:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (12.3s)
+  ok  43 [desktop] › tests\product.spec.ts:48:5 › product data contracts reject unsafe configuration and unknown products (1.7s)
+  ok  44 [desktop] › tests\product.spec.ts:63:5 › product width matrix, screenshots and no initial 3D payload (40.8s)
+  ok  45 [desktop] › tests\product.spec.ts:82:5 › product photos, details and quotation destination work without JavaScript (3.3s)
+  ok  46 [desktop] › tests\public-pages.spec.ts:10:35 › fr: public pages, gallery focus and demo quotation (25.0s)
+  ok  47 [desktop] › tests\public-pages.spec.ts:10:35 › en: public pages, gallery focus and demo quotation (23.5s)
+  ok  48 [desktop] › tests\public-pages.spec.ts:10:35 › ar: public pages, gallery focus and demo quotation (26.9s)
+  ok  49 [desktop] › tests\public-pages.spec.ts:51:5 › public page viewport matrix and screenshots (2.0m)
+  ok  50 [desktop] › tests\public-pages.spec.ts:65:5 › SSR routes, paginated application products, no-script safety and validation bounds (23.1s)
+  ok  51 [desktop] › tests\quotation-throttle.spec.ts:3:139 › fr: quotation throttling explains the server retry duration without claiming success (3.2s)
+  ok  52 [desktop] › tests\quotation-throttle.spec.ts:3:139 › en: quotation throttling explains the server retry duration without claiming success (2.9s)
+  ok  53 [desktop] › tests\quotation-throttle.spec.ts:3:139 › ar: quotation throttling explains the server retry duration without claiming success (2.9s)
+  ok  54 [desktop] › tests\seo-security.spec.ts:3:5 › localized metadata, factual schema and staging safeguards (4.3s)
+  ok  55 [desktop] › tests\seo-security.spec.ts:20:5 › sitemap is publication-aware, canonical and remains protected from indexing (301ms)
+  ok  56 [desktop] › tests\seo-security.spec.ts:36:5 › quotation proxy rejects cross-origin, malformed and oversized input before persistence (43ms)
+  ok  57 [desktop] › tests\simple-map.spec.ts:6:42 › fr: configured simple map, mobile layout and directions (6.7s)
+  ok  58 [desktop] › tests\simple-map.spec.ts:6:42 › en: configured simple map, mobile layout and directions (6.0s)
+  ok  59 [desktop] › tests\simple-map.spec.ts:6:42 › ar: configured simple map, mobile layout and directions (6.0s)
+(node:29192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  60 [desktop] › tests\viewer.spec.ts:11:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets (34.8s)
+  ok  61 [desktop] › tests\viewer.spec.ts:110:5 › 3D responsive and RTL activation matrix (1.4m)
+  ok  62 [desktop] › tests\viewer.spec.ts:128:5 › WebGL initialization failure returns an accessible static preview (1.8s)
+(node:11684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  63 [tablet] › tests\admin-languages.spec.ts:7:5 › admin languages, relationship edit pages and mobile RTL (40.0s)
+  ok  64 [tablet] › tests\banner-stacking.spec.ts:5:42 › fr: banner text and controls are actually painted above responsive images (8.0s)
+  ok  65 [tablet] › tests\banner-stacking.spec.ts:5:42 › en: banner text and controls are actually painted above responsive images (7.9s)
+  ok  66 [tablet] › tests\banner-stacking.spec.ts:5:42 › ar: banner text and controls are actually painted above responsive images (8.1s)
+  ok  67 [tablet] › tests\banners.spec.ts:6:5 › editable banners use high resolution on desktop and smaller images on mobile (1.0m)
+  ok  68 [tablet] › tests\banners.spec.ts:67:5 › Application banners preserve the first gallery image at desktop and mobile sizes (11.2s)
+  ok  69 [tablet] › tests\catalogue.spec.ts:9:7 › fr: catalogue SSR, accessible controls, navigation and samples (23.8s)
+  ok  70 [tablet] › tests\catalogue.spec.ts:9:7 › en: catalogue SSR, accessible controls, navigation and samples (24.4s)
+  ok  71 [tablet] › tests\catalogue.spec.ts:9:7 › ar: catalogue SSR, accessible controls, navigation and samples (36.6s)
+  ok  72 [tablet] › tests\catalogue.spec.ts:89:5 › catalogue fixture adapter validates inputs, combines filters and sorts (40ms)
+  -   73 [tablet] › tests\catalogue.spec.ts:100:5 › catalogue width matrix and screenshots in three languages
+  -   74 [tablet] › tests\catalogue.spec.ts:115:5 › catalogue works without client JavaScript
+  ok  75 [tablet] › tests\gallery-identity.spec.ts:5:7 › fr: shared gallery images keep distinct cards and dialog selection (7.0s)
+  ok  76 [tablet] › tests\gallery-identity.spec.ts:5:7 › en: shared gallery images keep distinct cards and dialog selection (8.8s)
+  ok  77 [tablet] › tests\gallery-identity.spec.ts:5:7 › ar: shared gallery images keep distinct cards and dialog selection (10.8s)
+  ok  78 [tablet] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (23.4s)
+  ok  79 [tablet] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (23.7s)
+  ok  80 [tablet] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (22.1s)
+  ok  81 [tablet] › tests\homepage-targeted.spec.ts:45:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (9.2s)
+  ok  82 [tablet] › tests\homepage-targeted.spec.ts:71:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion (20.7s)
+  ok  83 [tablet] › tests\homepage-targeted.spec.ts:88:5 › without JavaScript the homepage keeps the dedicated quotation destination (4.7s)
+  ok  84 [tablet] › tests\homepage-targeted.spec.ts:94:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (3.8s)
+  ok  85 [tablet] › tests\homepage.spec.ts:21:7 › fr: responsive homepage, semantics, local assets and screenshot (7.1s)
+  ok  86 [tablet] › tests\homepage.spec.ts:55:7 › fr: WCAG A/AA automated scan (5.3s)
+  ok  87 [tablet] › tests\homepage.spec.ts:61:7 › fr: material dialog, selection, Escape and focus restoration (2.3s)
+  ok  88 [tablet] › tests\homepage.spec.ts:21:7 › en: responsive homepage, semantics, local assets and screenshot (7.8s)
+  ok  89 [tablet] › tests\homepage.spec.ts:55:7 › en: WCAG A/AA automated scan (6.7s)
+  ok  90 [tablet] › tests\homepage.spec.ts:61:7 › en: material dialog, selection, Escape and focus restoration (2.4s)
+  ok  91 [tablet] › tests\homepage.spec.ts:21:7 › ar: responsive homepage, semantics, local assets and screenshot (6.7s)
+  ok  92 [tablet] › tests\homepage.spec.ts:55:7 › ar: WCAG A/AA automated scan (7.2s)
+  ok  93 [tablet] › tests\homepage.spec.ts:61:7 › ar: material dialog, selection, Escape and focus restoration (4.6s)
+  ok  94 [tablet] › tests\homepage.spec.ts:82:5 › language switching preserves query and section and supports all three languages (13.6s)
+  ok  95 [tablet] › tests\homepage.spec.ts:94:5 › mobile/tablet menu traps focus, navigates and closes with Escape (11.4s)
+  ok  96 [tablet] › tests\homepage.spec.ts:112:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (4.1s)
+  ok  97 [tablet] › tests\homepage.spec.ts:127:5 › locale path helper retains nested pages for later milestones (2ms)
+  -   98 [tablet] › tests\homepage.spec.ts:132:5 › requested widths preserve hero space, typography and layout in every language
+  ok  99 [tablet] › tests\performance-images.spec.ts:3:5 › mobile hero crops preserve responsive selection without downloading desktop banners (1.5m)
+  ok 100 [tablet] › tests\performance-images.spec.ts:20:5 › deferred homepage imagery loads on approach and works without JavaScript (10.9s)
+  ok 101 [tablet] › tests\performance-images.spec.ts:36:5 › static product finishes use thumbnails before activation (2.8s)
+  ok 102 [tablet] › tests\product.spec.ts:10:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (15.8s)
+  ok 103 [tablet] › tests\product.spec.ts:10:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (19.1s)
+  x  104 [tablet] › tests\product.spec.ts:10:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (3.0m)
+(node:10436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 105 [tablet] › tests\product.spec.ts:48:5 › product data contracts reject unsafe configuration and unknown products (2.7s)
+  -  106 [tablet] › tests\product.spec.ts:63:5 › product width matrix, screenshots and no initial 3D payload
+  -  107 [tablet] › tests\product.spec.ts:82:5 › product photos, details and quotation destination work without JavaScript
+  ok 108 [tablet] › tests\public-pages.spec.ts:10:35 › fr: public pages, gallery focus and demo quotation (38.1s)
+  ok 109 [tablet] › tests\public-pages.spec.ts:10:35 › en: public pages, gallery focus and demo quotation (33.5s)
+  ok 110 [tablet] › tests\public-pages.spec.ts:10:35 › ar: public pages, gallery focus and demo quotation (30.4s)
+  -  111 [tablet] › tests\public-pages.spec.ts:51:5 › public page viewport matrix and screenshots
+  -  112 [tablet] › tests\public-pages.spec.ts:65:5 › SSR routes, paginated application products, no-script safety and validation bounds
+  ok 113 [tablet] › tests\quotation-throttle.spec.ts:3:139 › fr: quotation throttling explains the server retry duration without claiming success (6.2s)
+  ok 114 [tablet] › tests\quotation-throttle.spec.ts:3:139 › en: quotation throttling explains the server retry duration without claiming success (4.7s)
+  ok 115 [tablet] › tests\quotation-throttle.spec.ts:3:139 › ar: quotation throttling explains the server retry duration without claiming success (3.4s)
+  ok 116 [tablet] › tests\seo-security.spec.ts:3:5 › localized metadata, factual schema and staging safeguards (9.5s)
+  ok 117 [tablet] › tests\seo-security.spec.ts:20:5 › sitemap is publication-aware, canonical and remains protected from indexing (405ms)
+  ok 118 [tablet] › tests\seo-security.spec.ts:36:5 › quotation proxy rejects cross-origin, malformed and oversized input before persistence (60ms)
+  ok 119 [tablet] › tests\simple-map.spec.ts:6:42 › fr: configured simple map, mobile layout and directions (9.5s)
+  ok 120 [tablet] › tests\simple-map.spec.ts:6:42 › en: configured simple map, mobile layout and directions (13.0s)
+  ok 121 [tablet] › tests\simple-map.spec.ts:6:42 › ar: configured simple map, mobile layout and directions (9.2s)
+(node:28728) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  -  122 [tablet] › tests\viewer.spec.ts:11:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets
+  -  123 [tablet] › tests\viewer.spec.ts:110:5 › 3D responsive and RTL activation matrix
+  -  124 [tablet] › tests\viewer.spec.ts:128:5 › WebGL initialization failure returns an accessible static preview
+(node:1552) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 125 [mobile] › tests\admin-languages.spec.ts:7:5 › admin languages, relationship edit pages and mobile RTL (34.0s)
+  ok 126 [mobile] › tests\banner-stacking.spec.ts:5:42 › fr: banner text and controls are actually painted above responsive images (21.4s)
+  ok 127 [mobile] › tests\banner-stacking.spec.ts:5:42 › en: banner text and controls are actually painted above responsive images (22.4s)
+  ok 128 [mobile] › tests\banner-stacking.spec.ts:5:42 › ar: banner text and controls are actually painted above responsive images (32.1s)
+  ok 129 [mobile] › tests\banners.spec.ts:6:5 › editable banners use high resolution on desktop and smaller images on mobile (54.1s)
+  ok 130 [mobile] › tests\banners.spec.ts:67:5 › Application banners preserve the first gallery image at desktop and mobile sizes (8.9s)
+  ok 131 [mobile] › tests\catalogue.spec.ts:9:7 › fr: catalogue SSR, accessible controls, navigation and samples (20.5s)
+  ok 132 [mobile] › tests\catalogue.spec.ts:9:7 › en: catalogue SSR, accessible controls, navigation and samples (21.0s)
+  ok 133 [mobile] › tests\catalogue.spec.ts:9:7 › ar: catalogue SSR, accessible controls, navigation and samples (21.3s)
+  ok 134 [mobile] › tests\catalogue.spec.ts:89:5 › catalogue fixture adapter validates inputs, combines filters and sorts (45ms)
+  -  135 [mobile] › tests\catalogue.spec.ts:100:5 › catalogue width matrix and screenshots in three languages
+  -  136 [mobile] › tests\catalogue.spec.ts:115:5 › catalogue works without client JavaScript
+  ok 137 [mobile] › tests\gallery-identity.spec.ts:5:7 › fr: shared gallery images keep distinct cards and dialog selection (4.9s)
+  ok 138 [mobile] › tests\gallery-identity.spec.ts:5:7 › en: shared gallery images keep distinct cards and dialog selection (4.9s)
+  ok 139 [mobile] › tests\gallery-identity.spec.ts:5:7 › ar: shared gallery images keep distinct cards and dialog selection (4.7s)
+  x  140 [mobile] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (22.7s)
+(node:16496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  141 [mobile] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (21.7s)
+(node:28604) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  142 [mobile] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (21.8s)
+(node:26000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 143 [mobile] › tests\homepage-targeted.spec.ts:45:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (4.5s)
+  ok 144 [mobile] › tests\homepage-targeted.spec.ts:71:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion (15.7s)
+  ok 145 [mobile] › tests\homepage-targeted.spec.ts:88:5 › without JavaScript the homepage keeps the dedicated quotation destination (3.0s)
+  ok 146 [mobile] › tests\homepage-targeted.spec.ts:94:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (2.5s)
+  ok 147 [mobile] › tests\homepage.spec.ts:21:7 › fr: responsive homepage, semantics, local assets and screenshot (4.1s)
+  ok 148 [mobile] › tests\homepage.spec.ts:55:7 › fr: WCAG A/AA automated scan (3.1s)
+  ok 149 [mobile] › tests\homepage.spec.ts:61:7 › fr: material dialog, selection, Escape and focus restoration (1.2s)
+  ok 150 [mobile] › tests\homepage.spec.ts:21:7 › en: responsive homepage, semantics, local assets and screenshot (3.4s)
+  ok 151 [mobile] › tests\homepage.spec.ts:55:7 › en: WCAG A/AA automated scan (3.2s)
+  ok 152 [mobile] › tests\homepage.spec.ts:61:7 › en: material dialog, selection, Escape and focus restoration (1.2s)
+  ok 153 [mobile] › tests\homepage.spec.ts:21:7 › ar: responsive homepage, semantics, local assets and screenshot (3.6s)
+  ok 154 [mobile] › tests\homepage.spec.ts:55:7 › ar: WCAG A/AA automated scan (3.2s)
+  ok 155 [mobile] › tests\homepage.spec.ts:61:7 › ar: material dialog, selection, Escape and focus restoration (1.2s)
+  ok 156 [mobile] › tests\homepage.spec.ts:82:5 › language switching preserves query and section and supports all three languages (7.5s)
+  ok 157 [mobile] › tests\homepage.spec.ts:94:5 › mobile/tablet menu traps focus, navigates and closes with Escape (2.2s)
+  ok 158 [mobile] › tests\homepage.spec.ts:112:5 › French redirect, unsupported locale, keyboard skip link and reduced motion (1.2s)
+  ok 159 [mobile] › tests\homepage.spec.ts:127:5 › locale path helper retains nested pages for later milestones (2ms)
+  -  160 [mobile] › tests\homepage.spec.ts:132:5 › requested widths preserve hero space, typography and layout in every language
+  ok 161 [mobile] › tests\performance-images.spec.ts:3:5 › mobile hero crops preserve responsive selection without downloading desktop banners (33.7s)
+  ok 162 [mobile] › tests\performance-images.spec.ts:20:5 › deferred homepage imagery loads on approach and works without JavaScript (4.8s)
+  ok 163 [mobile] › tests\performance-images.spec.ts:36:5 › static product finishes use thumbnails before activation (2.1s)
+  ok 164 [mobile] › tests\product.spec.ts:10:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (9.1s)
+  ok 165 [mobile] › tests\product.spec.ts:10:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (7.9s)
+  ok 166 [mobile] › tests\product.spec.ts:10:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (7.8s)
+  ok 167 [mobile] › tests\product.spec.ts:48:5 › product data contracts reject unsafe configuration and unknown products (1.2s)
+  -  168 [mobile] › tests\product.spec.ts:63:5 › product width matrix, screenshots and no initial 3D payload
+  -  169 [mobile] › tests\product.spec.ts:82:5 › product photos, details and quotation destination work without JavaScript
+  ok 170 [mobile] › tests\public-pages.spec.ts:10:35 › fr: public pages, gallery focus and demo quotation (18.5s)
+  ok 171 [mobile] › tests\public-pages.spec.ts:10:35 › en: public pages, gallery focus and demo quotation (15.8s)
+  ok 172 [mobile] › tests\public-pages.spec.ts:10:35 › ar: public pages, gallery focus and demo quotation (15.4s)
+  -  173 [mobile] › tests\public-pages.spec.ts:51:5 › public page viewport matrix and screenshots
+  -  174 [mobile] › tests\public-pages.spec.ts:65:5 › SSR routes, paginated application products, no-script safety and validation bounds
+  ok 175 [mobile] › tests\quotation-throttle.spec.ts:3:139 › fr: quotation throttling explains the server retry duration without claiming success (3.2s)
+  ok 176 [mobile] › tests\quotation-throttle.spec.ts:3:139 › en: quotation throttling explains the server retry duration without claiming success (3.1s)
+  ok 177 [mobile] › tests\quotation-throttle.spec.ts:3:139 › ar: quotation throttling explains the server retry duration without claiming success (3.1s)
+  ok 178 [mobile] › tests\seo-security.spec.ts:3:5 › localized metadata, factual schema and staging safeguards (3.1s)
+  ok 179 [mobile] › tests\seo-security.spec.ts:20:5 › sitemap is publication-aware, canonical and remains protected from indexing (313ms)
+  ok 180 [mobile] › tests\seo-security.spec.ts:36:5 › quotation proxy rejects cross-origin, malformed and oversized input before persistence (49ms)
+  ok 181 [mobile] › tests\simple-map.spec.ts:6:42 › fr: configured simple map, mobile layout and directions (7.9s)
+  ok 182 [mobile] › tests\simple-map.spec.ts:6:42 › en: configured simple map, mobile layout and directions (8.0s)
+  ok 183 [mobile] › tests\simple-map.spec.ts:6:42 › ar: configured simple map, mobile layout and directions (7.4s)
+(node:14408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 184 [mobile] › tests\viewer.spec.ts:11:5 › 3D controls, formats, finishes, demand rendering, exports and resource budgets (21.6s)
+  -  185 [mobile] › tests\viewer.spec.ts:110:5 › 3D responsive and RTL activation matrix
+  -  186 [mobile] › tests\viewer.spec.ts:128:5 › WebGL initialization failure returns an accessible static preview
+
+
+  1) [desktop] › tests\banners.spec.ts:6:5 › editable banners use high resolution on desktop and smaller images on mobile 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('.catalogue-hero img')
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('.catalogue-hero img') with timeout 20000ms
+      - waiting for locator('.catalogue-hero img')
+
+
+      43 |       await page.goto(`/${locale}/products`);
+      44 |       const hero = page.locator('.catalogue-hero img');
+    > 45 |       await expect(hero).toBeVisible();
+         |                          ^
+      46 |       await expect.poll(() => hero.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
+      47 |       const src = await hero.evaluate((img: HTMLImageElement) => img.currentSrc);
+      48 |       expect(src).toMatch(width < 480 ? /\/banner_mobile$/ : width < 768 ? /\/preview$/ : /\/banner$/);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\banners.spec.ts:45:26
+
+    Error Context: .tools\m7-gate\full-1-failures\banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\banners-editable-banners-u-0cfa7-nd-smaller-images-on-mobile-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests\homepage.spec.ts:21:7 › en: responsive homepage, semantics, local assets and screenshot 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      44 |     expect(await page.locator('a[href^="#"]').evaluateAll(links => links.every(link => document.getElementById(link.getAttribute('href')!.slice(1))))).toBe(true);
+      45 |     const resources = await page.evaluate(() => performance.getEntriesByType('resource').map(entry => entry.name));
+    > 46 |     expect(resources.every(url => new URL(url).origin === locationOrigin(resources))).toBe(true);
+         |                                                                                       ^
+      47 |     expect(resources.some(url => /three|GLTF|fiber/.test(url))).toBe(false);
+      48 |     expect(errors).toEqual([]);
+      49 |     await visitDeferredSections(page);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage.spec.ts:46:87
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-en-responsive-hom-495a4-local-assets-and-screenshot-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-en-responsive-hom-495a4-local-assets-and-screenshot-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-en-responsive-hom-495a4-local-assets-and-screenshot-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests\homepage.spec.ts:21:7 › ar: responsive homepage, semantics, local assets and screenshot 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      44 |     expect(await page.locator('a[href^="#"]').evaluateAll(links => links.every(link => document.getElementById(link.getAttribute('href')!.slice(1))))).toBe(true);
+      45 |     const resources = await page.evaluate(() => performance.getEntriesByType('resource').map(entry => entry.name));
+    > 46 |     expect(resources.every(url => new URL(url).origin === locationOrigin(resources))).toBe(true);
+         |                                                                                       ^
+      47 |     expect(resources.some(url => /three|GLTF|fiber/.test(url))).toBe(false);
+      48 |     expect(errors).toEqual([]);
+      49 |     await visitDeferredSections(page);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage.spec.ts:46:87
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-ar-responsive-hom-7e0d9-local-assets-and-screenshot-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-ar-responsive-hom-7e0d9-local-assets-and-screenshot-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-ar-responsive-hom-7e0d9-local-assets-and-screenshot-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › tests\homepage.spec.ts:82:5 › language switching preserves query and section and supports all three languages 
+
+    Error: locator.selectOption: Error: strict mode violation: locator('select') resolved to 3 elements:
+        1) <select aria-label="Choisir la langue">…</select> aka getByLabel('Choisir la langue')
+        2) <select id="quote-product">…</select> aka getByLabel('Produit', { exact: true })
+        3) <select required="" id="quote-country">…</select> aka getByLabel('Pays de livraison')
+
+    Call log:
+      - waiting for locator('select')
+
+
+      83 |   await page.goto('/fr?preview=1#applications');
+      84 |   for (const locale of ['ar', 'en', 'fr'] as const) {
+    > 85 |     await page.locator('select').selectOption(locale);
+         |                                  ^
+      86 |     const expectedUrl=`${process.env.QA_BASE_URL || 'http://127.0.0.1:3000'}/${locale}?preview=1#applications`;
+      87 |     await page.waitForURL(expectedUrl,{waitUntil:'domcontentloaded',timeout:60000});
+      88 |     expect(page.url()).toBe(expectedUrl);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage.spec.ts:85:34
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-language-switchin-e1387-upports-all-three-languages-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-language-switchin-e1387-upports-all-three-languages-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-language-switchin-e1387-upports-all-three-languages-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop] › tests\homepage.spec.ts:132:5 › requested widths preserve hero space, typography and layout in every language 
+
+    Error: expect(locator).toBeInViewport() failed
+
+    Locator: locator('#contact h2')
+    Expected: in viewport
+    Error: strict mode violation: locator('#contact h2') resolved to 3 elements:
+        1) <h2 id="contact-title">Votre projet commence ici.</h2> aka getByRole('heading', { name: 'Votre projet commence ici.' })
+        2) <h2 id="quote-selection-title">Votre intention de matière</h2> aka getByRole('heading', { name: 'Votre intention de matière' })
+        3) <h2>Confidentialité</h2> aka getByRole('heading', { name: 'Confidentialité' })
+
+    Call log:
+      - Expect "toBeInViewport" locator('#contact h2') with timeout 20000ms
+      - waiting for locator('#contact h2')
+        3 × locator resolved to <h2 id="contact-title">Votre projet commence ici.</h2>
+          - unexpected value "viewport ratio 0"
+
+
+      11 |   for (const id of ['materials', 'craft', 'applications', 'contact']) {
+      12 |     await page.locator(`#${id}`).scrollIntoViewIfNeeded();
+    > 13 |     await expect(page.locator(`#${id} h2`)).toBeInViewport();
+         |                                             ^
+      14 |     await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+      15 |   }
+      16 |   await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+        at visitDeferredSections (C:\Users\DELL 7420\Desktop\time-stone\tests\homepage.spec.ts:13:45)
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage.spec.ts:159:7
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-requested-widths--5d8ea-nd-layout-in-every-language-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [tablet] › tests\product.spec.ts:10:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation 
+
+    Test timeout of 180000ms exceeded.
+
+    Error: locator.click: Test timeout of 180000ms exceeded.
+    Call log:
+      - waiting for locator('.product-back')
+
+
+      40 |   await page.locator('.locale-picker select').selectOption(locale === 'ar' ? 'fr' : 'ar');
+      41 |   await expect(page).toHaveURL(/\/products\/sample-1\?color=beige&sort=name_desc&page=2/);
+    > 42 |   await page.locator('.product-back').click();
+         |                                       ^
+      43 |   const api=process.env.QA_API_URL||'http://127.0.0.1:8000';const filtered=await request.get(`${api}/api/v1/products?color=beige&sort=name_desc&per_page=12`);expect(filtered.ok()).toBe(true);const lastPage=(await filtered.json()).meta.last_page;
+      44 |   await expect(page).toHaveURL(new RegExp('/products\\?color=beige&sort=name_desc'+(lastPage>=2?'&page=2':'')+'#results'));
+      45 |   expect(errors).toEqual([]);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\product.spec.ts:42:39
+
+    Error Context: .tools\m7-gate\full-1-failures\product-ar-product-SSR-gal-06172-n-and-accessible-navigation-tablet\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\product-ar-product-SSR-gal-06172-n-and-accessible-navigation-tablet\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\product-ar-product-SSR-gal-06172-n-and-accessible-navigation-tablet\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#craft h2')
+    Expected: ""
+    Received: "Du bloc à l’espace"
+    Timeout:  20000ms
+
+    Call log:
+      - Expect "toHaveText" locator('#craft h2') with timeout 20000ms
+      - waiting for locator('#craft h2')
+        43 × locator resolved to <h2 id="craft-title">Du bloc à l’espace</h2>
+           - unexpected value "Du bloc à l’espace"
+
+
+      28 |     await page.setViewportSize({width,height:1024});
+      29 |     await expect(page.locator('#quote-name')).toHaveValue('QA ONLY unsent input');
+    > 30 |     await expect(page.locator('#craft h2')).toHaveText(craftTitle);await expect(page.locator('#craft .process-steps li')).toHaveCount(4);
+         |                                             ^
+      31 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+      32 |     for(const id of ['craft','contact']){
+      33 |       const section=page.locator('#'+id);await section.scrollIntoViewIfNeeded();
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:30:45
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-targeted-fr-targe-979ca--form-RTL-and-accessibility-mobile\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-targeted-fr-targe-979ca--form-RTL-and-accessibility-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-targeted-fr-targe-979ca--form-RTL-and-accessibility-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#craft h2')
+    Expected: ""
+    Received: "From block to space"
+    Timeout:  20000ms
+
+    Call log:
+      - Expect "toHaveText" locator('#craft h2') with timeout 20000ms
+      - waiting for locator('#craft h2')
+        43 × locator resolved to <h2 id="craft-title">From block to space</h2>
+           - unexpected value "From block to space"
+
+
+      28 |     await page.setViewportSize({width,height:1024});
+      29 |     await expect(page.locator('#quote-name')).toHaveValue('QA ONLY unsent input');
+    > 30 |     await expect(page.locator('#craft h2')).toHaveText(craftTitle);await expect(page.locator('#craft .process-steps li')).toHaveCount(4);
+         |                                             ^
+      31 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+      32 |     for(const id of ['craft','contact']){
+      33 |       const section=page.locator('#'+id);await section.scrollIntoViewIfNeeded();
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:30:45
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-targeted-en-targe-cd84a--form-RTL-and-accessibility-mobile\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-targeted-en-targe-cd84a--form-RTL-and-accessibility-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-targeted-en-targe-cd84a--form-RTL-and-accessibility-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('#craft h2')
+    Expected: ""
+    Received: "من الكتلة إلى المساحة"
+    Timeout:  20000ms
+
+    Call log:
+      - Expect "toHaveText" locator('#craft h2') with timeout 20000ms
+      - waiting for locator('#craft h2')
+        43 × locator resolved to <h2 id="craft-title">من الكتلة إلى المساحة</h2>
+           - unexpected value "من الكتلة إلى المساحة"
+
+
+      28 |     await page.setViewportSize({width,height:1024});
+      29 |     await expect(page.locator('#quote-name')).toHaveValue('QA ONLY unsent input');
+    > 30 |     await expect(page.locator('#craft h2')).toHaveText(craftTitle);await expect(page.locator('#craft .process-steps li')).toHaveCount(4);
+         |                                             ^
+      31 |     expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+      32 |     for(const id of ['craft','contact']){
+      33 |       const section=page.locator('#'+id);await section.scrollIntoViewIfNeeded();
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:30:45
+
+    Error Context: .tools\m7-gate\full-1-failures\homepage-targeted-ar-targe-a60fa--form-RTL-and-accessibility-mobile\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\m7-gate\full-1-failures\homepage-targeted-ar-targe-a60fa--form-RTL-and-accessibility-mobile\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\m7-gate\full-1-failures\homepage-targeted-ar-targe-a60fa--form-RTL-and-accessibility-mobile\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9 failed
+    [desktop] › tests\banners.spec.ts:6:5 › editable banners use high resolution on desktop and smaller images on mobile 
+    [desktop] › tests\homepage.spec.ts:21:7 › en: responsive homepage, semantics, local assets and screenshot 
+    [desktop] › tests\homepage.spec.ts:21:7 › ar: responsive homepage, semantics, local assets and screenshot 
+    [desktop] › tests\homepage.spec.ts:82:5 › language switching preserves query and section and supports all three languages 
+    [desktop] › tests\homepage.spec.ts:132:5 › requested widths preserve hero space, typography and layout in every language 
+    [tablet] › tests\product.spec.ts:10:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation 
+    [mobile] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility 
+    [mobile] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility 
+    [mobile] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility 
+  20 skipped
+  157 passed (39.5m)

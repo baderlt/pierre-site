@@ -1,10 +1,11 @@
+import {qaOutput} from './qa-output';
 import {test,expect} from '@playwright/test';
 import {mkdir,writeFile} from 'node:fs/promises';
 
 for(const locale of ['fr','en','ar'])test(`${locale}: banner text and controls are actually painted above responsive images`,async({page},info)=>{
   test.setTimeout(180000);
   const widths=info.project.name==='desktop'?[1024,1536]:info.project.name==='tablet'?[768]:[320,390,430];
-  const out=process.env.QA_CORRECTIONS_DIR||'docs/qa/milestone-6-final/corrections';
+  const out=process.env.QA_CORRECTIONS_DIR||qaOutput('docs/qa/milestone-6-final/corrections');
   await mkdir(out+'/screenshots',{recursive:true});const evidence=[];
   for(const width of widths)for(const route of ['products','about','applications','contact','quote','applications/stairs']){
     await page.setViewportSize({width,height:900});await page.goto(`/${locale}/${route}`);

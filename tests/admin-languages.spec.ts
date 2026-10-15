@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect } from '@playwright/test';
 const adminOrigin=process.env.QA_API_URL||'http://127.0.0.1:8000';
 import AxeBuilder from '@axe-core/playwright';
@@ -7,7 +8,7 @@ test('admin languages, relationship edit pages and mobile RTL', async ({ page })
   test.skip(!process.env.QA_ADMIN_LOCALE_CREDENTIALS, 'Requires a disposable local admin account.');
   page.setDefaultTimeout(15000);
   const account = JSON.parse(await readFile(process.env.QA_ADMIN_LOCALE_CREDENTIALS!, 'utf8'));
-  const output = 'docs/qa/admin-languages';
+  const output = qaOutput('docs/qa/admin-languages');
   await mkdir(output, { recursive: true });
   const checks: unknown[] = [];
   const failures: string[] = [];

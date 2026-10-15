@@ -12,7 +12,7 @@ import { isLocale, locales } from '@/lib/locales';
 
 type Props = { params: Promise<{ locale: string }> };
 export function generateStaticParams() { return locales.map(locale => ({ locale })); }
-export async function generateMetadata({params}:Props){const {locale}=await params;if(!isLocale(locale))notFound();const page=await getPage(locale,'applications');return publicMetadata(locale,'applications',typeof page.seo.title==='string'&&page.seo.title||page.title,typeof page.seo.description==='string'&&page.seo.description||page.description,typeof page.seo.image==='string'?page.seo.image:undefined);}
+export async function generateMetadata({params}:Props){const {locale}=await params;if(!isLocale(locale))notFound();const page=await getPage(locale,'applications');return publicMetadata(locale,'applications',typeof page.seo.title==='string'&&page.seo.title||page.title,typeof page.seo.description==='string'&&page.seo.description||page.description,typeof page.seo.image==='string'?page.seo.image:undefined,page.available_locales);}
 export default async function ApplicationsPage({ params }: Props) {
   const { locale } = await params; if (!isLocale(locale)) notFound(); const [{c,heroImage},applications]=await Promise.all([getPublicContent(locale,'applications'),getApplications(locale)]);
   return <PublicPage locale={locale} page="applications"><PageHero locale={locale} image={heroImage} eyebrow={c.applications} title={c.applicationsTitle} description={c.applicationsIntro}><a className="button button-gold" href="#application-categories">{c.explore}<Icon name="arrow" className="direction-arrow" /></a></PageHero>

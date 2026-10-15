@@ -1,0 +1,117 @@
+
+Running 6 tests using 1 worker
+
+(node:24596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [desktop] › tests\custom-3d.spec.ts:14:54 › fr: optional 3D, responsive controls, static payload and RTL (43.7s)
+  ok 2 [desktop] › tests\custom-3d.spec.ts:14:54 › en: optional 3D, responsive controls, static payload and RTL (35.9s)
+  ok 3 [desktop] › tests\custom-3d.spec.ts:14:54 › ar: optional 3D, responsive controls, static payload and RTL (32.9s)
+  x  4 [desktop] › tests\custom-3d.spec.ts:52:5 › procedural examples, GLB materials, exports, repeated disposal and measured mobile cost (9.5s)
+(node:9500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  5 [desktop] › tests\custom-3d.spec.ts:83:5 › real geometry quotation, immutable snapshot and duplicate retry (3.0m)
+(node:22512) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  6 [desktop] › tests\custom-3d.spec.ts:96:5 › Filament translated controls, GLB rejection and immediate disable protection (1.1m)
+
+
+  1) [desktop] › tests\custom-3d.spec.ts:52:5 › procedural examples, GLB materials, exports, repeated disposal and measured mobile cost 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 6
+    Received:    17
+
+      63 |   const activationMs=Date.now()-start;await expect(page.locator('canvas')).toHaveAttribute('data-geometries',/\d+/);
+      64 |   const activated=await heap();const budget=await page.locator('canvas').evaluate(n=>({...n.dataset}));
+    > 65 |   expect(Number(budget.dpr)).toBeLessThanOrEqual(1.5);expect(Number(budget.geometries)).toBeLessThanOrEqual(6);expect(Number(budget.drawCalls)).toBeLessThanOrEqual(12);
+         |                                                                                         ^
+      66 |   await page.waitForTimeout(700);const frames=Number(await page.locator('canvas').getAttribute('data-render-count'));await page.waitForTimeout(500);expect(Number(await page.locator('canvas').getAttribute('data-render-count'))-frames).toBeLessThanOrEqual(1);
+      67 |   await page.getByRole('button',{name:c.edge,exact:true}).click();await page.getByRole('button',{name:c.reset,exact:true}).click();
+      68 |   await page.screenshot({path:path(`screenshots/geometry-${shape}-${info.project.name}.png`)});
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\custom-3d.spec.ts:65:89
+
+    Error Context: .tools\custom-3d\browser-first-failures\custom-3d-procedural-examp-7511b-al-and-measured-mobile-cost-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\custom-3d\browser-first-failures\custom-3d-procedural-examp-7511b-al-and-measured-mobile-cost-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\custom-3d\browser-first-failures\custom-3d-procedural-examp-7511b-al-and-measured-mobile-cost-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests\custom-3d.spec.ts:83:5 › real geometry quotation, immutable snapshot and duplicate retry 
+
+    Test timeout of 180000ms exceeded.
+
+    Error: page.waitForRequest: Test timeout of 180000ms exceeded.
+
+      87 |  for(const [key,value]of Object.entries({name:'QA ONLY Custom 3D',email:'qa-custom3d@example.test',location:'QA ONLY local fixture',description:'QA ONLY geometry verification; no business request.'}))await page.locator('#quote-'+key).fill(value);
+      88 |  await page.locator('#quote-country').selectOption('MA');await page.locator('#quote-privacy').check();
+    > 89 |  const sent=page.waitForRequest(r=>r.url().endsWith('/api/quotations')&&r.method()==='POST');const result=page.waitForResponse(r=>r.url().endsWith('/api/quotations')&&r.request().method()==='POST');await page.locator('.quote-submit').click();
+         |                  ^
+      90 |  const payload=await sent;const response=await result;expect(response.status()).toBe(201);await expect(page.locator('.quote-success')).toBeVisible();
+      91 |  const data=payload.postDataJSON();expect(data.items[0].geometry.parameters.diameter).toBe(150);expect(data.items[0].geometry.shape).toBe('circle');expect(data.items[0].configuration.geometry).toBeUndefined();
+      92 |  const duplicate=await page.request.post('/api/quotations',{headers:{'Content-Type':'application/json','Idempotency-Key':payload.headers()['idempotency-key'],'Origin':new URL(page.url()).origin},data});expect(duplicate.ok()).toBe(true);expect((await duplicate.json()).reference).toBe((await response.json()).reference);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\custom-3d.spec.ts:89:18
+
+    Error: page.waitForResponse: Test timeout of 180000ms exceeded.
+
+      87 |  for(const [key,value]of Object.entries({name:'QA ONLY Custom 3D',email:'qa-custom3d@example.test',location:'QA ONLY local fixture',description:'QA ONLY geometry verification; no business request.'}))await page.locator('#quote-'+key).fill(value);
+      88 |  await page.locator('#quote-country').selectOption('MA');await page.locator('#quote-privacy').check();
+    > 89 |  const sent=page.waitForRequest(r=>r.url().endsWith('/api/quotations')&&r.method()==='POST');const result=page.waitForResponse(r=>r.url().endsWith('/api/quotations')&&r.request().method()==='POST');await page.locator('.quote-submit').click();
+         |                                                                                                                ^
+      90 |  const payload=await sent;const response=await result;expect(response.status()).toBe(201);await expect(page.locator('.quote-success')).toBeVisible();
+      91 |  const data=payload.postDataJSON();expect(data.items[0].geometry.parameters.diameter).toBe(150);expect(data.items[0].geometry.shape).toBe('circle');expect(data.items[0].configuration.geometry).toBeUndefined();
+      92 |  const duplicate=await page.request.post('/api/quotations',{headers:{'Content-Type':'application/json','Idempotency-Key':payload.headers()['idempotency-key'],'Origin':new URL(page.url()).origin},data});expect(duplicate.ok()).toBe(true);expect((await duplicate.json()).reference).toBe((await response.json()).reference);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\custom-3d.spec.ts:89:112
+
+    Error Context: .tools\custom-3d\browser-first-failures\custom-3d-real-geometry-qu-51073-napshot-and-duplicate-retry-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\custom-3d\browser-first-failures\custom-3d-real-geometry-qu-51073-napshot-and-duplicate-retry-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\custom-3d\browser-first-failures\custom-3d-real-geometry-qu-51073-napshot-and-duplicate-retry-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests\custom-3d.spec.ts:96:5 › Filament translated controls, GLB rejection and immediate disable protection 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('GLB must be at most 8 MiB.', { exact: true })
+    Expected: visible
+    Timeout: 20000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('GLB must be at most 8 MiB.', { exact: true }) with timeout 20000ms
+      - waiting for getByText('GLB must be at most 8 MiB.', { exact: true })
+
+
+      109 |  }
+      110 |  await page.goto(`${api}/admin/products/${fixtures.glb.id}/edit`);await page.locator('#admin-locale').selectOption('en');await Promise.all([page.waitForNavigation(),page.locator('.admin-language-switcher button').click()]);
+    > 111 |  const file=page.locator('input[type="file"]').last();await file.setInputFiles({name:'invalid.glb',mimeType:'model/gltf-binary',buffer:Buffer.from('not a model')});await expect(page.locator('.filepond--item')).toHaveCount(1);
+          |                                                                                                                                                                                                                  ^
+      112 |  await page.locator('form[wire\\:submit="save"]').evaluate(form=>form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true})));await expect(page.getByText('GLB must be at most 8 MiB.',{exact:true})).toBeVisible();
+      113 |  await page.reload();await expect(page.locator('[id="form.viewer_enabled"]')).toHaveAttribute('aria-checked','true');
+      114 |  await page.locator('[id="form.viewer_enabled"]').click();await page.locator('form[wire\\:submit="save"]').evaluate(form=>form.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true})));await expect(page.getByText('Saved',{exact:true})).toBeVisible();
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\custom-3d.spec.ts:111:210
+
+    Error Context: .tools\custom-3d\browser-first-failures\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\custom-3d\browser-first-failures\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\custom-3d\browser-first-failures\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [desktop] › tests\custom-3d.spec.ts:52:5 › procedural examples, GLB materials, exports, repeated disposal and measured mobile cost 
+    [desktop] › tests\custom-3d.spec.ts:83:5 › real geometry quotation, immutable snapshot and duplicate retry 
+    [desktop] › tests\custom-3d.spec.ts:96:5 › Filament translated controls, GLB rejection and immediate disable protection 
+  3 passed (6.3m)

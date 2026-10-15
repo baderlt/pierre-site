@@ -12,7 +12,7 @@ import { productUrl } from '@/lib/product';
 import { isLocale, locales } from '@/lib/locales';
 
 type Props = { params: Promise<{ locale: string; slug: string }>; searchParams: Promise<Record<string, string | string[] | undefined>> };
-export async function generateMetadata({ params }: Props) { const { locale, slug } = await params; if (!isLocale(locale)) notFound(); const app = await getApplication(locale,slug); if (!app) notFound(); return publicMetadata(locale, `applications/${slug}`, app.title, app.description); }
+export async function generateMetadata({ params }: Props) { const { locale, slug } = await params; if (!isLocale(locale)) notFound(); const app = await getApplication(locale,slug); if (!app) notFound(); return publicMetadata(locale, `applications/${slug}`, app.title, app.description,undefined,app.available_locales||[]); }
 export default async function ApplicationPage({ params, searchParams }: Props) {
   const { locale, slug } = await params; if (!isLocale(locale)) notFound(); const app = await getApplication(locale,slug); if (!app) notFound(); const c = publicCopy[locale]; const catalogue = catalogueCopy[locale];
   const values = await searchParams;

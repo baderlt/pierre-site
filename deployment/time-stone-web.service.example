@@ -1,0 +1,28 @@
+# REVIEW TEMPLATE ONLY: verify runtime user, Node location and release permissions.
+[Unit]
+Description=TIME STONE Next.js website
+After=network.target
+
+[Service]
+Type=simple
+User=time-stone
+Group=time-stone
+WorkingDirectory=/srv/time-stone/current/apps/web
+Environment=NODE_ENV=production
+EnvironmentFile=/srv/time-stone/shared/web.env
+ExecStartPre=/usr/bin/node /srv/time-stone/current/scripts/check-production-env.mjs
+ExecStart=/usr/bin/node /srv/time-stone/current/node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/time-stone/current/apps/web/.next/cache
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+
+[Install]
+WantedBy=multi-user.target

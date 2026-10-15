@@ -1,10 +1,11 @@
+import {localizedMetadata} from './seo';
 import type { Metadata } from 'next';
 import type { Locale } from './locales';
 import { parseCatalogueQuery } from './catalogue';
 
 export const applicationSlugs = ['exterior-facades', 'interior-flooring', 'wall-cladding', 'stairs', 'landscaping', 'custom-designs'] as const;
 export type ApplicationSlug = typeof applicationSlugs[number];
-export type ApplicationDTO = { slug: string; title: string; description: string; image: string; gallery: string[]; considerations: string[]; temporary: boolean; stone_types: ('limestone' | 'marble')[]; catalogue: ReturnType<typeof parseCatalogueQuery> };
+export type ApplicationDTO = { available_locales?: Locale[]; slug: string; title: string; description: string; image: string; gallery: string[]; considerations: string[]; temporary: boolean; stone_types: ('limestone' | 'marble')[]; catalogue: ReturnType<typeof parseCatalogueQuery> };
 export type ContactDetailsDTO = { phone: string | null; whatsapp: string | null; email: string | null; location: string | null };
 /** Only confirmed public contact values belong here. Replace this fixture with the site API in M6. */
 export function getContactDetails(): ContactDetailsDTO { return { phone: null, whatsapp: null, email: null, location: null }; }
@@ -58,9 +59,8 @@ export function getApplications(locale: Locale): ApplicationDTO[] {
   return applicationSlugs.map((slug, i) => ({ slug, title: c.applicationNames[i], description: c.applicationDescriptions[i], image: `application-${images[i]}`, gallery: galleries[i].map(image => `project-${image}`), considerations: c.considerations, temporary: true, stone_types: ['limestone', 'marble'], catalogue: parseCatalogueQuery(i === 5 ? { category: 'custom' } : { application: ['exterior', 'interior-flooring', 'wall-cladding', '', 'exterior'][i] }) }));
 }
 
-export function publicMetadata(locale: Locale, path: string, title: string, description: string,image?:string): Metadata {
-  const site = process.env.SITE_URL;
-  return { ...(image?{openGraph:{images:[image]}}:{}),title: `${title.replaceAll('\n', ' ')} — TIME STONE`, description, robots: { index: false, follow: false }, ...(site ? { metadataBase: new URL(site), alternates: { canonical: `/${locale}/${path}`, languages: Object.fromEntries(['fr', 'en', 'ar'].map(lang => [lang, `/${lang}/${path}`])) } } : {}) };
+export function publicMetadata(locale: Locale, path: string, title: string, description: string,image?:string, eligible?:readonly Locale[]): Metadata {
+  return localizedMetadata(locale,path,`${title.replaceAll('\n', ' ')} — TIME STONE`,description,image,eligible);
 }
 
 /** Provisional CMS-shaped About content; imagery and process describe illustrative concepts only. */

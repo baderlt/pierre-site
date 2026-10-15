@@ -1,0 +1,14 @@
+
+Running 7 tests using 1 worker
+
+(node:16352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [desktop] › tests\homepage-targeted.spec.ts:7:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (6.8s)
+  ok 2 [desktop] › tests\homepage-targeted.spec.ts:7:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (6.4s)
+  ok 3 [desktop] › tests\homepage-targeted.spec.ts:7:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (6.2s)
+  ok 4 [desktop] › tests\homepage-targeted.spec.ts:37:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (4.5s)
+  ok 5 [desktop] › tests\homepage-targeted.spec.ts:63:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion (10.3s)
+  ok 6 [desktop] › tests\homepage-targeted.spec.ts:80:5 › without JavaScript the homepage keeps the dedicated quotation destination (1.9s)
+  ok 7 [desktop] › tests\homepage-targeted.spec.ts:86:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (1.7s)
+
+  7 passed (39.0s)

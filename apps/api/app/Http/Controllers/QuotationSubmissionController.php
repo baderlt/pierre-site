@@ -51,7 +51,7 @@ class QuotationSubmissionController extends Controller
         try {
             $quote = DB::transaction(function () use ($data, $keyHash, $hash) {
                 $snapshots = [];
-                $products = Product::publicCatalogue()->whereIn('id', array_unique(array_column($data['items'], 'product_id')))->orderBy('id')->lockForUpdate()->with(['translations', 'finishes.translations', 'formats.translations', 'configuration'])->get()->keyBy('id');
+                $products = Product::publicCatalogue()->whereIn('id', array_unique(array_column($data['items'], 'product_id')))->orderBy('id')->lockForUpdate()->with(['translations', 'finishes.translations', 'formats.translations', 'texture', 'configuration.modelMedia', 'configuration.topMedia', 'configuration.bottomMedia', 'configuration.sideMedia'])->get()->keyBy('id');
                 foreach ($data['items'] as $i => $item) {
                     $p = $products->get($item['product_id']);
                     if (! $p) {
@@ -63,13 +63,20 @@ class QuotationSubmissionController extends Controller
                     if (! $finish || ! $format) {
                         throw ValidationException::withMessages(["items.$i" => 'Unsupported finish or format.']);
                     }
+                    $geometry = null;
+                    if (isset($item['geometry'])) {
+                        try {$geometry = app(\App\Domain\ViewerConfiguration::class)->selection($p, $item['geometry']);}
+                        catch (ValidationException $e) {throw ValidationException::withMessages(["items.$i.geometry" => collect($e->errors())->flatten()->all()]);}
+                        foreach (['width', 'height', 'thickness'] as $d) if (abs($geometry['dimensions_cm'][$d] - (float) $item['dimensions_cm'][$d]) > .00001) throw ValidationException::withMessages(["items.$i.geometry" => 'Geometry bounds do not match your dimensions.']);
+                    }
                     $custom = false;
                     foreach (['width', 'height', 'thickness'] as $d) {
                         if ((float) $item['dimensions_cm'][$d] !== (float) $format->pivot->$d) {
                             $custom = true;
                         }
                     }
-                    if ($custom && (! $format->pivot->allow_custom || ! $item['custom_dimensions_requested'])) {
+                    $changedGeometry = $geometry && array_filter(['width', 'height', 'thickness'], fn ($d) => abs((float) $p->configuration->$d - (float) $item['dimensions_cm'][$d]) > .00001);
+                    if (($geometry ? $changedGeometry : $custom) && (! $format->pivot->allow_custom || ! $item['custom_dimensions_requested'])) {
                         throw ValidationException::withMessages(["items.$i.dimensions_cm" => 'Custom dimensions require manufacturing confirmation and permission.']);
                     }
                     if ($item['unit'] === 'piece' && floor((float) $item['quantity']) !== (float) $item['quantity']) {
@@ -82,7 +89,7 @@ class QuotationSubmissionController extends Controller
                     $snapshots[] = ['product_id' => $p->id, 'product_snapshot' => ['id' => (string) $p->id, 'slug' => $p->slug, 'sku' => $p->sku, 'name' => $p->label($data['locale']), 'illustrative' => $p->illustrative],
                         'finish_snapshot' => ['id' => (string) $finish->id, 'slug' => $finish->slug, 'name' => $finish->label($data['locale']), 'simulation' => $finish->simulation],
                         'format_snapshot' => ['id' => (string) $format->id, 'geometry' => $format->geometry, 'name' => $format->label($data['locale']), 'verified' => (bool) $format->pivot->verified],
-                        'configuration_snapshot' => ['version' => 1, 'texture_media_id' => $p->texture_id ? (string) $p->texture_id : null, 'requested_visual' => $requested, 'saved_product_configuration' => $p->configuration?->only(['version', 'geometry', 'width', 'height', 'thickness', 'dimensions_verified', 'finish', 'scale', 'rotation', 'roughness', 'metalness', 'bump_strength', 'preset']), 'manufacturing_confirmation_required' => $custom || ! $format->pivot->verified],
+                        'configuration_snapshot' => ['version' => 1, 'geometry_selection' => $geometry, 'texture_media_id' => $p->texture_id ? (string) $p->texture_id : null, 'requested_visual' => $requested, 'saved_product_configuration' => $p->configuration?->only(['version', 'geometry', 'width', 'height', 'thickness', 'dimensions_verified', 'finish', 'scale', 'rotation', 'roughness', 'metalness', 'bump_strength', 'preset']), 'manufacturing_confirmation_required' => $custom || ! $format->pivot->verified || ($geometry && ! in_array($geometry['shape'], ['slab', 'tile', 'block'], true))],
                         ...$item['dimensions_cm'], 'quantity' => $item['quantity'], 'unit' => $item['unit'], 'custom_dimensions_requested' => $custom];
                 }
                 $q = new QuotationRequest(['uuid' => (string) Str::uuid(), 'reference' => 'TS-'.strtoupper(Str::random(16)), 'locale' => $data['locale'], 'customer_name' => $data['customer']['name'], 'email' => $data['customer']['email'], 'phone' => $data['customer']['phone'] ?? null, 'delivery_country' => $data['delivery']['country_code'], 'delivery_location' => $data['delivery']['location'], 'project_description' => $data['project_details'], 'privacy_acknowledged_at' => now(), 'submitted_at' => now(), 'status' => 'new']);

@@ -1,12 +1,13 @@
 import type { Locale } from './locales';
 import { validConfiguration, type StoneConfiguration, type StoneFinish,type ProductDetailDTO } from './product';
+import {selectionFor,validSelection,type GeometrySelection,type ViewerConfiguration} from './geometry';
 
 export const quotationUnits = ['m2', 'm3', 'piece'] as const;
 export type QuotationFields = { product: string; format_id?: string; shape: string; finish: string; width: string; height: string; thickness: string; quantity: string; unit: string; name: string; email: string; phone: string; country: string; location: string; description: string; privacy: boolean };
 export type QuotationField = Exclude<keyof QuotationFields,'format_id'>;
 /** Public submission contract; Laravel independently validates and snapshots all items. */
-export type QuotationDraftDTO = { locale: Locale; customer: { name: string; email: string; phone: string | null }; delivery: { country_code: string; location: string }; project_details: string; items: { product_id: string; format_id: string; finish_id: string; dimensions_cm: { width: string; height: string; thickness: string }; quantity: string; unit: typeof quotationUnits[number]; custom_dimensions_requested: boolean; configuration?: StoneConfiguration }[]; privacy_acknowledged: true; website: '' };
-export type QuotationProductOption = { id: string; name: string; image: string; configuration: StoneConfiguration; slug?:string; finish_options?:{id:string;slug:string;name:string;simulation:string}[]; format_options?:ProductDetailDTO['formats']; finishes: string[]; formats: StoneConfiguration['shape'][] };
+export type QuotationDraftDTO = { locale: Locale; customer: { name: string; email: string; phone: string | null }; delivery: { country_code: string; location: string }; project_details: string; items: { product_id: string; format_id: string; finish_id: string; dimensions_cm: { width: string; height: string; thickness: string }; quantity: string; unit: typeof quotationUnits[number]; custom_dimensions_requested: boolean; configuration?: StoneConfiguration;geometry?:GeometrySelection }[]; privacy_acknowledged: true; website: '' };
+export type QuotationProductOption = { id: string; name: string; image: string; configuration: StoneConfiguration;viewer?:ViewerConfiguration|null; slug?:string; finish_options?:{id:string;slug:string;name:string;simulation:string}[]; format_options?:ProductDetailDTO['formats']; finishes: string[]; formats: StoneConfiguration['shape'][] };
 export const countryCodes = 'AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW'.split(' ');
 export function quotationSelectionFromParams(params: Record<string, string | string[] | undefined>) {
   const quantity = typeof params.quantity === 'string' && /^\d+(?:\.\d+)?$/.test(params.quantity) && Number(params.quantity) > 0 && Number(params.quantity) <= 1000000 ? params.quantity : '';
@@ -28,7 +29,7 @@ export const quotationCopy = {
 } satisfies Record<Locale, Record<string, string | string[]>>;
 export type QuotationCopy = typeof quotationCopy.fr;
 
-export function validateQuotation(fields: QuotationFields, products: QuotationProductOption[], c: QuotationCopy): Partial<Record<QuotationField, string>> {
+export function validateQuotation(fields: QuotationFields, products: QuotationProductOption[], c: QuotationCopy,base?:StoneConfiguration): Partial<Record<QuotationField, string>> {
   const errors: Partial<Record<QuotationField, string>> = {};
   const product = products.find(item => item.id === fields.product);
   if (fields.product && !product) errors.product = c.invalidChoice;
@@ -36,6 +37,7 @@ export function validateQuotation(fields: QuotationFields, products: QuotationPr
   if (!(product?.formats ?? ['slab', 'block', 'tile']).includes(fields.shape as StoneConfiguration['shape'])) errors.shape = c.invalidChoice;
   if (!(product?.finishes ?? ['honed', 'polished', 'rough']).includes(fields.finish)) errors.finish = c.invalidChoice;
   for (const key of ['width', 'height', 'thickness'] as const) if (!fields[key].trim() || !Number.isFinite(Number(fields[key])) || Number(fields[key]) < 0.5 || Number(fields[key]) > 500) errors[key] = c.invalidDimension;
+  if(base?.geometry&&product?.viewer&&!validSelection(quotationGeometry(fields,base)!,product.viewer))errors.width=c.invalidDimension;
   if (!Number.isFinite(Number(fields.quantity)) || Number(fields.quantity) <= 0 || Number(fields.quantity) > 1000000) errors.quantity = c.invalidQuantity;
   if (fields.unit === 'piece' && !Number.isInteger(Number(fields.quantity))) errors.quantity = c.invalidQuantity;
   if (!countryCodes.includes(fields.country)) errors.country = c.invalidChoice;
@@ -52,18 +54,19 @@ export function validateQuotation(fields: QuotationFields, products: QuotationPr
 }
 
 export function quotationConfiguration(fields: QuotationFields, base?: StoneConfiguration): StoneConfiguration | null {
-  const configuration = { version: 1, shape: fields.shape, finish: fields.finish, width: Number(fields.width), height: Number(fields.height), thickness: Number(fields.thickness), scale: base?.scale ?? 1, rotation: base?.rotation ?? 0 };
+  const geometry=quotationGeometry(fields,base);
+  const configuration = { version: 1, shape: fields.shape, finish: fields.finish, width: Number(fields.width), height: Number(fields.height), thickness: Number(fields.thickness), scale: base?.scale ?? 1, rotation: base?.rotation ?? 0, ...(geometry?{geometry}:{}) };
   // Runtime validator checks enum values and numeric bounds before the draft is used.
   return validConfiguration(configuration as StoneConfiguration) ? configuration as StoneConfiguration : null;
 }
 
 /** Build the allowlisted payload; transport and persistence are handled separately. */
 export function buildQuotationDraft(locale: Locale, fields: QuotationFields, products: QuotationProductOption[], c: QuotationCopy, base?: StoneConfiguration): QuotationDraftDTO {
-  if (Object.keys(validateQuotation(fields, products, c)).length) throw new Error('Invalid quotation draft');
+  if (Object.keys(validateQuotation(fields, products, c,base)).length) throw new Error('Invalid quotation draft');
   return {locale,customer:{name:fields.name.trim(),email:fields.email.trim(),phone:fields.phone.trim()||null},delivery:{country_code:fields.country,location:fields.location.trim()},project_details:fields.description.trim(),items:fields.product?[buildQuotationItem(fields,products,base)]:[],privacy_acknowledged:true,website:''};
 }
 
-export function quotationOption(p:ProductDetailDTO):QuotationProductOption{return {id:p.id,slug:p.slug,name:p.name,image:p.images[0]?.src||p.image,configuration:p.saved_3d_configuration,finishes:p.finish_options?.map(f=>f.slug)||p.supported_finishes,formats:p.formats.map(f=>f.geometry),finish_options:p.finish_options,format_options:p.formats};}
+export function quotationOption(p:ProductDetailDTO):QuotationProductOption{return {id:p.id,slug:p.slug,name:p.name,image:p.images[0]?.src||p.image,configuration:{...p.saved_3d_configuration,...(p.viewer?{geometry:selectionFor(p.viewer)}:{})},viewer:p.viewer,finishes:p.finish_options?.map(f=>f.slug)||p.supported_finishes,formats:p.formats.map(f=>f.geometry),finish_options:p.finish_options,format_options:p.formats};}
 const liveCopy={
  fr:{product:'Produit',finish:'Finition demandée',privacy:'J’accepte que ces informations soient enregistrées pour traiter ma demande.',privacyText:'Vos coordonnées et votre demande sont enregistrées et accessibles aux administrateurs autorisés. Aucun paiement ni commande ne résulte de cet envoi. La politique de confidentialité et la durée de conservation finales restent à approuver avant la mise en production.',submit:'Envoyer ma demande',success:'Demande enregistrée',successBody:'Votre demande a été enregistrée. Conservez cette référence pour vos échanges. Elle ne constitue ni une commande ni une offre commerciale.',requiredNote:'Tous les champs sont obligatoires, sauf le téléphone.',noScript:'Activez JavaScript pour envoyer votre demande.',privacyRequired:'Veuillez accepter le traitement de votre demande.'},
  en:{product:'Product',finish:'Requested finish',privacy:'I agree to these details being stored to process my enquiry.',privacyText:'Your contact details and enquiry are stored and accessible to authorized administrators. Submission creates no payment or order. The final privacy policy and retention period require approval before production launch.',submit:'Send my enquiry',success:'Enquiry saved',successBody:'Your enquiry has been saved. Keep this reference for your correspondence. It is neither an order nor a commercial offer.',requiredNote:'All fields are required except phone.',noScript:'Enable JavaScript to send your enquiry.',privacyRequired:'Please agree to processing your enquiry.'},
@@ -75,8 +78,12 @@ export const submissionMessages={fr:{pending:'Enregistrement…',failed:'Envoi n
 export function buildQuotationItem(fields:QuotationFields,products:QuotationProductOption[],base?:StoneConfiguration):QuotationDraftDTO['items'][number]{
  const product=products.find(p=>p.id===fields.product);if(!product)throw new Error('Product unavailable');
  const configuration=quotationConfiguration({...fields,finish:product.finish_options?.find(f=>f.slug===fields.finish)?.simulation||fields.finish},base);
- return { product_id: product.id, format_id: product.format_options?.find(f=>fields.format_id?f.id===fields.format_id:f.geometry===fields.shape)?.id||fields.shape, finish_id: product.finish_options?.find(f=>f.slug===fields.finish)?.id||fields.finish, dimensions_cm: { width: fields.width, height: fields.height, thickness: fields.thickness }, quantity: fields.quantity, unit: fields.unit as typeof quotationUnits[number], custom_dimensions_requested: ['width', 'height', 'thickness'].some(key => Number(fields[key as 'width']) !== (product.format_options?.find(f=>fields.format_id?f.id===fields.format_id:f.geometry===fields.shape)?.dimensions_cm||product.configuration)[key as 'width']), ...(configuration?{configuration}:{}) };
+ const geometry=quotationGeometry(fields,base);if(geometry&&(!product.viewer||!validSelection(geometry,product.viewer)))throw new Error('Invalid geometry selection');
+ const visual=configuration?Object.fromEntries(Object.entries(configuration).filter(([key])=>key!=='geometry')) as StoneConfiguration:null;
+ return { product_id: product.id, format_id: product.format_options?.find(f=>fields.format_id?f.id===fields.format_id:f.geometry===fields.shape)?.id||fields.shape, finish_id: product.finish_options?.find(f=>f.slug===fields.finish)?.id||fields.finish, dimensions_cm: { width: fields.width, height: fields.height, thickness: fields.thickness }, quantity: fields.quantity, unit: fields.unit as typeof quotationUnits[number], custom_dimensions_requested: ['width', 'height', 'thickness'].some(key => Number(fields[key as 'width']) !== (product.format_options?.find(f=>fields.format_id?f.id===fields.format_id:f.geometry===fields.shape)?.dimensions_cm||product.configuration)[key as 'width']), ...(visual?{configuration:visual}:{}),...(geometry?{geometry}:{}) };
 }
+
+function quotationGeometry(fields:QuotationFields,base?:StoneConfiguration){const g=base?.geometry;return g?.source==='procedural'&&['slab','block','tile'].includes(g.shape)?{...g,parameters:{width:Number(fields.width),height:Number(fields.height),thickness:Number(fields.thickness)}}:g;}
 
 export function quotationRateMessage(locale:Locale,retryAfter:string|null){
  const seconds=retryAfter&&/^\d+$/.test(retryAfter)?Number(retryAfter):0;

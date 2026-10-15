@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect, type Page } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { mkdir } from 'node:fs/promises';
@@ -8,8 +9,9 @@ const fullPageStyle = '#materials, #craft, #applications, #contact { content-vis
 
 async function visitDeferredSections(page: Page) {
   for (const id of ['materials', 'craft', 'applications', 'contact']) {
-    await page.locator(`#${id}`).scrollIntoViewIfNeeded();
-    await expect(page.locator(`#${id} h2`)).toBeInViewport();
+    const heading=page.locator(`#${id} h2`).first();
+    await heading.scrollIntoViewIfNeeded();
+    await expect(heading).toBeInViewport();
     await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
   }
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
@@ -26,7 +28,7 @@ for (const locale of locales) {
     await expect(page.locator('html')).toHaveAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr');
     await expect(page).toHaveTitle(homeContent[locale].meta.title);
     await expect(page.locator('h1')).toHaveCount(1);
-    await expect(page.locator('#contact')).toContainText(homeContent[locale].contact.status);
+    await expect(page.locator('#contact .home-quote-page-link')).toHaveAttribute('href', `/${locale}/quote`);
     expect(await page.locator('meta[name="robots"]').getAttribute('content')).toContain('noindex');
     await page.evaluate(() => document.fonts.ready);
     expect(await page.locator('body').evaluate(element => getComputedStyle(element).fontFamily.split(',')[0])).not.toMatch(/Arial|Georgia/);
@@ -42,13 +44,14 @@ for (const locale of locales) {
     expect(await page.locator('img').evaluateAll(images => images.every(image => (image as HTMLImageElement).naturalWidth > 0))).toBe(true);
     expect(await page.locator('a[href^="#"]').evaluateAll(links => links.every(link => document.getElementById(link.getAttribute('href')!.slice(1))))).toBe(true);
     const resources = await page.evaluate(() => performance.getEntriesByType('resource').map(entry => entry.name));
-    expect(resources.every(url => new URL(url).origin === locationOrigin(resources))).toBe(true);
+    const mapSource=await page.locator('.magasin-map iframe').getAttribute('src').catch(()=>null);
+    expect(resources.every(url => new URL(url).origin === locationOrigin(resources)||url===mapSource)).toBe(true);
     expect(resources.some(url => /three|GLTF|fiber/.test(url))).toBe(false);
     expect(errors).toEqual([]);
     await visitDeferredSections(page);
-    await mkdir('docs/qa', { recursive: true });
-    await page.screenshot({ path: `docs/qa/home-${locale}-${testInfo.project.name}.png`, scale: 'css', animations: 'disabled' });
-    await page.screenshot({ path: `docs/qa/home-${locale}-${testInfo.project.name}-full.png`, scale: 'css', fullPage: true, animations: 'disabled', style: fullPageStyle });
+    await mkdir(qaOutput('docs/qa'), { recursive: true });
+    await page.screenshot({ path: qaOutput(`docs/qa/home-${locale}-${testInfo.project.name}.png`), scale: 'css', animations: 'disabled' });
+    await page.screenshot({ path: qaOutput(`docs/qa/home-${locale}-${testInfo.project.name}-full.png`), scale: 'css', fullPage: true, animations: 'disabled', style: fullPageStyle });
   });
 
   test(`${locale}: WCAG A/AA automated scan`, async ({ page }) => {
@@ -81,7 +84,7 @@ function locationOrigin(resources: string[]) {
 test('language switching preserves query and section and supports all three languages', async ({ page }) => {
   await page.goto('/fr?preview=1#applications');
   for (const locale of ['ar', 'en', 'fr'] as const) {
-    await page.locator('select').selectOption(locale);
+    await page.locator('.site-header select').selectOption(locale);
     const expectedUrl=`${process.env.QA_BASE_URL || 'http://127.0.0.1:3000'}/${locale}?preview=1#applications`;
     await page.waitForURL(expectedUrl,{waitUntil:'domcontentloaded',timeout:60000});
     expect(page.url()).toBe(expectedUrl);
@@ -156,9 +159,9 @@ test('requested widths preserve hero space, typography and layout in every langu
         await Promise.all([...document.images].map(image => image.decode().catch(() => {})));
       });
       await visitDeferredSections(page);
-      await mkdir('docs/qa/refinement', { recursive: true });
-      await page.screenshot({ path: `docs/qa/refinement/home-${locale}-${width}.png`, scale: 'css', animations: 'disabled' });
-      if ([390, 1536].includes(width)) await page.screenshot({ path: `docs/qa/refinement/home-${locale}-${width}-full.png`, scale: 'css', fullPage: true, animations: 'disabled', style: fullPageStyle });
+      await mkdir(qaOutput('docs/qa/refinement'), { recursive: true });
+      await page.screenshot({ path: qaOutput(`docs/qa/refinement/home-${locale}-${width}.png`), scale: 'css', animations: 'disabled' });
+      if ([390, 1536].includes(width)) await page.screenshot({ path: qaOutput(`docs/qa/refinement/home-${locale}-${width}-full.png`), scale: 'css', fullPage: true, animations: 'disabled', style: fullPageStyle });
     }
   }
 });

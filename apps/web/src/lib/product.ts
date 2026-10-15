@@ -1,15 +1,17 @@
 import { catalogueUrl, getSamples, type CatalogueQuery, type ProductCardDTO } from './catalogue';
 import type { Locale } from './locales';
+import {geometryDimensions,selectionFor,validSelection,type GeometrySelection,type ViewerConfiguration,type Shape} from './geometry';
 
 export type GeometryType = 'slab' | 'block' | 'tile';
 export type StoneFinish = 'honed' | 'polished' | 'rough';
 export type DimensionsCm = { width: number; height: number; thickness: number };
-export type StoneConfiguration = DimensionsCm & { version: 1; shape: GeometryType; finish: StoneFinish; scale: number; rotation: number };
+export type StoneConfiguration = DimensionsCm & { version: 1; shape: GeometryType; finish: StoneFinish; scale: number; rotation: number;geometry?:GeometrySelection };
 export type ProductImage = { src: string; role: 'studio' | 'texture' | 'application'; temporary: boolean; alt?: string };
 /** Laravel-facing contract. Illustrative configuration is never a technical specification. */
 export type ProductDetailDTO = ProductCardDTO & {
   applications?: string[];
   viewer_available?: boolean;
+  viewer?:ViewerConfiguration|null;
   material_parameters?: {roughness:number;metalness:number;bump_strength:number;preset:string}|null;
   finish_options?: {id:string;slug:string;name:string;simulation:string}[];
   seo?: Record<string,unknown>;
@@ -53,6 +55,7 @@ export function productUrl(locale: Locale, id: string, query: CatalogueQuery, co
   if (!config) return path;
   const url = new URL(path, 'https://local.invalid');
   for (const key of ['shape', 'finish', 'width', 'height', 'thickness'] as const) url.searchParams.set(`v_${key}`, String(config[key]));
+  if(config.geometry)url.searchParams.set('v_geometry',JSON.stringify(config.geometry));
   return `${url.pathname}${url.search}`;
 }
 export function validConfiguration(value: StoneConfiguration) {
@@ -79,4 +82,12 @@ export function configurationFromParams(params: Record<string, string | string[]
   return validConfiguration(config) ? config : fallback;
 }
 
-export function productConfigurationFromParams(params:Record<string,string|string[]|undefined>,product:ProductDetailDTO){const c=configurationFromParams(params,product.saved_3d_configuration);const f=product.formats.find(f=>f.geometry===c.shape);if(!f||!product.supported_finishes.includes(c.finish))return product.saved_3d_configuration;return c;}
+export function productConfigurationFromParams(params:Record<string,string|string[]|undefined>,product:ProductDetailDTO){
+ const base=product.saved_3d_configuration,c=configurationFromParams(params,base),v=product.viewer;
+ if(!product.formats.some(f=>f.geometry===c.shape)||product.supported_finishes.length&&!product.supported_finishes.includes(c.finish))return base;
+ if(!v)return c;
+ let s=selectionFor(v);
+ if(typeof params.v_geometry==='string'&&params.v_geometry.length<=4096){try{const parsed=JSON.parse(params.v_geometry);if(parsed&&typeof parsed==='object'&&parsed.parameters&&validSelection(parsed,v))s=parsed;}catch{}}
+ else if(v.source==='procedural'&&['slab','block','tile'].includes(v.shape)){const candidate={...s,parameters:{width:c.width,height:c.height,thickness:c.thickness}};if(validSelection(candidate,v))s=candidate;}
+ return {...c,...(v.source==='glb'?v.model!.dimensions_cm:geometryDimensions(s.shape as Shape,s.parameters)),geometry:s};
+}

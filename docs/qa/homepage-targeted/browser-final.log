@@ -1,0 +1,132 @@
+
+Running 7 tests using 1 worker
+
+(node:15840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [desktop] › tests\homepage-targeted.spec.ts:7:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (1.9s)
+(node:28192) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 [desktop] › tests\homepage-targeted.spec.ts:7:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (1.5s)
+(node:30344) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  3 [desktop] › tests\homepage-targeted.spec.ts:7:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (1.0s)
+(node:9676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 4 [desktop] › tests\homepage-targeted.spec.ts:37:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (4.9s)
+  ok 5 [desktop] › tests\homepage-targeted.spec.ts:63:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion (13.9s)
+  ok 6 [desktop] › tests\homepage-targeted.spec.ts:80:5 › without JavaScript the homepage keeps the dedicated quotation destination (2.6s)
+  x  7 [desktop] › tests\homepage-targeted.spec.ts:86:5 › manual keyboard activation without IntersectionObserver focuses the existing form (3.0m)
+
+
+  1) [desktop] › tests\homepage-targeted.spec.ts:7:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      12 |   const reads:string[]=[];page.on('request',r=>{if(r.url().includes('/api/quotations'))reads.push(r.method());});
+      13 |   await page.goto(`/${locale}`);await page.evaluate(()=>document.fonts.ready);await Promise.all(pending);
+    > 14 |   expect(formCode).toBe(false);expect(reads).toEqual([]);await expect(page.locator('.home-location')).toHaveCount(0);
+         |                    ^
+      15 |   await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');
+      16 |   const craftTitle=await page.locator('#craft h2').innerText();
+      17 |   await page.locator('#contact').scrollIntoViewIfNeeded();await expect(page.locator('#quote-name')).toBeVisible();await Promise.all(pending);expect(formCode).toBe(true);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:14:20
+
+    Error Context: test-results\homepage-targeted-fr-targe-979ca--form-RTL-and-accessibility-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\homepage-targeted-fr-targe-979ca--form-RTL-and-accessibility-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\homepage-targeted-fr-targe-979ca--form-RTL-and-accessibility-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests\homepage-targeted.spec.ts:7:42 › en: targeted sections at six widths, lazy form, RTL and accessibility 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      12 |   const reads:string[]=[];page.on('request',r=>{if(r.url().includes('/api/quotations'))reads.push(r.method());});
+      13 |   await page.goto(`/${locale}`);await page.evaluate(()=>document.fonts.ready);await Promise.all(pending);
+    > 14 |   expect(formCode).toBe(false);expect(reads).toEqual([]);await expect(page.locator('.home-location')).toHaveCount(0);
+         |                    ^
+      15 |   await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');
+      16 |   const craftTitle=await page.locator('#craft h2').innerText();
+      17 |   await page.locator('#contact').scrollIntoViewIfNeeded();await expect(page.locator('#quote-name')).toBeVisible();await Promise.all(pending);expect(formCode).toBe(true);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:14:20
+
+    Error Context: test-results\homepage-targeted-en-targe-cd84a--form-RTL-and-accessibility-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\homepage-targeted-en-targe-cd84a--form-RTL-and-accessibility-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\homepage-targeted-en-targe-cd84a--form-RTL-and-accessibility-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests\homepage-targeted.spec.ts:7:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      12 |   const reads:string[]=[];page.on('request',r=>{if(r.url().includes('/api/quotations'))reads.push(r.method());});
+      13 |   await page.goto(`/${locale}`);await page.evaluate(()=>document.fonts.ready);await Promise.all(pending);
+    > 14 |   expect(formCode).toBe(false);expect(reads).toEqual([]);await expect(page.locator('.home-location')).toHaveCount(0);
+         |                    ^
+      15 |   await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');
+      16 |   const craftTitle=await page.locator('#craft h2').innerText();
+      17 |   await page.locator('#contact').scrollIntoViewIfNeeded();await expect(page.locator('#quote-name')).toBeVisible();await Promise.all(pending);expect(formCode).toBe(true);
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:14:20
+
+    Error Context: test-results\homepage-targeted-ar-targe-a60fa--form-RTL-and-accessibility-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\homepage-targeted-ar-targe-a60fa--form-RTL-and-accessibility-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\homepage-targeted-ar-targe-a60fa--form-RTL-and-accessibility-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › tests\homepage-targeted.spec.ts:86:5 › manual keyboard activation without IntersectionObserver focuses the existing form 
+
+    Test timeout of 180000ms exceeded.
+
+    Error: locator.focus: Test timeout of 180000ms exceeded.
+    Call log:
+      - waiting for locator('.home-quote-placeholder button')
+
+
+      86 | test('manual keyboard activation when automatic mounting is suppressed focuses the existing form',async({page})=>{
+      87 |   await page.addInitScript(()=>{const Native=window.IntersectionObserver;window.IntersectionObserver=class extends Native {observe(target:Element){if(!target.classList.contains('home-quote-mount'))super.observe(target);}};});
+    > 88 |   await page.goto('/fr#contact');const button=page.locator('.home-quote-placeholder button');await button.focus();await page.keyboard.press('Enter');
+         |                                                                                                           ^
+      89 |   await expect(page.locator('#quote-product-search')).toBeFocused();
+      90 | });
+      91 |
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\homepage-targeted.spec.ts:88:107
+
+    Error Context: test-results\homepage-targeted-manual-k-b3d3e-r-focuses-the-existing-form-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\homepage-targeted-manual-k-b3d3e-r-focuses-the-existing-form-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\homepage-targeted-manual-k-b3d3e-r-focuses-the-existing-form-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [desktop] › tests\homepage-targeted.spec.ts:7:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility 
+    [desktop] › tests\homepage-targeted.spec.ts:7:42 › en: targeted sections at six widths, lazy form, RTL and accessibility 
+    [desktop] › tests\homepage-targeted.spec.ts:7:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility 
+    [desktop] › tests\homepage-targeted.spec.ts:86:5 › manual keyboard activation without IntersectionObserver focuses the existing form 
+  3 passed (3.5m)

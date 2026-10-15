@@ -9,7 +9,7 @@ import { isLocale, locales } from '@/lib/locales';
 
 type Props = { params: Promise<{ locale: string }> };
 export function generateStaticParams() { return locales.map(locale => ({ locale })); }
-export async function generateMetadata({params}:Props){const {locale}=await params;if(!isLocale(locale))notFound();const page=await getPage(locale,'contact');return publicMetadata(locale,'contact',typeof page.seo.title==='string'&&page.seo.title||page.title,typeof page.seo.description==='string'&&page.seo.description||page.description,typeof page.seo.image==='string'?page.seo.image:undefined);}
+export async function generateMetadata({params}:Props){const {locale}=await params;if(!isLocale(locale))notFound();const page=await getPage(locale,'contact');return publicMetadata(locale,'contact',typeof page.seo.title==='string'&&page.seo.title||page.title,typeof page.seo.description==='string'&&page.seo.description||page.description,typeof page.seo.image==='string'?page.seo.image:undefined,page.available_locales);}
 export default async function ContactPage({ params }: Props) {
   const { locale } = await params; if (!isLocale(locale)) notFound(); const [{c,heroImage},details]=await Promise.all([getPublicContent(locale,'contact'),getContactDetails(locale)]);
   return <PublicPage locale={locale} page="contact"><PageHero locale={locale} image={heroImage} eyebrow={c.contact} title={c.contactPageTitle} description={c.contactPageIntro} compact />

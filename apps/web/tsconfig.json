@@ -41,7 +41,21 @@
     ".next-audit-m6/types/**/*.ts",
     ".next-audit-m6/dev/types/**/*.ts",
     ".next-corrections-m6/types/**/*.ts",
-    ".next-corrections-m6/dev/types/**/*.ts"
+    ".next-corrections-m6/dev/types/**/*.ts",
+    ".next-m7/types/**/*.ts",
+    ".next-m7/dev/types/**/*.ts",
+    ".next-home-targeted/types/**/*.ts",
+    ".next-home-targeted/dev/types/**/*.ts",
+    ".next-simple-map/types/**/*.ts",
+    ".next-simple-map/dev/types/**/*.ts",
+    ".next-m7-gate/types/**/*.ts",
+    ".next-m7-gate/dev/types/**/*.ts",
+    ".next-m8/types/**/*.ts",
+    ".next-m8/dev/types/**/*.ts",
+    ".next-custom-3d/types/**/*.ts",
+    ".next-custom-3d/dev/types/**/*.ts",
+    ".next-custom-3d-final/types/**/*.ts",
+    ".next-custom-3d-final/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

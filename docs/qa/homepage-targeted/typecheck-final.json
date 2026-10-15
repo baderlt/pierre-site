@@ -1,0 +1,5 @@
+{
+  "command": "tsc --noEmit -p apps/web/tsconfig.json",
+  "exit_code": 0,
+  "output": []
+}

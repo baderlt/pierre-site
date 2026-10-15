@@ -6,9 +6,10 @@ use App\Domain\MediaLibrary;
 
 class Media extends ContentModel
 {
+    protected $attributes = ['asset_type' => 'image'];
     protected $table = 'media';
 
-    protected $fillable = ['original_filename', 'disk', 'path', 'mime', 'bytes', 'width', 'height', 'purpose', 'processing_status', 'derivatives', 'uploaded_at'];
+    protected $fillable = ['original_filename', 'disk', 'path', 'mime', 'bytes', 'width', 'height', 'purpose', 'processing_status', 'derivatives', 'uploaded_at', 'asset_type'];
 
     protected function casts(): array
     {

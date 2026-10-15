@@ -1,0 +1,286 @@
+[
+  {
+    "locale": "ar",
+    "route": "products",
+    "width": 1024,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(23, 35, 46, 0.86), rgba(23, 35, 46, 0.125))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "about",
+    "width": 1024,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "applications",
+    "width": 1024,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "A",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "contact",
+    "width": 1024,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "quote",
+    "width": 1024,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "applications/stairs",
+    "width": 1024,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "products",
+    "width": 1536,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(23, 35, 46, 0.86), rgba(23, 35, 46, 0.125))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "about",
+    "width": 1536,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "applications",
+    "width": 1536,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "A",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "contact",
+    "width": 1536,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "quote",
+    "width": 1536,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "route": "applications/stairs",
+    "width": 1536,
+    "painted": [
+      {
+        "tag": "P",
+        "painted": true
+      },
+      {
+        "tag": "H1",
+        "painted": true
+      },
+      {
+        "tag": "P",
+        "painted": true
+      }
+    ],
+    "backgroundZ": "-2",
+    "gradientZ": "-1",
+    "gradient": "linear-gradient(90deg, rgba(16, 28, 37, 0.93), rgba(21, 33, 38, 0.56) 48%, rgba(21, 33, 38, 0.133))",
+    "overflow": false
+  }
+]

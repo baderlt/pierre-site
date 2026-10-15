@@ -1,0 +1,10 @@
+PHPUnit 12.5.39 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.6
+Configuration: C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml
+
+.............................                                     29 / 29 (100%)
+
+Time: 00:21.056, Memory: 82.00 MB
+
+[30;42mOK (29 tests, 84 assertions)[0m

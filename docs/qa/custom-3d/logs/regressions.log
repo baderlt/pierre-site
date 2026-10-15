@@ -1,0 +1,22 @@
+
+Running 66 tests using 1 worker
+
+(node:10604) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [desktop] › tests\homepage-targeted.spec.ts:9:42 › fr: targeted sections at six widths, lazy form, RTL and accessibility (24.5s)
+  ok  2 [desktop] › tests\homepage-targeted.spec.ts:9:42 › en: targeted sections at six widths, lazy form, RTL and accessibility (20.2s)
+  ok  3 [desktop] › tests\homepage-targeted.spec.ts:9:42 › ar: targeted sections at six widths, lazy form, RTL and accessibility (22.1s)
+  ok  4 [desktop] › tests\homepage-targeted.spec.ts:46:5 › same quotation validation, product selection and duplicate-safe uncertain recovery (11.4s)
+  -   5 [desktop] › tests\homepage-targeted.spec.ts:72:5 › location fixture: directions safety, translated layouts, keyboard and reduced motion
+  ok  6 [desktop] › tests\homepage-targeted.spec.ts:89:5 › without JavaScript the homepage keeps the dedicated quotation destination (6.1s)
+  ok  7 [desktop] › tests\homepage-targeted.spec.ts:95:5 › manual keyboard activation when automatic mounting is suppressed focuses the existing form (4.8s)
+  x   8 [desktop] › tests\product.spec.ts:10:35 › fr: product SSR, gallery, finishes, quotation and accessible navigation (3.0m)
+(node:18536) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  9 [desktop] › tests\product.spec.ts:10:35 › en: product SSR, gallery, finishes, quotation and accessible navigation (9.4s)
+  ok 10 [desktop] › tests\product.spec.ts:10:35 › ar: product SSR, gallery, finishes, quotation and accessible navigation (7.9s)
+  ok 11 [desktop] › tests\product.spec.ts:48:5 › product data contracts reject unsafe configuration and unknown products (1.4s)
+  ok 12 [desktop] › tests\product.spec.ts:63:5 › product width matrix, screenshots and no initial 3D payload (25.1s)
+  ok 13 [desktop] › tests\product.spec.ts:82:5 › product photos, details and quotation destination work without JavaScript (2.1s)
+  ok 14 [desktop] › tests\public-pages.spec.ts:10:35 › fr: public pages, gallery focus and demo quotation (17.2s)
+  ok 15 [desktop] › tests\public-pages.spec.ts:10:35 › en: public pages, gallery focus and demo quotation (15.7s)

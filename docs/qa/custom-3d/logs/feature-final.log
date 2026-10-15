@@ -1,0 +1,47 @@
+
+Running 6 tests using 1 worker
+
+(node:25944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [desktop] › tests\custom-3d.spec.ts:14:54 › fr: optional 3D, responsive controls, static payload and RTL (1.8m)
+  ok 2 [desktop] › tests\custom-3d.spec.ts:14:54 › en: optional 3D, responsive controls, static payload and RTL (58.1s)
+  ok 3 [desktop] › tests\custom-3d.spec.ts:14:54 › ar: optional 3D, responsive controls, static payload and RTL (29.7s)
+  ok 4 [desktop] › tests\custom-3d.spec.ts:52:5 › procedural examples, GLB materials, exports, repeated disposal and measured mobile cost (1.5m)
+  ok 5 [desktop] › tests\custom-3d.spec.ts:84:5 › real geometry quotation, immutable snapshot and duplicate retry (8.4s)
+  x  6 [desktop] › tests\custom-3d.spec.ts:97:5 › Filament translated controls, GLB rejection and immediate disable protection (3.2m)
+
+
+  1) [desktop] › tests\custom-3d.spec.ts:97:5 › Filament translated controls, GLB rejection and immediate disable protection 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+    Call Log:
+    - Test timeout of 180000ms exceeded
+
+      117 |   const a11y=await new AxeBuilder({page}).analyze();expect(a11y.violations.filter(v=>['serious','critical'].includes(v.impact||''))).toEqual([]);
+      118 |  }
+    > 119 |  await page.goto(`${api}/admin/products/${fixtures.glb.id}/edit`);await page.waitForLoadState('networkidle');await page.locator('#admin-locale').selectOption('en');await Promise.all([page.waitForNavigation(),page.locator('.admin-language-switcher button').click()]);
+          |                                                                                                                                                                                                                                                                           ^
+      120 |  if(await page.locator('[id="form.viewer_enabled"]').getAttribute('aria-checked')==='false'){await page.locator('[id="form.viewer_enabled"]').click();await expect(page.locator('[id="form.configuration.source"]')).toBeVisible();await page.getByRole('button',{name:'Save changes',exact:true}).click();await expect.poll(async()=> (await (await request.get(`${api}/api/v1/products/${fixtures.glb.slug}`)).json()).data.viewer_available).toBe(true);await page.reload();}
+      121 |  const previousModelUrl=(await (await request.get(`${api}/api/v1/products/${fixtures.glb.slug}`)).json()).data.viewer.model.url;
+      122 |  const file=page.locator('input[type="file"]').last();await file.setInputFiles({name:'invalid.glb',mimeType:'model/gltf-binary',buffer:Buffer.from('not a model')});await expect(page.locator('.filepond--file-status-main')).toHaveText('Upload complete');
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\custom-3d.spec.ts:119:342
+
+    Error Context: .tools\custom-3d\feature-final-failures\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\custom-3d\feature-final-failures\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\custom-3d\feature-final-failures\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Slow test file: [desktop] › tests\custom-3d.spec.ts (8.1m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  1 failed
+    [desktop] › tests\custom-3d.spec.ts:97:5 › Filament translated controls, GLB rejection and immediate disable protection 
+  5 passed (8.3m)

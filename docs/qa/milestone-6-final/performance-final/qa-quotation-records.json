@@ -1,0 +1,162 @@
+[
+    {
+        "id": 60,
+        "reference": "TS-9UBK3USRZFACKR2V",
+        "locale": "ar",
+        "status": "in_review",
+        "items_count": 1,
+        "test_identity": "qa-m6-e2e@example.test"
+    },
+    {
+        "id": 61,
+        "reference": "TS-NQ3IVF5BHSFAZWF9",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 0,
+        "test_identity": "qa-m6-timeout@example.test"
+    },
+    {
+        "id": 62,
+        "reference": "TS-8IZOJOKMTM2VNC0G",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 0,
+        "test_identity": "qa-m6-final-http@example.test"
+    },
+    {
+        "id": 63,
+        "reference": "TS-KT6XGEYWUFHYMDC3",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 0,
+        "test_identity": "qa-m6-final-http@example.test"
+    },
+    {
+        "id": 64,
+        "reference": "TS-CJX88I4RDPGBFBLW",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 65,
+        "reference": "TS-BYQHTP7KMTV8Q90Q",
+        "locale": "en",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 66,
+        "reference": "TS-J7ZXPDACOXMHJCWC",
+        "locale": "ar",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 67,
+        "reference": "TS-Y0AJLHSJQCOBW3QM",
+        "locale": "ar",
+        "status": "in_review",
+        "items_count": 1,
+        "test_identity": "qa-m6-e2e@example.test"
+    },
+    {
+        "id": 68,
+        "reference": "TS-IJZIXXQAIO0IB6TP",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 69,
+        "reference": "TS-PPG35WJMEVAPF4OF",
+        "locale": "en",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 70,
+        "reference": "TS-0ZA2ZZK3D9E2NEFM",
+        "locale": "ar",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 71,
+        "reference": "TS-LD3NHNGS5D4IX3QE",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 72,
+        "reference": "TS-SAR20B1GVSHTJZ9C",
+        "locale": "en",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 73,
+        "reference": "TS-JLVG3BMZ3ISIQZWO",
+        "locale": "ar",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 74,
+        "reference": "TS-D0JUHNLGGV43JOM7",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 75,
+        "reference": "TS-6WRFAJ8P8WLQ16PK",
+        "locale": "en",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 76,
+        "reference": "TS-ZELENBKC1OJMS9KB",
+        "locale": "ar",
+        "status": "new",
+        "items_count": 1,
+        "test_identity": "qa-m6-regression@example.test"
+    },
+    {
+        "id": 77,
+        "reference": "TS-XLAO1HE6QQHOSQCU",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 0,
+        "test_identity": "qa-m6-timeout@example.test"
+    },
+    {
+        "id": 78,
+        "reference": "TS-PHMSUTS3KKUEH5RA",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 0,
+        "test_identity": "qa-m6-final-http@example.test"
+    },
+    {
+        "id": 79,
+        "reference": "TS-UB4YZBDCCSXPJQ2H",
+        "locale": "fr",
+        "status": "new",
+        "items_count": 0,
+        "test_identity": "qa-m6-final-http@example.test"
+    }
+]

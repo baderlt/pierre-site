@@ -1,31 +1,37 @@
 import { Component, Suspense, forwardRef, useEffect, useImperativeHandle, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { Canvas, useThree, useFrame } from '@react-three/fiber';
 import { ContactShadows, Environment, Lightformer, OrbitControls } from '@react-three/drei';
-import { MathUtils, PCFSoftShadowMap, Vector3 } from 'three';
-import { createStoneResources, dimensionsInMeters } from './stone.js';
+import { Box3, MathUtils, PCFSoftShadowMap, Vector3 } from 'three';
+import { dimensionsInMeters } from './stone.js';
+import { createProductResources } from './geometry.js';
 
 function Stone({ asset, settings, meshRef, onReady }) {
   const { gl, invalidate } = useThree();
   const announced = useRef(false);
   // Material sliders mutate existing materials; only dimensions replace geometry.
-  const resource = useMemo(() => createStoneResources(asset, settings, Math.min(8, gl.capabilities.getMaxAnisotropy())), [asset, gl, settings.width, settings.height, settings.thickness]);
+  const resource = useMemo(() => {
+    const result = createProductResources(asset, settings, Math.min(8, gl.capabilities.getMaxAnisotropy()));
+    return result;
+  }, [asset, gl, settings.width, settings.height, settings.thickness, settings.geometry?.shape, JSON.stringify(settings.geometry?.parameters)]);
   useLayoutEffect(() => () => resource.dispose(), [resource]);
   useLayoutEffect(() => {
-    resource.materials.forEach(material => {
-      material.roughness = settings.roughness;
+    resource.materials.forEach((material,face) => {
+      const roughEdge=face<4&&settings.edgeFinish==='rough';
+      material.roughness = roughEdge?.92:settings.roughness;
       material.metalness = settings.metalness ?? 0;
-      material.bumpScale = settings.bump * 0.003;
-      const clearcoat = settings.finish === 'polished' ? 0.32 : settings.finish === 'honed' ? 0.04 : 0;
+      material.bumpScale = (roughEdge?.72:settings.bump) * 0.003;
+      const clearcoat = roughEdge?0:settings.finish === 'polished' ? 0.32 : settings.finish === 'honed' ? 0.04 : 0;
       if (Boolean(material.clearcoat) !== Boolean(clearcoat)) material.needsUpdate = true;
       material.clearcoat = clearcoat;
       material.envMapIntensity = settings.finish === 'polished' ? 0.9 : 0.6;
     });
     invalidate();
-  }, [resource, settings.roughness, settings.metalness, settings.bump, settings.finish, invalidate]);
+  }, [resource, settings.roughness, settings.metalness, settings.bump, settings.finish, settings.edgeFinish, invalidate]);
   useLayoutEffect(() => {
     resource.materials.forEach((material, face) => {
       const [width, height, depth] = resource.dimensions;
-      const repeat = face < 2 ? [depth / width, 1] : face < 4 ? [1, depth / height] : [1, 1];
+      const rw=(settings.referenceWidth||settings.width)/100,rh=(settings.referenceHeight||settings.height)/100;
+      const repeat = resource.geometry.userData.physicalUVs?[1,1]:face < 2 ? [depth / rw, height/rh] : face < 4 ? [width/rw, depth / rh] : [width/rw, height/rh];
       for (const texture of [material.map, material.bumpMap]) {
         texture.repeat.set(repeat[0] * settings.scale, repeat[1] * settings.scale);
         texture.rotation = MathUtils.degToRad(settings.rotation);
@@ -94,6 +100,14 @@ function CameraRig({ settings, controlsRef, cameraApi }) {
   return null;
 }
 
+function CustomModel({model,meshRef,onReady}){
+  const announced=useRef(false),{invalidate}=useThree();
+  const position=useMemo(()=>{model.scene.updateMatrixWorld(true);const box=new Box3().setFromObject(model.scene),center=box.getCenter(new Vector3());return [-center.x,-box.min.y+.008,-center.z];},[model]);
+  useLayoutEffect(()=>{invalidate();},[model,invalidate]);
+  useFrame(()=>{if(!announced.current){announced.current=true;queueMicrotask(onReady);}});
+  return <group ref={meshRef} position={position} dispose={null}><primitive object={model.scene} dispose={null}/></group>;
+}
+
 class WebGLErrorBoundary extends Component {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
@@ -120,7 +134,7 @@ function RenderBudget({ visible }) {
   return null;
 }
 
-const StoneViewer = forwardRef(function StoneViewer({ asset, settings, visible, onReady, onFailure }, ref) {
+const StoneViewer = forwardRef(function StoneViewer({ asset, model, settings, visible, onReady, onFailure }, ref) {
   const meshRef = useRef();
   const controlsRef = useRef();
   const cameraApi = useRef();
@@ -149,8 +163,8 @@ const StoneViewer = forwardRef(function StoneViewer({ asset, settings, visible, 
       if (!meshRef.current || contextLost) throw new Error('Wait for the 3D preview to load.');
       const { GLTFExporter } = await import('three/addons/exporters/GLTFExporter.js');
       const product = meshRef.current.clone();
-      product.position.set(0, dimensions[1] / 2, 0);
-      product.userData = { dimensionsCm: { width: settings.width, height: settings.height, thickness: settings.thickness }, finish: settings.finish, note: 'Side and rear surfaces are approximated from one photograph. Bump shading is preview-only; glTF does not support bump maps.' };
+      if(!model)product.position.set(0, dimensions[1] / 2, 0);else product.position.y-=.008;
+      product.userData = { dimensionsCm: { width: settings.width, height: settings.height, thickness: settings.thickness }, finish: settings.finish, geometry:settings.geometry, note: model?'Validated static GLB; original mesh/material assignments and UVs preserved. Model bounds are not manufacturing verification.':'Illustrative stone geometry; unphotographed surfaces are approximated. Bump shading is preview-only; glTF does not support bump maps.' };
       const buffer = await new GLTFExporter().parseAsync(product, { binary: true, maxTextureSize: 2048 });
       return new Blob([buffer], { type: 'model/gltf-binary' });
     },
@@ -179,7 +193,7 @@ const StoneViewer = forwardRef(function StoneViewer({ asset, settings, visible, 
           <Lightformer intensity={2} position={[3, 2, 4]} scale={[2, 5, 1]} rotation={[0, -Math.PI / 4, 0]} />
           <Lightformer intensity={1.5} position={[0, 5, -3]} scale={[5, 2, 1]} rotation={[Math.PI / 2, 0, 0]} />
         </Environment>
-        {asset && <Stone asset={asset} settings={settings} meshRef={meshRef} onReady={onReady} />}
+        {model ? <CustomModel model={model} meshRef={meshRef} onReady={onReady}/> : asset && <Stone asset={asset} settings={settings} meshRef={meshRef} onReady={onReady} />}
         <ContactShadows position={[0, 0, 0]} opacity={0.4} scale={24} blur={2} far={12} resolution={1024} frames={1} color="#383b2c" />
       </Suspense>
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.008, 0]} receiveShadow>

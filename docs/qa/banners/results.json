@@ -4,7 +4,7 @@
     {
       "locale": "fr",
       "width": 390,
-      "currentImage": "http://127.0.0.1:3011/media/58/preview"
+      "currentImage": "http://127.0.0.1:3011/media/58/banner_mobile"
     },
     {
       "locale": "fr",
@@ -39,7 +39,7 @@
     {
       "locale": "en",
       "width": 390,
-      "currentImage": "http://127.0.0.1:3011/media/58/preview"
+      "currentImage": "http://127.0.0.1:3011/media/58/banner_mobile"
     },
     {
       "locale": "en",
@@ -74,7 +74,7 @@
     {
       "locale": "ar",
       "width": 390,
-      "currentImage": "http://127.0.0.1:3011/media/58/preview"
+      "currentImage": "http://127.0.0.1:3011/media/58/banner_mobile"
     },
     {
       "locale": "ar",

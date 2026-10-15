@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="9" assertions="58" errors="0" failures="0" skipped="0" time="15.275923">
+    <testsuite name="Tests\Feature\ProductViewerTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" tests="8" assertions="51" errors="0" failures="0" skipped="0" time="8.945402">
+      <testcase name="test_new_product_publishes_without_any_3d_or_texture" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="44" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="8" time="6.151652"/>
+      <testcase name="test_enable_disable_and_reenable_preserves_saved_configuration" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="51" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="6" time="0.252004"/>
+      <testcase name="test_incomplete_enabled_configuration_is_rejected_without_partial_publication" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="62" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="1" time="0.556534"/>
+      <testcase name="test_custom_model_is_private_until_approved_and_enabled_and_keeps_its_materials" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="68" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="14" time="0.324012"/>
+      <testcase name="test_unauthorized_upload_and_unapproved_model_are_rejected" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="78" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="2" time="0.244813"/>
+      <testcase name="test_approved_geometry_limits_and_immutable_selection_data" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="86" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="3" time="0.267254"/>
+      <testcase name="test_quote_snapshots_geometry_and_retries_survive_later_configuration_changes" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="100" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="14" time="0.914906"/>
+      <testcase name="test_disabled_product_quote_needs_no_geometry_and_missing_or_forged_models_fail" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ProductViewerTest.php" line="116" class="Tests\Feature\ProductViewerTest" classname="Tests.Feature.ProductViewerTest" assertions="3" time="0.234227"/>
+    </testsuite>
+    <testsuite name="Tests\Feature\ViewerMigrationTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ViewerMigrationTest.php" tests="1" assertions="7" errors="0" failures="0" skipped="0" time="6.330521">
+      <testcase name="test_migration_preserves_existing_available_viewers_and_defaults_new_products_off" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\ViewerMigrationTest.php" line="14" class="Tests\Feature\ViewerMigrationTest" classname="Tests.Feature.ViewerMigrationTest" assertions="7" time="6.330521"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

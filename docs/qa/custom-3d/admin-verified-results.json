@@ -1,0 +1,231 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\DELL 7420\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\DELL 7420\\Desktop\\time-stone\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/custom-3d.spec.ts",
+      "--project=desktop",
+      "--workers=1",
+      "--retries=0",
+      "--grep",
+      "Filament translated",
+      "--output=.tools/custom-3d/admin-verified-failures"
+    ],
+    "configFile": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\playwright.config.ts",
+    "rootDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/custom-3d/admin-verified-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/custom-3d/admin-verified-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/custom-3d/admin-verified-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\admin-verified-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "snapshotDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3036",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1536,
+            "height": 1024
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/qa/custom-3d/admin-verified-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "custom-3d.spec.ts",
+      "file": "custom-3d.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Filament translated controls, GLB rejection and immediate disable protection",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 103881,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('html')\nExpected: \u001b[32m\"rtl\"\u001b[39m\nReceived: \u001b[31m\"ltr\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('html') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('html')\u001b[22m\n\u001b[2m    39 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"fi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"ltr\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('html')\nExpected: \u001b[32m\"rtl\"\u001b[39m\nReceived: \u001b[31m\"ltr\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('html') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('html')\u001b[22m\n\u001b[2m    39 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"fi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"ltr\"\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts:104:38",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                      "column": 38,
+                      "line": 104
+                    },
+                    "snippet": "  102 |  for(const locale of ['fr','en','ar']){\n  103 |   await page.goto(api+'/admin/products/create');await page.locator('#admin-locale').selectOption(locale);await Promise.all([page.waitForNavigation(),page.locator('.admin-language-switcher button').click()]);\n> 104 |   await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');\n      |                                      ^\n  105 |   const enabled=page.locator('[id=\"form.viewer_enabled\"]');await expect(enabled).toHaveAttribute('aria-checked','false');await expect(page.locator('[id=\"form.configuration.source\"]')).toHaveCount(0);\n  106 |   await page.goto(`${api}/admin/products/${fixtures.circle.id}/edit`);await expect(page.locator('[id=\"form.viewer_enabled\"]')).toHaveAttribute('aria-checked','true');\n  107 |   for(const width of [390,1536]){await page.setViewportSize({width,height:1024});await page.locator('[id=\"form.viewer_enabled\"]').scrollIntoViewIfNeeded();expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);await page.screenshot({path:path(`screenshots/admin-${locale}-${width}.png`),fullPage:true});await page.getByRole('region',{name:locale==='fr'?'Configuration 3D du produit':locale==='ar'?'إعداد العرض ثلاثي الأبعاد للمنتج':'3D Product Configuration',exact:true}).screenshot({path:path(`screenshots/admin-controls-${locale}-${width}.png`)});}"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                        "column": 38,
+                        "line": 104
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('html')\nExpected: \u001b[32m\"rtl\"\u001b[39m\nReceived: \u001b[31m\"ltr\"\u001b[39m\nTimeout:  20000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" locator('html') with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('html')\u001b[22m\n\u001b[2m    39 × locator resolved to <html lang=\"en\" dir=\"ltr\" class=\"fi\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"ltr\"\u001b[22m\n\n\n  102 |  for(const locale of ['fr','en','ar']){\n  103 |   await page.goto(api+'/admin/products/create');await page.locator('#admin-locale').selectOption(locale);await Promise.all([page.waitForNavigation(),page.locator('.admin-language-switcher button').click()]);\n> 104 |   await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');\n      |                                      ^\n  105 |   const enabled=page.locator('[id=\"form.viewer_enabled\"]');await expect(enabled).toHaveAttribute('aria-checked','false');await expect(page.locator('[id=\"form.configuration.source\"]')).toHaveCount(0);\n  106 |   await page.goto(`${api}/admin/products/${fixtures.circle.id}/edit`);await expect(page.locator('[id=\"form.viewer_enabled\"]')).toHaveAttribute('aria-checked','true');\n  107 |   for(const width of [390,1536]){await page.setViewportSize({width,height:1024});await page.locator('[id=\"form.viewer_enabled\"]').scrollIntoViewIfNeeded();expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);await page.screenshot({path:path(`screenshots/admin-${locale}-${width}.png`),fullPage:true});await page.getByRole('region',{name:locale==='fr'?'Configuration 3D du produit':locale==='ar'?'إعداد العرض ثلاثي الأبعاد للمنتج':'3D Product Configuration',exact:true}).screenshot({path:path(`screenshots/admin-controls-${locale}-${width}.png`)});}\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts:104:38"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T10:59:31.624Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\admin-verified-failures\\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\admin-verified-failures\\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                    "column": 38,
+                    "line": 104
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "b6be23484541bfc99681-e65c83482bd6b46940d8",
+          "file": "custom-3d.spec.ts",
+          "line": 97,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T10:59:30.636Z",
+    "duration": 107662.35800000001,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

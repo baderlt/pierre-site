@@ -177,6 +177,9 @@ class IntegrationTest extends TestCase
     public function test_published_api_delivers_saved_material_options_and_production_hides_fixtures(): void
     {
         $product = $this->product();
+        \Illuminate\Support\Facades\Storage::fake('local');
+        $texture = app(\App\Domain\MediaLibrary::class)->ingest(\Illuminate\Http\UploadedFile::fake()->image('viewer.png', 64, 64));
+        $product->update(['viewer_enabled' => true, 'texture_id' => $texture->id]);
         $this->getJson('/api/v1/products/'.$product->slug.'?locale=ar')->assertOk()->assertJsonPath('data.material_parameters.roughness', 0.6)->assertJsonPath('data.finish_options.0.slug', 'honed');
         $this->app['env'] = 'production';
         $this->assertSame(0, Product::publicCatalogue()->count());

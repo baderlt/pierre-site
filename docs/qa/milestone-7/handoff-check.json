@@ -1,0 +1,21 @@
+{
+  "package": {
+    "files": 272,
+    "mode": "source artifact created",
+    "sha256": "a79c724cd8b9386e3c7e4f6843a59c4e57681350e84a4d039347ef54b4ba0efc"
+  },
+  "forbidden_paths": [],
+  "release_secret_matches": 0,
+  "client_boundary": {
+    "scope": "Final generated production client JavaScript; configured values never emitted",
+    "client_javascript_files": 22,
+    "configured_secret_matches": 0,
+    "internal_api_origin_matches": 0
+  },
+  "missing_document_links": [],
+  "public_evidence_files_inspected": 173,
+  "public_evidence_configured_secret_matches": 0,
+  "generated_index_count": 0,
+  "working_builds_preserved": true,
+  "archive_hash_matches_cleanup": true
+}

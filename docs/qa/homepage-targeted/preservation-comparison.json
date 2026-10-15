@@ -1,0 +1,1584 @@
+{
+  "compared": 90,
+  "identical": 59,
+  "text_identical": 90,
+  "differences": [
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-3.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-3.png",
+      "dimensions": [
+        [
+          350,
+          749
+        ],
+        [
+          350,
+          749
+        ]
+      ],
+      "difference_bounds": [
+        1,
+        277,
+        189,
+        413
+      ],
+      "different_pixels": 33,
+      "different_percent": 0.0126
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-7.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-7.png",
+      "dimensions": [
+        [
+          350,
+          606
+        ],
+        [
+          350,
+          607
+        ]
+      ]
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-8.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-8.png",
+      "dimensions": [
+        [
+          390,
+          453
+        ],
+        [
+          390,
+          452
+        ]
+      ]
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-9.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-9.png",
+      "dimensions": [
+        [
+          390,
+          836
+        ],
+        [
+          390,
+          837
+        ]
+      ]
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-7.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-7.png",
+      "dimensions": [
+        [
+          688,
+          364
+        ],
+        [
+          688,
+          365
+        ]
+      ]
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-3.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-3.png",
+      "dimensions": [
+        [
+          1296,
+          365
+        ],
+        [
+          1296,
+          365
+        ]
+      ],
+      "difference_bounds": [
+        1,
+        167,
+        1295,
+        174
+      ],
+      "different_pixels": 47,
+      "different_percent": 0.0099
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-7.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-7.png",
+      "dimensions": [
+        [
+          1296,
+          488
+        ],
+        [
+          1296,
+          488
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        219,
+        1296,
+        392
+      ],
+      "different_pixels": 157342,
+      "different_percent": 24.8783
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-9.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-9.png",
+      "dimensions": [
+        [
+          1536,
+          397
+        ],
+        [
+          1536,
+          397
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        0,
+        1536,
+        177
+      ],
+      "different_pixels": 5634,
+      "different_percent": 0.9239
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-3.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-3.png",
+      "dimensions": [
+        [
+          350,
+          749
+        ],
+        [
+          350,
+          749
+        ]
+      ],
+      "difference_bounds": [
+        1,
+        278,
+        188,
+        285
+      ],
+      "different_pixels": 24,
+      "different_percent": 0.0092
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-7.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-7.png",
+      "dimensions": [
+        [
+          350,
+          573
+        ],
+        [
+          350,
+          572
+        ]
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-8.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-8.png",
+      "dimensions": [
+        [
+          390,
+          419
+        ],
+        [
+          390,
+          420
+        ]
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-9.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-9.png",
+      "dimensions": [
+        [
+          390,
+          836
+        ],
+        [
+          390,
+          836
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        0,
+        390,
+        149
+      ],
+      "different_pixels": 2741,
+      "different_percent": 0.8407
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-3.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-3.png",
+      "dimensions": [
+        [
+          688,
+          528
+        ],
+        [
+          688,
+          528
+        ]
+      ],
+      "difference_bounds": [
+        470,
+        178,
+        687,
+        186
+      ],
+      "different_pixels": 22,
+      "different_percent": 0.0061
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-7.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-7.png",
+      "dimensions": [
+        [
+          688,
+          365
+        ],
+        [
+          688,
+          365
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        150,
+        688,
+        268
+      ],
+      "different_pixels": 64953,
+      "different_percent": 25.8653
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-9.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-9.png",
+      "dimensions": [
+        [
+          768,
+          398
+        ],
+        [
+          768,
+          397
+        ]
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-3.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-3.png",
+      "dimensions": [
+        [
+          1296,
+          365
+        ],
+        [
+          1296,
+          365
+        ]
+      ],
+      "difference_bounds": [
+        2,
+        167,
+        1295,
+        319
+      ],
+      "different_pixels": 64,
+      "different_percent": 0.0135
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-7.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-7.png",
+      "dimensions": [
+        [
+          1296,
+          489
+        ],
+        [
+          1296,
+          489
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        167,
+        1296,
+        392
+      ],
+      "different_pixels": 157659,
+      "different_percent": 24.8774
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-8.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-8.png",
+      "dimensions": [
+        [
+          1536,
+          299
+        ],
+        [
+          1536,
+          299
+        ]
+      ],
+      "difference_bounds": [
+        120,
+        222,
+        300,
+        238
+      ],
+      "different_pixels": 1074,
+      "different_percent": 0.2339
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-9.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-9.png",
+      "dimensions": [
+        [
+          1536,
+          397
+        ],
+        [
+          1536,
+          397
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        0,
+        1536,
+        397
+      ],
+      "different_pixels": 6720,
+      "different_percent": 1.102
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-3.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-3.png",
+      "dimensions": [
+        [
+          350,
+          750
+        ],
+        [
+          350,
+          750
+        ]
+      ],
+      "difference_bounds": [
+        1,
+        278,
+        188,
+        436
+      ],
+      "different_pixels": 42,
+      "different_percent": 0.016
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-7.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-7.png",
+      "dimensions": [
+        [
+          350,
+          550
+        ],
+        [
+          350,
+          551
+        ]
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-8.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-8.png",
+      "dimensions": [
+        [
+          390,
+          420
+        ],
+        [
+          390,
+          419
+        ]
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-9.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-9.png",
+      "dimensions": [
+        [
+          390,
+          785
+        ],
+        [
+          390,
+          785
+        ]
+      ],
+      "difference_bounds": [
+        334,
+        506,
+        370,
+        518
+      ],
+      "different_pixels": 234,
+      "different_percent": 0.0764
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#home",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-1.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-1.png",
+      "dimensions": [
+        [
+          768,
+          560
+        ],
+        [
+          768,
+          560
+        ]
+      ],
+      "difference_bounds": [
+        49,
+        316,
+        93,
+        330
+      ],
+      "different_pixels": 16,
+      "different_percent": 0.0037
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-3.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-3.png",
+      "dimensions": [
+        [
+          688,
+          505
+        ],
+        [
+          688,
+          505
+        ]
+      ],
+      "difference_bounds": [
+        1,
+        155,
+        683,
+        459
+      ],
+      "different_pixels": 40,
+      "different_percent": 0.0115
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-7.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-7.png",
+      "dimensions": [
+        [
+          688,
+          364
+        ],
+        [
+          688,
+          364
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        191,
+        688,
+        268
+      ],
+      "different_pixels": 40740,
+      "different_percent": 16.2679
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-9.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-9.png",
+      "dimensions": [
+        [
+          768,
+          397
+        ],
+        [
+          768,
+          397
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        0,
+        768,
+        397
+      ],
+      "different_pixels": 4911,
+      "different_percent": 1.6107
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#home",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-1.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-1.png",
+      "dimensions": [
+        [
+          1536,
+          560
+        ],
+        [
+          1536,
+          560
+        ]
+      ],
+      "difference_bounds": [
+        298,
+        316,
+        342,
+        330
+      ],
+      "different_pixels": 16,
+      "different_percent": 0.0019
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-3.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-3.png",
+      "dimensions": [
+        [
+          1296,
+          365
+        ],
+        [
+          1296,
+          365
+        ]
+      ],
+      "difference_bounds": [
+        1,
+        167,
+        527,
+        319
+      ],
+      "different_pixels": 28,
+      "different_percent": 0.0059
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-7.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-7.png",
+      "dimensions": [
+        [
+          1296,
+          488
+        ],
+        [
+          1296,
+          488
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        219,
+        1296,
+        392
+      ],
+      "different_pixels": 158089,
+      "different_percent": 24.9964
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-9.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-9.png",
+      "dimensions": [
+        [
+          1536,
+          397
+        ],
+        [
+          1536,
+          397
+        ]
+      ],
+      "difference_bounds": [
+        0,
+        0,
+        1536,
+        397
+      ],
+      "different_pixels": 6450,
+      "different_percent": 1.0577
+    }
+  ],
+  "results": [
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-0.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-0.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-1.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-1.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-2.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-2.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-3.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-3.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-4.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-4.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-5.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-5.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-6.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-6.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-7.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-7.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-8.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-8.png"
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-390-9.png",
+      "after": "docs/qa/homepage-targeted/after/fr-390-9.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-0.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-0.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-1.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-1.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-2.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-2.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#collection",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-3.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-3.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-4.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-4.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-5.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-5.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-6.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-6.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-7.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-7.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": ".quality-section",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-8.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-8.png"
+    },
+    {
+      "lang": "fr",
+      "width": 768,
+      "section": ".site-footer",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-768-9.png",
+      "after": "docs/qa/homepage-targeted/after/fr-768-9.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-0.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-0.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-1.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-1.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-2.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-2.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-3.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-3.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-4.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-4.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-5.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-5.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-6.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-6.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-7.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-7.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": ".quality-section",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-8.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-8.png"
+    },
+    {
+      "lang": "fr",
+      "width": 1536,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/fr-1536-9.png",
+      "after": "docs/qa/homepage-targeted/after/fr-1536-9.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-0.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-0.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-1.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-1.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-2.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-2.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-3.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-3.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-4.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-4.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-5.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-5.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-6.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-6.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-7.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-7.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-8.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-8.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-390-9.png",
+      "after": "docs/qa/homepage-targeted/after/en-390-9.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-0.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-0.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-1.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-1.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-2.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-2.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-3.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-3.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-4.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-4.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-5.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-5.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-6.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-6.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-7.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-7.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": ".quality-section",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-8.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-8.png"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-768-9.png",
+      "after": "docs/qa/homepage-targeted/after/en-768-9.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-0.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-0.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-1.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-1.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-2.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-2.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-3.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-3.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-4.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-4.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-5.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-5.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-6.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-6.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-7.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-7.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-8.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-8.png"
+    },
+    {
+      "lang": "en",
+      "width": 1536,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/en-1536-9.png",
+      "after": "docs/qa/homepage-targeted/after/en-1536-9.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-0.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-0.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#home",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-1.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-1.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-2.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-2.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-3.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-3.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-4.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-4.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-5.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-5.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-6.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-6.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-7.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-7.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": ".quality-section",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-8.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-8.png"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-390-9.png",
+      "after": "docs/qa/homepage-targeted/after/ar-390-9.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-0.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-0.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#home",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-1.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-1.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-2.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-2.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-3.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-3.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-4.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-4.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-5.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-5.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-6.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-6.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-7.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-7.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": ".quality-section",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-8.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-8.png"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-768-9.png",
+      "after": "docs/qa/homepage-targeted/after/ar-768-9.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": ".site-header",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-0.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-0.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#home",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-1.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-1.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": ".qualities",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-2.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-2.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#collection",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-3.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-3.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#quarry",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-4.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-4.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#about",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-5.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-5.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#materials",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-6.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-6.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": "#applications",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-7.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-7.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": ".quality-section",
+      "pixel_file_identical": true,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-8.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-8.png"
+    },
+    {
+      "lang": "ar",
+      "width": 1536,
+      "section": ".site-footer",
+      "pixel_file_identical": false,
+      "text_identical": true,
+      "before": "docs/qa/homepage-targeted/before/ar-1536-9.png",
+      "after": "docs/qa/homepage-targeted/after/ar-1536-9.png"
+    }
+  ]
+}

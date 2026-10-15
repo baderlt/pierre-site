@@ -1,0 +1,14 @@
+{
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+    "CurrentClockSpeed": 1690,
+    "MaxClockSpeed": 1690,
+    "LoadPercentage": 19
+  },
+  "phase": "before-final-lighthouse-no-test-jobs",
+  "memory": {
+    "FreePhysicalMemory": 831972,
+    "TotalVisibleMemorySize": 16492932
+  },
+  "captured_utc": "2026-10-14T01:13:10.6904703Z"
+}

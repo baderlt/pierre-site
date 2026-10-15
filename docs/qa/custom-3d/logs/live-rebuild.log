@@ -1,0 +1,39 @@
+
+Running 1 test using 1 worker
+
+(node:3608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [desktop] › tests\custom-3d.spec.ts:97:5 › active procedural dimensions rebuild without accumulating GPU resources (31.3s)
+
+
+  1) [desktop] › tests\custom-3d.spec.ts:97:5 › active procedural dimensions rebuild without accumulating GPU resources 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 7
+    Received:   7
+
+    Call Log:
+    - Timeout 20000ms exceeded while waiting on the predicate
+
+       99 |  const c=productCopy.fr;await page.goto('/fr/products/qa-custom3d-circle');await page.locator('.product-configuration summary').click();await page.getByRole('button',{name:c.activate,exact:true}).click();await expect(page.locator('.gallery-stage')).toHaveAttribute('data-viewer-state','ready');await expect(page.locator('canvas')).toHaveAttribute('data-geometries',/\d+/);
+      100 |  const baseline=Number(await page.locator('canvas').getAttribute('data-geometries'));
+    > 101 |  for(const diameter of [130,140,150]){const renders=Number(await page.locator('canvas').getAttribute('data-render-count'));await page.locator('[data-parameter="diameter"]').fill(String(diameter));await page.getByRole('button',{name:c.update,exact:true}).click();await expect(page.locator('.product-quote-panel a')).toHaveAttribute('href',new RegExp('v_width='+diameter));await expect.poll(async()=>Number(await page.locator('canvas').getAttribute('data-render-count'))).toBeGreaterThan(renders);expect(Number(await page.locator('canvas').getAttribute('data-geometries'))).toBeLessThanOrEqual(baseline+1);expect(Number(await page.locator('canvas').getAttribute('data-textures'))).toBeLessThanOrEqual(8);}
+          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+      102 |  const waiting=page.waitForEvent('download');await page.getByRole('button',{name:c.glb+' ↓',exact:true}).click();const download=await waiting,output=path('resized-circle.glb');await download.saveAs(output);const bytes=await readFile(output),j=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12)).toString().trim());expect(j.nodes[0].extras.dimensionsCm.width).toBe(150);expect(j.nodes[0].extras.geometry.parameters.diameter).toBe(150);
+      103 |  await page.locator('.gallery-stage').screenshot({path:path('screenshots/resized-circle.png')});await page.getByRole('button',{name:c.static,exact:true}).click();await expect(page.locator('canvas')).toHaveCount(0);
+      104 | });
+        at C:\Users\DELL 7420\Desktop\time-stone\tests\custom-3d.spec.ts:101:471
+
+    Error Context: .tools\custom-3d\live-rebuild-failures\custom-3d-active-procedura-ed0b6--accumulating-GPU-resources-desktop\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    .tools\custom-3d\live-rebuild-failures\custom-3d-active-procedura-ed0b6--accumulating-GPU-resources-desktop\trace.zip
+    Usage:
+
+        npx playwright show-trace .tools\custom-3d\live-rebuild-failures\custom-3d-active-procedura-ed0b6--accumulating-GPU-resources-desktop\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [desktop] › tests\custom-3d.spec.ts:97:5 › active procedural dimensions rebuild without accumulating GPU resources 

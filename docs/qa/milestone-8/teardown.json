@@ -1,0 +1,65 @@
+{
+  "stopped_verified_owned_processes": [
+    {
+      "ProcessId": 18364,
+      "ParentProcessId": 6884,
+      "Name": "httpd.exe"
+    },
+    {
+      "ProcessId": 21392,
+      "ParentProcessId": 18364,
+      "Name": "httpd.exe"
+    },
+    {
+      "ProcessId": 30316,
+      "ParentProcessId": 16220,
+      "Name": "httpd.exe"
+    },
+    {
+      "ProcessId": 11652,
+      "ParentProcessId": 30316,
+      "Name": "httpd.exe"
+    },
+    {
+      "ProcessId": 15848,
+      "ParentProcessId": 24264,
+      "Name": "node.exe"
+    },
+    {
+      "ProcessId": 15956,
+      "ParentProcessId": 28616,
+      "Name": "node.exe"
+    },
+    {
+      "ProcessId": 26368,
+      "ParentProcessId": 28616,
+      "Name": "node.exe"
+    },
+    {
+      "ProcessId": 8460,
+      "ParentProcessId": 28616,
+      "Name": "node.exe"
+    },
+    {
+      "ProcessId": 6652,
+      "ParentProcessId": 28616,
+      "Name": "node.exe"
+    },
+    {
+      "ProcessId": 5304,
+      "ParentProcessId": 16220,
+      "Name": "node.exe"
+    }
+  ],
+  "global_power_plan_changed": false,
+  "remaining_M8_listeners": [],
+  "utc": "2026-10-15T00:03:26.9391781Z",
+  "databases_or_media_deleted": false,
+  "existing_M7_8011_listener": [
+    {
+      "LocalAddress": "127.0.0.1",
+      "LocalPort": 8011,
+      "OwningProcess": 27832
+    }
+  ]
+}

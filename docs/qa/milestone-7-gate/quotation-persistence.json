@@ -1,0 +1,174 @@
+{
+  "synthetic_quote_rows": 27,
+  "locale_counts": {
+    "fr": 9,
+    "en": 9,
+    "ar": 9
+  },
+  "all_have_one_item": true,
+  "rows": [
+    {
+      "id": 93,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 94,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 95,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 96,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 97,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 98,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 99,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 100,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 101,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 102,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 103,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 104,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 105,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 106,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 107,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 108,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 109,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 110,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 111,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 112,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 113,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 114,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 115,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 116,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 117,
+      "locale": "fr",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 118,
+      "locale": "en",
+      "items": 1,
+      "events": 0
+    },
+    {
+      "id": 119,
+      "locale": "ar",
+      "items": 1,
+      "events": 0
+    }
+  ],
+  "scope": "Only exact QA ONLY M6 Regression identity created after this gate started; original row hashes excluded. Three complete real browser runs submitted nine quotes each."
+}

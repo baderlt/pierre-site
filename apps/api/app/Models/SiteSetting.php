@@ -4,7 +4,7 @@ namespace App\Models;
 
 class SiteSetting extends ContentModel
 {
-    protected $fillable = ['brand_name', 'logo_id', 'favicon_id', 'phone', 'whatsapp', 'email', 'address', 'instagram', 'linkedin', 'contacts_visible', 'public_enabled', 'seo'];
+    protected $fillable = ['brand_name', 'logo_id', 'favicon_id', 'phone', 'whatsapp', 'email', 'address', 'maps_directions_url', 'instagram', 'linkedin', 'contacts_visible', 'public_enabled', 'seo'];
 
     protected function casts(): array
     {

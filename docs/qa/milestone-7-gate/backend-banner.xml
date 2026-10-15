@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml" tests="4" assertions="59" errors="0" failures="0" skipped="0" time="33.678665">
+    <testsuite name="Feature" tests="4" assertions="59" errors="0" failures="0" skipped="0" time="33.678665">
+      <testsuite name="Tests\Feature\BannerTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BannerTest.php" tests="4" assertions="59" errors="0" failures="0" skipped="0" time="33.678665">
+        <testcase name="test_high_resolution_banner_is_bounded_and_private_until_published" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BannerTest.php" line="33" class="Tests\Feature\BannerTest" classname="Tests.Feature.BannerTest" assertions="34" time="27.170291"/>
+        <testcase name="test_banner_upload_from_section_form_preserves_other_image_references" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BannerTest.php" line="74" class="Tests\Feature\BannerTest" classname="Tests.Feature.BannerTest" assertions="12" time="4.947971"/>
+        <testcase name="test_existing_media_uses_its_largest_available_safe_variant" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BannerTest.php" line="93" class="Tests\Feature\BannerTest" classname="Tests.Feature.BannerTest" assertions="2" time="0.556497"/>
+        <testcase name="test_mobile_crop_keeps_focal_position_and_never_upscales_small_originals" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\BannerTest.php" line="101" class="Tests\Feature\BannerTest" classname="Tests.Feature.BannerTest" assertions="11" time="1.003906"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

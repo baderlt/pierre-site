@@ -1,0 +1,28 @@
+{
+  "tracked_next_files": 1365,
+  "tracked_output_directories": {
+    ".next-audit-m6": 465,
+    ".next-banners": 432,
+    ".next-corrections-m6": 468
+  },
+  "storage_archive": {
+    "bytes": 215674882,
+    "sha256": "9de26c603fb3a021e78fea6142d3cec393fa29e2f8474b0c318fab79b9b803eb",
+    "entries": 1088,
+    "uncompressed_bytes": 218009783,
+    "classes": {
+      "other": 64,
+      "private_media": 756,
+      "framework_cache_views": 109,
+      "sessions": 1,
+      "logs": 3
+    },
+    "comparison": {
+      "same_as_existing": 893,
+      "different_from_existing": 0,
+      "archive_only": 40
+    },
+    "unsafe_entry_paths": 0,
+    "action": "Preserved unchanged; private storage snapshot, not release input."
+  }
+}

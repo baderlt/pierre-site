@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { mkdir } from 'node:fs/promises';
@@ -62,7 +63,7 @@ test('product data contracts reject unsafe configuration and unknown products', 
 test('product width matrix, screenshots and no initial 3D payload', async ({ page }, info) => {
   test.skip(info.project.name !== 'desktop', 'Complete matrix once.');
   test.setTimeout(360000);
-  await mkdir('docs/qa/milestone-3', { recursive: true });
+  await mkdir(qaOutput('docs/qa/milestone-3'), { recursive: true });
   for (const locale of locales) for (const width of [320, 390, 430, 768, 1024, 1536]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto(`/${locale}/products/sample-1`);
@@ -71,9 +72,10 @@ test('product width matrix, screenshots and no initial 3D payload', async ({ pag
     await expect(page.locator('canvas')).toHaveCount(0);
     expect(await page.locator('img').evaluateAll(images => images.every(image => (image as HTMLImageElement).naturalWidth > 0))).toBe(true);
     const initialResources = await page.evaluate(() => performance.getEntriesByType('resource').map(entry => entry.name));
-    expect(initialResources.some(url => url.includes('/media/')&&url.includes('/texture'))).toBe(true); // CSS finish swatches only.
-    await page.screenshot({ path: `docs/qa/milestone-3/product-${locale}-${width}.png`, scale: 'css' });
-    if ([390, 1536].includes(width)) await page.screenshot({ path: `docs/qa/milestone-3/product-${locale}-${width}-full.png`, fullPage: true, scale: 'css' });
+    expect(initialResources.some(url => /\/media\/\d+\/texture$/.test(url))).toBe(false);
+    expect(await page.locator('.finish-swatch').evaluateAll(nodes=>nodes.every(node=>getComputedStyle(node).backgroundImage.includes('/thumb')))).toBe(true);
+    await page.screenshot({ path: qaOutput(`docs/qa/milestone-3/product-${locale}-${width}.png`), scale: 'css' });
+    if ([390, 1536].includes(width)) await page.screenshot({ path: qaOutput(`docs/qa/milestone-3/product-${locale}-${width}-full.png`), fullPage: true, scale: 'css' });
   }
 });
 

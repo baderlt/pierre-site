@@ -1,10 +1,27 @@
-# Milestone 6 — Corrective verification report
+# Milestone 6 — Final verified status
 
-13 October 2026. **Corrected functionality and regressions pass; mobile homepage LCP exceeds the target in every measured mobile homepage run.** This is a local verification report, not deployment approval. No Milestone 7 work or deployment was performed.
+14 October 2026. Final functional regressions pass. Mobile performance remains above the target where shown below. No deployment or Milestone 7 work was performed.
+
+The complete [final performance report](milestone-6-performance-final.md) contains the controlled before/after/cold-cache measurements, traces, timing breakdowns, changed files, screenshots, all executed checks and limitations.
+
+## Final measured performance
+
+| Page | Controlled before median LCP | Final warm median LCP | Final cold median LCP |
+| --- | --- | --- | --- |
+| French homepage / mobile | 4.740 s | 4.064 s | 4.061 s |
+| Arabic homepage / mobile | 5.091 s | 4.661 s | 4.814 s |
+| French catalogue / mobile | 4.364 s | 3.764 s | 3.762 s |
+| Arabic catalogue / mobile | 4.960 s | 3.909 s | 4.511 s |
+| French sample-1 / mobile | 4.663 s | 4.137 s | 4.143 s |
+| French homepage / desktop | 1.960 s | 2.025 s | 2.020 s |
+
+Three Lighthouse runs per page/state; fresh browser cache, corrected concurrent runtime. These are laboratory measurements, not production Core Web Vitals. Final verification: **68 Laravel tests / 398 assertions; 127 Playwright passes / 20 intentional skips; 8 standalone 3D passes; production build and TypeScript pass.** All original rows, 456 original media-file hashes, owner access and environment secrets were preserved. See the final report for evidence, genuine skips and the interrupted test-harness attempt.
+
+The older corrective-pass record below is retained as historical evidence; use the final report above for current results.
 
 The complete [corrective report](milestone-6-corrections.md) contains root causes, exact changed files, every skip, before/after timings, environment/method, screenshots and evidence. The [previous audit](qa/milestone-6-final/corrections/before-report.md) is preserved, including its 91 passed / 9 failed / 20 skipped result and original traces.
 
-## Executed checks
+## Previous corrective-pass checks (13 October; historical evidence)
 
 | Check | Final result | Evidence |
 | --- | --- | --- |

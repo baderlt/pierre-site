@@ -1,0 +1,16 @@
+{
+  "release_files": 272,
+  "forbidden_release_paths": [],
+  "configured_secret_matches_in_release": 0,
+  "scope_of_git_scan": "Current HEAD generated Next output only; no history modification",
+  "head_generated_files_scanned": 1365,
+  "head_bytes_scanned": 186352973,
+  "configured_secret_matches_in_head_generated_output": 0,
+  "configured_secret_matches_in_storage_archive": 0,
+  "tracked_generated_after": 0,
+  "working_builds_preserved": true,
+  "archive_sha256": "9de26c603fb3a021e78fea6142d3cec393fa29e2f8474b0c318fab79b9b803eb",
+  "release_sha256": "a79c724cd8b9386e3c7e4f6843a59c4e57681350e84a4d039347ef54b4ba0efc",
+  "release_artifact": ".tools/m7/source-release-final.tar.gz",
+  "historical_head_and_archive_scan_reused": true
+}

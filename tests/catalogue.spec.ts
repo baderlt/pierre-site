@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { mkdir } from 'node:fs/promises';
@@ -99,15 +100,15 @@ test('catalogue fixture adapter validates inputs, combines filters and sorts', a
 test('catalogue width matrix and screenshots in three languages', async ({ page }, info) => {
   test.skip(info.project.name !== 'desktop', 'Run the complete matrix once.');
   test.setTimeout(360000);
-  await mkdir('docs/qa/milestone-2', { recursive: true });
+  await mkdir(qaOutput('docs/qa/milestone-2'), { recursive: true });
   for (const locale of locales) for (const width of [320, 390, 430, 768, 1024, 1536]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto(`/${locale}/products`);
     await page.evaluate(async () => { await document.fonts.ready; for (const image of document.images) image.loading = 'eager'; await Promise.all([...document.images].map(image => image.decode().catch(() => {}))); });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect(await page.locator('img').evaluateAll(images => images.every(image => (image as HTMLImageElement).naturalWidth > 0))).toBe(true);
-    await page.screenshot({ path: `docs/qa/milestone-2/catalogue-${locale}-${width}.png`, scale: 'css' });
-    if ([390, 1536].includes(width)) await page.screenshot({ path: `docs/qa/milestone-2/catalogue-${locale}-${width}-full.png`, scale: 'css', fullPage: true });
+    await page.screenshot({ path: qaOutput(`docs/qa/milestone-2/catalogue-${locale}-${width}.png`), scale: 'css' });
+    if ([390, 1536].includes(width)) await page.screenshot({ path: qaOutput(`docs/qa/milestone-2/catalogue-${locale}-${width}-full.png`), scale: 'css', fullPage: true });
   }
 });
 

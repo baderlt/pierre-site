@@ -1,0 +1,97 @@
+{
+  "interval_seconds": 1,
+  "samples": 60,
+  "first_utc": "2026-10-14T23:58:27.3631929Z",
+  "last_utc": "2026-10-14T23:59:55.9840396Z",
+  "processes": [
+    {
+      "pid": 11652,
+      "process": "httpd",
+      "samples": 60,
+      "peak_working_set_MiB": 438.359375,
+      "peak_private_MiB": 463.921875,
+      "CPU_seconds_delta": 386.3125
+    },
+    {
+      "pid": 18364,
+      "process": "httpd",
+      "samples": 60,
+      "peak_working_set_MiB": 2.80078125,
+      "peak_private_MiB": 9.73046875,
+      "CPU_seconds_delta": 0.0
+    },
+    {
+      "pid": 21392,
+      "process": "httpd",
+      "samples": 60,
+      "peak_working_set_MiB": 88.30078125,
+      "peak_private_MiB": 85.11328125,
+      "CPU_seconds_delta": 0.0
+    },
+    {
+      "pid": 30316,
+      "process": "httpd",
+      "samples": 60,
+      "peak_working_set_MiB": 3.3515625,
+      "peak_private_MiB": 9.71484375,
+      "CPU_seconds_delta": 0.0
+    },
+    {
+      "pid": 8288,
+      "process": "mysqld",
+      "samples": 60,
+      "peak_working_set_MiB": 4.01171875,
+      "peak_private_MiB": 713.3359375,
+      "CPU_seconds_delta": null
+    },
+    {
+      "pid": 9368,
+      "process": "mysqld",
+      "samples": 60,
+      "peak_working_set_MiB": 221.0859375,
+      "peak_private_MiB": 1141.99609375,
+      "CPU_seconds_delta": null
+    },
+    {
+      "pid": 13744,
+      "process": "mysqld",
+      "samples": 60,
+      "peak_working_set_MiB": 8.37109375,
+      "peak_private_MiB": 33.06640625,
+      "CPU_seconds_delta": null
+    },
+    {
+      "pid": 6652,
+      "process": "node",
+      "samples": 60,
+      "peak_working_set_MiB": 75.0859375,
+      "peak_private_MiB": 122.2890625,
+      "CPU_seconds_delta": 0.0
+    },
+    {
+      "pid": 8460,
+      "process": "node",
+      "samples": 60,
+      "peak_working_set_MiB": 96.78515625,
+      "peak_private_MiB": 129.21875,
+      "CPU_seconds_delta": 0.0
+    },
+    {
+      "pid": 15956,
+      "process": "node",
+      "samples": 60,
+      "peak_working_set_MiB": 167.0,
+      "peak_private_MiB": 189.87109375,
+      "CPU_seconds_delta": 0.0
+    },
+    {
+      "pid": 26368,
+      "process": "node",
+      "samples": 60,
+      "peak_working_set_MiB": 288.8515625,
+      "peak_private_MiB": 339.47265625,
+      "CPU_seconds_delta": 9.125
+    }
+  ],
+  "scope": "M8-owned Apache/Next and shared local mysqld; sampled process memory/CPU, not exclusively attributable MySQL work or physical GPU metrics."
+}

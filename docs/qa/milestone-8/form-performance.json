@@ -1,0 +1,2095 @@
+{
+  "scope": "Unthrottled390px local browser; independent fresh contexts,3perlocale; includes real challenge and product-options reads, no submission. Scroll-associated shifts retained rather than claimed as initial-load CWV.",
+  "rows": [
+    {
+      "locale": "fr",
+      "run": 1,
+      "form_ready_ms": 996.3549999999998,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=fr&q=",
+            "bytes": 3949,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.005249799861715359,
+            "recentInput": false,
+            "time": 457.60000002384186
+          },
+          {
+            "value": 0.15822700206586462,
+            "recentInput": false,
+            "time": 1157.6000000238419
+          },
+          {
+            "value": 0.4142939603840078,
+            "recentInput": false,
+            "time": 1178.7999999523163
+          },
+          {
+            "value": 0.4142939603840078,
+            "recentInput": false,
+            "time": 1497.8999999761581
+          },
+          {
+            "value": 0.5943672559435542,
+            "recentInput": true,
+            "time": 3133
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 40,
+            "interactionId": 4557
+          },
+          {
+            "name": "keypress",
+            "duration": 40,
+            "interactionId": 4557
+          },
+          {
+            "name": "beforeinput",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4571
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4571
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4578
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4578
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4585
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4585
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4613
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4613
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 24,
+            "interactionId": 4620
+          },
+          {
+            "name": "keypress",
+            "duration": 24,
+            "interactionId": 4620
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4648
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4648
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerdown",
+            "duration": 48,
+            "interactionId": 4655
+          },
+          {
+            "name": "mousedown",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerup",
+            "duration": 48,
+            "interactionId": 4655
+          },
+          {
+            "name": "mouseup",
+            "duration": 48,
+            "interactionId": 0
+          },
+          {
+            "name": "click",
+            "duration": 48,
+            "interactionId": 4655
+          },
+          {
+            "name": "pointerout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerleave",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2279.109375,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "fr",
+      "run": 2,
+      "form_ready_ms": 1026.7744000000002,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=fr&q=",
+            "bytes": 3949,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.005249799861715359,
+            "recentInput": false,
+            "time": 444.39999997615814
+          },
+          {
+            "value": 0.15822700206586462,
+            "recentInput": false,
+            "time": 1201.2999999523163
+          },
+          {
+            "value": 0.4142939603840078,
+            "recentInput": false,
+            "time": 1212
+          },
+          {
+            "value": 0.4142939603840078,
+            "recentInput": false,
+            "time": 1560.8999999761581
+          },
+          {
+            "value": 0.5943672559435542,
+            "recentInput": true,
+            "time": 3144.5999999046326
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 998
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 998
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1005
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1005
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1012
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1012
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1047
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1047
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1054
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1054
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1061
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1061
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2279.109375,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "fr",
+      "run": 3,
+      "form_ready_ms": 1011.6530999999995,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=fr&q=",
+            "bytes": 3949,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.005249799861715359,
+            "recentInput": false,
+            "time": 386.5
+          },
+          {
+            "value": 0.15822700206586462,
+            "recentInput": false,
+            "time": 1133.1000000238419
+          },
+          {
+            "value": 0.4142939603840078,
+            "recentInput": false,
+            "time": 1143.1000000238419
+          },
+          {
+            "value": 0.4142939603840078,
+            "recentInput": false,
+            "time": 1483.3000000715256
+          },
+          {
+            "value": 0.5943672559435542,
+            "recentInput": true,
+            "time": 3033.399999976158
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 24,
+            "interactionId": 7920
+          },
+          {
+            "name": "keypress",
+            "duration": 24,
+            "interactionId": 7920
+          },
+          {
+            "name": "beforeinput",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7955
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7955
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7962
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7962
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7983
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7983
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2279.109375,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "en",
+      "run": 1,
+      "form_ready_ms": 991.5697,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=en&q=",
+            "bytes": 3819,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.0003355914149416092,
+            "recentInput": false,
+            "time": 453.3000000715256
+          },
+          {
+            "value": 0.124200996475878,
+            "recentInput": false,
+            "time": 1176.7000000476837
+          },
+          {
+            "value": 0.42247539190667155,
+            "recentInput": false,
+            "time": 1191.3000000715256
+          },
+          {
+            "value": 0.42247539190667155,
+            "recentInput": false,
+            "time": 1533.3000000715256
+          },
+          {
+            "value": 0.49993328541992066,
+            "recentInput": true,
+            "time": 3125.8000000715256
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1407
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1407
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1456
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1456
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1491
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1491
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerdown",
+            "duration": 24,
+            "interactionId": 1505
+          },
+          {
+            "name": "mousedown",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerup",
+            "duration": 24,
+            "interactionId": 1505
+          },
+          {
+            "name": "mouseup",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "click",
+            "duration": 24,
+            "interactionId": 1505
+          },
+          {
+            "name": "pointerout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerleave",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2170.234375,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "en",
+      "run": 2,
+      "form_ready_ms": 1008.1189000000013,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=en&q=",
+            "bytes": 3819,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.0003355914149416092,
+            "recentInput": false,
+            "time": 388.89999997615814
+          },
+          {
+            "value": 0.124200996475878,
+            "recentInput": false,
+            "time": 1070.7999999523163
+          },
+          {
+            "value": 0.42247539190667155,
+            "recentInput": false,
+            "time": 1079.2999999523163
+          },
+          {
+            "value": 0.42247539190667155,
+            "recentInput": false,
+            "time": 1455
+          },
+          {
+            "value": 0.49993328541992066,
+            "recentInput": true,
+            "time": 2982.6999999284744
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 553
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 553
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 581
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 581
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 616
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 616
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 623
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 623
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 630
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 630
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2170.234375,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "en",
+      "run": 3,
+      "form_ready_ms": 1026.7452000000012,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=en&q=",
+            "bytes": 3819,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.0003355914149416092,
+            "recentInput": false,
+            "time": 372
+          },
+          {
+            "value": 0.124200996475878,
+            "recentInput": false,
+            "time": 1111.2999999523163
+          },
+          {
+            "value": 0.42247539190667155,
+            "recentInput": false,
+            "time": 1135.2999999523163
+          },
+          {
+            "value": 0.42247539190667155,
+            "recentInput": false,
+            "time": 1460.3999999761581
+          },
+          {
+            "value": 0.49993328541992066,
+            "recentInput": true,
+            "time": 3024.6999999284744
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 6037
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 6037
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2170.234375,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "ar",
+      "run": 1,
+      "form_ready_ms": 1071.7890000000007,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=ar&q=",
+            "bytes": 4101,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.000761726387835415,
+            "recentInput": false,
+            "time": 402.5
+          },
+          {
+            "value": 0.002546018779527264,
+            "recentInput": false,
+            "time": 434.7999999523163
+          },
+          {
+            "value": 0.07635192611495929,
+            "recentInput": false,
+            "time": 1107.8999999761581
+          },
+          {
+            "value": 0.4807965730951513,
+            "recentInput": false,
+            "time": 1121.8999999761581
+          },
+          {
+            "value": 0.4807965730951513,
+            "recentInput": false,
+            "time": 1460.7999999523163
+          },
+          {
+            "value": 0.4263528261196891,
+            "recentInput": true,
+            "time": 3112.2999999523163
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 24,
+            "interactionId": 7874
+          },
+          {
+            "name": "keypress",
+            "duration": 24,
+            "interactionId": 7874
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7895
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7895
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7902
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7902
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7930
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7930
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7958
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7958
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 7965
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 7965
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerdown",
+            "duration": 32,
+            "interactionId": 7972
+          },
+          {
+            "name": "mousedown",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerup",
+            "duration": 32,
+            "interactionId": 7972
+          },
+          {
+            "name": "mouseup",
+            "duration": 32,
+            "interactionId": 0
+          },
+          {
+            "name": "click",
+            "duration": 32,
+            "interactionId": 7972
+          },
+          {
+            "name": "pointerout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerleave",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2068.578125,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "ar",
+      "run": 2,
+      "form_ready_ms": 1025.5966000000008,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=ar&q=",
+            "bytes": 4101,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.000761726387835415,
+            "recentInput": false,
+            "time": 372.6999999284744
+          },
+          {
+            "value": 0.002546018779527264,
+            "recentInput": false,
+            "time": 385.59999990463257
+          },
+          {
+            "value": 0.07635192611495929,
+            "recentInput": false,
+            "time": 1127.8999999761581
+          },
+          {
+            "value": 0.4807965730951513,
+            "recentInput": false,
+            "time": 1138.5999999046326
+          },
+          {
+            "value": 0.4807965730951513,
+            "recentInput": false,
+            "time": 1497.0999999046326
+          },
+          {
+            "value": 0.4263528261196891,
+            "recentInput": true,
+            "time": 3065.0999999046326
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 24,
+            "interactionId": 1428
+          },
+          {
+            "name": "keypress",
+            "duration": 24,
+            "interactionId": 1428
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 24,
+            "interactionId": 1435
+          },
+          {
+            "name": "keypress",
+            "duration": 24,
+            "interactionId": 1435
+          },
+          {
+            "name": "beforeinput",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1456
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1456
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1463
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1463
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1491
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1491
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1498
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1498
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 1505
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 1505
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerdown",
+            "duration": 40,
+            "interactionId": 1526
+          },
+          {
+            "name": "mousedown",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerup",
+            "duration": 40,
+            "interactionId": 1526
+          },
+          {
+            "name": "mouseup",
+            "duration": 40,
+            "interactionId": 0
+          },
+          {
+            "name": "click",
+            "duration": 40,
+            "interactionId": 1526
+          },
+          {
+            "name": "pointerout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerleave",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerover",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "pointerenter",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseout",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "mouseover",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2068.578125,
+        "overflow": false
+      }
+    },
+    {
+      "locale": "ar",
+      "run": 3,
+      "form_ready_ms": 996.722099999999,
+      "data": {
+        "resources": [
+          {
+            "name": "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147",
+            "bytes": 0,
+            "type": "iframe"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/1/thumb",
+            "bytes": 20070,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/4/thumb",
+            "bytes": 17130,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/8/thumb",
+            "bytes": 19654,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/media/6/thumb",
+            "bytes": 20102,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/static/chunks/1s1agkftvcr8i.js",
+            "bytes": 7559,
+            "type": "script"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/quotations",
+            "bytes": 604,
+            "type": "fetch"
+          },
+          {
+            "name": "http://127.0.0.1:3033/_next/image?url=%2Fimages%2Fproduct-studio.webp&w=384&q=75",
+            "bytes": 9482,
+            "type": "img"
+          },
+          {
+            "name": "http://127.0.0.1:3033/api/catalogue?locale=ar&q=",
+            "bytes": 4101,
+            "type": "fetch"
+          }
+        ],
+        "layoutShifts": [
+          {
+            "value": 0.000761726387835415,
+            "recentInput": false,
+            "time": 439.1999999284744
+          },
+          {
+            "value": 0.002546018779527264,
+            "recentInput": false,
+            "time": 459.6999999284744
+          },
+          {
+            "value": 0.07635192611495929,
+            "recentInput": false,
+            "time": 1156.5
+          },
+          {
+            "value": 0.4807965730951513,
+            "recentInput": false,
+            "time": 1170.1999999284744
+          },
+          {
+            "value": 0.4807965730951513,
+            "recentInput": false,
+            "time": 1515.0999999046326
+          },
+          {
+            "value": 0.4263528261196891,
+            "recentInput": true,
+            "time": 3074.7999999523163
+          }
+        ],
+        "eventTiming": [
+          {
+            "name": "keydown",
+            "duration": 24,
+            "interactionId": 4720
+          },
+          {
+            "name": "keypress",
+            "duration": 24,
+            "interactionId": 4720
+          },
+          {
+            "name": "beforeinput",
+            "duration": 24,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4755
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4755
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4762
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4762
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4783
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4783
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "keydown",
+            "duration": 16,
+            "interactionId": 4811
+          },
+          {
+            "name": "keypress",
+            "duration": 16,
+            "interactionId": 4811
+          },
+          {
+            "name": "beforeinput",
+            "duration": 16,
+            "interactionId": 0
+          },
+          {
+            "name": "input",
+            "duration": 16,
+            "interactionId": 0
+          }
+        ],
+        "formHeight": 2068.578125,
+        "overflow": false
+      }
+    }
+  ]
+}

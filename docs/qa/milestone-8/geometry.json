@@ -1,0 +1,15 @@
+{
+  "vertices": 1764,
+  "triangles": 588,
+  "material_groups": 6,
+  "materials": 6,
+  "dimensions_m": [
+    1.2,
+    1.8,
+    0.03
+  ],
+  "maximum_color_edge": 2048,
+  "maximum_bump_edge": 1024,
+  "maximum_dpr": 1.5,
+  "texture_storage_estimate": "Before: six2048x2048RGBA color maps plus six1024x1024RGBA bump maps with full mipmaps bound160MiB. After shared Sources: one of each bound26.7MiB. Conservative product-map bounds only, not measured VRAM; actual rectangular dimensions can lower these and environment/shadow/targets add memory."
+}

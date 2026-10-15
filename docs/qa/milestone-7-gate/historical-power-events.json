@@ -1,0 +1,17 @@
+[
+  {
+    "utc": "2026-10-14T12:37:40.8491294Z",
+    "Id": 107,
+    "ProviderName": "Microsoft-Windows-Kernel-Power"
+  },
+  {
+    "utc": "2026-10-14T12:37:39.3922036Z",
+    "Id": 42,
+    "ProviderName": "Microsoft-Windows-Kernel-Power"
+  },
+  {
+    "utc": "2026-10-14T12:37:39.1274250Z",
+    "Id": 1,
+    "ProviderName": "Microsoft-Windows-Kernel-General"
+  }
+]

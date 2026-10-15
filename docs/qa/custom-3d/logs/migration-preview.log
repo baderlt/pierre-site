@@ -1,0 +1,26 @@
+
+   INFO  Running migrations.  
+
+  2026_10_15_000100_add_optional_product_viewer ......................................................................  
+  ⇂ alter table `products` add `viewer_enabled` tinyint(1) not null default '0'  
+  ⇂ update `products` set `viewer_enabled` = 1 where `texture_id` is not null and exists (select 1 from `product_3d_configs` where `product_id` = `products`.`id`)  
+  ⇂ alter table `media` add `asset_type` varchar(16) not null default 'image'  
+  ⇂ alter table `product_3d_configs` add `source` varchar(16) not null default 'procedural'  
+  ⇂ alter table `product_3d_configs` add `shape` varchar(24) null  
+  ⇂ alter table `product_3d_configs` add `shape_parameters` json null  
+  ⇂ alter table `product_3d_configs` add `parameter_limits` json null  
+  ⇂ alter table `product_3d_configs` add `customer_dimensions` tinyint(1) not null default '0'  
+  ⇂ alter table `product_3d_configs` add `revision` int unsigned not null default '1'  
+  ⇂ alter table `product_3d_configs` add `model_media_id` bigint unsigned null  
+  ⇂ alter table `product_3d_configs` add constraint `product_3d_configs_model_media_id_foreign` foreign key (`model_media_id`) references `media` (`id`) on delete restrict  
+  ⇂ alter table `product_3d_configs` add `model_approved` tinyint(1) not null default '0'  
+  ⇂ alter table `product_3d_configs` add `top_media_id` bigint unsigned null  
+  ⇂ alter table `product_3d_configs` add constraint `product_3d_configs_top_media_id_foreign` foreign key (`top_media_id`) references `media` (`id`) on delete restrict  
+  ⇂ alter table `product_3d_configs` add `bottom_media_id` bigint unsigned null  
+  ⇂ alter table `product_3d_configs` add constraint `product_3d_configs_bottom_media_id_foreign` foreign key (`bottom_media_id`) references `media` (`id`) on delete restrict  
+  ⇂ alter table `product_3d_configs` add `side_media_id` bigint unsigned null  
+  ⇂ alter table `product_3d_configs` add constraint `product_3d_configs_side_media_id_foreign` foreign key (`side_media_id`) references `media` (`id`) on delete restrict  
+  ⇂ alter table `product_3d_configs` add `edge_finish` varchar(16) not null default 'same'  
+  ⇂ update `product_3d_configs` set `customer_dimensions` = 1 where exists (select 1 from `product_formats` where `product_formats`.`product_id` = `product_3d_configs`.`product_id` and `allow_custom` = 1)  
+  ⇂ insert into `cache` (`expiration`, `key`, `value`) values (2107419179, 'time-stone-cache-public-content-version', 's:36:\"af4a92e8-9815-41e7-bc62-332f145281d1\";') on duplicate key update `expiration` = values(`expiration`), `key` = values(`key`), `value` = values(`value`)  
+

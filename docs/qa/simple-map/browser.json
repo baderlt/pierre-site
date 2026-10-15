@@ -1,0 +1,367 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\DELL 7420\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\DELL 7420\\Desktop\\time-stone\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/simple-map.spec.ts",
+      "--project",
+      "desktop",
+      "--workers",
+      "1"
+    ],
+    "configFile": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\playwright.config.ts",
+    "rootDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "snapshotDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3023",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1536,
+            "height": 1024
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/qa/simple-map/browser.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "simple-map.spec.ts",
+      "file": "simple-map.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fr: configured simple map, mobile layout and directions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 27000,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts:22:98",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                      "column": 98,
+                      "line": 22
+                    },
+                    "snippet": "  20 |   const directions=section.locator('.magasin-card a');await directions.focus();await expect(directions).toBeFocused();await expect(directions).toHaveAttribute('rel','noopener noreferrer');\n  21 |   // Real provider verification, not mocked tiles or a fabricated map image.\n> 22 |   await expect(page.frameLocator('.magasin-map iframe').locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:20000});\n     |                                                                                                  ^\n  23 |   await mkdir('docs/qa/simple-map',{recursive:true});\n  24 |   for(const width of [320,390,768,1536]){\n  25 |     await page.setViewportSize({width,height:1024});"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                        "column": 98,
+                        "line": 22
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n\n\n  20 |   const directions=section.locator('.magasin-card a');await directions.focus();await expect(directions).toBeFocused();await expect(directions).toHaveAttribute('rel','noopener noreferrer');\n  21 |   // Real provider verification, not mocked tiles or a fabricated map image.\n> 22 |   await expect(page.frameLocator('.magasin-map iframe').locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:20000});\n     |                                                                                                  ^\n  23 |   await mkdir('docs/qa/simple-map',{recursive:true});\n  24 |   for(const width of [320,390,768,1536]){\n  25 |     await page.setViewportSize({width,height:1024});\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts:22:98"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-14T16:43:46.644Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\simple-map-fr-configured-s-99134-obile-layout-and-directions-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\simple-map-fr-configured-s-99134-obile-layout-and-directions-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                    "column": 98,
+                    "line": 22
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c8e73be42a848fcbbebe-6d7780be108a472458f0",
+          "file": "simple-map.spec.ts",
+          "line": 5,
+          "column": 42
+        },
+        {
+          "title": "en: configured simple map, mobile layout and directions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 25573,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts:22:98",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                      "column": 98,
+                      "line": 22
+                    },
+                    "snippet": "  20 |   const directions=section.locator('.magasin-card a');await directions.focus();await expect(directions).toBeFocused();await expect(directions).toHaveAttribute('rel','noopener noreferrer');\n  21 |   // Real provider verification, not mocked tiles or a fabricated map image.\n> 22 |   await expect(page.frameLocator('.magasin-map iframe').locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:20000});\n     |                                                                                                  ^\n  23 |   await mkdir('docs/qa/simple-map',{recursive:true});\n  24 |   for(const width of [320,390,768,1536]){\n  25 |     await page.setViewportSize({width,height:1024});"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                        "column": 98,
+                        "line": 22
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n\n\n  20 |   const directions=section.locator('.magasin-card a');await directions.focus();await expect(directions).toBeFocused();await expect(directions).toHaveAttribute('rel','noopener noreferrer');\n  21 |   // Real provider verification, not mocked tiles or a fabricated map image.\n> 22 |   await expect(page.frameLocator('.magasin-map iframe').locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:20000});\n     |                                                                                                  ^\n  23 |   await mkdir('docs/qa/simple-map',{recursive:true});\n  24 |   for(const width of [320,390,768,1536]){\n  25 |     await page.setViewportSize({width,height:1024});\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts:22:98"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-14T16:44:15.678Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\simple-map-en-configured-s-88f6e-obile-layout-and-directions-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\simple-map-en-configured-s-88f6e-obile-layout-and-directions-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                    "column": 98,
+                    "line": 22
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c8e73be42a848fcbbebe-6132d3919a2eb47a3075",
+          "file": "simple-map.spec.ts",
+          "line": 5,
+          "column": 42
+        },
+        {
+          "title": "ar: configured simple map, mobile layout and directions",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 25256,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts:22:98",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                      "column": 98,
+                      "line": 22
+                    },
+                    "snippet": "  20 |   const directions=section.locator('.magasin-card a');await directions.focus();await expect(directions).toBeFocused();await expect(directions).toHaveAttribute('rel','noopener noreferrer');\n  21 |   // Real provider verification, not mocked tiles or a fabricated map image.\n> 22 |   await expect(page.frameLocator('.magasin-map iframe').locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:20000});\n     |                                                                                                  ^\n  23 |   await mkdir('docs/qa/simple-map',{recursive:true});\n  24 |   for(const width of [320,390,768,1536]){\n  25 |     await page.setViewportSize({width,height:1024});"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                        "column": 98,
+                        "line": 22
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first() with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for locator('.magasin-map iframe').contentFrame().locator('.leaflet-tile-loaded').first()\u001b[22m\n\n\n  20 |   const directions=section.locator('.magasin-card a');await directions.focus();await expect(directions).toBeFocused();await expect(directions).toHaveAttribute('rel','noopener noreferrer');\n  21 |   // Real provider verification, not mocked tiles or a fabricated map image.\n> 22 |   await expect(page.frameLocator('.magasin-map iframe').locator('.leaflet-tile-loaded').first()).toBeVisible({timeout:20000});\n     |                                                                                                  ^\n  23 |   await mkdir('docs/qa/simple-map',{recursive:true});\n  24 |   for(const width of [320,390,768,1536]){\n  25 |     await page.setViewportSize({width,height:1024});\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts:22:98"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-14T16:44:43.086Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\simple-map-ar-configured-s-6dee3-obile-layout-and-directions-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\test-results\\simple-map-ar-configured-s-6dee3-obile-layout-and-directions-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\simple-map.spec.ts",
+                    "column": 98,
+                    "line": 22
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c8e73be42a848fcbbebe-b4eb3ca645311bc14084",
+          "file": "simple-map.spec.ts",
+          "line": 5,
+          "column": 42
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-14T16:43:45.756Z",
+    "duration": 83564.05600000001,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "checks": [
+    "Filament product create/translations/upload/configuration/publish",
+    "real published catalogue/detail, Arabic RTL, admin texture WebGL activation and saved dimensions",
+    "real quote confirmation/reference and empty browser storage",
+    "real submitted quote visible in Filament, status/private note update",
+    "Real Filament replacement preserves media ID, changes public WebP bytes and reloads the viewer texture",
+    "Filament edit invalidates Laravel cache and next SSR request",
+    "Activated viewer GLB material/UV transforms reflect the edited saved scale, rotation and PBR settings",
+    "unpublish removes public detail/listing/private texture"
+  ],
+  "errors": [],
+  "productId": 42,
+  "slug": "qa-m7-browser-1791983497303",
+  "beforeConfigurationExport": {
+    "file": "integration-config-before.glb",
+    "transforms": [
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          0.041666666666666664,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          0.041666666666666664,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          0.041666666666666664
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          0.041666666666666664
+        ]
+      },
+      {
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.13,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          1.25
+        ]
+      }
+    ],
+    "dimensions": {
+      "width": 120,
+      "height": 120,
+      "thickness": 4
+    },
+    "imageChecksums": [
+      "902047689f5225054c8515fc2a6d09a79a0fc698125aaf0bb06f551348ced365",
+      "aac293ff0732f7d137b6a8a028a451f6f740e2c40e258d4e21920da57ffed430"
+    ]
+  },
+  "reference": "TS-W7LQCNCWOIBJKJOO",
+  "quoteId": 89,
+  "mediaUpdate": {
+    "textureId": 138,
+    "publicPath": "/media/138/texture",
+    "beforeChecksum": "308cc10118e2f6ad8388a3b6168a6f41584df4d0b7da4c04032c68e635c26db9",
+    "afterChecksum": "3532de456706cad8253e20e1e666d5fea406a9572e24e32e4ec73bc3f4d67436",
+    "referencePreserved": true
+  },
+  "afterMediaExport": {
+    "file": "integration-media-after.glb",
+    "transforms": [
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          0.041666666666666664,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          0.041666666666666664,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          0.041666666666666664
+        ]
+      },
+      {
+        "offset": [
+          0.07,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          0.041666666666666664
+        ]
+      },
+      {
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          1.25
+        ]
+      },
+      {
+        "offset": [
+          0.13,
+          0.03
+        ],
+        "rotation": 0.7853981633974483,
+        "scale": [
+          1.25,
+          1.25
+        ]
+      }
+    ],
+    "dimensions": {
+      "width": 120,
+      "height": 120,
+      "thickness": 4
+    },
+    "imageChecksums": [
+      "76efc9d2d222316bd64f7d178904143409e4e3c7481d9667961698a480be668d",
+      "2d6a879e9bfb9ecfbbc035950505727441818d48762363dcc0ea98007412122b"
+    ]
+  },
+  "accessibilityViolations": 0,
+  "liveConfigurationSync": {
+    "scaleBefore": 1.25,
+    "scaleAfter": 1.75,
+    "actualExportedUvScaleRatio": 1.4,
+    "materialRoughness": 0.33,
+    "materialMetalness": 0.1,
+    "afterExport": {
+      "file": "integration-config-after.glb",
+      "transforms": [
+        {
+          "offset": [
+            0.07,
+            0.03
+          ],
+          "rotation": 0.7853981633974483,
+          "scale": [
+            0.058333333333333334,
+            1.75
+          ]
+        },
+        {
+          "offset": [
+            0.07,
+            0.03
+          ],
+          "rotation": 0.7853981633974483,
+          "scale": [
+            0.058333333333333334,
+            1.75
+          ]
+        },
+        {
+          "offset": [
+            0.07,
+            0.03
+          ],
+          "rotation": 0.7853981633974483,
+          "scale": [
+            1.75,
+            0.058333333333333334
+          ]
+        },
+        {
+          "offset": [
+            0.07,
+            0.03
+          ],
+          "rotation": 0.7853981633974483,
+          "scale": [
+            1.75,
+            0.058333333333333334
+          ]
+        },
+        {
+          "rotation": 0.7853981633974483,
+          "scale": [
+            1.75,
+            1.75
+          ]
+        },
+        {
+          "offset": [
+            0.13,
+            0.03
+          ],
+          "rotation": 0.7853981633974483,
+          "scale": [
+            1.75,
+            1.75
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 120,
+        "height": 120,
+        "thickness": 4
+      },
+      "imageChecksums": [
+        "76efc9d2d222316bd64f7d178904143409e4e3c7481d9667961698a480be668d",
+        "2d6a879e9bfb9ecfbbc035950505727441818d48762363dcc0ea98007412122b"
+      ]
+    }
+  },
+  "passed": true
+}

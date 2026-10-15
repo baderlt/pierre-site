@@ -1,0 +1,372 @@
+{
+  "runs": {
+    "admin-live-final-results.json": {
+      "startTime": "2026-10-15T11:16:08.226Z",
+      "duration": 163412.626,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "admin-quotation-results.json": {
+      "startTime": "2026-10-15T11:22:01.484Z",
+      "duration": 11010.447,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "admin-verified-results.json": {
+      "startTime": "2026-10-15T10:59:30.636Z",
+      "duration": 107662.35800000001,
+      "expected": 0,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "affected-results.json": {
+      "startTime": "2026-10-15T10:43:59.264Z",
+      "duration": 365217.916,
+      "expected": 2,
+      "skipped": 0,
+      "unexpected": 2,
+      "flaky": 0
+    },
+    "affected-verified-results.json": {
+      "startTime": "2026-10-15T10:51:20.923Z",
+      "duration": 299928.471,
+      "expected": 0,
+      "skipped": 0,
+      "unexpected": 2,
+      "flaky": 0
+    },
+    "browser-first-results.json": {
+      "startTime": "2026-10-15T10:30:18.009Z",
+      "duration": 380270.93600000005,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 3,
+      "flaky": 0
+    },
+    "feature-final-results.json": {
+      "startTime": "2026-10-15T11:05:28.745Z",
+      "duration": 499433.15,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "feature-mobile-results.json": {
+      "startTime": "2026-10-15T11:05:28.662Z",
+      "duration": 163157.002,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "live-rebuild-results.json": {
+      "startTime": "2026-10-15T11:13:13.851Z",
+      "duration": 37332.369000000006,
+      "expected": 0,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "regressions-final-results.json": {
+      "startTime": "2026-10-15T11:05:26.662Z",
+      "duration": 779635.622,
+      "expected": 47,
+      "skipped": 19,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "current_feature_cases_passed": 10,
+  "existing_regressions_passed": 47,
+  "existing_regressions_skipped": 19,
+  "retries": 0,
+  "combined_admin_case": "Retained failed attempt; replaced by separate language and upload tests without increased timeouts.",
+  "intentional_skips": [
+    {
+      "title": "location fixture: directions safety, translated layouts, keyboard and reduced motion",
+      "project": "desktop",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+            "line": 74,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "location fixture: directions safety, translated layouts, keyboard and reduced motion",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+            "line": 74,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "location fixture: directions safety, translated layouts, keyboard and reduced motion",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Provide QA_LOCATION_URL backed by tests/fixtures/magasin-proxy.mjs; never overwrite real location settings.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\homepage-targeted.spec.ts",
+            "line": 74,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "product width matrix, screenshots and no initial 3D payload",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 64,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "product photos, details and quotation destination work without JavaScript",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "SSR native navigation once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 83,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "product width matrix, screenshots and no initial 3D payload",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 64,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "product photos, details and quotation destination work without JavaScript",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "SSR native navigation once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\product.spec.ts",
+            "line": 83,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "localized keyboard retry refetches public content after an API outage",
+      "project": "desktop",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Requires the isolated API failure/recovery fixture.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 93,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "public page viewport matrix and screenshots",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 52,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "SSR routes, paginated application products, no-script safety and validation bounds",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 66,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "localized keyboard retry refetches public content after an API outage",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Controlled desktop/mobile recovery matrix runs once against the shared local outage fixture.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 92,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "public page viewport matrix and screenshots",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 52,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "SSR routes, paginated application products, no-script safety and validation bounds",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 66,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "localized keyboard retry refetches public content after an API outage",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Controlled desktop/mobile recovery matrix runs once against the shared local outage fixture.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\public-pages.spec.ts",
+            "line": 92,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "3D controls, formats, finishes, demand rendering, exports and resource budgets",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Desktop and mobile cover the same engine.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 12,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "3D responsive and RTL activation matrix",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 112,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "WebGL initialization failure returns an accessible static preview",
+      "project": "tablet",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Failure mode once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 130,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "3D responsive and RTL activation matrix",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Complete matrix once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 112,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "title": "WebGL initialization failure returns an accessible static preview",
+      "project": "mobile",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Failure mode once.",
+          "location": {
+            "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\viewer.spec.ts",
+            "line": 130,
+            "column": 8
+          }
+        }
+      ]
+    }
+  ]
+}

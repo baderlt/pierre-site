@@ -11,7 +11,7 @@ import { isLocale, locales } from '@/lib/locales';
 
 type Props = { params: Promise<{ locale: string }> };
 export function generateStaticParams() { return locales.map(locale => ({ locale })); }
-export async function generateMetadata({params}:Props){const {locale}=await params;if(!isLocale(locale))notFound();const page=await getPage(locale,'about');return publicMetadata(locale,'about',typeof page.seo.title==='string'&&page.seo.title||page.title,typeof page.seo.description==='string'&&page.seo.description||page.description,typeof page.seo.image==='string'?page.seo.image:undefined);}
+export async function generateMetadata({params}:Props){const {locale}=await params;if(!isLocale(locale))notFound();const page=await getPage(locale,'about');return publicMetadata(locale,'about',typeof page.seo.title==='string'&&page.seo.title||page.title,typeof page.seo.description==='string'&&page.seo.description||page.description,typeof page.seo.image==='string'?page.seo.image:undefined,page.available_locales);}
 export default async function AboutPage({ params }: Props) {
   const { locale } = await params; if (!isLocale(locale)) notFound(); const c = await getAboutContent(locale);
   return <PublicPage locale={locale} page="about"><PageHero locale={locale} image={c.heroImage} eyebrow={c.about} title={c.aboutTitle} description={c.aboutIntro} compact />

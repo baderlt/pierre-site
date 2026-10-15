@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3035/fr
+Call log:
+  - navigating to "http://127.0.0.1:3035/fr", waiting until "networkidle"
+
+    at C:\Users\DELL 7420\Desktop\time-stone\.tools\m8\failure.mjs:4:96 {
+  log: [
+    '  - navigating to "http://127.0.0.1:3035/fr", waiting until "networkidle"'
+  ],
+  name: 'Error'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,96 @@
+# REVIEW TEMPLATE ONLY. Confirm paths, certificates, upstream ports and PHP socket.
+# Include within nginx's http context. No default cache or public storage alias.
+server {
+    listen 80;
+    server_name gos-cert.org api.gos-cert.org;
+    return 308 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name gos-cert.org;
+    ssl_certificate /etc/letsencrypt/live/gos-cert.org/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/gos-cert.org/privkey.pem;
+    server_tokens off;
+    # Public site accepts bounded JSON quotations, not file uploads.
+    client_max_body_size 64k;
+    proxy_hide_header X-Robots-Tag;
+    proxy_hide_header X-Content-Type-Options;
+    proxy_hide_header X-Frame-Options;
+    add_header X-Robots-Tag "noindex, nofollow" always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header X-Frame-Options SAMEORIGIN always;
+    # HSTS requires separate HTTPS/subdomain readiness approval; no preload.
+    # add_header Strict-Transport-Security "max-age=86400" always;
+    location ~ /\. { return 404; }
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Host gos-cert.org;
+        proxy_set_header X-Forwarded-Host gos-cert.org;
+        proxy_set_header X-Forwarded-Proto https;
+        # Overwrite; do not use $proxy_add_x_forwarded_for with the current single-ingress setup.
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header Connection "";
+        proxy_cache off;
+        proxy_buffering off;
+        proxy_read_timeout 30s;
+    }
+}
+
+server {
+    listen 443 ssl;
+    server_name api.gos-cert.org;
+    ssl_certificate /etc/letsencrypt/live/api.gos-cert.org/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/api.gos-cert.org/privkey.pem;
+    server_tokens off;
+    root /srv/time-stone/current/apps/api/public;
+    client_max_body_size 128m;
+    fastcgi_hide_header X-Robots-Tag;
+    fastcgi_hide_header X-Content-Type-Options;
+    fastcgi_hide_header X-Frame-Options;
+    add_header X-Robots-Tag "noindex, nofollow" always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header X-Frame-Options SAMEORIGIN always;
+    location ^~ /storage/ { return 404; }
+    location ~ /\. { return 404; }
+    location ~ \.php$ { return 404; }
+    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location = /index.php {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $realpath_root/index.php;
+        fastcgi_param DOCUMENT_ROOT $realpath_root;
+        fastcgi_pass unix:/run/php/time-stone.sock;
+        fastcgi_read_timeout 30s;
+    }
+}
+
+# Optional same-VPS internal transport. Bind only to loopback; never expose this port.
+# The canonical host/scheme ensures public DTO media URLs remain on api.gos-cert.org.
+server {
+    listen 127.0.0.1:8081;
+    server_name api.gos-cert.org;
+    root /srv/time-stone/current/apps/api/public;
+    client_max_body_size 128m;
+    fastcgi_hide_header X-Robots-Tag;
+    fastcgi_hide_header X-Content-Type-Options;
+    fastcgi_hide_header X-Frame-Options;
+    add_header X-Robots-Tag "noindex, nofollow" always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header X-Frame-Options SAMEORIGIN always;
+    location ^~ /storage/ { return 404; }
+    location ~ /\. { return 404; }
+    location ~ \.php$ { return 404; }
+    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location = /index.php {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $realpath_root/index.php;
+        fastcgi_param DOCUMENT_ROOT $realpath_root;
+        fastcgi_param HTTP_HOST api.gos-cert.org;
+        fastcgi_param SERVER_NAME api.gos-cert.org;
+        fastcgi_param SERVER_PORT 443;
+        fastcgi_param HTTPS on;
+        fastcgi_pass unix:/run/php/time-stone.sock;
+        fastcgi_read_timeout 30s;
+    }
+}

@@ -39,7 +39,11 @@ class BannerTest extends TestCase
         $this->assertSame(960, $image->derivatives['large']['width']);
         $this->assertSame(640, $image->derivatives['card']['width']);
         $this->assertSame(192, $image->derivatives['card']['height']);
+        $this->assertSame(900, $image->derivatives['hero_mobile']['height']);
+        $this->assertSame(696, $image->derivatives['banner_mobile']['height']);
+        $this->assertSame(1010, $image->derivatives['banner_mobile']['width']);
         $this->get($image->bannerUrl())->assertNotFound();
+        $this->get($image->url('hero_mobile'))->assertNotFound();
         $this->get($image->url('card'))->assertNotFound();
         $page = Page::where('slug', 'home')->firstOrFail();
         $section = $page->sections()->create(['key' => 'hero', 'type' => 'hero', 'visible' => true, 'image_id' => $image->id]);
@@ -49,6 +53,8 @@ class BannerTest extends TestCase
         $this->getJson('/api/v1/pages/home?locale=ar')->assertOk()->assertJsonPath('data.sections.0.image', $image->bannerUrl());
         $this->get($image->bannerUrl())->assertOk()->assertHeader('Content-Type', 'image/webp');
         $this->get($image->url('card'))->assertOk()->assertHeader('Content-Type', 'image/webp');
+        $this->get($image->url('hero_mobile'))->assertOk()->assertHeader('Content-Type', 'image/webp');
+        $this->get($image->url('banner_mobile'))->assertOk()->assertHeader('Content-Type', 'image/webp');
         $derivatives = $image->derivatives;
         unset($derivatives['card']);
         $image->update(['derivatives' => $derivatives]);
@@ -61,6 +67,8 @@ class BannerTest extends TestCase
         $section->update(['visible' => false]);
         $this->get($image->bannerUrl())->assertNotFound();
         $this->get($image->url('card'))->assertNotFound();
+        $this->get($image->url('hero_mobile'))->assertNotFound();
+        $this->get($image->url('banner_mobile'))->assertNotFound();
     }
 
     public function test_banner_upload_from_section_form_preserves_other_image_references(): void
@@ -88,5 +96,29 @@ class BannerTest extends TestCase
         $this->assertStringEndsWith('/texture', $image->bannerUrl());
         $image->derivatives = ['preview' => ['width' => 1200]];
         $this->assertStringEndsWith('/preview', $image->bannerUrl());
+    }
+
+    public function test_mobile_crop_keeps_focal_position_and_never_upscales_small_originals(): void
+    {
+        $source = imagecreatetruecolor(1000, 1000);
+        for ($x = 0; $x < 1000; $x++) {
+            imageline($source, $x, 0, $x, 999, imagecolorallocate($source, (int) round($x * 255 / 999), 0, 0));
+        }
+        $variants = app(MediaLibrary::class)->mobileBannerDerivatives($source, 'qa-crop');
+        imagedestroy($source);
+        $this->assertSame(1000, $variants['hero_mobile']['height']);
+        $this->assertSame(724, $variants['hero_mobile']['width']);
+        $crop = imagecreatefromstring(Storage::disk('local')->get($variants['hero_mobile']['path']));
+        // The left crop edge is 44% of the removed horizontal pixels, matching CSS object-position.
+        $red = (imagecolorat($crop, 0, 500) >> 16) & 255;
+        $this->assertEqualsWithDelta(31, $red, 3);
+        imagedestroy($crop);
+        $small = imagecreatetruecolor(32, 48);
+        $smallVariants = app(MediaLibrary::class)->mobileBannerDerivatives($small, 'qa-small');
+        imagedestroy($small);
+        foreach ($smallVariants as $variant) {
+            $this->assertLessThanOrEqual(32, $variant['width']);
+            $this->assertLessThanOrEqual(48, $variant['height']);
+        }
     }
 }

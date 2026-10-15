@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\DELL 7420\Desktop\time-stone\apps\api\phpunit.xml" tests="7" assertions="28" errors="0" failures="0" skipped="0" time="95.791891">
+    <testsuite name="Feature" tests="7" assertions="28" errors="0" failures="0" skipped="0" time="95.791891">
+      <testsuite name="Tests\Feature\SecurityReadinessTest" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" tests="7" assertions="28" errors="0" failures="0" skipped="0" time="95.791891">
+        <testcase name="test_proxy_identity_is_authenticated_validated_and_canonicalized" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="17" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="5" time="25.144457"/>
+        <testcase name="test_unsigned_storage_paths_and_originals_are_not_public" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="32" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="3" time="18.176500"/>
+        <testcase name="test_only_explicit_reverse_proxies_can_supply_client_ip_and_scheme" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="41" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="2" time="14.372737"/>
+        <testcase name="test_sitemap_data_excludes_drafts_demonstrations_and_missing_translations" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="58" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="9" time="8.969430"/>
+        <testcase name="test_sitemap_locale_eligibility_includes_visible_section_translations" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="77" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="4" time="8.829335"/>
+        <testcase name="test_proxy_allowlist_rejects_wildcards_and_default_routes" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="96" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="1" time="10.605466"/>
+        <testcase name="test_preflight_is_read_only_and_rejects_unsafe_production_configuration" file="C:\Users\DELL 7420\Desktop\time-stone\apps\api\tests\Feature\SecurityReadinessTest.php" line="108" class="Tests\Feature\SecurityReadinessTest" classname="Tests.Feature.SecurityReadinessTest" assertions="4" time="9.693967"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

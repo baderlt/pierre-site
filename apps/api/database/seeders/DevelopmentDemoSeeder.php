@@ -80,7 +80,8 @@ class DevelopmentDemoSeeder extends Seeder
                     'block' => ['width' => 100, 'height' => 80, 'thickness' => 60],'tile' => ['width' => 60, 'height' => 60, 'thickness' => 1.5],default => ['width' => 180, 'height' => 120, 'thickness' => 3]
                 };
                 $product->formats()->sync([Format::where('geometry', $geometry)->value('id') => [...$dims, 'verified' => false, 'allow_custom' => true]]);
-                $product->configuration()->updateOrCreate([], ['version' => 1, 'geometry' => $geometry, ...$dims, 'dimensions_verified' => false, 'finish' => 'honed', 'scale' => 1, 'rotation' => 0, 'roughness' => .6, 'metalness' => 0, 'bump_strength' => .05, 'preset' => 'studio']);
+                $product->configuration()->updateOrCreate([], ['version' => 1, 'geometry' => $geometry, ...$dims, 'dimensions_verified' => false, 'finish' => 'honed', 'scale' => 1, 'rotation' => 0, 'roughness' => .6, 'metalness' => 0, 'bump_strength' => .05, 'preset' => 'studio', 'customer_dimensions' => true]);
+                $product->update(['viewer_enabled' => true]);
             }
             foreach (['home', 'about', 'applications', 'contact', 'quote', 'shared'] as $key) {
                 $page = Page::where('slug', $key)->firstOrFail();

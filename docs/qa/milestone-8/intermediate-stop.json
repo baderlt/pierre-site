@@ -1,0 +1,7 @@
+{
+  "stopped_owned_processes": [
+    16652
+  ],
+  "utc": "2026-10-14T21:36:51.8956061Z",
+  "reason": "Intermediate cold measurement stopped because responsive-sizing correction requires a new final build; all completed intermediate samples retained."
+}

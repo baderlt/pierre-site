@@ -1,0 +1,146 @@
+{
+  "scope": "Static design boards only; not application regression or performance tests",
+  "boards": [
+    {
+      "lang": "fr",
+      "width": 1536,
+      "documentWidth": 1536,
+      "images": [
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/hero-stone.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/limestone.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/marble.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/tiles.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-beige.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-grey.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-tiles.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/process-block.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/process-finish.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/architecture.webp"
+        }
+      ]
+    },
+    {
+      "lang": "fr",
+      "width": 390,
+      "documentWidth": 390,
+      "images": [
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/hero-stone.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/limestone.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/marble.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/tiles.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-beige.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-grey.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-tiles.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/process-block.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/process-finish.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/architecture.webp"
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "documentWidth": 390,
+      "images": [
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/hero-stone.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/limestone.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/marble.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/tiles.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-beige.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-grey.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/catalogue-tiles.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/process-block.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/process-finish.webp"
+        },
+        {
+          "loaded": true,
+          "source": "../../apps/web/public/images/architecture.webp"
+        }
+      ]
+    }
+  ]
+}

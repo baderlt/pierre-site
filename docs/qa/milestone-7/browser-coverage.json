@@ -1,0 +1,21 @@
+{
+  "full": {
+    "startTime": "2026-10-14T12:04:04.517Z",
+    "duration": 2756425.0979999998,
+    "expected": 133,
+    "skipped": 20,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "focusedRecheck": {
+    "startTime": "2026-10-14T13:02:59.842Z",
+    "duration": 105841.808,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "allThreeFailedCasesPassedOnSeparateRecheck": true,
+  "cleanCompleteFullRun": false,
+  "note": "The failed complete run is retained; focused reruns do not rewrite its result. No automatic retries."
+}

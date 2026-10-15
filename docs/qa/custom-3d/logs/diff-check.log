@@ -1,0 +1,7 @@
+warning: in the working copy of 'apps/api/app/Filament/AdminSchemas.php', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'apps/api/app/Http/Controllers/PublicCatalogueController.php', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'apps/api/lang/ar.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'apps/api/lang/fr.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'apps/api/tests/Feature/BackendTest.php', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'apps/api/tests/Feature/IntegrationTest.php', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it

@@ -1,0 +1,56 @@
+[
+  {
+    "lang": "fr",
+    "width": 390,
+    "identical": true,
+    "hashes": [
+      "3282abf450d977557828f32c0dcb2ae37f2b24c9b608ad7a78e18fbcc1121423",
+      "3282abf450d977557828f32c0dcb2ae37f2b24c9b608ad7a78e18fbcc1121423"
+    ]
+  },
+  {
+    "lang": "fr",
+    "width": 1536,
+    "identical": true,
+    "hashes": [
+      "f03896f95fb1cc928d14864fd77fa2e2e2d1f3e0bfc4dd27cc4775b2743f9396",
+      "f03896f95fb1cc928d14864fd77fa2e2e2d1f3e0bfc4dd27cc4775b2743f9396"
+    ]
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "identical": true,
+    "hashes": [
+      "9bfd3aa91044c7f79c29ba2b2fe7eac6ee79451a7a8e5a95bf7790bb9d0734f5",
+      "9bfd3aa91044c7f79c29ba2b2fe7eac6ee79451a7a8e5a95bf7790bb9d0734f5"
+    ]
+  },
+  {
+    "lang": "en",
+    "width": 1536,
+    "identical": true,
+    "hashes": [
+      "bdbc778e086bc79a8802649b62012891f7f911594f3aa5e5d27421a9e7b23e1b",
+      "bdbc778e086bc79a8802649b62012891f7f911594f3aa5e5d27421a9e7b23e1b"
+    ]
+  },
+  {
+    "lang": "ar",
+    "width": 390,
+    "identical": true,
+    "hashes": [
+      "e1db332e7e1a5b734701b9e614399b161538fc9c65472e497e3488dfc62f5ea8",
+      "e1db332e7e1a5b734701b9e614399b161538fc9c65472e497e3488dfc62f5ea8"
+    ]
+  },
+  {
+    "lang": "ar",
+    "width": 1536,
+    "identical": true,
+    "hashes": [
+      "6b14f163dd3dd28fa986bd45bb32cd3c36d3d970af697fb32389d6cc219688ac",
+      "6b14f163dd3dd28fa986bd45bb32cd3c36d3d970af697fb32389d6cc219688ac"
+    ]
+  }
+]

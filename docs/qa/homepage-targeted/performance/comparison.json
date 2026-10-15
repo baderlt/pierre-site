@@ -1,0 +1,170 @@
+[
+  {
+    "stage": "before",
+    "name": "home-fr",
+    "lcp_s": [
+      3.913,
+      4.139,
+      4.14
+    ],
+    "median_lcp_s": 4.139,
+    "median_bytes": 583407,
+    "median_cls": 0.0006375700142680657,
+    "median_tbt_ms": 104,
+    "benchmark_indices": [
+      3325.5,
+      3363,
+      2972
+    ],
+    "warnings": [
+      [],
+      [],
+      []
+    ],
+    "failed_requests": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "stage": "before",
+    "name": "home-ar",
+    "lcp_s": [
+      4.815,
+      4.809,
+      4.885
+    ],
+    "median_lcp_s": 4.815,
+    "median_bytes": 708077,
+    "median_cls": 0,
+    "median_tbt_ms": 155.7,
+    "benchmark_indices": [
+      3367.5,
+      3523,
+      3288.5
+    ],
+    "warnings": [
+      [],
+      [],
+      []
+    ],
+    "failed_requests": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "stage": "before",
+    "name": "desktop-fr",
+    "lcp_s": [
+      2.4,
+      1.719,
+      2.697
+    ],
+    "median_lcp_s": 2.4,
+    "median_bytes": 2040989,
+    "median_cls": 0.0002996313075224559,
+    "median_tbt_ms": 0,
+    "benchmark_indices": [
+      2681.5,
+      2988.5,
+      2450
+    ],
+    "warnings": [
+      [],
+      [],
+      []
+    ],
+    "failed_requests": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "stage": "after",
+    "name": "home-fr",
+    "lcp_s": [
+      4.139,
+      4.218,
+      4.212
+    ],
+    "median_lcp_s": 4.212,
+    "median_bytes": 595042,
+    "median_cls": 0.0006375700142680657,
+    "median_tbt_ms": 92,
+    "benchmark_indices": [
+      3383,
+      3371,
+      3476.5
+    ],
+    "warnings": [
+      [],
+      [],
+      []
+    ],
+    "failed_requests": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "stage": "after",
+    "name": "home-ar",
+    "lcp_s": [
+      4.969,
+      5.123,
+      4.817
+    ],
+    "median_lcp_s": 4.969,
+    "median_bytes": 719807,
+    "median_cls": 0.0035640056741581185,
+    "median_tbt_ms": 115,
+    "benchmark_indices": [
+      3302.5,
+      3515,
+      2381
+    ],
+    "warnings": [
+      [],
+      [],
+      []
+    ],
+    "failed_requests": [
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "stage": "after",
+    "name": "desktop-fr",
+    "lcp_s": [
+      1.803,
+      1.823,
+      1.751
+    ],
+    "median_lcp_s": 1.803,
+    "median_bytes": 2052608,
+    "median_cls": 0.0002996313075224559,
+    "median_tbt_ms": 0,
+    "benchmark_indices": [
+      3314.5,
+      3311,
+      3380
+    ],
+    "warnings": [
+      [],
+      [],
+      []
+    ],
+    "failed_requests": [
+      [],
+      [],
+      []
+    ]
+  }
+]

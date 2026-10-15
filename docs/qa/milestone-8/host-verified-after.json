@@ -1,0 +1,240 @@
+{
+  "processes": [
+    {
+      "Id": 6272,
+      "ProcessName": "httpd",
+      "CPU": null,
+      "WorkingSet64": 9908224,
+      "PrivateMemorySize64": 50294784
+    },
+    {
+      "Id": 11652,
+      "ProcessName": "httpd",
+      "CPU": 7595.78125,
+      "WorkingSet64": 194211840,
+      "PrivateMemorySize64": 227876864
+    },
+    {
+      "Id": 18364,
+      "ProcessName": "httpd",
+      "CPU": 0.65625,
+      "WorkingSet64": 2928640,
+      "PrivateMemorySize64": 10203136
+    },
+    {
+      "Id": 18852,
+      "ProcessName": "httpd",
+      "CPU": null,
+      "WorkingSet64": 3788800,
+      "PrivateMemorySize64": 14376960
+    },
+    {
+      "Id": 21392,
+      "ProcessName": "httpd",
+      "CPU": 1111.4375,
+      "WorkingSet64": 90988544,
+      "PrivateMemorySize64": 91070464
+    },
+    {
+      "Id": 22660,
+      "ProcessName": "httpd",
+      "CPU": 51.921875,
+      "WorkingSet64": 10784768,
+      "PrivateMemorySize64": 151343104
+    },
+    {
+      "Id": 27832,
+      "ProcessName": "httpd",
+      "CPU": 0.484375,
+      "WorkingSet64": 4751360,
+      "PrivateMemorySize64": 10190848
+    },
+    {
+      "Id": 30316,
+      "ProcessName": "httpd",
+      "CPU": 0.65625,
+      "WorkingSet64": 3506176,
+      "PrivateMemorySize64": 10186752
+    },
+    {
+      "Id": 8288,
+      "ProcessName": "mysqld",
+      "CPU": null,
+      "WorkingSet64": 3981312,
+      "PrivateMemorySize64": 747986944
+    },
+    {
+      "Id": 9368,
+      "ProcessName": "mysqld",
+      "CPU": null,
+      "WorkingSet64": 217927680,
+      "PrivateMemorySize64": 1198784512
+    },
+    {
+      "Id": 13744,
+      "ProcessName": "mysqld",
+      "CPU": null,
+      "WorkingSet64": 8777728,
+      "PrivateMemorySize64": 34672640
+    },
+    {
+      "Id": 2888,
+      "ProcessName": "node",
+      "CPU": 0.984375,
+      "WorkingSet64": 13553664,
+      "PrivateMemorySize64": 72536064
+    },
+    {
+      "Id": 5304,
+      "ProcessName": "node",
+      "CPU": 4.3125,
+      "WorkingSet64": 39731200,
+      "PrivateMemorySize64": 41037824
+    },
+    {
+      "Id": 6652,
+      "ProcessName": "node",
+      "CPU": 4.671875,
+      "WorkingSet64": 78737408,
+      "PrivateMemorySize64": 128229376
+    },
+    {
+      "Id": 8460,
+      "ProcessName": "node",
+      "CPU": 7.34375,
+      "WorkingSet64": 122171392,
+      "PrivateMemorySize64": 135495680
+    },
+    {
+      "Id": 8868,
+      "ProcessName": "node",
+      "CPU": 0.984375,
+      "WorkingSet64": 7233536,
+      "PrivateMemorySize64": 67366912
+    },
+    {
+      "Id": 10488,
+      "ProcessName": "node",
+      "CPU": 0.53125,
+      "WorkingSet64": 57352192,
+      "PrivateMemorySize64": 29614080
+    },
+    {
+      "Id": 10676,
+      "ProcessName": "node",
+      "CPU": 0.28125,
+      "WorkingSet64": 3842048,
+      "PrivateMemorySize64": 53583872
+    },
+    {
+      "Id": 14572,
+      "ProcessName": "node",
+      "CPU": 0.390625,
+      "WorkingSet64": 5185536,
+      "PrivateMemorySize64": 54829056
+    },
+    {
+      "Id": 14872,
+      "ProcessName": "node",
+      "CPU": 7.640625,
+      "WorkingSet64": 12500992,
+      "PrivateMemorySize64": 98996224
+    },
+    {
+      "Id": 15848,
+      "ProcessName": "node",
+      "CPU": 1.140625,
+      "WorkingSet64": 56459264,
+      "PrivateMemorySize64": 33726464
+    },
+    {
+      "Id": 15956,
+      "ProcessName": "node",
+      "CPU": 23.15625,
+      "WorkingSet64": 162856960,
+      "PrivateMemorySize64": 198463488
+    },
+    {
+      "Id": 17272,
+      "ProcessName": "node",
+      "CPU": 0.171875,
+      "WorkingSet64": 13111296,
+      "PrivateMemorySize64": 21352448
+    },
+    {
+      "Id": 17872,
+      "ProcessName": "node",
+      "CPU": 0.25,
+      "WorkingSet64": 50200576,
+      "PrivateMemorySize64": 21434368
+    },
+    {
+      "Id": 24036,
+      "ProcessName": "node",
+      "CPU": 10.09375,
+      "WorkingSet64": 4042752,
+      "PrivateMemorySize64": 160129024
+    },
+    {
+      "Id": 24528,
+      "ProcessName": "node",
+      "CPU": 21.296875,
+      "WorkingSet64": 7118848,
+      "PrivateMemorySize64": 202203136
+    },
+    {
+      "Id": 26076,
+      "ProcessName": "node",
+      "CPU": 173.9375,
+      "WorkingSet64": 70995968,
+      "PrivateMemorySize64": 299626496
+    },
+    {
+      "Id": 26152,
+      "ProcessName": "node",
+      "CPU": 364.828125,
+      "WorkingSet64": 17162240,
+      "PrivateMemorySize64": 223899648
+    },
+    {
+      "Id": 26368,
+      "ProcessName": "node",
+      "CPU": 141.671875,
+      "WorkingSet64": 144113664,
+      "PrivateMemorySize64": 157007872
+    },
+    {
+      "Id": 27144,
+      "ProcessName": "node",
+      "CPU": 1.109375,
+      "WorkingSet64": 110858240,
+      "PrivateMemorySize64": 118394880
+    },
+    {
+      "Id": 29904,
+      "ProcessName": "node",
+      "CPU": 1.109375,
+      "WorkingSet64": 12681216,
+      "PrivateMemorySize64": 118624256
+    },
+    {
+      "Id": 30076,
+      "ProcessName": "node",
+      "CPU": 0.4375,
+      "WorkingSet64": 12709888,
+      "PrivateMemorySize64": 31145984
+    }
+  ],
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+    "NumberOfCores": 4,
+    "NumberOfLogicalProcessors": 8,
+    "MaxClockSpeed": 1690,
+    "LoadPercentage": 10
+  },
+  "total_memory_kib": 16492932,
+  "free_memory_kib": 2696948,
+  "os": "Microsoft Windows 11 Professionnel",
+  "utc": "2026-10-14T23:52:29.5211944Z",
+  "version": "10.0.26200"
+}

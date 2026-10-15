@@ -36,6 +36,18 @@ abstract class ContentModel extends Model
         return $translations->firstWhere('locale', $locale)?->$field ?: $translations->firstWhere('locale', 'fr')?->$field;
     }
 
+    /** Locale eligibility never treats French fallback as a completed translation. */
+    public function seoLocales(): array
+    {
+        $french = $this->translations->firstWhere('locale', 'fr');
+        $fields = array_filter(['name', 'description', 'seo_title', 'seo_description', 'cta_label'], fn ($field) => filled($french?->$field));
+
+        return array_values(array_filter(['fr', 'en', 'ar'], function ($locale) use ($fields) {
+            $translation = $this->translations->firstWhere('locale', $locale);
+            return filled($translation?->name) && collect($fields)->every(fn ($field) => filled($translation?->$field));
+        }));
+    }
+
     public function scopePublished($q)
     {
         if (app()->isProduction() && in_array($this->getTable(), ['products', 'applications'])) {

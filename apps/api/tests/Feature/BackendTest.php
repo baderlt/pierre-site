@@ -54,7 +54,7 @@ class BackendTest extends TestCase
 
     private function payload(): array
     {
-        return ['slug' => 'qa-stone', 'sku' => null, 'category_id' => Category::where('slug', 'limestone')->value('id'), 'stone_type_id' => StoneType::where('slug', 'limestone')->value('id'), 'status' => 'draft', 'featured' => false, 'sort_order' => 0, 'illustrative' => true, 'main_image_id' => null, 'texture_id' => null, 'og_image_id' => null,
+        return ['slug' => 'qa-stone', 'sku' => null, 'category_id' => Category::where('slug', 'limestone')->value('id'), 'stone_type_id' => StoneType::where('slug', 'limestone')->value('id'), 'status' => 'draft', 'featured' => false, 'sort_order' => 0, 'illustrative' => true, 'viewer_enabled' => true, 'main_image_id' => null, 'texture_id' => $this->image()->id, 'og_image_id' => null,
             'translations' => ['fr' => ['name' => 'Pierre QA', 'description' => 'Illustration'], 'en' => ['name' => 'QA Stone'], 'ar' => ['name' => 'حجر تجريبي']],
             'finishes' => Finish::whereIn('slug', ['honed', 'brushed'])->pluck('id')->all(), 'colors' => [], 'applications' => [], 'gallery' => [],
             'format_options' => [['format_id' => Format::where('slug', 'slab')->value('id'), 'width' => 180, 'height' => 120, 'thickness' => 3, 'verified' => false, 'allow_custom' => true]],

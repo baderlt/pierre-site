@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "locale": "fr",
+      "width": 390,
+      "currentImage": "http://127.0.0.1:3033/media/58/banner_mobile"
+    },
+    {
+      "locale": "fr",
+      "width": 1536,
+      "currentImage": "http://127.0.0.1:3033/media/58/banner"
+    },
+    {
+      "locale": "fr",
+      "page": "/",
+      "loaded": true
+    },
+    {
+      "locale": "fr",
+      "page": "/about",
+      "loaded": true
+    },
+    {
+      "locale": "fr",
+      "page": "/applications",
+      "loaded": true
+    },
+    {
+      "locale": "fr",
+      "page": "/contact",
+      "loaded": true
+    },
+    {
+      "locale": "fr",
+      "page": "/quote",
+      "loaded": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "currentImage": "http://127.0.0.1:3033/media/58/banner_mobile"
+    },
+    {
+      "locale": "en",
+      "width": 1536,
+      "currentImage": "http://127.0.0.1:3033/media/58/banner"
+    },
+    {
+      "locale": "en",
+      "page": "/",
+      "loaded": true
+    },
+    {
+      "locale": "en",
+      "page": "/about",
+      "loaded": true
+    },
+    {
+      "locale": "en",
+      "page": "/applications",
+      "loaded": true
+    },
+    {
+      "locale": "en",
+      "page": "/contact",
+      "loaded": true
+    },
+    {
+      "locale": "en",
+      "page": "/quote",
+      "loaded": true
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "currentImage": "http://127.0.0.1:3033/media/58/banner_mobile"
+    },
+    {
+      "locale": "ar",
+      "width": 1536,
+      "currentImage": "http://127.0.0.1:3033/media/58/banner"
+    },
+    {
+      "locale": "ar",
+      "page": "/",
+      "loaded": true
+    },
+    {
+      "locale": "ar",
+      "page": "/about",
+      "loaded": true
+    },
+    {
+      "locale": "ar",
+      "page": "/applications",
+      "loaded": true
+    },
+    {
+      "locale": "ar",
+      "page": "/contact",
+      "loaded": true
+    },
+    {
+      "locale": "ar",
+      "page": "/quote",
+      "loaded": true
+    }
+  ],
+  "browserErrors": []
+}

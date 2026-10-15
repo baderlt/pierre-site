@@ -1,0 +1,32 @@
+[
+  {
+    "locale": "fr",
+    "width": 430,
+    "documentWidth": 430
+  },
+  {
+    "locale": "fr",
+    "width": 1024,
+    "documentWidth": 1024
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "documentWidth": 430
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "documentWidth": 1024
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "documentWidth": 430
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "documentWidth": 1024
+  }
+]

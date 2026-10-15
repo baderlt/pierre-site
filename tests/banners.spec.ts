@@ -1,3 +1,4 @@
+import {qaOutput} from './qa-output';
 import { test, expect } from '@playwright/test';
 const adminOrigin=process.env.QA_API_URL||'http://127.0.0.1:8000';
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
@@ -6,7 +7,7 @@ test('editable banners use high resolution on desktop and smaller images on mobi
   test.skip(!process.env.QA_ADMIN_LOCALE_CREDENTIALS, 'Requires a disposable local admin account.');
   test.setTimeout(180000);
   page.setDefaultTimeout(15000);
-  const output = 'docs/qa/banners';
+  const output = qaOutput('docs/qa/banners');
   await mkdir(output, { recursive: true });
   const account = JSON.parse(await readFile(process.env.QA_ADMIN_LOCALE_CREDENTIALS!, 'utf8'));
   const errors: string[] = [];
@@ -22,7 +23,7 @@ test('editable banners use high resolution on desktop and smaller images on mobi
     await page.locator('#admin-locale').selectOption(locale);
     await Promise.all([page.waitForNavigation(), page.locator('.admin-language-switcher button').click()]);
     await page.getByRole('link', { name: label, exact: true }).click();
-    await expect(page).toHaveURL(/filters\[banners\]\[isActive\]=1/);
+    await expect(page).toHaveURL(url => url.pathname==='/admin/page-sections'&&['1','true'].includes(url.searchParams.get('filters[banners][isActive]')||''));
     await expect(page.getByText('catalogue-hero', { exact: true })).toBeVisible();
     expect(await page.locator('table img').count()).toBeGreaterThan(0);
     if (locale === 'ar') await page.screenshot({ path: `${output}/admin-banners-ar.png`, fullPage: true });
@@ -44,7 +45,7 @@ test('editable banners use high resolution on desktop and smaller images on mobi
       await expect(hero).toBeVisible();
       await expect.poll(() => hero.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
       const src = await hero.evaluate((img: HTMLImageElement) => img.currentSrc);
-      expect(src).toMatch(width < 768 ? /\/preview$/ : /\/banner$/);
+      expect(src).toMatch(width < 480 ? /\/banner_mobile$/ : width < 768 ? /\/preview$/ : /\/banner$/);
       if (width < 768) expect(requested.some(url => url.endsWith(new URL(section.image).pathname))).toBe(false);
       page.off('requestfinished', listener);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);

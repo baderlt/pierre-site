@@ -1,0 +1,17 @@
+
+   ErrorException 
+
+  Attempt to read property "Value" on null
+
+  at .tools\m8\fixture.php:28
+     24▕  $quotes=DB::table('quotation_requests')->where('email','qa-m8-load@example.test')->get();echo json_encode(['rows'=>$quotes->count(),'unique_keys'=>$quotes->pluck('idempotency_key')->unique()->count(),'duplicate_idempotency_rows'=>DB::table('quotation_requests')->select('idempotency_key')->groupBy('idempotency_key')->havingRaw('COUNT(*) > 1')->get()->count()]);
+     25▕ }elseif($mode==='verify-media'){
+     26▕  $missing=0;$checked=0;foreach(Media::all()as$m)foreach([$m->path,...array_column($m->derivatives,'path')]as$path){$checked++;if(!Storage::disk($m->disk)->exists($path))$missing++;}echo json_encode(['paths_checked'=>$checked,'missing'=>$missing]);if($missing)exit(1);
+     27▕ }elseif($mode==='expire-read-limit'){
+  ➜  28▕  $key=config('cache.prefix').md5('public-api'.'trusted-next-read');$changed=DB::table('cache')->whereIn('key',[$key,$key.':timer'])->update(['expiration'=>time()-1]);echo json_encode(['expired_own_QA_read_limiter_keys'=>$changed,'store'=>get_class(Illuminate\Support\Facades\Cache::store('database')->getStore()),'deadlocks'=>(int)DB::selectOne("SHOW GLOBAL STATUS LIKE 'Innodb_deadlocks'")->Value]);
+     29▕ }else throw new RuntimeException('Unknown fixture action');
+     30▕
+
+  1   .tools\m8\fixture.php:28
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Attempt to read property "Value" on null", "C:\Users\DELL 7420\Desktop\time-stone\.tools\m8\fixture.php")
+

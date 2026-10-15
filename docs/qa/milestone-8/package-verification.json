@@ -1,0 +1,33 @@
+{
+  "artifact": ".tools/m8/source-release.tar.gz",
+  "package": {
+    "files": 281,
+    "mode": "source artifact created",
+    "sha256": "f3a755e1d1d749debacfe03f90836882b49df046f028aad76da2da17ee8f890a"
+  },
+  "forbidden": [],
+  "unsafe_modes": [],
+  "missing_required": [],
+  "source_mismatches": [],
+  "secret_matches": 0,
+  "client_files": 24,
+  "client_secret_matches": 0,
+  "client_internal_origin_matches": 0,
+  "public_evidence_files_scanned": 303,
+  "public_evidence_secret_matches": 0,
+  "changed_packaged_paths_since_accepted_M7": [
+    "apps/api/app/Providers/AppServiceProvider.php",
+    "apps/web/next-env.d.ts",
+    "apps/web/src/app/[locale]/error.tsx",
+    "apps/web/src/app/[locale]/products/page.tsx",
+    "apps/web/src/components/stone-engine/StoneViewer.jsx",
+    "apps/web/tsconfig.json"
+  ],
+  "M7_artifact_sha256": "7e97fefeef58a68e279c3339d07d6c6f2c7a00ce3b3a8b024c5e9e625cfe1762",
+  "clean_room_install_or_Linux_extraction_executed": false,
+  "accepted_M7_artifact_unchanged": true,
+  "passed": true,
+  "new_packaged_paths_since_accepted_M7": [
+    "apps/api/app/Domain/RetryingDatabaseStore.php"
+  ]
+}

@@ -1,3 +1,4 @@
+import {eligibleLocales} from './seo';
 import 'server-only';
 import {cache} from 'react';
 import {apiGet,getPage,getSite,record,list,str,optional,media,ApiError} from './api';
@@ -13,7 +14,7 @@ export const getPublicContent=cache(async(locale:Locale,key:string)=>{const page
  if(key==='applications'){c.applicationsTitle=hero?.title||page.title;c.applicationsIntro=hero?.body||page.description;const gallery=page.sections.find(s=>s.key==='gallery');c.galleryTitle=gallery?.title||'';c.galleryIntro=gallery?.body||'';c.bandTitle=cta?.title||'';c.bandAction=cta?.cta||c.bandAction;c.bandItems=[];}
  if(key==='contact'){c.contactPageTitle=hero?.title||page.title;c.contactPageIntro=hero?.body||page.description;const enquiry=page.sections.find(s=>s.key==='enquiry');c.enquiry=enquiry?.title||'';c.enquiryText=enquiry?.body||'';}
  c.contactTitle=cta?.title||'';c.contactIntro=cta?.body||'';c.contactAction=cta?.cta||'';return {c,page,heroImage:hero?.image||''};});
-function application(v:unknown):ApplicationDTO{const a=record(v);return {slug:str(a.slug),title:str(a.title),description:optional(a.description),image:media(a.image),gallery:list(a.gallery).map(media),considerations:[],temporary:a.temporary===true,stone_types:[],catalogue:parseCatalogueQuery({application:str(a.slug)})};}
+function application(v:unknown):ApplicationDTO{const a=record(v);return {available_locales:eligibleLocales(a.available_locales),slug:str(a.slug),title:str(a.title),description:optional(a.description),image:media(a.image),gallery:list(a.gallery).map(media),considerations:[],temporary:a.temporary===true,stone_types:[],catalogue:parseCatalogueQuery({application:str(a.slug)})};}
 export const getApplications=cache(async(locale:Locale)=>list(record(await apiGet(`applications?locale=${locale}&per_page=48`)).data).map(application));
 export const getApplication=cache(async(locale:Locale,slug:string)=>{if(!/^[a-z0-9-]{1,100}$/.test(slug))return null;try{return application(record(await apiGet(`applications/${slug}?locale=${locale}`)).data);}catch(e){if(e instanceof ApiError&&e.status===404)return null;throw e;}});
 export const getAboutContent=cache(async(locale:Locale)=>{const {c,page,heroImage}=await getPublicContent(locale,'about');const material=page.sections.find(s=>s.key==='material');return {...c,heroImage,storyImage:page.sections.find(s=>s.key==='story')?.image||'',material:{title:material?.title||'',text:material?.body||'',image:material?.image||''},stages:page.sections.filter(s=>s.key.startsWith('stage-')).map(s=>({id:s.key,title:s.title,text:s.body,image:s.image}))};});

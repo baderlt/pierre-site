@@ -1,0 +1,8 @@
+{
+  "apps/web/src/components/media-image.tsx": true,
+  "apps/web/src/components/quotation-form.tsx": true,
+  "apps/web/src/app/[locale]/quote/page.tsx": true,
+  "apps/web/src/app/globals.css": true,
+  "apps/web/src/components/site-header.tsx": true,
+  "apps/web/src/components/product-studio.tsx": true
+}

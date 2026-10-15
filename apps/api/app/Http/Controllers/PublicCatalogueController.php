@@ -19,7 +19,7 @@ class PublicCatalogueController extends Controller
 {
     public const CARD_RELATIONS = ['translations', 'category:id,slug', 'stoneType:id,slug', 'finishes:id,slug,active,simulation', 'colors:id,slug,active', 'applications:id,slug,status,published_at,illustrative', 'mainImage:id', 'mainImage.translations', 'ogImage:id'];
 
-    public const PRODUCT_RELATIONS = ['translations', 'category.translations', 'stoneType.translations', 'finishes.translations', 'colors.translations', 'applications', 'mainImage.translations', 'texture.translations', 'ogImage', 'gallery.translations', 'formats.translations', 'configuration'];
+    public const PRODUCT_RELATIONS = ['translations', 'category.translations', 'stoneType.translations', 'finishes.translations', 'colors.translations', 'applications', 'mainImage.translations', 'texture.translations', 'ogImage', 'gallery.translations', 'formats.translations', 'configuration.modelMedia', 'configuration.topMedia', 'configuration.bottomMedia', 'configuration.sideMedia'];
 
     private function response(CatalogueRequest $request, callable $build)
     {
@@ -88,6 +88,39 @@ class PublicCatalogueController extends Controller
         return $this->response($request, fn () => ['data' => (new ProductResource(Product::publicCatalogue()->with(self::PRODUCT_RELATIONS)->where('slug', $slug)->firstOrFail()))->resolve($request)]);
     }
 
+    /** Bounded, publication-checked sitemap data; never includes demo products or PII. */
+    public function seo(CatalogueRequest $request)
+    {
+        return $this->response($request, function () use ($request) {
+            $products = Product::publicCatalogue()->where('illustrative', false)->with('translations')->orderBy('id')->paginate(48, ['id', 'slug'], 'page', $request->integer('page', 1));
+            $applications = Application::published()->where('illustrative', false)->with('translations')->orderBy('id')->paginate(48, ['id', 'slug'], 'page', $request->integer('page', 1));
+            $entries = collect();
+            if ($request->integer('page', 1) === 1) {
+                foreach (Page::published()->whereIn('slug', ['home', 'about', 'applications', 'contact'])->with(['translations', 'sections' => fn ($q) => $q->where('visible', true), 'sections.translations'])->get() as $page) {
+                    $entries->push(['path' => $page->slug === 'home' ? '' : $page->slug, 'locales' => $this->pageLocales($page)]);
+                }
+                $entries->push(['path' => 'products', 'locales' => ['fr', 'en', 'ar']]);
+            }
+            foreach (['products' => $products, 'applications' => $applications] as $path => $records) {
+                foreach ($records as $record) {
+                    $entries->push(['path' => $path.'/'.$record->slug, 'locales' => $record->seoLocales()]);
+                }
+            }
+
+            return ['data' => $entries->all(), 'meta' => ['last_page' => max($products->lastPage(), $applications->lastPage())]];
+        });
+    }
+
+    private function pageLocales(Page $page): array
+    {
+        $locales = $page->seoLocales();
+        foreach ($page->sections as $section) {
+            $locales = array_values(array_intersect($locales, $section->seoLocales()));
+        }
+
+        return $locales;
+    }
+
     public function definitions(CatalogueRequest $request, string $type)
     {
         $class = match ($type) {
@@ -119,7 +152,7 @@ class PublicCatalogueController extends Controller
 
     private function applicationData(Application $a, string $locale): array
     {
-        return ['id' => (string) $a->id, 'slug' => $a->slug, 'title' => $a->label($locale), 'description' => $a->label($locale, 'description'), 'image' => $a->image?->url(), 'gallery' => $a->gallery->map(fn ($m, $index) => $index === 0 ? $m->bannerUrl() : $m->url())->all(), 'temporary' => $a->illustrative, 'seo' => ['title' => $a->label($locale, 'seo_title'), 'description' => $a->label($locale, 'seo_description')]];
+        return ['available_locales' => $a->seoLocales(), 'id' => (string) $a->id, 'slug' => $a->slug, 'title' => $a->label($locale), 'description' => $a->label($locale, 'description'), 'image' => $a->image?->url(), 'gallery' => $a->gallery->map(fn ($m, $index) => $index === 0 ? $m->bannerUrl() : $m->url())->all(), 'temporary' => $a->illustrative, 'seo' => ['title' => $a->label($locale, 'seo_title'), 'description' => $a->label($locale, 'seo_description')]];
     }
 
     public function applications(CatalogueRequest $request)
@@ -147,7 +180,7 @@ class PublicCatalogueController extends Controller
             $p = Page::published()->with(['translations', 'ogImage', 'sections' => fn ($q) => $q->where('visible', true), 'sections.translations', 'sections.image'])->where('slug', $key)->firstOrFail();
             $locale = $request->input('locale', 'fr');
 
-            return ['data' => ['key' => $p->slug, 'title' => $p->label($locale), 'description' => $p->label($locale, 'description'), 'seo' => ['title' => $p->label($locale, 'seo_title'), 'description' => $p->label($locale, 'seo_description'), 'image' => $p->ogImage?->url()], 'sections' => $p->sections->map(fn ($s) => ['key' => $s->key, 'type' => $s->type, 'title' => $s->label($locale), 'body' => $s->label($locale, 'description'), 'cta_label' => $s->label($locale, 'cta_label'), 'link_path' => $s->link_path ? preg_replace('~^/(fr|en|ar)(?=/|$)~', '/'.$locale, $s->link_path) : null, 'image' => $s->image?->bannerUrl()])->all()]];
+            return ['data' => ['available_locales' => $this->pageLocales($p), 'key' => $p->slug, 'title' => $p->label($locale), 'description' => $p->label($locale, 'description'), 'seo' => ['title' => $p->label($locale, 'seo_title'), 'description' => $p->label($locale, 'seo_description'), 'image' => $p->ogImage?->url()], 'sections' => $p->sections->map(fn ($s) => ['key' => $s->key, 'type' => $s->type, 'title' => $s->label($locale), 'body' => $s->label($locale, 'description'), 'cta_label' => $s->label($locale, 'cta_label'), 'link_path' => $s->link_path ? preg_replace('~^/(fr|en|ar)(?=/|$)~', '/'.$locale, $s->link_path) : null, 'image' => $s->image?->bannerUrl()])->all()]];
         });
     }
 
@@ -156,8 +189,12 @@ class PublicCatalogueController extends Controller
         return $this->response($request, function () use ($request) {
             $s = SiteSetting::with(['logo', 'favicon'])->firstOrFail();
             $locale = $request->input('locale', 'fr');
+            $contacts = $s->contacts_visible ? $s->only(['phone', 'whatsapp', 'email', 'address', 'instagram', 'linkedin']) : null;
+            if ($contacts !== null) {
+                $contacts['maps_directions_url'] = filled($s->address) && \App\Rules\GoogleMapsLocation::accepts($s->maps_directions_url) ? $s->maps_directions_url : null;
+            }
 
-            return ['data' => ['brand_name' => $s->brand_name, 'logo' => $s->logo?->url(), 'favicon' => $s->favicon?->url('thumb'), 'contacts' => $s->contacts_visible ? $s->only(['phone', 'whatsapp', 'email', 'address', 'instagram', 'linkedin']) : null, 'seo' => $s->seo[$locale] ?? $s->seo['fr'] ?? null]];
+            return ['data' => ['brand_name' => $s->brand_name, 'logo' => $s->logo?->url(), 'favicon' => $s->favicon?->url('thumb'), 'contacts' => $contacts, 'seo' => $s->seo[$locale] ?? $s->seo['fr'] ?? null]];
         });
     }
 }

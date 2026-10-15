@@ -14,6 +14,12 @@ class MediaResource extends ContentResource
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-squares-2x2';
 
+    public static function getEloquentQuery(): \Illuminate\Database\Eloquent\Builder
+    {
+        // Model uploads and approval belong to the product editor, not the image editor.
+        return parent::getEloquentQuery()->where('asset_type', 'image');
+    }
+
     public static function getPages(): array
     {
         return ['index' => MediaResource\ListMedia::route('/'), 'create' => MediaResource\CreateMedia::route('/create'), 'edit' => MediaResource\EditMedia::route('/{record}/edit')];

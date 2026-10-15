@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "scope": "Real HTTP on isolated content/media clone; changes through existing Eloquent observer path, full Filament validation covered separately by backend/browser suites",
+  "rows": [
+    {
+      "name": "draft-api",
+      "status": 404,
+      "bytes": 35,
+      "hash": "040ad4633c20a00578da2a56d6eb17aea809b672f9f8888d4978ba32320a8403"
+    },
+    {
+      "name": "draft-public",
+      "status": 404,
+      "bytes": 8387,
+      "hash": "00ce353cba83868680e606d4280c96b70dc509cd9cbac28cbc441bdb3daa5786"
+    },
+    {
+      "name": "published-api",
+      "status": 200,
+      "bytes": 1704,
+      "hash": "438ef9fdd2d5301f0cfe78120d92828c0f3d34c86637eabe79f23ce5cef303b5"
+    },
+    {
+      "name": "published-ssr",
+      "status": 200,
+      "bytes": 42723,
+      "hash": "98c19f299c6f795ab9ed5df3a29edb01e82b4cf4ecc5993028a95126bdb41a62"
+    },
+    {
+      "name": "original-fixture-image",
+      "status": 200,
+      "bytes": 382954,
+      "hash": "de0e4d2ef48bd4baa400565ee04d97e52bcceab173bc613edaa8383809745188"
+    },
+    {
+      "name": "updated-api",
+      "status": 200,
+      "bytes": 1703,
+      "hash": "4df1d4938c4b68685223c4b45f9fdc7c2d736d3596ab9b19c2cf9e5ba3be2a82"
+    },
+    {
+      "name": "updated-ssr",
+      "status": 200,
+      "bytes": 42684,
+      "hash": "06380a5bad124b277e2424e838186c94ddf7159f130532f0d097be2cb18ae4de"
+    },
+    {
+      "name": "rendered-saved-configuration",
+      "textures": "8",
+      "roughness": 0.34,
+      "front_uv_scale": [
+        1.6,
+        1.6
+      ],
+      "image_hashes": [
+        "902047689f5225054c8515fc2a6d09a79a0fc698125aaf0bb06f551348ced365",
+        "aac293ff0732f7d137b6a8a028a451f6f740e2c40e258d4e21920da57ffed430"
+      ]
+    },
+    {
+      "name": "reassigned-image",
+      "status": 200,
+      "bytes": 357104,
+      "hash": "bffca3ec554fe4ff53b7cbb617ca429889051e11d22266f515c10c929a4a6c4a"
+    },
+    {
+      "name": "same-id-replaced-image",
+      "status": 200,
+      "bytes": 360552,
+      "hash": "27a4586f4da597e265f03de4e6b4a5d12667ca05d1ee68d2bafaf39d78fa3ee0"
+    },
+    {
+      "name": "media-synchronized-api",
+      "status": 200,
+      "bytes": 1692,
+      "hash": "5974ca46f542df9fecd040713433f83bfd4a58ba705e815bf6ab64f2b76c6c07"
+    },
+    {
+      "name": "rendered-replaced-texture",
+      "textures": "8",
+      "roughness": 0.34,
+      "front_uv_scale": [
+        1.6,
+        1.6
+      ],
+      "image_hashes": [
+        "39a3d616a71dbfba7adfa793ae6b69f250f4f9afa29515f3f0a86ff67719782d",
+        "cf42cae875e2da7c8e64c1411ee9c5f9a06187f509ac92730e1c1de5037d72e4"
+      ]
+    },
+    {
+      "name": "revoked-api",
+      "status": 404,
+      "bytes": 35,
+      "hash": "040ad4633c20a00578da2a56d6eb17aea809b672f9f8888d4978ba32320a8403"
+    },
+    {
+      "name": "revoked-media",
+      "status": 404,
+      "bytes": 0,
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "revoked-ssr",
+      "status": 404,
+      "bytes": 8387,
+      "hash": "00ce353cba83868680e606d4280c96b70dc509cd9cbac28cbc441bdb3daa5786"
+    }
+  ]
+}

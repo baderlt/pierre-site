@@ -1,0 +1,29 @@
+[
+  {
+    "locale": "fr",
+    "status": 500,
+    "title": "Contenu indisponible",
+    "dir": "ltr",
+    "before_reads": 18,
+    "after_reads": 28,
+    "recovered": true
+  },
+  {
+    "locale": "en",
+    "status": 500,
+    "title": "Content unavailable",
+    "dir": "ltr",
+    "before_reads": 37,
+    "after_reads": 44,
+    "recovered": true
+  },
+  {
+    "locale": "ar",
+    "status": 500,
+    "title": "المحتوى غير متاح",
+    "dir": "rtl",
+    "before_reads": 56,
+    "after_reads": 63,
+    "recovered": true
+  }
+]

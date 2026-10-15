@@ -1,0 +1,302 @@
+{
+  "environment": "Headless Chromium, SwiftShader, reduced motion; emulated viewport, not physical mobile GPU",
+  "metrics": [
+    {
+      "shape": "square",
+      "activationMs": 3669,
+      "initial": {
+        "ScriptDuration": 0.059601,
+        "TaskDuration": 0.657884,
+        "JSHeapUsedSize": 3725264,
+        "JSHeapTotalSize": 6291456
+      },
+      "activated": {
+        "ScriptDuration": 0.813882,
+        "TaskDuration": 2.259131,
+        "JSHeapUsedSize": 11617304,
+        "JSHeapTotalSize": 17526784
+      },
+      "disposed": {
+        "ScriptDuration": 0.833464,
+        "TaskDuration": 2.4579,
+        "JSHeapUsedSize": 8564800,
+        "JSHeapTotalSize": 9469952
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "circle",
+      "activationMs": 3237,
+      "initial": {
+        "ScriptDuration": 0.028306,
+        "TaskDuration": 0.397454,
+        "JSHeapUsedSize": 11617168,
+        "JSHeapTotalSize": 13664256
+      },
+      "activated": {
+        "ScriptDuration": 0.74588,
+        "TaskDuration": 1.770279,
+        "JSHeapUsedSize": 9278968,
+        "JSHeapTotalSize": 19099648
+      },
+      "disposed": {
+        "ScriptDuration": 0.999436,
+        "TaskDuration": 3.354521,
+        "JSHeapUsedSize": 9176768,
+        "JSHeapTotalSize": 9994240
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 288106,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "hexagon",
+      "activationMs": 2304,
+      "initial": {
+        "ScriptDuration": 0.022758,
+        "TaskDuration": 0.309296,
+        "JSHeapUsedSize": 13797320,
+        "JSHeapTotalSize": 22577152
+      },
+      "activated": {
+        "ScriptDuration": 0.782537,
+        "TaskDuration": 1.657919,
+        "JSHeapUsedSize": 9479592,
+        "JSHeapTotalSize": 31752192
+      },
+      "disposed": {
+        "ScriptDuration": 0.829652,
+        "TaskDuration": 1.898127,
+        "JSHeapUsedSize": 8608840,
+        "JSHeapTotalSize": 9207808
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "2",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "triangle",
+      "activationMs": 2462,
+      "initial": {
+        "ScriptDuration": 0.023615,
+        "TaskDuration": 0.340317,
+        "JSHeapUsedSize": 11706144,
+        "JSHeapTotalSize": 13664256
+      },
+      "activated": {
+        "ScriptDuration": 0.813935,
+        "TaskDuration": 1.715498,
+        "JSHeapUsedSize": 17784772,
+        "JSHeapTotalSize": 25686016
+      },
+      "disposed": {
+        "ScriptDuration": 0.847607,
+        "TaskDuration": 1.964987,
+        "JSHeapUsedSize": 8607468,
+        "JSHeapTotalSize": 9469952
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "trapezoid",
+      "activationMs": 2523,
+      "initial": {
+        "ScriptDuration": 0.028075,
+        "TaskDuration": 0.259808,
+        "JSHeapUsedSize": 11714196,
+        "JSHeapTotalSize": 13664256
+      },
+      "activated": {
+        "ScriptDuration": 0.821512,
+        "TaskDuration": 1.610199,
+        "JSHeapUsedSize": 9402884,
+        "JSHeapTotalSize": 19361792
+      },
+      "disposed": {
+        "ScriptDuration": 0.863642,
+        "TaskDuration": 1.935119,
+        "JSHeapUsedSize": 8621884,
+        "JSHeapTotalSize": 9207808
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "sector",
+      "activationMs": 2021,
+      "initial": {
+        "ScriptDuration": 0.029503,
+        "TaskDuration": 0.459434,
+        "JSHeapUsedSize": 11693088,
+        "JSHeapTotalSize": 13664256
+      },
+      "activated": {
+        "ScriptDuration": 0.836035,
+        "TaskDuration": 1.861187,
+        "JSHeapUsedSize": 16597236,
+        "JSHeapTotalSize": 25948160
+      },
+      "disposed": {
+        "ScriptDuration": 0.878854,
+        "TaskDuration": 2.091786,
+        "JSHeapUsedSize": 8702752,
+        "JSHeapTotalSize": 9994240
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "2",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "annular",
+      "activationMs": 3834,
+      "initial": {
+        "ScriptDuration": 0.029718,
+        "TaskDuration": 0.319243,
+        "JSHeapUsedSize": 11777996,
+        "JSHeapTotalSize": 13664256
+      },
+      "activated": {
+        "ScriptDuration": 0.806324,
+        "TaskDuration": 1.651575,
+        "JSHeapUsedSize": 10031008,
+        "JSHeapTotalSize": 19099648
+      },
+      "disposed": {
+        "ScriptDuration": 0.872799,
+        "TaskDuration": 1.94383,
+        "JSHeapUsedSize": 8789308,
+        "JSHeapTotalSize": 9994240
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "polygon",
+      "activationMs": 3571,
+      "initial": {
+        "ScriptDuration": 0.02442,
+        "TaskDuration": 0.283907,
+        "JSHeapUsedSize": 11845144,
+        "JSHeapTotalSize": 13926400
+      },
+      "activated": {
+        "ScriptDuration": 0.765361,
+        "TaskDuration": 1.561403,
+        "JSHeapUsedSize": 9669552,
+        "JSHeapTotalSize": 18313216
+      },
+      "disposed": {
+        "ScriptDuration": 0.79964,
+        "TaskDuration": 1.795122,
+        "JSHeapUsedSize": 8635260,
+        "JSHeapTotalSize": 9732096
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "3",
+        "dpr": "1",
+        "textures": "8",
+        "geometries": "17",
+        "drawCalls": "6",
+        "paused": "false"
+      },
+      "activationScriptBytes": 278188,
+      "modelTextureBytes": 516302
+    },
+    {
+      "shape": "glb",
+      "activationMs": 2203,
+      "initial": {
+        "ScriptDuration": 0.04252,
+        "TaskDuration": 0.270678,
+        "JSHeapUsedSize": 11689848,
+        "JSHeapTotalSize": 13926400
+      },
+      "activated": {
+        "ScriptDuration": 0.496982,
+        "TaskDuration": 1.112083,
+        "JSHeapUsedSize": 8968132,
+        "JSHeapTotalSize": 15691776
+      },
+      "disposed": {
+        "ScriptDuration": 0.699401,
+        "TaskDuration": 1.725627,
+        "JSHeapUsedSize": 8913520,
+        "JSHeapTotalSize": 10256384
+      },
+      "budget": {
+        "engine": "three.js r180",
+        "renderCount": "2",
+        "dpr": "1",
+        "textures": "6",
+        "geometries": "18",
+        "drawCalls": "4",
+        "paused": "false"
+      },
+      "activationScriptBytes": 288106,
+      "modelTextureBytes": 1072
+    }
+  ]
+}

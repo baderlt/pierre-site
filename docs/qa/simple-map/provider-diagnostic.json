@@ -1,0 +1,60 @@
+{
+  "frames": [
+    "http://127.0.0.1:3023/fr",
+    "https://www.openstreetmap.org/export/embed.html?bbox=-4.2539147%2C34.1818599%2C-4.2379147%2C34.1918599&layer=mapnik&marker=34.1868599%2C-4.2459147"
+  ],
+  "requests": [
+    {
+      "url": "https://www.openstreetmap.org/export/embed.html",
+      "status": 200
+    },
+    {
+      "url": "https://www.openstreetmap.org/assets/embed-8cbd447f3b7417bd614398c67a6834dd2089300b3b54b49eb1af21c2d226d062.css",
+      "status": 200
+    },
+    {
+      "url": "https://www.openstreetmap.org/assets/embed-401a935b32199a1737a943c63ff660f791e6756cc87e9ecbb6ec1c5a383c7b40.js",
+      "status": 200
+    },
+    {
+      "url": "blob:https://www.openstreetmap.org/d9122db5-7706-4c99-8b41-855afb1baa45",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15997/13069.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15998/13068.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15998/13069.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15997/13068.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15996/13070.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15997/13070.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15996/13068.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15996/13069.png",
+      "status": 200
+    },
+    {
+      "url": "https://tile.openstreetmap.org/15/15998/13070.png",
+      "status": 200
+    }
+  ]
+}

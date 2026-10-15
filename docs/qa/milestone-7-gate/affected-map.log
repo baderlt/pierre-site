@@ -1,0 +1,20 @@
+
+Running 9 tests using 1 worker
+
+(node:19660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [desktop] › tests\simple-map.spec.ts:6:42 › fr: configured simple map, mobile layout and directions (5.5s)
+  ok 2 [desktop] › tests\simple-map.spec.ts:6:42 › en: configured simple map, mobile layout and directions (4.4s)
+  ok 3 [desktop] › tests\simple-map.spec.ts:6:42 › ar: configured simple map, mobile layout and directions (4.1s)
+(node:11400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 4 [tablet] › tests\simple-map.spec.ts:6:42 › fr: configured simple map, mobile layout and directions (5.3s)
+  ok 5 [tablet] › tests\simple-map.spec.ts:6:42 › en: configured simple map, mobile layout and directions (6.0s)
+  ok 6 [tablet] › tests\simple-map.spec.ts:6:42 › ar: configured simple map, mobile layout and directions (5.4s)
+(node:13060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 7 [mobile] › tests\simple-map.spec.ts:6:42 › fr: configured simple map, mobile layout and directions (5.7s)
+  ok 8 [mobile] › tests\simple-map.spec.ts:6:42 › en: configured simple map, mobile layout and directions (5.8s)
+  ok 9 [mobile] › tests\simple-map.spec.ts:6:42 › ar: configured simple map, mobile layout and directions (8.7s)
+
+  9 passed (53.2s)

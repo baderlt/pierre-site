@@ -1,0 +1,306 @@
+[
+    {
+        "time": "2026-10-14T12:35:05.141Z",
+        "path": "\/admin\/login",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "fb290c16c70dd08743d553626f883e4ca840599f4cf022be2d0a7bae58da2353"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:10.045Z",
+        "path": "\/admin",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:11.068Z",
+        "path": "\/admin-avatar.svg",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:12.343Z",
+        "path": "\/admin-avatar.svg",
+        "status": 200,
+        "cookies": []
+    },
+    {
+        "time": "2026-10-14T12:35:11.317Z",
+        "path": "\/admin",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:13.317Z",
+        "path": "\/admin\/locale",
+        "status": 302,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:14.601Z",
+        "path": "\/admin-avatar.svg",
+        "status": 200,
+        "cookies": []
+    },
+    {
+        "time": "2026-10-14T12:35:13.783Z",
+        "path": "\/admin",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.554Z",
+        "path": "\/admin-avatar.svg",
+        "status": 200,
+        "cookies": []
+    },
+    {
+        "time": "2026-10-14T12:35:15.423Z",
+        "path": "\/admin\/page-sections",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.536Z",
+        "path": "\/media\/41\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.536Z",
+        "path": "\/media\/58\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.536Z",
+        "path": "\/media\/12\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.535Z",
+        "path": "\/media\/59\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.534Z",
+        "path": "\/media\/64\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.536Z",
+        "path": "\/media\/40\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.537Z",
+        "path": "\/media\/39\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.537Z",
+        "path": "\/media\/18\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:16.537Z",
+        "path": "\/media\/33\/thumb",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:19.688Z",
+        "path": "\/admin\/page-sections\/46\/edit",
+        "status": 302,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    },
+    {
+        "time": "2026-10-14T12:35:20.192Z",
+        "path": "\/admin\/login",
+        "status": 200,
+        "cookies": [
+            {
+                "direction": "request",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            },
+            {
+                "direction": "response",
+                "valid": true,
+                "session_hash": "2bbe8b4b677a1db417dfcd379c8a844e5b3e10b99c047237ed04e4c1827fe6a1"
+            }
+        ]
+    }
+]

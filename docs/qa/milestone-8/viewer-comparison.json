@@ -1,0 +1,16 @@
+[
+  {
+    "width": 390,
+    "identical_canvas_pixels": true,
+    "mean_pixel_channel_difference": 0.0,
+    "same_exported_images_dimensions_materials_UVs": true,
+    "exported_images": 2
+  },
+  {
+    "width": 1536,
+    "identical_canvas_pixels": true,
+    "mean_pixel_channel_difference": 0.0,
+    "same_exported_images_dimensions_materials_UVs": true,
+    "exported_images": 2
+  }
+]

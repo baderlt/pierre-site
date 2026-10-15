@@ -1,0 +1,377 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\DELL 7420\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "C:\\Users\\DELL 7420\\Desktop\\time-stone\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/custom-3d.spec.ts",
+      "tests/product.spec.ts",
+      "--project=desktop",
+      "--workers=1",
+      "--retries=0",
+      "--grep",
+      "procedural examples|real geometry|Filament translated|fr: product SSR",
+      "--output=.tools/custom-3d/affected-failures"
+    ],
+    "configFile": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\playwright.config.ts",
+    "rootDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/custom-3d/affected-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/custom-3d/affected-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "tablet",
+        "name": "tablet",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      },
+      {
+        "outputDir": "C:/Users/DELL 7420/Desktop/time-stone/.tools/custom-3d/affected-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/DELL 7420/Desktop/time-stone/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 180000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\affected-failures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "snapshotDir": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 180000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3036",
+          "trace": "retain-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1536,
+            "height": 1024
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/qa/custom-3d/affected-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "custom-3d.spec.ts",
+      "file": "custom-3d.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "procedural examples, GLB materials, exports, repeated disposal and measured mobile cost",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 153005,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"Bottom limestone\",\u001b[39m\n\u001b[31m+   \"Edge limestone\",\u001b[39m\n\u001b[2m    \"Top red\",\u001b[22m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"Bottom limestone\",\u001b[39m\n\u001b[31m+   \"Edge limestone\",\u001b[39m\n\u001b[2m    \"Top red\",\u001b[22m\n\u001b[2m  ]\u001b[22m\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts:73:232",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                      "column": 232,
+                      "line": 73
+                    },
+                    "snippet": "  71 |    const waiting=page.waitForEvent('download');await page.getByRole('button',{name:kind==='png'?c.png+' ↓':c.glb+' ↓',exact:true}).click();const download=await waiting;\n  72 |    const output=path(`${shape}-${info.project.name}.${kind}`);await download.saveAs(output);const bytes=await readFile(output);\n> 73 |    if(kind==='glb'){expect(bytes.subarray(0,4).toString()).toBe('glTF');const j=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12)).toString().trim());if(shape==='glb'){expect(j.materials.map((m:{name:string})=>m.name).sort()).toEqual(['Bottom limestone','Top red']);expect(j.meshes[0].primitives.length).toBe(2);}else expect(j.nodes[0].extras.geometry.shape).toBe('circle');}\n     |                                                                                                                                                                                                                                        ^\n  74 |    else expect([...bytes.subarray(0,8)]).toEqual([137,80,78,71,13,10,26,10]);\n  75 |   }\n  76 |   const transfers=await page.evaluate(()=>performance.getEntriesByType('resource').map(r=>({url:r.name,bytes:(r as PerformanceResourceTiming).encodedBodySize})));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                        "column": 232,
+                        "line": 73
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"Bottom limestone\",\u001b[39m\n\u001b[31m+   \"Edge limestone\",\u001b[39m\n\u001b[2m    \"Top red\",\u001b[22m\n\u001b[2m  ]\u001b[22m\n\n  71 |    const waiting=page.waitForEvent('download');await page.getByRole('button',{name:kind==='png'?c.png+' ↓':c.glb+' ↓',exact:true}).click();const download=await waiting;\n  72 |    const output=path(`${shape}-${info.project.name}.${kind}`);await download.saveAs(output);const bytes=await readFile(output);\n> 73 |    if(kind==='glb'){expect(bytes.subarray(0,4).toString()).toBe('glTF');const j=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12)).toString().trim());if(shape==='glb'){expect(j.materials.map((m:{name:string})=>m.name).sort()).toEqual(['Bottom limestone','Top red']);expect(j.meshes[0].primitives.length).toBe(2);}else expect(j.nodes[0].extras.geometry.shape).toBe('circle');}\n     |                                                                                                                                                                                                                                        ^\n  74 |    else expect([...bytes.subarray(0,8)]).toEqual([137,80,78,71,13,10,26,10]);\n  75 |   }\n  76 |   const transfers=await page.evaluate(()=>performance.getEntriesByType('resource').map(r=>({url:r.name,bytes:(r as PerformanceResourceTiming).encodedBodySize})));\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts:73:232"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T10:44:02.578Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\affected-failures\\custom-3d-procedural-examp-7511b-al-and-measured-mobile-cost-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\affected-failures\\custom-3d-procedural-examp-7511b-al-and-measured-mobile-cost-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                    "column": 232,
+                    "line": 73
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "b6be23484541bfc99681-3463b9c862dcfa2a593f",
+          "file": "custom-3d.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "real geometry quotation, immutable snapshot and duplicate retry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T10:46:40.875Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b6be23484541bfc99681-13ba855cf586597090b3",
+          "file": "custom-3d.spec.ts",
+          "line": 84,
+          "column": 5
+        },
+        {
+          "title": "Filament translated controls, GLB rejection and immediate disable protection",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 157970,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('GLB must be at most 8 MiB.', { exact: true })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('GLB must be at most 8 MiB.', { exact: true }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByText('GLB must be at most 8 MiB.', { exact: true })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('GLB must be at most 8 MiB.', { exact: true })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('GLB must be at most 8 MiB.', { exact: true }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByText('GLB must be at most 8 MiB.', { exact: true })\u001b[22m\n\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts:112:161",
+                    "location": {
+                      "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                      "column": 161,
+                      "line": 112
+                    },
+                    "snippet": "  110 |  await page.goto(`${api}/admin/products/${fixtures.glb.id}/edit`);await page.locator('#admin-locale').selectOption('en');await Promise.all([page.waitForNavigation(),page.locator('.admin-language-switcher button').click()]);\n  111 |  const file=page.locator('input[type=\"file\"]').last();await file.setInputFiles({name:'invalid.glb',mimeType:'model/gltf-binary',buffer:Buffer.from('not a model')});await expect(page.locator('.filepond--file-status-main')).toHaveText('Upload complete');\n> 112 |  await page.locator('form[wire\\\\:submit=\"save\"] button[type=\"submit\"]').first().click();await expect(page.getByText('GLB must be at most 8 MiB.',{exact:true})).toBeVisible();\n      |                                                                                                                                                                 ^\n  113 |  await page.reload();await page.locator('input[type=\"file\"]').last().setInputFiles('.tools/custom-3d/two-materials.glb');await expect(page.locator('.filepond--file-status-main')).toHaveText('Upload complete');await page.locator('form[wire\\\\:submit=\"save\"] button[type=\"submit\"]').first().click();await expect(page.getByText('Saved',{exact:true})).toBeVisible();\n  114 |  const published=(await (await request.get(`${api}/api/v1/products/${fixtures.glb.slug}`)).json()).data;const modelUrl=published.viewer.model.url;expect(published.viewer.model.validated).toBe(true);expect(modelUrl).not.toContain(`/media/${fixtures.glb.model_id}/`);expect((await request.get(`${api}/media/${fixtures.glb.model_id}/model`)).status()).toBe(404);\n  115 |  await page.reload();await expect(page.locator('[id=\"form.viewer_enabled\"]')).toHaveAttribute('aria-checked','true');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                        "column": 161,
+                        "line": 112
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('GLB must be at most 8 MiB.', { exact: true })\nExpected: visible\nTimeout: 20000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByText('GLB must be at most 8 MiB.', { exact: true }) with timeout 20000ms\u001b[22m\n\u001b[2m  - waiting for getByText('GLB must be at most 8 MiB.', { exact: true })\u001b[22m\n\n\n  110 |  await page.goto(`${api}/admin/products/${fixtures.glb.id}/edit`);await page.locator('#admin-locale').selectOption('en');await Promise.all([page.waitForNavigation(),page.locator('.admin-language-switcher button').click()]);\n  111 |  const file=page.locator('input[type=\"file\"]').last();await file.setInputFiles({name:'invalid.glb',mimeType:'model/gltf-binary',buffer:Buffer.from('not a model')});await expect(page.locator('.filepond--file-status-main')).toHaveText('Upload complete');\n> 112 |  await page.locator('form[wire\\\\:submit=\"save\"] button[type=\"submit\"]').first().click();await expect(page.getByText('GLB must be at most 8 MiB.',{exact:true})).toBeVisible();\n      |                                                                                                                                                                 ^\n  113 |  await page.reload();await page.locator('input[type=\"file\"]').last().setInputFiles('.tools/custom-3d/two-materials.glb');await expect(page.locator('.filepond--file-status-main')).toHaveText('Upload complete');await page.locator('form[wire\\\\:submit=\"save\"] button[type=\"submit\"]').first().click();await expect(page.getByText('Saved',{exact:true})).toBeVisible();\n  114 |  const published=(await (await request.get(`${api}/api/v1/products/${fixtures.glb.slug}`)).json()).data;const modelUrl=published.viewer.model.url;expect(published.viewer.model.validated).toBe(true);expect(modelUrl).not.toContain(`/media/${fixtures.glb.model_id}/`);expect((await request.get(`${api}/media/${fixtures.glb.model_id}/model`)).status()).toBe(404);\n  115 |  await page.reload();await expect(page.locator('[id=\"form.viewer_enabled\"]')).toHaveAttribute('aria-checked','true');\n    at C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts:112:161"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T10:46:56.538Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\affected-failures\\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\.tools\\custom-3d\\affected-failures\\custom-3d-Filament-transla-470ce-mmediate-disable-protection-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\DELL 7420\\Desktop\\time-stone\\tests\\custom-3d.spec.ts",
+                    "column": 161,
+                    "line": 112
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "b6be23484541bfc99681-e65c83482bd6b46940d8",
+          "file": "custom-3d.spec.ts",
+          "line": 97,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "product.spec.ts",
+      "file": "product.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fr: product SSR, gallery, finishes, quotation and accessible navigation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22899,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-15T10:49:40.713Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2fa8ab87beca8e7f39ce-bef651dd6baecc9639a6",
+          "file": "product.spec.ts",
+          "line": 10,
+          "column": 35
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T10:43:59.264Z",
+    "duration": 365217.916,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
