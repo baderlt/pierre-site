@@ -3,6 +3,7 @@ import {getSite} from '@/lib/api';
 import localFont from 'next/font/local';
 import { notFound } from 'next/navigation';
 import { isLocale } from '@/lib/locales';
+import {FloatingWhatsapp} from '@/components/floating-whatsapp';
 import '../globals.css';
 
 const serif = localFont({ src: '../../fonts/noto-serif-latin.woff2', variable: '--font-serif', display: 'swap', preload: false });
@@ -18,5 +19,6 @@ export async function generateMetadata({params}:{params:Promise<{locale:string}>
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
-  return <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}><body className={`${serif.variable} ${sans.variable} ${arabicSerif.variable} ${arabicSans.variable}`}>{children}</body></html>;
+  const site = await getSite(locale);
+  return <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}><body className={`${serif.variable} ${sans.variable} ${arabicSerif.variable} ${arabicSans.variable}`}>{children}<FloatingWhatsapp phone={site.contacts.whatsapp} locale={locale}/></body></html>;
 }

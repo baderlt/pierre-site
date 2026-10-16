@@ -376,5 +376,19 @@
     "Invalid or excessive scenes.": "مجموعة scenes غير صالحة أو تتجاوز الحد.",
     "Validated GLB derivative exceeds 8 MiB.": "يتجاوز ملف GLB المتحقق منه 8 MiB.",
     "Choose an existing image or use + to upload without leaving this form.": "اختر صورة موجودة أو استخدم + لرفع صورة دون مغادرة النموذج.",
-    "Upload and select image": "رفع صورة واختيارها"
+    "Upload and select image": "رفع صورة واختيارها",
+    "Website image map": "عرض صور الموقع",
+    "Choose a page, then select an image placement to edit it. This is an image map, not a live rendering. Homepage lists show the first six items; use Products or Categories to browse all.": "اختر صفحة ثم اضغط على صورة لتعديل موضعها. هذا عرض لمواضع الصور وليس نسخة مباشرة من الصفحة. تعرض الرئيسية أول ستة عناصر؛ اختر المنتجات أو التصنيفات لتصفح الكل.",
+    "Page / location": "الصفحة / الموضع",
+    "Open public page": "عرض الصفحة في الموقع",
+    "Loading image placements…": "جارٍ تحميل مواضع الصور…",
+    "Page images": "صور الصفحة",
+    "Featured products": "المنتجات المميزة",
+    "Edit image placement": "تعديل هذا الموضع",
+    "No image selected": "لم يتم اختيار صورة",
+    "No image placements configured here yet.": "لا توجد مواضع صور معدّة هنا بعد.",
+    "Where is this image used?": "أين تُستخدم هذه الصورة؟",
+    "Image locations": "مواضع الصورة",
+    "Replacing this media file updates every assignment below. To change one placement only, edit that placement and select or upload another image.": "استبدال هذا الملف يغيّر جميع المواضع أدناه. لتغيير موضع واحد فقط، افتحه واختر صورة أخرى أو ارفعها.",
+    "No current content assignment. Archived quotations may still protect this media from deletion.": "لا يوجد استخدام حالي في المحتوى. قد تظل عروض أسعار مؤرشفة تمنع حذف هذه الوسائط."
 }

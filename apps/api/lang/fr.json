@@ -376,5 +376,19 @@
     "Invalid or excessive scenes.": "Collection scenes invalide ou excessive.",
     "Validated GLB derivative exceeds 8 MiB.": "Le dérivé GLB validé dépasse 8 Mio.",
     "Choose an existing image or use + to upload without leaving this form.": "Choisissez une image existante ou utilisez + pour importer sans quitter ce formulaire.",
-    "Upload and select image": "Importer et sélectionner une image"
+    "Upload and select image": "Importer et sélectionner une image",
+    "Website image map": "Vue des images du site",
+    "Choose a page, then select an image placement to edit it. This is an image map, not a live rendering. Homepage lists show the first six items; use Products or Categories to browse all.": "Choisissez une page, puis cliquez sur une image pour modifier son emplacement. Cette vue présente les images, sans reproduire la page en direct. L’accueil affiche les six premiers éléments ; choisissez Produits ou Catégories pour tout parcourir.",
+    "Page / location": "Page / emplacement",
+    "Open public page": "Voir la page du site",
+    "Loading image placements…": "Chargement des emplacements…",
+    "Page images": "Images de la page",
+    "Featured products": "Produits à la une",
+    "Edit image placement": "Modifier cet emplacement",
+    "No image selected": "Aucune image sélectionnée",
+    "No image placements configured here yet.": "Aucun emplacement d’image configuré ici pour le moment.",
+    "Where is this image used?": "Où cette image est-elle utilisée ?",
+    "Image locations": "Emplacements de l’image",
+    "Replacing this media file updates every assignment below. To change one placement only, edit that placement and select or upload another image.": "Remplacer ce fichier modifie tous les emplacements ci-dessous. Pour changer un seul emplacement, ouvrez-le et sélectionnez ou importez une autre image.",
+    "No current content assignment. Archived quotations may still protect this media from deletion.": "Aucune affectation actuelle dans le contenu. Des devis archivés peuvent encore empêcher la suppression de ce média."
 }

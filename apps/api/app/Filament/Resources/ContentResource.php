@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Domain\MediaLibrary;
 use App\Filament\AdminSchemas;
 use App\Models\Media;
+use App\Models\Category;
 use App\Models\Page;
 use App\Models\PageSection;
 use App\Models\Product;
@@ -77,6 +78,11 @@ abstract class ContentResource extends Resource
         if ($model instanceof PageSection) {
             $query->with(['page.translations', 'image']);
         }
+        if ($model instanceof Product) {
+            $query->with('mainImage');
+        } elseif ($model instanceof Category) {
+            $query->with('image');
+        }
 
         return $query;
     }
@@ -107,12 +113,18 @@ abstract class ContentResource extends Resource
             }
         }
         $columns[] = TextColumn::make('updated_at')->dateTime()->sortable()->toggleable();
+        if (in_array($class, [Product::class, Category::class], true)) {
+            array_unshift($columns, ImageColumn::make('image_preview')->label('Image')->getStateUsing(fn (Model $record) => ($record instanceof Product ? $record->mainImage : $record->image)?->url('thumb'))->imageHeight(48)->imageWidth(64)->extraImgAttributes(fn (Model $record) => ['alt' => $record->label(app()->getLocale()), 'style' => 'object-fit:contain']));
+        }
         if ($class === PageSection::class) {
             array_unshift($columns, ImageColumn::make('image_preview')->label('Image')->getStateUsing(fn (PageSection $record) => $record->image?->url('thumb'))->imageHeight(56), TextColumn::make('page.slug')->label('Page')->getStateUsing(fn (PageSection $record) => $record->page?->slug.' · '.($record->page?->label(app()->getLocale()) ?? '')));
             $filters[] = SelectFilter::make('page_id')->label('Page')->options(fn () => Page::with('translations')->get()->mapWithKeys(fn ($page) => [$page->id => $page->slug.' · '.($page->label(app()->getLocale()) ?? '')]));
             $filters[] = Filter::make('banners')->label('Images and banners')->query(fn (Builder $query) => $query->where(fn ($q) => $q->whereNotNull('image_id')->orWhere('type', 'hero')));
         }
         $actions = [EditAction::make()];
+        if ($class === Media::class) {
+            $actions[] = Action::make('usage')->label(__('Where is this image used?'))->icon('heroicon-o-map')->authorize(fn (Media $record) => Gate::allows('view', $record))->modalHeading(__('Image locations'))->modalContent(fn (Media $record) => view('admin.media-usage', ['media' => $record, 'locations' => app(MediaLibrary::class)->locations($record)]))->modalSubmitAction(false)->modalCancelActionLabel(__('Close'));
+        }
         if ($class === Product::class) {
             $actions[] = Action::make('preview')->label(__('Preview information'))->icon('heroicon-o-eye')->modalHeading(__('Saved product information'))->modalContent(fn (Product $record) => view('admin.product-preview', ['product' => $record->load(['translations', 'configuration', 'finishes.translations', 'formats', 'mainImage'])]))->modalSubmitAction(false)->modalCancelActionLabel(__('Close'));
         }

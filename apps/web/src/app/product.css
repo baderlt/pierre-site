@@ -47,7 +47,7 @@
 .finish-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
 .finish-options button { padding: 6px 6px 10px; border-radius: 6px; border: 1px solid var(--border); background: #fffcf8; font-size: 12px; }
 .finish-options button[aria-pressed='true'] { border-color: #80602f; box-shadow: 0 0 0 1px #80602f; }
-.finish-swatch { display: block; height: 55px; border-radius: 3px; margin-bottom: 9px; background-size: cover; }
+.finish-swatch { display: block; height: 55px; border-radius: 3px; margin-bottom: 9px; background-size: cover; background-position: center; }
 .finish-polished { background-blend-mode: screen; background-color: #fff3; }
 .finish-rough { filter: contrast(1.2); }
 .product-configuration { margin-top: 20px; border-block: 1px solid var(--border); padding-block: 5px; }

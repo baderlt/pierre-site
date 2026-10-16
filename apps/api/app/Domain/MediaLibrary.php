@@ -136,6 +136,54 @@ class MediaLibrary
         }
     }
 
+    /** Admin-only assignment map. Query each owner type once, never once per image row. */
+    public function locations(Media $media): array
+    {
+        Gate::authorize('view', $media);
+        $locations = [];
+        $owners = [
+            Product::class => ['main_image_id' => 'Main image', 'texture_id' => 'Texture', 'og_image_id' => 'Open Graph image'],
+            \App\Models\Category::class => ['image_id' => 'Image'],
+            \App\Models\StoneType::class => ['image_id' => 'Image'],
+            \App\Models\Finish::class => ['image_id' => 'Image'],
+            \App\Models\Color::class => ['image_id' => 'Image'],
+            \App\Models\Format::class => ['image_id' => 'Image'],
+            Application::class => ['image_id' => 'Image'],
+            Page::class => ['og_image_id' => 'Open Graph image'],
+            PageSection::class => ['image_id' => 'Image'],
+            SiteSetting::class => ['logo_id' => 'Logo', 'favicon_id' => 'Favicon'],
+        ];
+        $galleries = [Product::class => 'gallery', Application::class => 'gallery', \App\Models\StoneType::class => 'media'];
+        foreach ($owners as $class => $fields) {
+            if (! Gate::allows('viewAny', $class)) continue;
+            $gallery = $galleries[$class] ?? null;
+            $query = $class::query()->where(function ($query) use ($fields, $media, $gallery) {
+                foreach ($fields as $field => $label) $query->orWhere($field, $media->id);
+                if ($gallery) $query->orWhereHas($gallery, fn ($q) => $q->where('media.id', $media->id));
+                if ($query->getModel() instanceof Product) $query->orWhereHas('configuration', fn ($q) => $q->where(fn ($q) => $q->where('model_media_id', $media->id)->orWhere('top_media_id', $media->id)->orWhere('bottom_media_id', $media->id)->orWhere('side_media_id', $media->id)));
+            });
+            if ($class !== SiteSetting::class) $query->with('translations');
+            if ($class === PageSection::class) $query->with('page.translations');
+            if ($class === Product::class) $query->with('configuration');
+            if ($gallery) $query->withExists([$gallery.' as usage_gallery' => fn ($q) => $q->where('media.id', $media->id)]);
+            foreach ($query->get() as $record) {
+                $roles = [];
+                foreach ($fields as $field => $label) if ((string) $record->$field === (string) $media->id) $roles[] = __($label);
+                if ($record->usage_gallery ?? false) $roles[] = __($gallery === 'media' ? 'Material textures' : 'Gallery images');
+                if ($record instanceof Product && $record->configuration) {
+                    foreach (['model_media_id' => 'Saved validated GLB', 'top_media_id' => 'Top Material', 'bottom_media_id' => 'Bottom Material', 'side_media_id' => 'Side Material'] as $field => $label) {
+                        if ((string) $record->configuration->$field === (string) $media->id) $roles[] = __($label);
+                    }
+                }
+                $resource = 'App\\Filament\\Resources\\'.class_basename($class).'Resource';
+                $name = $record instanceof SiteSetting ? $record->brand_name : ($record->label(app()->getLocale()) ?: ($record->slug ?? $record->key));
+                if ($record instanceof PageSection) $name = ($record->page?->label(app()->getLocale()) ?: $record->page?->slug).' / '.$record->key.' · '.$name;
+                $locations[] = ['name' => $resource::getModelLabel().' · '.$name, 'roles' => implode(' · ', $roles), 'edit' => Gate::allows('update', $record) ? $resource::getUrl('edit', ['record' => $record]) : null];
+            }
+        }
+        return $locations;
+    }
+
     public function isPublic(Media $media): bool
     {
         if (! SiteSetting::where('public_enabled', true)->exists() || $media->processing_status !== 'ready') {
